@@ -1,0 +1,60 @@
+\documentclass[10pt,a4paper]{article}
+
+\def\doctitle{dret.net bibliography}
+\def\docauthor{Erik Wilde}
+
+\usepackage{vmargin}
+\usepackage{fancyheadings}
+\usepackage{multicol}
+\usepackage[miniindex,biblabels,small,editors]{authorindex}
+\usepackage[a4paper={true},
+colorlinks={true},
+linkcolor={blue},
+citecolor={blue},
+urlcolor={red},
+pdfstartview={Fit},
+pdfview={Fit},
+bookmarks={false},
+pdftitle={Bibliography of \docauthor},
+pdfsubject={Bibliography of \docauthor},
+pdfauthor={\docauthor},
+pdfkeywords={Bibliography \docauthor}
+]{hyperref}
+
+% page size for a4 layout
+\setpapersize{A4}
+
+% macros for fancyheadings package
+\pagestyle{fancy}
+\lhead{\sc\doctitle}
+\chead{}
+\rhead{}
+\lfoot{\sf \href{http://dret.net/biblio/}{\protect\url{http://dret.net/biblio/}} (\today)}
+\cfoot{}
+\rfoot{\sf\thepage}
+
+\begin{document}
+
+\begin{centering}
+\vspace*{7mm}
+{\huge\bf\doctitle}\\
+\vspace*{7mm}
+{\large\bf Compiled and prepared by \href{http://dret.net/netdret/}{\docauthor}}\\
+\vspace*{10mm}
+\end{centering}
+
+\nocite{*}
+
+\def\authorstyle#1{{\sc #1}}
+
+\bibliographystyle{dret}
+\bibliography{dret}
+
+\renewcommand{\aipages}[1]{[{#1}]}
+\section*{Author Index}
+
+\begin{multicols}{2}
+\printauthorindex
+\end{multicols}
+
+\end{document}
