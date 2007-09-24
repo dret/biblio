@@ -5171,6 +5171,33 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@string{icmb05 = "Proceedings of the 2005 International Conference on Mobile Business" }
+
+@inproceedings{ye05,
+    crossref =  "icmb05",
+    author =    "Lei Ye and Henry C. B. Chan",
+    title =     "RFID-Based Logistics Control System for Business-to-Business E-Commerce",
+    pages =     "630-636",
+    topic =     "rfid[0.8]",
+    doi =       "10.1109/ICMB.2005.85",
+    abstract =  "This paper presents an RFID-based logistics control system for business-to-business electronic commerce. In particular, two contributions are made. First, we employ an XML-based method that effectively and flexibly reads/writes RFID tags for the purpose of identifying goods. Second, we employ a Markov decision model or backward induction algorithm to find the best way to transport goods based on the information on the tags. Analytical results are presented to evaluate the effectiveness of the system."
+}
+
+@proceedings{icmb05,
+    title =     icmb05,
+    booktitle = icmb05,
+    publisher = ieeecsp,
+    address =   sydney,
+    month =     jul,
+    year =      2005,
+    isbn =      "0-7695-2367-6",
+    index =     "ICMB 2005",
+    uri =       "http://www.mbusiness2005.org/",
+    uri =       "http://www.informatik.uni-trier.de/~ley/db/conf/icmb/icmb2005.html"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 @string{icdt05 = "Proceedings of the 10th International International Conference on Database Theory" }
 
 @inproceedings{mar05,
@@ -7134,7 +7161,7 @@
 @inproceedings{eck04,
     crossref =  "caise2004forum",
     author =    "Rainer Eckstein and Silke Eckstein",
-    title =     "Conceptual Modeling XML-Schemata Using UML",
+    title =     "Conceptual Modeling XML Schemata Using UML",
     pages =     "122-131",
     abstract =  "The Extensible Markup Language (XML) has found acceptance as a standard for storing and exchanging structured and semi-structured data. With its expressive power, XML enables a great variety of applications relying on such structures. As the data schema, an XML schema is a means by which documents and objects can be structured. Our approach is to model XML schemata and thus classes of documents on the basis of UML (Unified Modeling Language). We consider UML to be the connecting link between software engineering and document design, i.e., it is possible to design object-oriented software together with the necessary XML structures. For this reason, we describe how to transform the static part of UML, i.e. class diagrams, into XML schemata. The major challenge for the transformation is to define a suitable mapping reflecting the semantics of a UML specification in an XML schema correctly. Because of XML's specific properties, we slightly extend UML in a UML compliant way. Additionally, the resulting XML schema profile supports the tuning of the transformation to XML schema. Our approach provides the stepping stone to bridge the gap between object-oriented software design and the development of XML data schemata."
 }
@@ -18208,6 +18235,16 @@
     uri =       "http://web-bloopers.com/gui-bloopers/"
 }
 
+@book{gre06b,
+    author =    "Adam Greenfield",
+    title =     "Everyware: The Dawning Age of Ubiquitous Computing",
+    publisher = riders,
+    year =      2006,
+    month =     mar,
+    address =   indiana,
+    isbn =      "0321384016"
+}
+
 @book{nie99b,
     author =    "Jakob Nielsen",
     title =     "Designing Web Usability: The Practice of Simplicity",
@@ -19165,6 +19202,17 @@
     address =   upper,
     isbn =      "0130161438",
     topic =     "www[1]"
+}
+
+@book{han03,
+    author =    "Uwe Hansmann and Lothar Merk and Martin S. Nicklous and Thomas Stober",
+    title =     "Pervasive Computing: The Mobile World",
+    publisher = springer,
+    year =      2003,
+    month =     aug,
+    edition =   "2",
+    address =   berlin,
+    isbn =      "3540002189",
 }
 
 @book{mei03,
@@ -24559,14 +24607,14 @@
 }
 
 @misc{xproc,
-    author =    "Norman Walsh and R. Alexander Milowski",
+    author =    "Norman Walsh and R. Alexander Milowski and Henry S. Thompson",
     title =     "XProc: An XML Pipeline Language",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-xproc-20070706",
-    month =     jul,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-xproc-20070920",
+    month =     sep,
     year =      2007,
     topic =     "xml[0.8] xproc[1]",
-    uri =       "http://www.w3.org/TR/2007/WD-xproc-20070706",
-    abstract =  {This specification describes the syntax and semantics of "XProc: An XML Pipeline Language", a language for describing operations to be performed on XML documents. An XML Pipeline specifies a sequence of operations to be performed on one or more XML documents. Pipelines generally accept one or more XML documents as input and producing one or more XML documents as output, though they are not required to do so. Some pipelines are entirely self-contained, starting with input derived inside the pipeline and producing no XML output.}
+    uri =       "http://www.w3.org/TR/2007/WD-xproc-20070920",
+    abstract =  {This specification describes the syntax and semantics of "XProc: An XML Pipeline Language", a language for describing operations to be performed on XML documents. An XML Pipeline specifies a sequence of operations to be performed on one or more XML documents. Pipelines generally accept one or more XML documents as input and produce one or more XML documents as output. Pipelines are made up of simple steps which perform atomic operations on XML documents and constructs similar to conditionals, loops and exception handlers which control which steps are executed.}
 }
 
 @misc{htmlroad,
@@ -29065,6 +29113,17 @@ This Note also includes an initial collection of use cases that the Group expect
     updates =   "soap12af"
 }
 
+@misc{soap12mtompolicy,
+    author =    "Christopher Ferris and Yves Lafon",
+    title =     "MTOM Serialization Policy Assertion 1.1",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-soap12-mtom-policy-20070918",
+    month =     sep,
+    year =      2007,
+    topic =     "mtom[0.9]",
+    uri =       "http://www.w3.org/TR/2007/WD-soap12-mtom-policy-20070918",
+    abstract =  "This specification describes a domain-specific policy assertion that indicates endpoint support of the optimized MIME multipart/related serialization of SOAP messages defined in section 3 of the SOAP Message Transmission Optimization Mechanism specification. This policy assertion can be specified within a policy alternative as defined in Web Services Policy 1.5 ---Framework and attached to a WSDL description as defined in Web Services Policy 1.5 --- Attachment."
+}
+
 @misc{xop10,
     author =    "Martin Gudgin and  Noah Mendelsohn and Mark Nottingham and Herv\'e Ruellan",
     title =     "XML-binary Optimized Packaging",
@@ -29250,9 +29309,9 @@ This Note also includes an initial collection of use cases that the Group expect
 @misc{dav03c,
     author =    {Andrew Daviel and Felix A. K\"agi},
     title =     "Geographic Registration of HTML Documents",
-    howpublished =  "Internet Draft draft-daviel-html-geo-tag-06",
-    month =     jul,
-    year =      2003,
+    howpublished =  "Internet Draft draft-daviel-html-geo-tag-07",
+    month =     sep,
+    year =      2007,
     uri =       "https://datatracker.ietf.org/drafts/draft-daviel-html-geo-tag",
     abstract =  "This memo describes a method of registering HTML documents with a specific geographic location through means of embedded META tags. The content of the META tags gives the geographic position of the resource described by the HTML document in terms of Latitude, Longitude, and optionally Elevation in a simple, machine-readable manner. This information may be used for automated resource discovery by means of an HTML indexing agent or search engine."
 }
