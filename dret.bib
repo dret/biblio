@@ -3729,6 +3729,20 @@
     index =     "multicast, MGA, SMAM, HeiMAP, DMAM"
 }
 
+@article{lak03,
+    author =    "A. Lakhina and J. W. Byers and M. Crovella and I. Matta",
+    title =     "On the Geographic Location of Internet Resources",
+    journal =   ieeejsac,
+    year =      2003,
+    month =     aug,
+    volume =    21,
+    number =    6,
+    pages =     "934-948",
+    doi =       "10.1109/JSAC.2003.814667",
+    uri =       "http://ieeexplore.ieee.org/Xplore/login.jsp?url=/iel5/49/27368/01217279.pdf",
+    abstract =  "One relatively unexplored question about the Internet's physical structure concerns the geographical location of its components: routers, links, and autonomous systems (ASes). We study this question using two large inventories of Internet routers and links, collected by different methods and about two years apart. We first map each router to its geographical location using two different state-of-the-art tools. We then study the relationship between router location and population density; between geographic distance and link density; and between the size and geographic extent of ASes. Our findings are consistent across the two datasets and both mapping methods. First, as expected, router density per person varies widely over different economic regions; however, in economically homogeneous regions, router density shows a strong superlinear relationship to population density. Second, the probability that two routers are directly connected is strongly dependent on distance; our data is consistent with a model in which a majority (up to 75\%-95\%) of link formation is based on geographical distance (as in the Waxman (1988) topology generation method). Finally, we find that ASes show high variability in geographic size, which is correlated with other measures of AS size (degree and number of interfaces). Among small to medium ASes, ASes show wide variability in their geographic dispersal; however, all ASes exceeding a certain threshold in size are maximally dispersed geographically. These findings have many implications for the next generation of topology generators, which we envisage as producing router-level graphs annotated with attributes such as link latencies, AS identifiers, and geographical locations."
+}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 @string{transnet =  "IEEE/ACM Transactions on Networking" }
@@ -28505,6 +28519,27 @@ This Note also includes an initial collection of use cases that the Group expect
     uri =       "http://www.w3.org/2001/tag/doc/nsDocuments-2005-12-13",
     topic =     "xmlns[0.9] rddl[0.8] grddl[0.8]",
     abstract =  "This Finding addresses the question of how ancillary information (schemas, stylesheets, documentation, etc.) can be associated with a namespace."
+}
+
+@misc{whentouseget,
+    author =    "Ian Jacobs",
+    title =     "URIs, Addressability, and the use of HTTP GET and POST",
+    howpublished =  "World Wide Web Consortium, TAG Finding",
+    month =     mar,
+    year =      2004,
+    uri =       "http://www.w3.org/2001/tag/doc/whenToUseGet-20040321",
+    topic =     "http[0.9] uri[0.9]",
+    abstract =  {An important principle of Web architecture is that all important resources be identifiable by URI. The finding discusses the relationship between the URI addressability of a resource and the choice between HTTP GET and POST methods with HTTP URIs. HTTP GET promotes URI addressability so, designers should adopt it for safe operations such as simple queries. POST is appropriate for other types of applications where a user request has the potential to change the state of the resource (or of related resources). The finding explains how to choose between HTTP GET and POST for an application taking into account architectural, security, and practical considerations. This finding does not discuss URI schemes other than "http" or protocols other than HTTP/1.1.}
+}
+
+@misc{deeplinking,
+    author =    "Tim Bray",
+    title =     {"Deep Linking" in the World Wide Web},
+    howpublished =  "World Wide Web Consortium, TAG Finding",
+    month =     feb,
+    year =      2003,
+    uri =       "http://www.w3.org/2001/tag/doc/deeplinking-20030217",
+    abstract =  {The community of Web users has been engaged in discussion and litigation concerning the practice of "deep linking." This document is designed to provide input to this discussion based on the architecture of the underlying technology.}
 }
 
 @misc{urnsandregistries,
