@@ -202,7 +202,7 @@
 @string{interlaken = "Interlaken, Switzerland" }
 @string{irvine =    "Irvine, California" }
 @string{ithaca =    "Ithaca, New York" }
-@string{jose =      "San Jose, California" }
+@string{sanjose =   "San Jose, California" }
 @string{jyvael =    {Jyv\"askyl\"a, Finland}}
 @string{karlsruhe = "Karlsruhe, Germany" }
 @string{klagenfurt = "Klagenfurt, Austria" }
@@ -562,6 +562,38 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@string{ijhcs = "International Journal of Human-Computer Studies" }
+
+@article{coc02,
+    author =    "Andy Cockburn and Bruce McKenzie and Michael Jason-Smith",
+    journal =   ijhcs,
+    title =     "Pushing Back: Evaluating a New Behaviour for the Back and Forward Buttons in Web Browsers",
+    year =      2002,
+    month =     nov,
+    volume =    57,
+    number =    5,
+    doi =       "10.1006/ijhc.2002.1025",
+    abstract =  {The Back button on web browsers is one of the world's most heavily used user interface components, yet its behaviour is commonly misunderstood. This paper describes the evaluation of a "temporal" alternative to the normal "stack-based" behaviour of Back and Forward. The main difference of the temporal scheme is that it maintains a complete list of previously visited pages. The evaluation compares the efficiency of the stack and temporal schemes in an "out of the box" scenario in which participants were asked to use a "new" version of a commercial browser without any explanation of the presence or absence of new features. This scenario allows us to predict the likely usability impact if commercial browsers were released supporting the temporal scheme. The results showed that the relative efficiency of the two schemes differed across different types of navigational task. In particular, the temporal system poorly supported backtracking to parent pages, but performed better for more distant navigation tasks. The temporal scheme also caused extreme usage patterns, with the subjects either solving tasks very efficiently or very inefficiently, depending on whether they used the Back menu. This observation indicates that adaptations of the temporal system that improve the effectiveness of the Back menu may enhance web navigation.}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@string{jcmc = "Journal of Computer-Mediated Communication" }
+
+@article{boy07,
+    author =    "Danah M. Boyd and Nicole B. Ellison",
+    journal =   jcmc,
+    title =     "Social Network Sites: Definition, History, and Scholarship",
+    year =      2007,
+    month =     oct,
+    volume =    13,
+    number =    1,
+    uri =       "http://jcmc.indiana.edu/vol13/issue1/boyd.ellison.html",
+    abstract =  "Social network sites (SNSs) are increasingly attracting the attention of academic and industry researchers intrigued by their affordances and reach. This special theme section of the Journal of Computer-Mediated Communication brings together scholarship on these emergent phenomena. In this introductory article, we describe features of SNSs and propose a comprehensive definition. We then present one perspective on the history of such sites, discussing key changes and developments. After briefly summarizing existing scholarship concerning SNSs, we discuss the articles in this special section and conclude with considerations for future research."
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 @string{fmonday = "First Monday" }
 
 @article{dug06,
@@ -573,7 +605,19 @@
     volume =    11,
     number =    10,
     uri =       "http://www.firstmonday.org/issues/issue11_10/duguid/",
-    abstract =  "People often implicitly ascribe the quality of peer-production projects such as Project Gutenberg or Wikipedia to what I call “laws” of quality. These are drawn from Open Source software development and it is not clear how applicable they are outside the realm of software. I look at examples from peer production projects to ask whether faith in these laws does not so much guarantee quality as hide the need for improvement."
+    abstract =  {People often implicitly ascribe the quality of peer-production projects such as Project Gutenberg or Wikipedia to what I call "laws" of quality. These are drawn from Open Source software development and it is not clear how applicable they are outside the realm of software. I look at examples from peer production projects to ask whether faith in these laws does not so much guarantee quality as hide the need for improvement.}
+}
+
+@article{bro01,
+    author =    "Barry Brown and Abigail Sellen",
+    journal =   fmonday,
+    title =     "Exploring Users' Experiences of the Web",
+    year =      2001,
+    month =     sep,
+    volume =    6,
+    number =    9,
+    uri =       "http://www.uic.edu/htbin/cgiwrap/bin/ojs/index.php/fm/article/view/882/791",
+    abstract=   {While browsing the Web is a widespread everyday activity there is a shortage of detailed understanding of how users organise their Web usage. In this paper we present results from a qualitative in-depth interview study of how users browse the Web and combine browsing with their other activities. The data are  used to explore three particular problems which users have with browsing the Web. Firstly, users have problems managing their favourites, and in particular accessing their favourites through a hierarchical menu. Second, users have problems with combining information across different Web sites --- what we call the "meta-task" problem. Third, users have concerns with security and privacy, although these concerns seem to change as users become more experienced with shopping on the Web. We discuss three concepts which address these problems: "home page favourites", "Web clipping" and the "Web card". These concepts are attempts at incremental improvements to the Web without affecting the Web's essential simplicity.}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9369,6 +9413,15 @@
 @string{www2004 =     "Proceedings of the Thirteenth International World Wide Web Conference" }
 @string{www2004a =    "Alternate Track Papers \& Posters Proceedings of the Thirteenth International World Wide Web Conference" }
 
+@inproceedings{mil04,
+    crossref =  "www2004",
+    author =    "Natasa Milic-Frayling and Rachel Jones and Kerry Rodden and Gavin Smyth and Alan F. Blackwell and Ralph Sommerer",
+    title =     "Smartback: Supporting Users in Back Navigation",
+    pages =     "63-71",
+    doi =       "10.1145/988672.988682",
+    abstract =  "This paper presents the design and user evaluation of SmartBack, a feature that complements the standard Back button by enabling users to jump directly to key pages in their navigation session, making common navigation activities more efficient. Defining key pages was informed by the findings of a user study that involved detailed monitoring of Web usage and analysis of Web browsing in terms of navigation trails. The pages accessible through SmartBack are determined automatically based on the structure of the user's navigation trails or page association with specific user's activities, such as search or browsing bookmarked sites. We discuss implementation decisions and present results of a usability study in which we deployed the SmartBack prototype and monitored usage for a month in both corporate and home settings. The results show that the feature brings qualitative improvement to the browsing experience of individuals who use it."
+}
+
 @inproceedings{etz04a,
     crossref =  "www2004",
     author =    "Oren Etzioni and Michael Cafarella and Doug Downey and Stanley Kok and Ana-Maria Popescu and Tal Shaked and Stephen Soderland and Daniel S. Weld and Alexander Yates",
@@ -9376,7 +9429,8 @@
     pages =     "100-110",
     topic =     "knowitall[1]",
     uri =       "http://www2004.org/proceedings/docs/1p100.pdf",
-    uri =       "http://www.cs.washington.edu/homes/etzioni/papers/www04.pdf"
+    uri =       "http://www.cs.washington.edu/homes/etzioni/papers/www04.pdf",
+    abstract =  "Manually querying search engines in order to accumulate a large body of factual information is a tedious, error-prone process of piecemeal search. Search engines retrieve and rank potentially relevant documents for human perusal, but do not extract facts, assess confidence, or fuse information from multiple documents. This paper introduces KnowItAll, a system that aims to automate the tedious process of extracting large collections of facts from the web in an autonomous, domain-independent, and scalable manner.The paper describes preliminary experiments in which an instance of KnowItAll, running for four days on a single machine, was able to automatically extract 54,753 facts. KnowItAll associates a probability with each fact enabling it to trade off precision and recall. The paper analyzes KnowItAll's architecture and reports on lessons learned for the design of large-scale information extraction systems."
 }
 
 @inproceedings{eir04,
@@ -9385,7 +9439,8 @@
     title =     "Ranking the Web Frontier",
     pages =     "309-318",
     topic =     "pagerank[0.8]",
-    uri =       "http://www2004.org/proceedings/docs/1p309.pdf"
+    uri =       "http://www2004.org/proceedings/docs/1p309.pdf",
+    abstract =  {The celebrated PageRank algorithm has proved to be a very effective paradigm for ranking results of web search algorithms. In this paper we refine this basic paradigm to take into account several evolving prominent features of the web, and propose several algorithmic innovations. First, we analyze features of the rapidly growing "frontier" of the web, namely the part of the web that crawlers are unable to cover for one reason or another. We analyze the effect of these pages and find it to be significant. We suggest ways to improve the quality of ranking by modeling the growing presence of "link rot" on the web as more sites and pages fall out of maintenance. Finally we suggest new methods of ranking that are motivated by the hierarchical structure of the web, are more efficient than PageRank, and may be more resistant to direct manipulation.}
 }
 
 @inproceedings{mar04a,
@@ -14557,7 +14612,7 @@
 
 @inproceedings{mar06,
     crossref =  "acmht06",
-    author =    "Cameron Marlow and Mor Naaman and Danah Boyd and Marc Davis",
+    author =    "Cameron Marlow and Mor Naaman and Danah M. Boyd and Marc Davis",
     title =     "HT06, Tagging Paper, Taxonomy, Flickr, Academic Article, To Read",
     pages =     "31-40",
     doi =       "10.1145/1149941.1149949",
@@ -21785,7 +21840,7 @@
 @misc{egm96,
     author =    "F. G. Lemoine and S. C. Kenyon and J. K. Factor and R.G. Trimmer and N. K. Pavlis and D. S. Chinn and C. M. Cox and S. M. Klosko and S. B. Luthcke and M. H. Torrence and Y. M. Wang and R. G. Williamson and E. C. Pavlis and R. H. Rapp and T. R. Olson",
     title =     "The Development of the Joint NASA GSFC and the NIMA Geopotential Model EGM96",
-    howpublished =  " NASA/TP-1998-206861",
+    howpublished =  "NASA/TP-1998-206861",
     year =      1998,
     month =     jul,
     topic =     "egm96[1]",
