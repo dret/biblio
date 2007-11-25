@@ -114,6 +114,7 @@
 @string{athens =    "Athens, Greece" }
 @string{atlanta =   "Atlanta, Georgia" }
 @string{auckland =  "Auckland, New Zealand" }
+@string{augsburg =  "Augsburg, Germany" }
 @string{austin =    "Austin, Texas" }
 @string{balhar =    "Bal Harbour, Florida" }
 @string{baltimore = "Baltimore, Maryland" }
@@ -491,6 +492,21 @@
     topic =     "georss[0.9]",
     doi =       "10.1117/12.764955",
     abstract =  "This paper describes a number of ways to encode spatiotemporal information in RSS feeds. As RSS becomes more and more prevalent as a way to publish and share information, it becomes increasingly important that location and time is described in an interoperable manner so that applications can request, aggregate, share and map spatiotemporally tagged feeds. This paper describes the GeoRSS model and encodings. With every RSS item has a timestamp, GeoRSS can represent time property for free. There are three GeoRSS encoding standards, such as W3C Geo, GeoRSS Simple, and GeoRSS GML profile. These standards differ in the number of coordinate systems they can support, and in the number of different geometric shapes they can add to the map to show where the news or event of interest is taking place. Further more, this paper described how to add time attribute to GeoRSS and implement and visualization the GeoRSS feeds through Google Map and Timeline. A few apt illustrations were given to show the powerful functions of GeoRSS in syndicating the spatiotemporal information. GeoRSS leverages this teeming ecosystem for geospatial technology, and with OGC support, GeoRSS is on firm conceptual ground and gains exposure across the industry."
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@string{ceusj = "Computers, Environment, and Urban Systems Journal" }
+
+@article{naa05,
+    author =    "Mor Naaman and Yee Jiun Song and Andreas Paepcke and Hector Garcia-Molina",
+    journal =   ceusj,
+    title =     "Assigning Textual Names to Sets of Geographic Coordinates",
+    year =      2005,
+    month =     jul,
+    topic =     "nameset[1]",
+    uri =       "http://dbpubs.stanford.edu:8090/pub/2005-18",
+    abstract =  "NameSet is a system that translates a set of geographic coordinates into a textual name based on the geographic regions where the coordinates occur. One possible application of NameSet is to concisely present the geographical scope of a set of geo-referenced observations to a human user. Another application is to generate text to depict a set of coordinates that appear on a web site --- text that could later be used for information retrieval applications. NameSet's computation is based on a simple algorithm, using off-the-shelf and web-based data sources. The system was proven effective in an application that automatically organizes and names sets of geo-referenced digital photographs."
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -8064,6 +8080,33 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@string{sigir07 =  "Proceedings of the 30th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval" }
+
+@inproceedings{rat07,
+    crossref =  "sigir07",
+    author =    "Tye Rattenbury and Nathaniel Good and Mor Naaman",
+    title =     "Analysis of Lexical Signatures for Finding Lost or Related Documents",
+    pages =     "103-110",
+    doi =       "10.1145/1277741.1277762",
+    uri =       "http://infolab.stanford.edu/~mor/research/sigir2007rattenburyTagSemantics.pdf",
+    abstract =  "We describe an approach for extracting semantics of tags, unstructured text-labels assigned to resources on the Web, based on each tag's usage patterns. In particular, we focus on the problem of extracting place and event semantics for tags that are assigned to photos on Flickr, a popular photo sharing website that supports time and location (latitude/longitude) metadata. We analyze two methods inspired by well-known burst-analysis techniques and one novel method: Scale-structure Identification. We evaluate the methods on a subset of Flickr data, and show that our Scale-structure Identification method outperforms the existing techniques. The approach and methods described in this work can be used in other domains such as geo-annotated web pages, where text terms can be extracted and associated with usage patterns."
+}
+
+@proceedings{sigir07,
+    title =     sigir07,
+    booktitle = sigir07,
+    editor =    "Wessel Kraaij and Arjen P. de Vries and Charles L. A. Clarke and Norbert Fuhr and Noriko Kando",
+    publisher = acm,
+    address =   amsterdam,
+    month =     jul,
+    year =      2007,
+    isbn =      "978-1-59593-597-7",
+    index =     "SIGIR 2007",
+    uri =       "http://www.informatik.uni-trier.de/~ley/db/conf/sigir/sigir2007.html"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 @string{popl03 =  "Proceedings of the 30th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages" }
 
 @inproceedings{sim03b,
@@ -11577,6 +11620,40 @@
     address =   anaheim,
     isbn =      "0-89791-596-8",
     src =       "Ethics: 757810"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@string{acmmm07 =   "Proceedings of ACM Multimedia 2007" }
+
+@inproceedings{hwa07,
+    crossref =  "acmmm07",
+    author =    "Amy Hwang and Shane Ahern and Simon King and Mor Naaman and Rahul Nair and Jeannie Hui-I Yang",
+    title =     "Zurfer: Mobile Multimedia Access in Spatial, Social and Topical Context",
+    pages =     "557-560",
+    doi =       "10.1145/1291233.1291370",
+    abstract =  "What happens when you can access all the world's media, but the access is constrained by screen size, bandwidth, attention, and battery life? We present a novel mobile context-aware software prototype that enables access to images on the go. Our prototype utilizes the channel metaphor to give users contextual access to media of interest according to key dimensions: spatial, social, and topical. Our experimental prototype attempts to be playful and simple to use, yet provide powerful and comprehensive media access. A temporally-driven sorting scheme for media items allows quick and easy access to items of interest in any dimension. For ad-hoc tasks, we extend the application with keyword search to deliver the long tail of media and images. Elements of social interaction and communication around the photographs are built into the mobile application, to increase user engagement. The application utilizes Flickr.com as an image and social-network data source, but could easily be extended to support other websites and media formats."
+}
+
+@inproceedings{ken07,
+    crossref =  "acmmm07",
+    author =    "Lyndon Kennedy and Mor Naaman and Shane Ahern and Rahul Nair and Tye Rattenbury",
+    title =     "How Flickr Helps us Make Sense of the World: Context and Content in Community-Contributed Media Collections",
+    pages =     "631-640",
+    doi =       "10.1145/1291233.1291384",
+    uri =       "http://infolab.stanford.edu/~mor/research/kennedyMM07.pdf",
+    abstract =  {The advent of media-sharing sites like Flickr and YouTube has drastically increased the volume of community-contributed multimedia resources available on the web. These collections have a previously unimagined depth and breadth, and have generated new opportunities --- and new challenges --- to multimedia research. How do we analyze, understand and extract patterns from these new collections? How can we use these unstructured, unrestricted community contributions of media (and annotation) to generate "knowledge". As a test case, we study Flickr --- a popular photo sharing website. Flickr supports photo, time and location metadata, as well as a light-weight annotation model. We extract information from this dataset using two different approaches. First, we employ a location-driven approach to generate aggregate knowledge in the form of "representative tags" for arbitrary areas in the world. Second, we use a tag-driven approach to automatically extract place and event semantics for Flickr tags, based on each tag's metadata patterns. With the patterns we extract from tags and metadata, vision algorithms can be employed with greater precision. In particular, we demonstrate a location-tag-vision-based approach to retrieving images of geography-related landmarks and features from the Flickr dataset. The results suggest that community-contributed media and annotation can enhance and improve our access to multimedia resources --- and our understanding of the world.}
+}
+
+@proceedings{acmmm07,
+    title =     acmmm07,
+    booktitle = acmmm07,
+    editor =    "Rainer Lienhart and Anand R. Prasad and Alan Hanjalic and Sunghyun Choi and Brian P. Bailey and Nicu Sebe",
+    year =      2007,
+    publisher = acm,
+    address =   augsburg,
+    isbn =      "978-1-59593-702-5",
+    uri =       "http://www.informatik.uni-trier.de/~ley/db/conf/mm/mm2007.html"
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -24240,7 +24317,7 @@
     month =     nov,
     year =      2007,
     uri =       "http://www.w3.org/TR/2007/NOTE-ws-policy-guidelines-20071112",
-    abstract =  "Web Services Policy 1.5 --- Guidelines for Policy Assertion Authors is intended to provide guidance for assertion authors that will work with the Web Services Policy 1.5 - Framework and Web Services Policy 1.5 --- Attachment specifications to create domain specific assertions. The focus of this document is to provide best practices and patterns to follow as well as illustrate the care needed in using WS-Policy to achieve the best possible results for interoperability. It is a complementary guide to using the specifications."
+    abstract =  "Web Services Policy 1.5 --- Guidelines for Policy Assertion Authors is intended to provide guidance for assertion authors that will work with the Web Services Policy 1.5 --- Framework and Web Services Policy 1.5 --- Attachment specifications to create domain specific assertions. The focus of this document is to provide best practices and patterns to follow as well as illustrate the care needed in using WS-Policy to achieve the best possible results for interoperability. It is a complementary guide to using the specifications."
 }
 
 @misc{wsarch,
