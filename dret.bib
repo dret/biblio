@@ -374,6 +374,7 @@
 @string{mmusouth =  "{Multimedia Research Group, University of Southampton}" }
 @string{nima =      "{National Imagery and Mapping Agency}" }
 @string{nist =      "{National Institute of Standards and Technology}" }
+@string{ogc =       "{Open Geospatial Consortium}" }
 @string{oks =       "{Open Communication Systems Group, Technical University Berlin}" }
 @string{oma =       "{Open  Mobile Alliance}" }
 @string{omg =       "{Object Management Group}" }
@@ -489,7 +490,7 @@
     year =      2007,
     month =     aug,
     volume =    6754,
-    topic =     "georss[0.9]",
+    topic =     "georss[0.8]",
     doi =       "10.1117/12.764955",
     abstract =  "This paper describes a number of ways to encode spatiotemporal information in RSS feeds. As RSS becomes more and more prevalent as a way to publish and share information, it becomes increasingly important that location and time is described in an interoperable manner so that applications can request, aggregate, share and map spatiotemporally tagged feeds. This paper describes the GeoRSS model and encodings. With every RSS item has a timestamp, GeoRSS can represent time property for free. There are three GeoRSS encoding standards, such as W3C Geo, GeoRSS Simple, and GeoRSS GML profile. These standards differ in the number of coordinate systems they can support, and in the number of different geometric shapes they can add to the map to show where the news or event of interest is taking place. Further more, this paper described how to add time attribute to GeoRSS and implement and visualization the GeoRSS feeds through Google Map and Timeline. A few apt illustrations were given to show the powerful functions of GeoRSS in syndicating the spatiotemporal information. GeoRSS leverages this teeming ecosystem for geospatial technology, and with OGC support, GeoRSS is on firm conceptual ground and gains exposure across the industry."
 }
@@ -21992,6 +21993,33 @@
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ogc standards
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@misc{gml31,
+    author =    ogc,
+    editor =    "Simon Cox and Paul Daisey and Ron Lake and Clemens Portele and Arliss Whiteside",
+    title =     "OpenGIS Geography Markup Language (GML)",
+    howpublished =  "OGC 03-105r1, Version 3.1.1",
+    year =      2004,
+    month =     feb,
+    topic =     "gml[1]",
+    uri =       "http://portal.opengeospatial.org/files/?artifact_id=4700"
+}
+
+@misc{georss,
+    author =    ogc,
+    editor =    "Carl Reed",
+    title =     "OpenGIS Geography Markup Language (GML)",
+    howpublished =  "OGC 06-050r3",
+    year =      2006,
+    month =     jul,
+    topic =     "georss[0.9]",
+    uri =       "http://www.opengeospatial.org/pt/06-050r3",
+    abstract =  {This document describes GeoRSS: Geographically Encoded Objects for RSS feeds. GeoRSS is simple proposal for geo-enabling, or tagging, "really simple syndication" (RSS) feeds with location information. GeoRSS proposes a standardized way in which location is encoded with enough simplicity and descriptive power to satisfy most needs to describe the location of Web content. GeoRSS may not work for every use, but it should serve as an easy-to-use geotagging encoding that is brief and simple with useful defaults but extensible and upwardly-compatible with more sophisticated encoding standards such as the OGC (Open Geospatial Consortium) GML (Geography Markup Language). Currently, there are two GeoRSS serializations: GeoRSS GML and GeoRSS Simple. GeoRSS GML is a formal GML Profile, and supports a greater range of features than GeoRSS Simple, notably coordinate reference systems other than WGS84 latitude/longitude. GeoRSS is designed for use with Atom 1.0, RSS 2.0 and RSS 1.0, although it can be used just as easily in non-RSS XML encodings. GeoRSS Simple has greater brevity, but also has limited extensibility.}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % nima standards
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -25250,13 +25278,13 @@
 
 @misc{accesscontrol,
     author =    "Anne van Kesteren",
-    title =     "Enabling Read Access for Web Resources",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-access-control-20071001",
-    month =     oct,
+    title =     "Access Control for Cross-site Requests",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-access-control-20071126",
+    month =     nov,
     year =      2007,
     topic =     "pi[0.7]",
-    uri =       "http://www.w3.org/TR/2007/WD-access-control-20071001",
-    abstract =  "This document defines a mechanism to selectively provide client side cross-site access to a Web resource. Using either a HTTP header or an XML processing instruction (or both) resources can indicate they allow read access from specified hosts (optionally using patterns). When a pattern is used, one can also exclude certain hosts. For instance, allow read access from example.org and its subdomains with the exception of public.example.org."
+    uri =       "http://www.w3.org/TR/2007/WD-access-control-20071126",
+    abstract =  "This document defines a mechanism to enable client-side cross-site requests. It defines a request algorithm for GET and non-GET requests that specifications that want to enable cross-site requests in the technologies they define can use."
 }
 
 @misc{xformsreq,
@@ -29014,6 +29042,17 @@
     abstract =  "This specification defines the HyperText Markup Language (HTML), the publishing language of the World Wide Web. This specification defines HTML 4.01, which is a subversion of HTML 4. In addition to the text, multimedia, and hyperlink features of the previous versions of HTML (HTML 3.2 and HTML 2.0), HTML 4 supports more multimedia options, scripting languages, style sheets, better printing facilities, and documents that are more accessible to users with disabilities. HTML 4 also takes great strides towards the internationalization of documents, with the goal of making the Web truly World Wide. HTML 4 is an SGML application conforming to International Standard ISO 8879 --- Standard Generalized Markup Language."
 }
 
+@misc{htmldesignprinciples,
+    author =    "Anne van Kesteren and Maciej Stachowiak",
+    title =     "HTML Design Principles",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-html-design-principles-20071126",
+    month =     nov,
+    year =      2007,
+    topic =     "html[0.9]",
+    uri =       "http://www.w3.org/TR/2007/WD-html-design-principles-20071126",
+    abstract =  "HTML 5 defines the fifth major revision of the core language of the World Wide Web, HTML. This document describes the set of guiding principles used by the HTML Working Group for the development of HTML 5. The principles offer guidance for the design of HTML in the areas of compatibility, utility and interoperability."
+}
+
 @misc{xhtml10,
     author =    "Steven Pemberton",
     title =     "XHTML 1.0: The Extensible HyperText Markup Language",
@@ -29680,12 +29719,12 @@
 @misc{curie,
     author =    "Mark Birbeck and Shane McCarron",
     title =     "CURIE Syntax 1.0 --- A Syntax for Expressing Compact URIs",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-curie-20070307",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-curie-20071126",
+    month =     nov,
     year =      2007,
     topic =     "uri[0.9] curie[1] iri[0.9]",
-    uri =       "http://www.w3.org/TR/2007/WD-curie-20070307",
-    abstract =  "The aim of this document is to outline a syntax for expressing URIs in a generic, abbreviated syntax. While it has been produced in conjunction with the HTML Working Group, it is not specifically targeted at use by XHTML Family Markup Languages. Note that the target audience for this document is Markup Language designers, not the users of those Markup Languages."
+    uri =       "http://www.w3.org/TR/2007/WD-curie-20071126",
+    abstract =  "The aim of this document is to outline a syntax for expressing URIs in a generic, abbreviated syntax. While it has been produced in conjunction with the HTML Working Group, it is not specifically targeted at use by XHTML Family Markup Languages. Note that the target audience for this document is Language designers, not the users of those Languages."
 }
 
 @misc{soap11,
@@ -30193,8 +30232,8 @@
 @misc{gre07,
     author =    "Joe Gregorio",
     title =     "URI Template",
-    howpublished =  "Internet Draft draft-gregorio-uritemplate-01",
-    month =     jul,
+    howpublished =  "Internet Draft draft-gregorio-uritemplate-02",
+    month =     nov,
     year =      2007,
     topic =     "uri[0.8]",
     uri =       "https://datatracker.ietf.org/drafts/draft-gregorio-uritemplate/",
