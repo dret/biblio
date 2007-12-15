@@ -313,6 +313,7 @@
 @string{vegas =     "Las Vegas, Nevada" }
 @string{venice =    "Venice, Italy" }
 @string{vienna =    "Vienna, Austria" }
+@string{warsaw =    "Warsaw, Poland" }
 @string{wash =      "Washington, D.C." }
 @string{winnipeg =  "Winnipeg, Manitoba" }
 @string{woerlitz =  {W\"orlitz, Germany} }
@@ -5511,6 +5512,33 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@string{vldb07 = "Proceedings of the 33rd International Conference on Very Large Data Bases" }
+
+@inproceedings{sto07,
+    crossref =  "vldb07",
+    author =    "Michael Stonebraker and Samuel Madden and Daniel J. Abadi and Stavros Harizopoulos and Nabil Hachem and Pat Helland",
+    title =     "The End of an Architectural Era (It's Time for a Complete Rewrite)",
+    pages =     "1150-1160",
+    url =       "http://www.vldb.org/conf/2007/papers/industrial/p1150-stonebraker.pdf",
+    abstract =  {In previous papers, some of us predicted the end of "one size fits all" as a commercial relational DBMS paradigm. These papers presented reasons and experimental evidence that showed that the major RDBMS vendors can be outperformed by 1-2 orders of magnitude by specialized engines in the data warehouse, stream processing, text, and scientific database markets. Assuming that specialized engines dominate these markets over time, the current relational DBMS code lines will be left with the business data processing (OLTP) market and hybrid markets where more than one kind of capability is required. In this paper we show that current RDBMSs can be beaten by nearly two orders of magnitude in the OLTP market as well. The experimental evidence comes from comparing a new OLTP prototype, H-Store, which we have built at M.I.T. to a popular RDBMS on the standard transactional benchmark, TPC-C. We conclude that the current RDBMS code lines, while attempting to be a "one size fits all" solution, in fact, excel at nothing. Hence, they are 25 year old legacy code lines that should be retired in favor of a collection of "from scratch" specialized engines. The DBMS vendors (and the research community) should start with a clean sheet of paper and design systems for tomorrow’s requirements, not continue to push code lines and architectures designed for yesterday’s needs.}
+}
+
+@proceedings{vldb07,
+    title =     vldb07,
+    booktitle = vldb07,
+    editor =    "Christoph Koch and Johannes Gehrke and Minos N. Garofalakis and Divesh Srivastava and Karl Aberer and Anand Deshpande and Daniela Florescu and Chee Yong Chan and Venkatesh Ganti and Carl-Christian Kanne and Wolfgang Klas and Erich J. Neuhold",
+    publisher = acm,
+    address =   vienna,
+    month =     sep,
+    year =      2007,
+    isbn =      "978-1-59593-649-3",
+    index =     "VLDB 2007",
+    uri =       "http://www.vldb2007.org/"
+    uri =       "http://www.informatik.uni-trier.de/~ley/db/conf/vldb/vldb2007.html"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 @string{icmb05 = "Proceedings of the 2005 International Conference on Mobile Business" }
 
 @inproceedings{ye05,
@@ -5563,6 +5591,33 @@
     isbn =      "3-540-24288-0",
     index =     "ICDT 2005",
     uri =       "http://www.informatik.uni-trier.de/~ley/db/conf/icdt/icdt2005.html"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@string{esop03 = "Proceedings of the 12th European Symposium on Programming" }
+
+@inproceedings{gra03,
+    crossref =  "esop03",
+    author =    "Paul Graunke and Robert Bruce Findler and Shriram Krishnamurthi and Matthias Felleisen",
+    title =     "Modeling Web Interactions",
+    pages =     "238-252",
+    uri =       "http://www.springerlink.com/content/fc62enk0kfqltp2g",
+    abstract =  " Programmers confront a minefield when they design interactive Web programs. Web interactions take place via Web browsers. With browsers, consumers can whimsically navigate among the various stages of a dialog and can thus confuse the most sophisticated corporate Web sites. In turn, Web services can fault in frustrating and inexplicable ways. The quickening transition from Web scripts to Web services lends these problems immediacy. To address this programming problem, we develop a foundational model of Web interactions and use it to formally describe two classes of errors. The model suggests techniques for detecting both classes of errors. For one class we present an incrementally checked record type system, which effectively eliminates these errors. For the other class, we introduce a dynamic safety check, which catches the mistakes relative to programmers' simple annotations."
+}
+
+@proceedings{esop03,
+    title =     esop03,
+    booktitle = esop03,
+    editor =    "Pierpaolo Degano",
+    publisher = springer,
+    series =    LNCS,
+    volume =    2618,
+    address =   warsaw,
+    month =     apr,
+    year =      2003,
+    index =     "ESOP 2003",
+    uri =       "http://www.springerlink.com/content/j31cqhf4xtda"
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -25211,12 +25266,12 @@
     author =    "Paolo Baggia and Paul Bagshaw and Michael Bodell and De Zhi Huang and Lixing Huang and Yongguo Kang and Lou Xiaoyan and Scott McGlashan and Helen Meng and JianHua Tao and Zhiyong Wu and Yan Jun",
     editor =    "Daniel C. Burnett and Zhi Wei Shuang",
     title =     "Speech Synthesis Markup Language (SSML) Version 1.1",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-speech-synthesis11-20070904",
-    month =     sep,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-speech-synthesis11-20071212",
+    month =     nov,
     year =      2007,
     topic =     "ssml[1]",
     updates =   "ssml11reqs",
-    uri =       "http://www.w3.org/TR/2007/WD-speech-synthesis11-20070904",
+    uri =       "http://www.w3.org/TR/2007/WD-speech-synthesis11-20071212",
     abstract =  "The Voice Browser Working Group has sought to develop standards to enable access to the Web using spoken interaction. The Speech Synthesis Markup Language Specification is one of these standards and is designed to provide a rich, XML-based markup language for assisting the generation of synthetic speech in Web and other applications. The essential role of the markup language is to provide authors of synthesizable content a standard way to control aspects of speech such as pronunciation, volume, pitch, rate, etc. across different synthesis-capable platforms."
 }
 
@@ -25254,14 +25309,15 @@
 }
 
 @misc{pronunciationlexicon,
-    author =    "Paolo Baggia",
+    editor =    "Paolo Baggia",
+    author =    "Paul Bagshaw and Daniel Burnett and Jerry Carter and Frank Scahill",
     title =     "Pronunciation Lexicon Specification (PLS) Version 1.0",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-pronunciation-lexicon-20061026",
-    month =     oct,
-    year =      2006,
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-pronunciation-lexicon-20071212",
+    month =     nov,
+    year =      2007,
     topic =     "pls[1]",
     updates =   "lexiconreqs",
-    uri =       "http://www.w3.org/TR/2006/WD-pronunciation-lexicon-20061026",
+    uri =       "http://www.w3.org/TR/2007/CR-pronunciation-lexicon-20071212",
     abstract =  "This document defines the syntax for specifying pronunciation lexicons to be used by Automatic Speech Recognition and Speech Synthesis engines in voice browser applications."
 }
 
@@ -25909,34 +25965,34 @@
 @misc{wcag20,
     author =    "Ben Caldwell and Michael Cooper and Loretta Guarino Reid and Gregg Vanderheiden",
     title =     "Web Content Accessibility Guidelines 2.0",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-WCAG20-20070517",
-    month =     may,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-WCAG20-20071211",
+    month =     nov,
     year =      2007,
     topic =     "wai[0.9] wcag[1]",
     updates =   "waica",
-    uri =       "http://www.w3.org/TR/2007/WD-WCAG20-20070517",
-    abstract =  {Web Content Accessibility Guidelines 2.0 (WCAG 2.0) covers a wide range of recommendations for making Web content more accessible. Following these guidelines will make content accessible to a wider range of people with disabilities, including blindness and low vision, deafness and hearing loss, learning disabilities, cognitive limitations, limited movement, speech difficulties, photosensitivity and combinations of these. Following these guidelines will also make your Web content more accessible to the vast majority of users, including some  older users. These guidelines however are not able to address the needs of all people with disabilities. WCAG 2.0 success criteria are written as testable statements that are not technology-specific. Guidance about satisfying the success criteria in specific technologies as well as general information about interpreting the success criteria are provided in separate documents. An Overview of Web Content Accessibility Guidelines (WCAG) 2.0 Last Call Documents is also available. Until WCAG 2.0 advances to W3C Recommendation, the current and referenceable document is Web Content Accessibility Guidelines 1.0, published as a W3C Recommendation May 1999.}
+    uri =       "http://www.w3.org/TR/2007/WD-WCAG20-20071211",
+    abstract =  {Web Content Accessibility Guidelines 2.0 (WCAG 2.0) covers a wide range of recommendations for making Web content more accessible. Following these guidelines will make content accessible to a wider range of people with disabilities, including blindness and low vision, deafness and hearing loss, learning disabilities, cognitive limitations, limited movement, speech difficulties, photosensitivity and combinations of these. Following these guidelines will also often make your Web content more usable to users in general. WCAG 2.0 success criteria are written as testable statements that are not technology-specific. Guidance about satisfying the success criteria in specific technologies as well as general information about interpreting the success criteria are provided in separate documents. An Overview of Web Content Accessibility Guidelines (WCAG) 2.0 Last Call Documents is also available. Until WCAG 2.0 advances to W3C Recommendation, the current and referenceable document is Web Content Accessibility Guidelines 1.0, published as a W3C Recommendation May 1999.}
 }
 
 @misc{understandingwcag20,
     author =    "Ben Caldwell and Michael Cooper and Loretta Guarino Reid and Gregg Vanderheiden",
     title =     "Understanding WCAG 2.0",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-UNDERSTANDING-WCAG20-20070517",
-    month =     may,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-UNDERSTANDING-WCAG20-20071211",
+    month =     nov,
     year =      2007,
     topic =     "wcag[0.8]",
-    uri =       "http://www.w3.org/TR/2007/WD-UNDERSTANDING-WCAG20-20070517",
+    uri =       "http://www.w3.org/TR/2007/WD-UNDERSTANDING-WCAG20-20071211",
     abstract =  {This document, "Understanding WCAG 2.0," is an essential guide to understanding and using Web Content Accessibility Guidelines 2.0. It is part of a series of documents that support WCAG 2.0. Please note that the contents of this document are informative (they provide guidance), and not normative (they do not set requirements for conforming to WCAG 2.0). WCAG 2.0 establishes a set of success criteria to define conformance to the WCAG 2.0 Guidelines. A success criterion is a testable statement that will be either true or false when applied to specific Web content. "Understanding WCAG 2.0" provides detailed information about each success criterion, including its intent, the key terms that are used in the success criterion, and how the success criteria in WCAG 2.0 help people with different types of disabilities. This document also provides examples of Web content that meet the success criterion using various Web technologies (for instance, HTML, CSS, XML), and common examples of Web content that does not meet the success criterion. This document indicates specific techniques to meet each success criterion. Details for how to implement each technique are available in Techniques and Failures for WCAG 2.0, but "Understanding WCAG 2.0" provides the information about the relationship of each technique to the success criteria. Techniques are categorized by the level of support they provide for the success criteria. "Sufficient techniques" are sufficient to meet a particular success criterion (either by themselves or in combination with other techniques), while other techniques are advisory and therefore optional. None of the techniques are required to meet WCAG 2.0, although some may be the only known method if a particular technology is used. "Advisory techniques" are not sufficient to meet the success criteria on their own (because they are not testable or provide incomplete support) but it is encouraged that authors follow them when possible to provide enhanced accessibility. Another support category is "Failure techniques", which describe authoring practices known to cause Web content not to conform to WCAG 2.0. Although failure techniques provide advisory information about certain authoring practices, authors must avoid those practices in order to meet the WCAG 2.0 success criteria. This document is part of a series of documents published by the W3C Web Accessibility Initiative (WAI) to support WCAG 2.0.}
 }
 
 @misc{wcag20techs,
     author =    "Ben Caldwell and Michael Cooper and Loretta Guarino Reid and Gregg Vanderheiden",
     title =     "Techniques for WCAG 2.0",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-WCAG20-TECHS-20070517",
-    month =     may,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-WCAG20-TECHS-20071211",
+    month =     nov,
     year =      2007,
     topic =     "wai[0.9] wcag[1]",
-    uri =       "http://www.w3.org/TR/2007/WD-WCAG20-TECHS-20070517",
+    uri =       "http://www.w3.org/TR/2007/WD-WCAG20-TECHS-20071211",
     abstract =  {"Techniques and Failures for WCAG 2.0" provides information to Web content developers who wish to satisfy the success criteria of Web Content Accessibility Guidelines 2.0 (WCAG 2.0). Techniques are specific authoring practices that may be used in support of the WCAG 2.0 success criteria. This document provides "General Techniques" that describe basic practices that are applicable to any technology, and technology-specific techniques that provide information applicable to specific technologies. Currently, technology-specific techniques are available for HTML, CSS, ECMAScript, SMIL, ARIA, and Web servers. The World Wide Web Consortium only documents techniques for non-proprietary technologies; the WCAG Working Group hopes vendors of other technologies will provide similar techniques to describe how to conform to WCAG 2.0 using those technologies. Use of the techniques provided in this document makes it easier for Web content to demonstrate conformance to WCAG 2.0 success criteria than if these techniques are not used. Besides the techniques provided in this document, there may be other techniques that can be used to implement conformance to WCAG 2.0. The WCAG WG encourages submission of such techniques so they can be considered for inclusion in this document, in order to make the set of techniques maintained by the WCAG WG as comprehensive as possible. Please submit techniques for consideration using the "Techniques Submission Form." This document is part of a series of documents published by the W3C Web Accessibility Initiative (WAI) to support WCAG 2.0.}
 }
 
@@ -27536,24 +27592,24 @@
 @misc{mathml3,
     author =    "David Carlisle and Patrick Ion and Robert Miner",
     title =     "Mathematical Markup Language (MathML) Version 3.0",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-MathML3-20071005",
-    month =     oct,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-MathML3-20071214",
+    month =     dec,
     year =      2007,
     updates =   "mathml2sec",
     topic =     "mathml[1]",
-    uri =       "http://www.w3.org/TR/2007/WD-MathML3-20071005",
+    uri =       "http://www.w3.org/TR/2007/WD-MathML3-20071214",
     abstract =  "This specification defines the Mathematical Markup Language, or MathML. MathML is an XML application for describing mathematical notation and capturing both its structure and content. The goal of MathML is to enable mathematics to be served, received, and processed on the World Wide Web, just as HTML has enabled this functionality for text. This specification of the markup language MathML is intended primarily for a readership consisting of those who will be developing or implementing renderers or editors using it, or software that will communicate using MathML as a protocol for input or output. It is not a User's Guide but rather a reference document. MathML can be used to encode both mathematical notation and mathematical content. About thirty-five of the MathML tags describe abstract notational structures, while another about one hundred and seventy provide a way of unambiguously specifying the intended meaning of an expression. Additional chapters discuss how the MathML content and presentation elements interact, and how MathML renderers might be implemented and should interact with browsers. Finally, this document addresses the issue of special characters used for mathematics, their handling in MathML, their presence in Unicode, and their relation to fonts. While MathML is human-readable, in all but the simplest cases, authors use equation editors, conversion programs, and other specialized software tools to generate MathML. Several versions of such MathML tools exist, and more, both freely available software and commercial products, are under development."
 }
 
 @misc{mathmlforcss,
     author =    "Bert Bos and David Carlisle and George Chavchanidze and Patrick D. F. Ion and Bruce R. Miller",
     title =     "A MathML for CSS Profile",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-mathml-for-css-20070924",
-    month =     sep,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-mathml-for-css-20071214",
+    month =     dec,
     year =      2007,
     topic =     "mathml[0.8]",
-    uri =       "http://www.w3.org/TR/2007/WD-mathml-for-css-20070924",
-    abstract =  "This document describes a profile of MathML 3.0 designed for ease of formatting with Cascading Style Sheets."
+    uri =       "http://www.w3.org/TR/2007/WD-mathml-for-css-20071214",
+    abstract =  "This document describes a profile of MathML 3.0 that admits formatting with Cascading Style Sheets."
 }
 
 @misc{mathmltypes,
@@ -27596,6 +27652,17 @@
     topic =     "mathml[0.7]",
     uri =       "http://www.w3.org/TR/2006/NOTE-arabic-math-20060131",
     abstract =  "This Note analyzes potential problems with the use of MathML for the presentation of mathematics in the notations customarily used with Arabic, and related languages. The goal is to clarify avoidable implementation details that hinder such presentation, as well as to uncover genuine limitations in the specification. These limitations in the MathML specification may require extensions in future versions of the specification."
+}
+
+@misc{xmlentitynames,
+    author =    "David Carlisle",
+    title =     "XML Entity definitions for Characters",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-xml-entity-names-20071214",
+    month =     dec,
+    year =      2007,
+    topic =     "xml[0.8] unicode[0.8]",
+    uri =       "http://www.w3.org/TR/2007/WD-xml-entity-names-20071214",
+    abstract =  "This document defines several sets of names which are assigned to Unicode characters. Each of these sets is also implemented as a file of XML entity declarations."
 }
 
 @misc{xlinknaming,
@@ -28489,14 +28556,15 @@
 }
 
 @misc{emma,
-    author =    "Paolo Baggia and Jerry Carter and Deborah A. Dahl and Gerry McCobb and Dave Raggett",
+    editor =    "Michael Johnston",
+    author =    "Paolo Baggia and Daniel C. Burnett and Jerry Carter and Deborah A. Dahl and Gerry McCobb and Dave Raggett",
     title =     "EMMA: Extensible MultiModal Annotation Markup Language",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-emma-20070409",
-    month =     apr,
+    howpublished =  "World Wide Web Consortium, Candidate Recommandation CR-emma-20071211",
+    month =     nov,
     year =      2007,
     topic =     "emma[1]",
     updates =   "emmareqs",
-    uri =       "http://www.w3.org/TR/2007/WD-emma-20070409",
+    uri =       "http://www.w3.org/TR/2007/CR-emma-20071211",
     abstract =  "The W3C Multimodal Interaction working group aims to develop specifications to enable access to the Web using multi-modal interaction. This document is part of a set of specifications for multi-modal systems, and provides details of an XML markup language for describing the interpretation of user input. Examples of interpretation of user input are a transcription into words of a raw signal, for instance derived from speech, pen or keystroke input, a set of attribute/value pairs describing their meaning, or a set of attribute/value pairs describing a gesture. The interpretation of the user's input is expected to be generated by signal interpretation processes, such as speech and ink recognition, semantic interpreters, and other types of processors for use by components that act on the user's inputs such as interaction managers."
 }
 
