@@ -5511,7 +5511,7 @@
     author =    "Anant Jhingran",
     title =     "Enterprise Information Mashups: Integrating Information, Simply",
     pages =     "3-4",
-    url =       "http://www.vldb.org/conf/2006/p3-jhingran.pdf",
+    uri =       "http://www.vldb.org/conf/2006/p3-jhingran.pdf",
     abstract =  "There is a fundamental transformation that is taking place on the web around information composition through mashups. We first describe this transformation and then assert that this will also affect enterprise architectures. Currently the state-of-the-art in enterprises around information composition is federation and other integration technologies. These scale well, and are well worth the upfront investment for enterprise class, long-lived applications. However, there are many information composition tasks that are not currently well served by these architectures. The needs of Situational Applications (i.e. applications that come together for solving some immediate business problems) are one such set of tasks. Augmenting structured data with unstructured information is another such task. Our hypothesis is that a new class of integration technologies will emerge to serve these tasks, and we call it an enterprise information mashup fabric. In the talk, we discuss the information management primitives that are needed for this fabric, the various options that exist for implementation, and pose several, currently unanswered, research questions."
 }
 
@@ -5537,7 +5537,7 @@
     author =    "Michael Stonebraker and Samuel Madden and Daniel J. Abadi and Stavros Harizopoulos and Nabil Hachem and Pat Helland",
     title =     "The End of an Architectural Era (It's Time for a Complete Rewrite)",
     pages =     "1150-1160",
-    url =       "http://www.vldb.org/conf/2007/papers/industrial/p1150-stonebraker.pdf",
+    uri =       "http://www.vldb.org/conf/2007/papers/industrial/p1150-stonebraker.pdf",
     abstract =  {In previous papers, some of us predicted the end of "one size fits all" as a commercial relational DBMS paradigm. These papers presented reasons and experimental evidence that showed that the major RDBMS vendors can be outperformed by 1-2 orders of magnitude by specialized engines in the data warehouse, stream processing, text, and scientific database markets. Assuming that specialized engines dominate these markets over time, the current relational DBMS code lines will be left with the business data processing (OLTP) market and hybrid markets where more than one kind of capability is required. In this paper we show that current RDBMSs can be beaten by nearly two orders of magnitude in the OLTP market as well. The experimental evidence comes from comparing a new OLTP prototype, H-Store, which we have built at M.I.T. to a popular RDBMS on the standard transactional benchmark, TPC-C. We conclude that the current RDBMS code lines, while attempting to be a "one size fits all" solution, in fact, excel at nothing. Hence, they are 25 year old legacy code lines that should be retired in favor of a collection of "from scratch" specialized engines. The DBMS vendors (and the research community) should start with a clean sheet of paper and design systems for tomorrow’s requirements, not continue to push code lines and architectures designed for yesterday’s needs.}
 }
 
@@ -17059,7 +17059,8 @@
     year =      2007,
     address =   zueri,
     note =      "Diss. ETH No. 17397",
-    uri =       "http://e-collection.ethbib.ethz.ch/show?type=diss&nr=17397"
+    uri =       "http://e-collection.ethbib.ethz.ch/show?type=diss&nr=17397",
+    abstract =  "Sensor nodes are small, inexpensive, and programmable devices that combine an autonomous power supply with computing, sensing, and wireless communication capabilities. Networks of sensor nodes can be deployed in the environment at a large scale to unobtrusively monitor phenomena of the real world. Wireless sensor networks are an emerging field of research with many potential applications. So far, however, only few applications have actually been realized. This is in part due to the lack of appropriate programming support, which makes the development of sensor-network applications tedious and error prone. This dissertation contributes a novel programming model and development environment for the efficient, modular, and well structured programming of wireless sensor nodes. Today there are two principal programming models used for sensor nodes, the multi-threaded model and the event-driven model. The multi-threaded model requires system support that is often considered too heavy for sensor nodes that operate at the low end of the resource spectrum. To cope with this issue, the event-driven model has been proposed. It requires very little runtime support by the system software and can thus be implemented even on the most constrained sensor nodes. The simple and lightweight approach to system software, however, tends to make event-driven applications in turn quite memory inefficient: Since the event-driven model limits the use of local variables, programmers need to store temporary data in global variables. The memory of global variables, however, cannot easily and automatically be reused, hence the memory inefficiency. To counter this effect, programmers can resort to manual memory management, though this significantly affects program correctness and code modularity. In addition to its drawback of memory inefficiency, event-driven programming requires developers to manually keep track of the current program-state, which makes code modularization and debugging difficult, and leads to unstructured code. The key contribution of this dissertation is to show that the inadequacies of the event-driven model can be remedied without impairing its positive aspects, particularly its memory-efficient realization in sensor-node system software. Concretely, we present the Object State Model (OSM), a programming model that extends the event-driven programming paradigm with a notion of hierarchical and concurrent program states. Our thesis is that such a state-based model allows to specify well-structured, modular, and memory-efficient programs, yet requires as few runtime-resources as the event-driven model. To support this claim, we also present a programming environment based on the OSM model (including a programming language and compiler), as well as a sensor-node operating system capable of executing OSM programs. The main idea behind OSM is to explicitly model sensor-node programs as state machines, where variables are associated with states and computational operations are associated with state transitions. In OSM, states serve three purposes. Firstly, states are used as scoping mechanism for variables. The scope and lifetime of variables attached to a state is confined to that state and all of its substates. The memory for storing a state's variables is automatically reclaimed by the runtime system as the program leaves the corresponding state. State variables can be thought of as the local variables of OSM. As such they represent a great advancement over event-driven programming, where the majority of variables effectively have global scope and lifetime. By modeling temporary data with state variables, the use of OSM can significantly increase a program's memory efficiency. Secondly, the explicit notion of program states allows to model the structure and control flow of a program on a high abstraction level. Specifically, programs can be initially specified in terms of coarse modules (i.e., states), which can be subsequently refined (with substates), leading to modular and readable program code. The third purpose of states is to provide a context for computational operations. States clearly define which variables are visible, and at what point in the control flow the program resides when an operation is executed. In the event-driven model, in contrast, the program's context has to be maintained manually, which typically constitutes a significant fraction of the code, thus making the program hard to read and error prone. The OSM programming language captures the three concepts described above in order to foster memory efficient, modular, and well-structured programs. A compiler for the proposed language transforms state-based OSM programs back into an event-driven program notation, adding code for automatic memory management of state variables and code for automatic control-flow management. The compiler-generated code is very lean and does not impose additional requirements on the system software, such as dynamic memory management. Rather, the transformed programs are directly executable on our event-driven system software for resource-constrained sensor nodes. Our language, compiler, and sensor-node system software form the basis of our thesis and constitute a complete state-based programming environment for resource-constrained sensor nodes based on OSM."
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -25063,6 +25064,39 @@
     abstract =  "This document presents an ontology of temporal concepts, OWL-Time (formerly DAML-Time), for describing the temporal content of Web pages and the temporal properties of Web services. The ontology provides a vocabulary for expressing facts about topological relations among instants and intervals, together with information about durations, and about datetime information. We also demonstrate in detail, using the Congo.com and Bravo Air examples from OWL-S, how this time ontology can be used to support OWL-S, including use cases for defining input parameters and (conditional) output parameters. A use case for meeting scheduling is also shown. In the appendix we also describe a time zone resource in OWL we developed for not only the US but also the entire world, including the time zone ontology, the US time zone instances, and the world time zone instances."
 }
 
+@misc{owl11syntax,
+    author =    "Boris Motik and Peter F. Patel-Schneider and Ian Horrocks",
+    title =     "OWL 1.1 Web Ontology Language: Structural Specification and Functional-Style Syntax",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl11-syntax-20080108",
+    month =     jan,
+    year =      2008,
+    topic =     "owl[1]",
+    uri =       "http://www.w3.org/TR/2008/WD-owl11-syntax-20080108",
+    abstract =  "OWL 1.1 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodeling, and extended annotations. This document defines a functional-style syntax for OWL 1.1, and provides an informal discussion of the meaning of the additional constructs. As well, an informational structural specification of OWL 1.1 ontologies is provided."
+}
+
+@misc{owl11semantics,
+    author =    "Bernardo Cuenca Grau and Boris Motik",
+    title =     "OWL 1.1 Web Ontology Language: Model-Theoretic Semantics",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl11-semantics-20080108",
+    month =     jan,
+    year =      2008,
+    topic =     "owl[1]",
+    uri =       "http://www.w3.org/TR/2008/WD-owl11-semantics-20080108",
+    abstract =  "OWL 1.1 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodeling, and extended annotations. This document provides a model-theoretic semantics for OWL 1.1."
+}
+
+@misc{owl11mappingtordf,
+    author =    "Bernardo Cuenca Grau and Boris Motik",
+    title =     "OWL 1.1 Web Ontology Language: Mapping to RDF Graphs",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl11-mapping-to-rdf-20080108",
+    month =     jan,
+    year =      2008,
+    topic =     "owl[0.9] rdf[0.9]",
+    uri =       "http://www.w3.org/TR/2008/WD-owl11-mapping-to-rdf-20080108",
+    abstract =  "OWL 1.1 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodeling, and extended annotations. This document provides a mapping from the functional-style syntax of OWL 1.1 to the RDF exchange syntax for OWL 1.1, and vice versa."
+}
+
 @misc{wordnetrdf,
     author =    "Mark van Assem and Aldo Gangemi and Guus Schreiber",
     title =     "RDF/OWL Representation of WordNet",
@@ -27348,14 +27382,26 @@
     abstract =  {This document specifies the third version of the Synchronized Multimedia Integration Language (SMIL, pronounced "smile"). SMIL 3.0 has the following design goals: (1) Define an XML-based language that allows authors to write interactive multimedia presentations. Using SMIL, an author can describe the temporal behaviour of a multimedia presentation, associate hyperlinks with media objects and describe the layout of the presentation on a screen. (2) Allow reusing of SMIL syntax and semantics in other XML-based languages, in particular those who need to represent timing and synchronization. For example, SMIL components are used for integrating timing into XHTML and into SVG. (3) Extend the functionalities contained in the SMIL 2.1 into new or revised SMIL 3.0 modules. (4) Define new SMIL 3.0 Profiles incorporating features useful within the industry.}
 }
 
+@misc{smiltimesheets,
+    author =    "Petri Vuorimaa and Dick Bulterman and Pablo Cesar",
+    title =     "SMIL Timesheets 1.0",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-timesheets-20080110",
+    month =     jan,
+    year =      2008,
+    topic =     "smil[0.9]",
+    uri =       "http://www.w3.org/TR/2008/WD-timesheets-20080110",
+    abstract =  "This document defines an XML timing language that makes SMIL 3.0 element and attribute timing control available to a wide range of other XML languages. This language allows SMIL timing to be integrated into a wide variety of a-temporal languages, even when several such languages are combined in a compound document. Because of its similarity with external style and positioning descriptions in the Cascading Style Sheet (CSS) language, this functionality has been termed SMIL Timesheets."
+}
+
 @misc{smilanim,
     author =    "Patrick Schmitz and Aaron Cohen",
     title =     "SMIL Animation",
     howpublished =  "World Wide Web Consortium, Recommendation REC-smil-animation-20010904",
     month =     sep,
     year =      2001,
-    topic =     "smil[1] hypermedia[0.8]",
-    uri =       "http://www.w3.org/TR/2001/REC-smil-animation-20010904"
+    topic =     "smil[0.9]",
+    uri =       "http://www.w3.org/TR/2001/REC-smil-animation-20010904",
+    abstract =  "This is a W3C Recommendation of a specification of animation functionality for XML documents.  It describes an animation framework as well as a set of base XML animation elements suitable for integration with XML documents. It is based upon the SMIL 1.0 timing model, with some extensions, and is a true subset of SMIL 2.0. This provides an intermediate stepping stone in terms of implementation complexity, for applications that wish to have SMIL-compatible animation but do not need or want time containers."
 }
 
 @misc{smil2authext,
@@ -29523,6 +29569,17 @@
     topic =     "xhtml[0.9]",
     uri =       "http://www.w3.org/TR/2007/WD-xhtml-role-20071004",
     abstract =  "The XHTML Role Attribute defined in this specification allows the author to annotate XML Languages with machine-extractable semantic information about the purpose of an element. Use cases include accessibility, device adaptation, server-side processing, and complex data description. This attribute can be integrated into any markup language based upon XHTML Modularization."
+}
+
+@misc{xhtmlaccess,
+    author =    "Mark Birbeck and Shane McCarron and Steven Pemberton and T. V. Raman and Richard Schwerdtfeger",
+    title =     "XHTML Access Module",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-xhtml-access-20080107",
+    month =     jan,
+    year =      2008,
+    topic =     "xhtml[0.8]",
+    uri =       "http://www.w3.org/TR/2008/WD-xhtml-access-20080107",
+    abstract =  "The XHTML Access module defines an element that, when used in conjunction with other XHTML modules in XHTML Family Markup Languages, enables a more robust accessibility model than is presently possible."
 }
 
 @misc{xhtmlmathmlsvg,
