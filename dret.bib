@@ -500,6 +500,21 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@string{iwc = "Interacting with Computers" }
+
+@article{abo92,
+    author =    "Gregory D. Abowd and Alan J. Dix",
+    journal =   iwc,
+    title =     "Giving Undo Attention",
+    year =      1992,
+    month =     dec,
+    volume =    4,
+    issue =     3,
+    pages =     "317-342"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 @string{oir = "Online Information Review" }
 
 @article{wil08a,
@@ -9584,6 +9599,14 @@
     abstract =  "XML itself does not support hypermedia, but the XLink standard has been defined to make XML usable for hypermedia. One of XLink's most interesting features is its support for external links and linkbases, which makes it possible to create links between resources without having to change the resources. In order to use these links, user agents must access linkbases and query them for relevant links, and we present our approach to create a protocol for linkbase access."
 }
 
+@inproceedings{mil02,
+    crossref =  "www2002p",
+    author =    "Natasa Milic-Frayling and Ralph Sommerer",
+    title =     "SmartView: Flexible Viewing of Web Page Contents",
+    uri =       "http://www2002.org/CDROM/poster/172/",
+    abstract =  "SmartView is a functionality built into a document viewer that performs partitioning of an HTML document content into logical sections that can further be selected by the user and viewed independently from the rest of the document. The SmartView interface enforces the concept of a document by allowing the user to view both the document overview (e.g., a zoomed out version of the document, a document thumbnail(s), etc.) and a detailed view of the selected section of the document. The layout of the detailed view is modified to achieve the presentation that is desired by the user or is optimal for a device. The SmartView functionality is essential in cases when the document layout is optimized for displays of certain size but need to be viewed on smaller devices --- a situation that requires significant document scaling and layout changes (e.g., viewing of Web pages on PDAs). It is equally important in instances when only a portion of a document needs to be displayed (e.g., showing a section of a Web page on a large screen). The current implementation of SmartView is compatible with the Microsoft Internet Explorer v.6.0."
+}
+
 @proceedings{www2002p,
     title =     www2002p,
     booktitle = www2002p,
@@ -12493,12 +12516,20 @@
 @string{hicss34 = "Proceedings of the 34th Hawaii International Conference on System Sciences" }
 
 @inproceedings{goe01,
-    crossref =  "hicss33",
+    crossref =  "hicss34",
     author =    {Karl Michael G\"oschka and Robert Smeikal},
     title =     "Interaction Markup Language --- An Open Interface for Device Independent Interaction with E-Commerce Applications",
     uri =       "http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=927106",
     doi =       "10.1109/HICSS.2001.927106",
     abstract =  "Modern E-Commerce Applications tend to have a lot of different user interfaces, most important today are Java and HTML but also emerging technologies like Agents or WAP cellular phones or even three dimensional environments (VRML). The difficulty is to make all those interfaces work together with the same application in an almost similar and transparent way and to keep them synchronized with each other during the lifetime of the application. Our approach is to describe the interactions of an UI rather than the elements or components with an XML description called IML --- Interaction Markup Language. Unlike UIML (User Interface Markup Language) those interactions are then assigned to technology specific interactions first, which in turn are then finally assigned to a particular implementation. An IML description is also stable against future developments: To enable the application for a new device, only the IML renderer has to be implemented."
+}
+
+@inproceedings{mck01,
+    crossref =  "hicss34",
+    author =    "Bruce McKenzie and Andy Cockburn",
+    title =     "An Emprical Analysis of Web Page Revisitation",
+    uri =       "http://www.hicss.hawaii.edu/HICSS_34/PDFs/ETWFW03.pdf",
+    abstract =  "There is a surprising lack of empirical research into user interaction with the web. This paper reports the results of an analysis of four months of logged data describing web use. The results update and extend earlier studies carried out in 1994 and 1995. We found that web page revisitation is a much more prevalent activity than previously reported (approximately 80 percent of pages have been previously visited by the user), that most pages are visited for a surprisingly short period, and that users maintain large (and possibly overwhelming) bookmark collections."
 }
 
 @proceedings{hicss34,
@@ -12509,7 +12540,8 @@
     publisher = ieeecsp,
     address =   maui,
     index =     "HICSS-34",
-    uri =       "http://www.computer.org/proceedings/hicss/0493/04933/0493toc.htm"
+    uri =       "http://www.computer.org/proceedings/hicss/0493/04933/0493toc.htm",
+    uri =       "http://www.informatik.uni-trier.de/~ley/db/conf/hicss/hicss2001-7.html"
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -30614,7 +30646,7 @@
 }
 
 @misc{dav03b,
-    author =    "Andrew Daviel and Felix K\"agi and Martin Kofahl",
+    author =    {Andrew Daviel and Felix K\"agi and Martin Kofahl},
     title =     "Geographic Extensions for HTTP Transactions",
     howpublished =  "Internet Draft draft-daviel-http-geo-header-05",
     month =     dec,
