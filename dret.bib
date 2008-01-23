@@ -1762,6 +1762,19 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@string{linuxmag =    "Linux Magazine" }
+
+@article{mcf05,
+    author =    "Nigel McFarlane",
+    title =     "Fixing Web Sites with Greasemonkey",
+    journal =   linuxmag,
+    year =      2005,
+    month =     aug,
+    uri =       "http://www.linuxjournal.com/article/8215"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 @string{ix =    "iX" }
 
 @article{fis04,
@@ -18996,6 +19009,18 @@
     uri =       "http://www.awprofessional.com/title/0321136209"
 }
 
+@book{pil05,
+    author =    "Mark Pilgrim",
+    title =     "Greasemonkey Hacks",
+    publisher = oreilly,
+    year =      2005,
+    month =     nov,
+    address =   sebasto,
+    isbn =      "0-596-10165-1",
+    uri =       "http://www.oreilly.com/catalog/greasemonkeyhks/",
+    abstract =  "Greasemonkey --- the new Firefox extension that allows you to write scripts that alter the web pages you visit --- allows you to alter site appearance, fix bugs, or even combine data from different web sites to meet your own needs. Some people are content to receive information from websites passively; some people want to control it. For those who prefer to customize and control their content, Greasemonkey Hacks provides the expertise you need to take command of any web page you view."
+}
+
 @book{ric07,
     author =    "Leonard Richardson and Sam Ruby",
     title =     "RESTful Web Services",
@@ -27476,7 +27501,7 @@
     year =      2001,
     topic =     "smil[0.9]",
     uri =       "http://www.w3.org/TR/2001/REC-smil-animation-20010904",
-    abstract =  "This is a W3C Recommendation of a specification of animation functionality for XML documents.  It describes an animation framework as well as a set of base XML animation elements suitable for integration with XML documents. It is based upon the SMIL 1.0 timing model, with some extensions, and is a true subset of SMIL 2.0. This provides an intermediate stepping stone in terms of implementation complexity, for applications that wish to have SMIL-compatible animation but do not need or want time containers."
+    abstract =  "This is a W3C Recommendation of a specification of animation functionality for XML documents. It describes an animation framework as well as a set of base XML animation elements suitable for integration with XML documents. It is based upon the SMIL 1.0 timing model, with some extensions, and is a true subset of SMIL 2.0. This provides an intermediate stepping stone in terms of implementation complexity, for applications that wish to have SMIL-compatible animation but do not need or want time containers."
 }
 
 @misc{smil2authext,
@@ -29508,6 +29533,29 @@
     abstract =  "HTML 5 defines the fifth major revision of the core language of the World Wide Web, HTML. This document describes the set of guiding principles used by the HTML Working Group for the development of HTML 5. The principles offer guidance for the design of HTML in the areas of compatibility, utility and interoperability."
 }
 
+@misc{html5,
+    author =    "Ian Hickson and David Hyatt",
+    title =     "HTML 5 --- A Vocabulary and Associated APIs for HTML and XHTML",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-html5-20080122",
+    month =     jan,
+    year =      2008,
+    topic =     "html[1]",
+    updates =   "html401",
+    uri =       "http://www.w3.org/TR/2008/WD-html5-20080122",
+    abstract =  "This specification defines the 5th major revision of the core language of the World Wide Web, HTML. In this version, new features are introduced to help Web application authors, new elements are introduced based on research into prevailing authoring practices, and special attention has been given to defining clear conformance criteria for user agents in an effort to improve interoperability."
+}
+
+@misc{html50,
+    author =    "Ian Hickson and David Hyatt",
+    title =     "HTML 5 differences from HTML 4",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-html5-diff-20080122",
+    month =     jan,
+    year =      2008,
+    topic =     "html[0.9]",
+    uri =       "http://www.w3.org/TR/2008/WD-html5-diff-20080122",
+    abstract =  {HTML 5 defines the fifth major revision of the core language of the World Wide Web, HTML. "HTML 5 differences from HTML 4" describes the differences between HTML 4 and HTML 5 and provides some of the rationale for the changes. This document may not provide accurate information as the HTML 5 specification is still actively in development. When in doubt, always check the HTML 5 specification itself.}
+}
+
 @misc{xhtml10,
     author =    "Steven Pemberton",
     title =     "XHTML 1.0: The Extensible HyperText Markup Language",
@@ -30662,7 +30710,7 @@
     month =     sep,
     year =      2007,
     uri =       "https://datatracker.ietf.org/drafts/draft-goodwin-iso-urn",
-    abstract =  "This document describes a Uniform Resource Name Namespace Identification (URN NID) for the International Organization for Standardization (ISO).  This URN NID is intended for use for the identification of persistent resources published by the ISO standards body (including documents, document metadata, extracted resources such as standard schemata and standard value sets, and other resources)."
+    abstract =  "This document describes a Uniform Resource Name Namespace Identification (URN NID) for the International Organization for Standardization (ISO). This URN NID is intended for use for the identification of persistent resources published by the ISO standards body (including documents, document metadata, extracted resources such as standard schemata and standard value sets, and other resources)."
 }
 
 @misc{pfe05,
@@ -30815,6 +30863,28 @@
     topic =     "iri[1]",
     updates =   "mas01",
     abstract =  "This document defines a new protocol element, the Internationalized Resource Identifier (IRI), as a complement to the Uniform Resource Identifier (URI). An IRI is a sequence of characters from the Universal Character Set (Unicode/ISO 10646). A mapping from IRIs to URIs is defined, which means that IRIs can be used instead of URIs where appropriate to identify resources. The approach of defining a new protocol element was chosen, instead of extending or changing the definition of URIs, to allow a clear distinction and to avoid incompatibilities with existing software. Guidelines for the use and deployment of IRIs in various protocols, formats, and software components that now deal with URIs are provided."
+}
+
+@misc{due08,
+    author =    {Martin J. D\"urst and Larry Masinter and Jamie Zawinski},
+    title =     "The 'mailto' URI Scheme",
+    howpublished =  "Internet Draft draft-duerst-mailto-bis-04",
+    month =     jan,
+    year =      2008,
+    topic =     "uri[0.8]",
+    updates =   "rfc2368",
+    abstract =  "This document defines the format of Uniform Resource Identifiers (URI) to identify resources that are reached using Internet mail. It updates the syntax of 'mailto' URIs from [RFC2368] for better internationalization and compatibility with IRIs ([RFC3987])."
+}
+
+@misc{due07,
+    author =    {Martin J. D\"urst and Michel Suignard},
+    title =     "Internationalized Resource Identifiers (IRIs)",
+    howpublished =  "Internet Draft draft-duerst-iri-bis-02",
+    month =     dec,
+    year =      2007,
+    topic =     "iri[1] leiri[1]",
+    updates =   "rfc3987",
+    abstract =  "This document defines a new protocol element, the Internationalized Resource Identifier (IRI), as a complement to the Uniform Resource Identifier (URI). An IRI is a sequence of characters from the Universal Character Set (Unicode/ISO 10646). A mapping from IRIs to URIs is defined, which means that IRIs can be used instead of URIs, where appropriate, to identify resources. The approach of defining a new protocol element was chosen instead of extending or changing the definition of URIs. This was done in order to allow a clear distinction and to avoid incompatibilities with existing software. Guidelines are provided for the use and deployment of IRIs in various protocols, formats, and software components that currently deal with URIs."
 }
 
 @misc{gre06,
@@ -35779,7 +35849,7 @@
     month =     jan,
     year =      2005,
     topic =     "nemo[1]",
-    abstract =  "This document describes the Network Mobility (NEMO) Basic Support protocol that enables Mobile Networks to attach to different points in the Internet.  The protocol is an extension of Mobile IPv6 and allows session continuity for every node in the Mobile Network as the network moves.  It also allows every node in the Mobile Network to be reachable while moving around.  The Mobile Router, which connects the network to the Internet, runs the NEMO Basic Support protocol with its Home Agent.  The protocol is designed so that network mobility is transparent to the nodes inside the Mobile Network."
+    abstract =  "This document describes the Network Mobility (NEMO) Basic Support protocol that enables Mobile Networks to attach to different points in the Internet. The protocol is an extension of Mobile IPv6 and allows session continuity for every node in the Mobile Network as the network moves. It also allows every node in the Mobile Network to be reachable while moving around. The Mobile Router, which connects the network to the Internet, runs the NEMO Basic Support protocol with its Home Agent. The protocol is designed so that network mobility is transparent to the nodes inside the Mobile Network."
 }
 
 @misc{rfc3966,
