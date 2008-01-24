@@ -181,6 +181,7 @@
 @string{frank =     "Frankfurt, Germany" }
 @string{freiburg =  "Freiburg, Germany" }
 @string{frisco =    "San Francisco, California" }
+@string{gaithers =  "Gaithersburg, Maryland" }
 @string{gallipoli = "Gallipoli, Italy" }
 @string{galway =    "Galway, Ireland" }
 @string{geneva =    "Geneva, Switzerland" }
@@ -5710,6 +5711,27 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@string{hfw99 = "Proceedings of the 5th Annual Human Factors and the Web Conference" }
+
+@inproceedings{gre99,
+    crossref =  "hfw99",
+    author =    "Saul Greenberg and Andy Cockburn",
+    title =     "Getting Back to Back: Alternate Behaviors for a Web Browser's Back Button",
+    uri =       "http://zing.ncsl.nist.gov/hfweb/proceedings/greenberg/",
+    abstract =  "This paper concerns the ubiquitous Back button found in most Web browsers. First, we outline why Back is an effective method for revisiting WWW pages: a) It allows rapid return to very recently visited pages, which comprise the majority of pages a person wishes to return to; b) People can use it even with a naive model of the way it works; c) People usually keep it on permanent display because it is visually compact; and d) Back works via a simple 'click until the desired page is recognized' strategy. Second, we investigate the behavior of Back. The typical stack-based behavior underlying Back is problematic because some previously seen pages are not reachable through it. To get around this problem, we offer several alternate behaviors of the Back button, all based upon a recency model. The advantage of recency is that all previously seen pages are now available via Back. Because trade-offs exist, we present both problems and prospects of these different Back behaviors in various navigational situations."
+}
+
+@proceedings{hfw99,
+    title =     hfw99,
+    booktitle = hfw99,
+    address =   gaithers,
+    month =     jun,
+    year =      1999,
+    uri =       "http://zing.ncsl.nist.gov/hfweb/proceedings/proceedings.en.html"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 @string{ecows04 = "Web Services --- Proceedings of the 2004 European Conference on Web Services" }
 
 @inproceedings{wil04j,
@@ -9799,7 +9821,7 @@
 @inproceedings{mil04,
     crossref =  "www2004",
     author =    "Natasa Milic-Frayling and Rachel Jones and Kerry Rodden and Gavin Smyth and Alan F. Blackwell and Ralph Sommerer",
-    title =     "Smartback: Supporting Users in Back Navigation",
+    title =     "SmartBack: Supporting Users in Back Navigation",
     pages =     "63-71",
     doi =       "10.1145/988672.988682",
     abstract =  "This paper presents the design and user evaluation of SmartBack, a feature that complements the standard Back button by enabling users to jump directly to key pages in their navigation session, making common navigation activities more efficient. Defining key pages was informed by the findings of a user study that involved detailed monitoring of Web usage and analysis of Web browsing in terms of navigation trails. The pages accessible through SmartBack are determined automatically based on the structure of the user's navigation trails or page association with specific user's activities, such as search or browsing bookmarked sites. We discuss implementation decisions and present results of a usability study in which we deployed the SmartBack prototype and monitored usage for a month in both corporate and home settings. The results show that the feature brings qualitative improvement to the browsing experience of individuals who use it."
