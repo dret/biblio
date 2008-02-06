@@ -2357,6 +2357,20 @@
 
 @string{cacm =      "Communications of the ACM" }
 
+@article{coh03,
+    author =    "Julie E. Cohen",
+    title =     "DRM and Privacy",
+    journal =   cacm,
+    year =      2003,
+    month =     apr,
+    volume =    46,
+    number =    4,
+    pages =     "47-49",
+    topic =     "drm[0.9]",
+    uri =       "http://www.law.georgetown.edu/Faculty/jec/CommACMdrm.pdf",
+    doi =       "10.1145/641205.641230"
+}
+
 @article{tho68,
     author =    "Ken Thompson",
     title =     "Programming Techniques: Regular Expression Search Algorithm",
@@ -26516,12 +26530,12 @@
 @misc{ariaroadmap,
     author =    "Richard Schwerdtfeger",
     title =     "Roadmap for Accessible Rich Internet Applications (WAI-ARIA Roadmap)",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-aria-roadmap-20071019",
-    month =     oct,
-    year =      2007,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-wai-aria-roadmap-20080204",
+    month =     feb,
+    year =      2008,
     topic =     "aria[0.9] ajax[0.8]",
-    uri =       "http://www.w3.org/TR/2007/WD-aria-roadmap-20071019",
-    abstract =  "The Roadmap for Accessible Rich Internet Applications (WAI-ARIA Roadmap) addresses the accessibility of dynamic Web content for people with disabilities. The roadmap outlines the technologies to map controls, AJAX live regions, and events to accessibility APIs, including custom controls used for Rich Internet Applications. The roadmap also outlines new navigation techniques to mark common Web structures as menus, primary content, secondary content, banner information and other types of Web structures. These new technologies can be used to improve the accessibility and usability of Web resources by people with disabilities, without extensive modification to existing libraries of Web resources. This roadmap identifies some technology gaps to achieve the desired access. Some of the technologies required to fill these gaps are under development in other W3C Groups, such as the XHTML Role Attribute Module being developed by the HTML Activity. The remaining gaps are planned to be filled by two companion specifications: Roles for Accessible Rich Internet Applications and States and Properties Module for Accessible Rich Internet Applications."
+    uri =       "http://www.w3.org/TR/2008/WD-wai-aria-roadmap-20080204",
+    abstract =  "The Roadmap for Accessible Rich Internet Applications addresses the accessibility of dynamic Web content for people with disabilities. The roadmap introduces the technologies to map controls, Ajax live regions, and events to accessibility APIs, including custom controls used for Rich Internet Applications. The roadmap also describes new navigation techniques to mark common Web structures as menus, primary content, secondary content, banner information and other types of Web structures. These new technologies can be used to improve the accessibility and usability of Web resources by people with disabilities, without extensive modification to existing libraries of Web resources. This document is part of the WAI-ARIA suite described in the ARIA Overview."
 }
 
 @misc{ariastate,
@@ -26544,6 +26558,40 @@
     topic =     "aria[1]",
     uri =       "http://www.w3.org/TR/2007/WD-aria-role-20071019",
     abstract =  "Accessibility is often dependent on Assistive Technology (AT), tools that provide alternate modes of access for people with disabilities by transforming complex user interfaces into an alternate presentation. This transformation requires information about the role, state, and other semantics of specific portions of a document to be able to transform them appropriately. Rich Web applications typically rely on hybrid technologies such as DHTML and AJAX that combine multiple technologies: SVG, HTML and JavaScript for example. The various technologies provide much but not all of the information needed to support AT adequately. This specification provides a Web-standard way to identify roles in dynamic Web content. The result is an interoperable way to associate behaviors and structure with existing markup. This document and the States and Properties Module for Accessible Rich Internet Applications (WAI-ARIA States and Properties) fill information gaps identified by the Roadmap for Accessible Rich Internet Applications (WAI-ARIA Roadmap). The role attribute defined in the XHTML Role Attribute Module is the preferred way to expose these roles in XHTML applications."
+}
+
+@misc{ariaprimer,
+    author =    "Lisa Pappas and Richard Schwerdtfeger and Michael Cooper",
+    title =     "WAI-ARIA Primer",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-wai-aria-primer-20080204",
+    month =     feb,
+    year =      2008,
+    topic =     "aria[1]",
+    uri =       "http://www.w3.org/TR/2008/WD-wai-aria-primer-20080204",
+    abstract =  "The WAI-ARIA Primer introduces developers to the use of WAI-ARIA for addressing the accessibility of dynamic Web content for people with disabilities. This primer explains the accessibility problems posed by hybrid technologies such as DHTML and Ajax. It introduces the technologies to map controls, Ajax live regions, and events to accessibility APIs, including custom controls used for Rich Internet Applications. The primer also describes new navigation techniques to mark common Web elements such as menus, primary content, secondary content, banner information and other types of Web structures. These new technologies can be used to improve the accessibility and usability of Web resources by people with disabilities, without extensive modification to existing libraries of Web resources. This document is part of the WAI-ARIA suite described in the WAI-ARIA Overview."
+}
+
+@misc{ariapractices,
+    author =    "Lisa Pappas and Michael Cooper and Richard Schwerdtfeger",
+    title =     "WAI-ARIA Best Practices",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-wai-aria-practices-20080204",
+    month =     feb,
+    year =      2008,
+    topic =     "aria[1]",
+    uri =       "http://www.w3.org/TR/2008/WD-wai-aria-practices-20080204",
+    abstract =  "This document specifies Best Practices for delivering accessible rich internet applications using WAI-ARIA. The principle objective is to produce a usable, accessible experience over the Web. It provides recommended approaches to create accessible Web content using WAI-ARIA roles, states, and properties to make widgets, navigation, and behaviors accessible. The document also describes considerations that might not be evident to most implementers from the WAI-ARIA specification alone. This document is directed primarily to Web application developers, but the guidance is also useful to user agent and assistive technology developers. This document is part of the WAI-ARIA suite described in the WAI-ARIA Overview."
+}
+
+@misc{aria,
+    author =    "Lisa Seeman and Michael Cooper and Richard Schwerdtfeger and Lisa Pappas",
+    title =     "Accessible Rich Internet Applications (WAI-ARIA) Version 1.0",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-wai-aria-20080204",
+    month =     feb,
+    year =      2008,
+    topic =     "aria[1]",
+    updates =   "ariastate ariarole",
+    uri =       "http://www.w3.org/TR/2008/WD-wai-aria-20080204",
+    abstract =  "Accessibility of Web content to people with disabilities requires semantic information about widgets, structures, and behaviors, in order to allow Assistive Technologies to make appropriate transformations. This specification provides an ontology of roles, states, and properties that set out an abstract model for accessible interfaces and can be used to improve the accessibility and interoperability of Web Content and Applications. This information can be mapped to accessibility frameworks that use this information to provide alternative access solutions. Similarly, this information can be used to change the rendering of content dynamically using different style sheet properties. The result is an interoperable method for associating behaviors with document-level markup. This document is part of the WAI-ARIA suite described in the WAI-ARIA Overview."
 }
 
 @misc{rwabackplane,
