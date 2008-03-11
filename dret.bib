@@ -293,6 +293,7 @@
 @string{seoul =     "Seoul, Korea" }
 @string{setubal =   "Set\'ubal, Portugal" }
 @string{shanghai =  "Shanghai" }
+@string{sheffield = "Sheffield, UK" }
 @string{sophia =    "Sophia Antipolis, France" }
 @string{south =     "Southampton, UK" }
 @string{stanford =  "Stanford, California" }
@@ -3514,6 +3515,23 @@
     doi =       "10.1016/S0360-1315(03)00027-7",
     uri =       "http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1593566",
     abstract =  "We investigated whether students liked and learned more from PowerPoint presentations than from overhead transparencies. Students were exposed to lectures supported by transparencies and two different types of PowerPoint presentations. At the end of the semester, students preferred PowerPoint presentations but this preference was not found on ratings taken immediately after the lectures. Students performed worse on quizzes when PowerPoint presentations included non-text items such as pictures and sound effects. A second study further examined these findings. In this study participants were shown PowerPoint slides that contained only text, contained text and a relevant picture, and contained text with a picture that was not relevant. Students performed worse on recall and recognition tasks and had greater dislike for slides with pictures that were not relevant. We conclude that PowerPoint can be beneficial, but material that is not pertinent to the presentation can be harmful to students' learning."
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@string{jceus =  "Computers, Environment and Urban Systems" }
+
+@article{sil06,
+    author =    "M{\'a}rio J. Silva and Bruno Martins and Marcirio Silveira Chaves and Ana Paula Afonso and Nuno Cardoso",
+    title =     "Adding Geographic Scopes to Web Resources",
+    journal =   jceus,
+    year =      2006,
+    month =     jul,
+    volume =    30,
+    number =    4,
+    pages =     "378-399",
+    doi =       "10.1016/j.compenvurbsys.2005.08.003",
+    abstract =  "Many web pages are rich in geographic information and primarily relevant to geographically limited communities. However, existing IR systems only recently began to offer local services and largely ignore geo-spatial information. This paper presents our work on automatically identifying the geographical scope of web documents, which provides the means to develop retrieval tools that take the geographical context into consideration. Our approach makes extensive use of an ontology of geographical concepts, and includes a system architecture for extracting geographic information from large collections of web documents. The proposed method involves recognising geographical references over the documents and assigning geographical scopes through a graph ranking algorithm. Initial evaluation results are encouraging, indicating the viability of this approach."
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -8537,6 +8555,33 @@
     index =     "SIGIR 2003",
     uri =       "http://portal.acm.org/citation.cfm?id=860435",
     uri =       "http://www.informatik.uni-trier.de/~ley/db/conf/sigir/sigir2003.html"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@string{sigir04 =  "Proceedings of the 27th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval" }
+
+@inproceedings{ami04,
+    crossref =  "sigir04",
+    author =    "Einat Amitay and Nadav Har'El and Ron Sivan and Aya Soffer",
+    title =     "Web-a-Where: Geotagging Web Content",
+    pages =     "273--280",
+    doi =       "10.1145/1008992.1009040",
+    uri =       "einat.webir.org/SIGIR_2004_GeoMiner_p273-amitay.pdf",
+    abstract =  "We describe Web-a-Where, a system for associating geography with Web pages. Web-a-Where locates mentions of places and determines the place each name refers to. In addition, it assigns to each page a geographic focus --- a locality that the page discusses as a whole. The tagging process is simple and fast, aimed to be applied to large collections of Web pages and to facilitate a variety of location-based applications and data analyses. Geotagging involves arbitrating two types of ambiguities: geo/non-geo and geo/geo. A geo/non-geo ambiguity occurs when a place name also has a non-geographic meaning, such as a person name (e.g., Berlin) or a common word (Turkey). Geo/geo ambiguity arises when distinct places have the same name, as in London, England vs. London, Ontario. An implementation of the tagger within the framework of the WebFountain data mining system is described, and evaluated on several corpora of real Web pages. Precision of up to 82\% on individual geotags is achieved. We also evaluate the relative contribution of various heuristics the tagger employs, and evaluate the focus-finding algorithm using a corpus pretagged with localities, showing that as many as 91\% of the foci reported are correct up to the country level."
+}
+
+@proceedings{sigir04,
+    title =     sigir04,
+    booktitle = sigir04,
+    editor =    {Mark Sanderson and Kalervo J\"arvelin and James Allan and Peter Bruza},
+    publisher = acm,
+    address =   sheffield,
+    month =     jul,
+    year =      2004,
+    isbn =      "1-58113-881-4",
+    index =     "SIGIR 2004",
+    uri =       "http://www.informatik.uni-trier.de/~ley/db/conf/sigir/sigir2004.html"
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -26866,26 +26911,26 @@
 }
 
 @misc{atag20,
-    author =    "Jutta Treviranus and Jan Richards and Matt May",
+    author =    "Jutta Treviranus and Jan Richards",
     title =     "Authoring Tool Accessibility Guidelines 2.0",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-ATAG20-20061207",
-    month =     dec,
-    year =      2006,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-ATAG20-20080310",
+    month =     mar,
+    year =      2008,
     topic =     "wai[0.9] atag[1]",
     updates =   "waiat",
-    uri =       "http://www.w3.org/TR/2006/WD-ATAG20-20061207",
-    abstract =  "This specification provides guidelines for designing Web content authoring tools that are more accessible for people with disabilities. An authoring tool that conforms to these guidelines will promote accessibility by providing an accessible authoring interface to authors with disabilities as well as enabling, supporting, and promoting the production of accessible Web content by all authors."
+    uri =       "http://www.w3.org/TR/2008/WD-ATAG20-20080310",
+    abstract =  {This specification provides guidelines for designing Web content authoring tools that are more accessible for people with disabilities. An authoring tool that conforms to these guidelines will promote accessibility by providing an accessible user interface to authors with disabilities as well as enabling, supporting, and promoting the production of accessible Web content by all authors. The "Authoring Tool Accessibility Guidelines 2.0" (ATAG 2.0) is part of a series of accessibility guidelines published by the W3C Web Accessibility Initiative (WAI).}
 }
 
 @misc{atag20techs,
     author =    "Jutta Treviranus and Jan Richards and Tim Boland",
     title =     "Implementation Techniques for Authoring Tool Accessibility Guidelines 2.0",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-ATAG20-TECHS-20070423",
-    month =     apr,
-    year =      2007,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-ATAG20-TECHS-20080310",
+    month =     mar,
+    year =      2008,
     topic =     "wai[0.9] atag[1]",
-    uri =       "http://www.w3.org/TR/2007/WD-ATAG20-TECHS-20070423",
-    abstract =  {This document provides non-normative information to authoring tool developers who wish to satisfy the checkpoints of "Authoring Tool Accessibility Guidelines 2.0". It includes suggested techniques, sample strategies in deployed tools, and references to other accessibility resources (such as platform-specific software accessibility guidelines) that provide additional information on how a tool may satisfy each ATAG 2.0 checkpoint.}
+    uri =       "http://www.w3.org/TR/2008/WD-ATAG20-TECHS-20080310",
+    abstract =  {This document provides non-normative information to authoring tool developers who wish to satisfy the guidelines in the "Authoring Tool Accessibility Guidelines 2.0". It includes suggested techniques, sample strategies in deployed tools, and references to other accessibility resources (such as platform-specific software accessibility guidelines) that provide additional information on how a tool may satisfy each ATAG 2.0 guideline. The "Authoring Tool Accessibility Guidelines 2.0" (ATAG 2.0) is part of a series of accessibility guidelines published by the W3C Web Accessibility Initiative (WAI).}
 }
 
 @misc{waitat,
@@ -28809,10 +28854,10 @@
 @misc{wscusecases,
     author =    "Tyler Close",
     title =     "Web Security Experience, Indicators and Trust: Scope and Use Cases",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-wsc-usecases-20071101",
-    month =     nov,
-    year =      2007,
-    uri =       "http://www.w3.org/TR/2007/WD-wsc-usecases-20071101",
+    howpublished =  "World Wide Web Consortium, Note NOTE-wsc-usecases-20080306",
+    month =     mar,
+    year =      2008,
+    uri =       "http://www.w3.org/TR/2008/NOTE-wsc-usecases-20080306",
     abstract =  "This Note refines the objectives for the Web Security Context Working Group deliverables. It elaborates upon the group's Charter to explain what the group aims to achieve, what technologies may be used and how technical proposals will be evaluated. This elaboration is limited to the group's technical work and does not cover additional activities the group intends to engage in, such as ongoing outreach and education. This Note also includes an initial collection of use cases that the group expects will drive its technical work. Since this Note discusses the assumptions, goals, and processes the group will use to develop its recommendations, the intended audience is similar to that of the charter of the Working Group; group members, the W3C community, developers of web user agents, web content providers (server administrators), and parties interested and engaged in what the Web Security Context Working Group's plans and directions are. It is explicitly not targeted at the presumed beneficiaries of the group's work, the users of the web, and it is not expected that an average user would be able to read this document and understand it."
 }
 
