@@ -16421,6 +16421,14 @@
     abstract =  "As XML becomes ubiquitous and mature, the problem of versioning is increasingly significant. While XML itself has a clear versioning scheme through the version attribute in the prolog, XML-based languages such as Atom do not have a standardized versioning mechanism. We propose namespace documents as the logical solution. It could be claimed that such an approach is not needed by current markup practice in XML. However, as shown by the recent confusion the introduction of the xml:id name caused, at least seems some clarification of the gap between what W3C Recommendations actually define about namespaces and what many people think they define (as well as W3C good practice) is in order. Once we understand namespaces, XMLVS shows that the namespace document is both an effective and practical solution for maintaining XML languages. The XML-based language XMLVS (XML Versioning System) makes the maintaining, documenting, and versioning of XML languages easier by automatically producing best-practice human and machine-readable namespace documents for XML languages."
 }
 
+@inproceedings{spe06,
+    crossref =  "xmarkup2006",
+    author =    "C. Michael Sperberg-McQueen",
+    title =     "Rabbit/Duck Grammars: A Validation Method for Overlapping Structures",
+    uri =       "http://www.idealliance.org/papers/extreme/proceedings/html/2006/SperbergMcQueen01/EML2006SperbergMcQueen01.html",
+    abstract =  "Recent work on markup has emphasized the importance of overlapping structures, but little progress has been made toward validation of such structures: the state of the art in validation of overlap remains where it was in 1986 with the CONCUR feature of SGML. Like CONCUR, rabbit/duck grammars manage validation by means of several context-free grammars, but rabbit/duck grammars offer some improvements over CONCUR: within a document grammar written for one hierarchical subset of the markup vocabulary, the start- and end-tags of other hierarchies may be made visible; rabbit/duck grammars thus make it possible to constrain the interactions of different hierarchies in ways not possible with CONCUR. Rabbit/duck grammars also provide a more principled account of self-overlap (i.e. overlap of two elements with the same generic identifier) than CONCUR. Documents can be validated against rabbit/duck grammars either by validating individually against each grammar or by a single pass through the document which validates against all grammars simultaneously. An implementation of this single-pass approach using Brzozowski derivatives is sketched out."
+}
+
 @proceedings{xmarkup2006,
     title =     xmarkup2006,
     booktitle = xmarkup2006,
