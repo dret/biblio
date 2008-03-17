@@ -312,6 +312,7 @@
 @string{twick =     "Twickenham, UK" }
 @string{upper =     "Upper Saddle River, New Jersey" }
 @string{uppsala =   "Uppsala, Sweden" }
+@string{urbana =    "Urbana-Champaign, Illinois" }
 @string{vanc =      "Vancouver, Canada" }
 @string{vegas =     "Las Vegas, Nevada" }
 @string{venice =    "Venice, Italy" }
@@ -408,6 +409,7 @@
 @string{ufreiburg = {{Universit\"at Freiburg}} }
 @string{uhelsinki = "{University of Helsinki}" }
 @string{ubergen =   "{University of Bergen}" }
+@string{uic =       "{University of Illinois}" }
 @string{uniarhus =  "{University of \r{A}rhus}" }
 @string{unibo   =   "{University of Bologna}" }
 @string{unibonn =   "{University of Bonn}" }
@@ -22812,6 +22814,28 @@
 % ogc standards
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@misc{wsc110,
+    author =    ogc,
+    editor =    "Arliss Whiteside",
+    title =     "OGC Web Services Common Specification",
+    howpublished =  "OGC 06-121r3, Version 1.1.0",
+    year =      2007,
+    month =     feb,
+    topic =     "wsc[1]",
+    uri =       "http://portal.opengeospatial.org/files/?artifact_id=20040"
+}
+
+@misc{wps100,
+    author =    ogc,
+    editor =    "Peter Schut",
+    title =     "OpenGIS Web Processing Service",
+    howpublished =  "OGC 05-007r7, Version 1.0.0",
+    year =      2007,
+    month =     jun,
+    topic =     "wps[1]",
+    uri =       "http://portal.opengeospatial.org/files/?artifact_id=24151"
+}
+
 @misc{wms130,
     author =    ogc,
     editor =    "Jeff de la Beaujardiere",
@@ -26398,22 +26422,22 @@
 @misc{xqueryupdatereq,
     author =    "Donald D. Chamberlin and Jonathan Robie",
     title =     "XQuery Update Facility 1.0 Requirements",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-xquery-update-10-requirements-20070828",
-    month =     aug,
-    year =      2007,
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-xquery-update-10-requirements-20080314",
+    month =     mar,
+    year =      2008,
     topic =     "xquery[0.7]",
-    uri =       "http://www.w3.org/TR/2007/WD-xquery-update-10-requirements-20070828",
+    uri =       "http://www.w3.org/TR/2008/CR-xquery-update-10-requirements-20080314",
     abstract =  "This document specifies goals and requirements for the XQuery Update Facility."
 }
 
 @misc{xqupdateusecases,
     author =    "Ioana Manolescu and Jonathan Robie",
     title =     "XQuery Update Facility 1.0 Use Cases",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-xquery-update-10-use-cases-20070828",
-    month =     aug,
-    year =      2007,
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-xquery-update-10-use-cases-20080314",
+    month =     mar,
+    year =      2008,
     topic =     "xquery[0.7]",
-    uri =       "http://www.w3.org/TR/2007/WD-xquery-update-10-use-cases-20070828",
+    uri =       "http://www.w3.org/TR/2008/CR-xquery-update-10-use-cases-20080314",
     updates =   "xqueryupdatereq",
     abstract =  "This document specifies usage scenarios for the XQuery Update Facility."
 }
@@ -26421,11 +26445,11 @@
 @misc{xqupdate,
     author =    "Donald D. Chamberlin and Daniela Florescu and Jim Melton and Jonathan Robie and J\'er\^ome Sim\'eon",
     title =     "XQuery Update Facility 1.0",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-xquery-update-10-20070828",
-    month =     aug,
-    year =      2007,
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-xquery-update-10-20080314",
+    month =     mar,
+    year =      2008,
     topic =     "xquery[0.9]",
-    uri =       "http://www.w3.org/TR/2007/WD-xquery-update-10-20070828",
+    uri =       "http://www.w3.org/TR/2008/CR-xquery-update-10-20080314",
     updates =   "xqupdateusecases",
     abstract =  "This document defines an update facility that extends the XML Query language, XQuery. The XQuery Update Facility provides expressions that can be used to make persistent changes to instances of the XQuery 1.0 and XPath 2.0 Data Model."
 }
@@ -37201,4 +37225,16 @@
     uri =       "http://www.govtalk.gov.uk/documents/eGovMetadataStandard%2020040429.pdf",
     topic =     "egms[1]",
     abstract =  "The e-Government Metadata Standard lists the elements and refinements that will be used by the public sector to create metadata for information resources. It also gives guidance on the purpose and use of each element. This is version 3.0."
+}
+
+@techreport{mat04,
+    author =    "Adam Mathes",
+    title =     "Folksonomies --- Cooperative Classification and Communication Through Shared Metadata",
+    uri =       "http://www.adammathes.com/academic/computer-mediated-communication/folksonomies.html",
+    howpublished = "Computer Mediated Communication (LIS590CMC)",
+    institution = uic,
+    address=    urbana,
+    month =     dec,
+    year =      2004,
+    abstract =  "This paper examines user-generated metadata as implemented and applied in two web services designed to share and organize digital media to better understand grassroots classification. Metadata --- data about data --- allows systems to collocate related information, and helps users find relevant information. The creation of metadata has generally been approached in two ways: professional creation and author creation. In libraries and other organizations, creating metadata, primarily in the form of catalog records, has traditionally been the domain of dedicated professionals working with complex, detailed rule sets and vocabularies. The primary problem with this approach is scalability and its impracticality for the vast amounts of content being produced and used, especially on the World Wide Web. The apparatus and tools built around professional cataloging systems are generally too complicated for anyone without specialized training and knowledge. A second approach is for metadata to be created by authors. The movement towards creator described documents was heralded by SGML, the WWW, and the Dublin Core Metadata Initiative. There are problems with this approach as well --- often due to inadequate or inaccurate description, or outright deception. This paper examines a third approach: user-created metadata, where users of the documents and media create metadata for their own individual use that is also shared throughout a community."
 }
