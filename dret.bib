@@ -722,7 +722,7 @@
     number =    3,
     pages =     "48-61",
     uri =       "http://info.computer.org/portal/cms_docs_annals/annals/content/promo2.pdf",
-    abstract =  {Internet historians recognize the technical achievements but often overlook the bureaucratic innovations of Internet pioneers. The phrase, "We reject: kings, presidents, and voting. We believe in: rough consensus and running code," was coined by David Clark in 1992. This article explains how the phrase captured the technical and political values of Internet engineers during a crucial phase in the Internet’s growth.}
+    abstract =  {Internet historians recognize the technical achievements but often overlook the bureaucratic innovations of Internet pioneers. The phrase, "We reject: kings, presidents, and voting. We believe in: rough consensus and running code," was coined by David Clark in 1992. This article explains how the phrase captured the technical and political values of Internet engineers during a crucial phase in the Internet's growth.}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -5800,7 +5800,7 @@
     title =     "The End of an Architectural Era (It's Time for a Complete Rewrite)",
     pages =     "1150-1160",
     uri =       "http://www.vldb.org/conf/2007/papers/industrial/p1150-stonebraker.pdf",
-    abstract =  {In previous papers, some of us predicted the end of "one size fits all" as a commercial relational DBMS paradigm. These papers presented reasons and experimental evidence that showed that the major RDBMS vendors can be outperformed by 1-2 orders of magnitude by specialized engines in the data warehouse, stream processing, text, and scientific database markets. Assuming that specialized engines dominate these markets over time, the current relational DBMS code lines will be left with the business data processing (OLTP) market and hybrid markets where more than one kind of capability is required. In this paper we show that current RDBMSs can be beaten by nearly two orders of magnitude in the OLTP market as well. The experimental evidence comes from comparing a new OLTP prototype, H-Store, which we have built at M.I.T. to a popular RDBMS on the standard transactional benchmark, TPC-C. We conclude that the current RDBMS code lines, while attempting to be a "one size fits all" solution, in fact, excel at nothing. Hence, they are 25 year old legacy code lines that should be retired in favor of a collection of "from scratch" specialized engines. The DBMS vendors (and the research community) should start with a clean sheet of paper and design systems for tomorrow’s requirements, not continue to push code lines and architectures designed for yesterday’s needs.}
+    abstract =  {In previous papers, some of us predicted the end of "one size fits all" as a commercial relational DBMS paradigm. These papers presented reasons and experimental evidence that showed that the major RDBMS vendors can be outperformed by 1-2 orders of magnitude by specialized engines in the data warehouse, stream processing, text, and scientific database markets. Assuming that specialized engines dominate these markets over time, the current relational DBMS code lines will be left with the business data processing (OLTP) market and hybrid markets where more than one kind of capability is required. In this paper we show that current RDBMSs can be beaten by nearly two orders of magnitude in the OLTP market as well. The experimental evidence comes from comparing a new OLTP prototype, H-Store, which we have built at M.I.T. to a popular RDBMS on the standard transactional benchmark, TPC-C. We conclude that the current RDBMS code lines, while attempting to be a "one size fits all" solution, in fact, excel at nothing. Hence, they are 25 year old legacy code lines that should be retired in favor of a collection of "from scratch" specialized engines. The DBMS vendors (and the research community) should start with a clean sheet of paper and design systems for tomorrow's requirements, not continue to push code lines and architectures designed for yesterday's needs.}
 }
 
 @proceedings{vldb07,
@@ -8031,7 +8031,7 @@
     pages =     "309-322",
     topic =     "orm[0.7] xsdl[0.7]",
     uri =       "http://www.springerlink.com/link.asp?id=ulp47aqbr7y3rx5h",
-    abstract =  "XML is increasingly becoming the preferred method of encoding structured data for exchange over the Internet. XML-Schema, which is an emerging text-based schema definition language, promises to become the most popular method for describing these XML-documents. While text-based languages, such as XML-Schema, offer great advantages for data interchange on the Internet, graphical modelling languages are widely accepted as a more visually effective means of specifying and communicating data requirements for a human audience. With this in mind, this paper investigates the use of Object Role Modelling (ORM), a graphical, conceptual modelling technique, as a means for designing XML-Schemas. The primary benefit of using ORM is that it is much easier to get the model `correct' by designing it in ORM first, rather than in XML. To facilitate this process we describe an algorithm that enables an XML-Schema file to be automatically generated from an ORM conceptual data model. Our approach aims to reduce data redundancy and increase the connectivity of the resulting XML instances."
+    abstract =  "XML is increasingly becoming the preferred method of encoding structured data for exchange over the Internet. XML-Schema, which is an emerging text-based schema definition language, promises to become the most popular method for describing these XML-documents. While text-based languages, such as XML-Schema, offer great advantages for data interchange on the Internet, graphical modelling languages are widely accepted as a more visually effective means of specifying and communicating data requirements for a human audience. With this in mind, this paper investigates the use of Object Role Modelling (ORM), a graphical, conceptual modelling technique, as a means for designing XML-Schemas. The primary benefit of using ORM is that it is much easier to get the model 'correct' by designing it in ORM first, rather than in XML. To facilitate this process we describe an algorithm that enables an XML-Schema file to be automatically generated from an ORM conceptual data model. Our approach aims to reduce data redundancy and increase the connectivity of the resulting XML instances."
 }
 
 @proceedings{er2000,
@@ -10565,18 +10565,112 @@
     author =    "Erik Wilde and Martin Kofahl",
     title =     "The Locative Web",
     uri =       "http://dret.net/netdret/publications#wil08f",
-    abstract =  "The concept of location has become very popular in many applications on the Web, in particular for those which aim at connecting the real world with resources on the Web. However, the Web as it is today has no overall location concept, which means that applications have to introduce their own location concepts and have done so in incompatible ways. By turning the Web into a location-aware Web, which we call the ``Locative Web'', location-oriented applications get better support for their location concepts on the Web, and the Web becomes an information system where location-related information can be more easily shared across different applications and application areas. We describe a location concept for the Web supporting different location types, its embedding into some of the Web's core technologies, and prototype implementations of these concepts in location-enabled Web components."
+    abstract =  {The concept of location has become very popular in many applications on the Web, in particular for those which aim at connecting the real world with resources on the Web. However, the Web as it is today has no overall location concept, which means that applications have to introduce their own location concepts and have done so in incompatible ways. By turning the Web into a location-aware Web, which we call the "Locative Web", location-oriented applications get better support for their location concepts on the Web, and the Web becomes an information system where location-related information can be more easily shared across different applications and application areas. We describe a location concept for the Web supporting different location types, its embedding into some of the Web's core technologies, and prototype implementations of these concepts in location-enabled Web components.}
+}
+
+@inproceedings{tan08,
+    crossref =  "locweb2008",
+    author =    "Vlad Tanasescu and John Domingue",
+    title =     "A Differential Notion of Place for Local Search",
+    abstract =  "In this paper, we argue that in a local search, the what that is queried is implicitly about places and that geographic information retrieval would therefore benefit from an investigation of the semantics of place as a geographical entity. This investigation should include both the spatial and human components constitutive of the notion of place, without which the notion does not make sense. However existing knowledge representation (KR) models, such as ontologies based on logical theories, conceptual spaces, affordance or other, cannot capture in isolation all aspects of the meaning of a place. Therefore we propose to use a combination of them based on the underlying notion of difference. Differences are linked atoms of meaning. These nuances of meaning can be captured by using a variation of the technique of free association based on tagging, without committing to any KR model. Mapping to elements of different KR models can be made later to follow the requirements of a task. We demonstrate the usefulness of the approach for local search by applying it to the notion of place redefined as that location that supports a homogeneous affordance field while allowing the homogeneity of movement."
+}
+
+@inproceedings{hen08a,
+    crossref =  "locweb2008",
+    author =    {Andreas Henrich and Volker L\"udecke},
+    title =     "Determining Geographic Representations for Arbitrary Concepts at Query Time",
+    abstract =  "In typical concept@location-queries, the location is sometimes given by terms that cannot be found in gazetteers or geographic databases. Such terms range from names of vague geographical regions to more general terms such as mining or theme parks. In the present paper we describe our approach to deal with such vague location specifications. Roughly spoken, we derive a geographic representation for these location specifications from the top documents resulting from a query using the terms describing the location. These documents are parsed for toponyms and from these toponyms the region is derived. In the paper we describe an efficient process to derive the geographic representation for such situations at query time. Furthermore we present experiments depicting the performance of our approach as well as the result quality. Our approach allows for an efficient execution of queries such as camping ground near theme park or cycle path near brewery. It can also be used as a standalone-application giving a visual impression of the geographic footprint of arbitrary terms."
+}
+
+@inproceedings{hen08b,
+    crossref =  "locweb2008",
+    author =    {Riikka Henriksson and Tomi Kauppinen and Eero Hyv\"onen},
+    title =     "Core Geographical Concepts: Case Finnish Geo-Ontology",
+    abstract =  "In this paper we examine 1) the scope of geo-ontologies used especially for the purposes of information retrieval from the Web, 2) the core geographical concepts and their mutual relations, and 3) the properties the concepts have. Furthermore, we present the Finnish geo-ontology (Suomalainen paikkaontologia, SUO) and discuss the theories and principles that have governed the development process, as well as the limitations and requirements the use of geographical dictionaries as an instance data source have imposed to the content and the structure of SUO."
+}
+
+@inproceedings{twa08,
+    crossref =  "locweb2008",
+    author =    "Florian A. Twaroch and Christopher B. Jones and Alia I. Abdelmoty",
+    title =     "Acquisition of a Vernacular Gazetteer from Web Sources",
+    abstract =  "Vernacular place names are names that are commonly in use to refer to geographical places. For purposes of effective information retrieval, the spatial extent associated with these names should be able to reflect people's perception of the place, even though this may differ sometimes from the administrative definition of the same place name. Due to their informal nature, vernacular place names are hard to capture, but methods to acquire and define vernacular place names are of great benefit to search engines and all kind of information services that deal with geographic data. This paper discusses the acquisition of vernacular use of place names from web sources and their representation as surface models derived by kernel density estimators."
+}
+
+@inproceedings{sch08,
+    crossref =  "locweb2008",
+    author =    "Arno Scharl and Hermann Stern and Albert Weichselbraun",
+    title =     "Annotating and Visualizing Location Data in Geospatial Web Applications",
+    abstract =  "This paper presents the IDIOM Media Watch on Climate Change (www.ecoresearch.net/climate), a prototypical implementation of an environmental portal that emphasizes the importance of location data for advanced Web applications. The introductory section outlines the process of retrofitting existing knowledge repositories with geographical context information, a process also referred to as geotagging. The paper then describes the portal's functionality, which aggregates, annotates and visualizes environmental articles from 150 Anglo-American news media sites. From 300,000 news media articles gathered in weekly intervals, the system selects about 10,000 focusing on environmental issues. The crawled data is indexed and stored in a central repository. Geographic location represents a central aspect of the application, but not the only dimension used to organize and filter content. Applying the concepts of location and topography to semantic similarity, the paper concludes with discussing information landscapes as alternative interface metaphor for accessing large Web repositories."
+}
+
+@inproceedings{ahl08,
+    crossref =  "locweb2008",
+    author =    "Dirk Ahlers and Susanne Boll",
+    title =     "Urban Web Crawling",
+    abstract =  "Local search is increasingly becoming a major focus point of research interest as a widely-recognized speciality search with a large application area. Its data is usually aggregated from a variety of sources. One as yet largely untapped source of location data is the WWW. Today, the Web does not explicitly reveal its location-relation, rather this information is hidden somewhere within pages' contents. To exploit such location information, we need to find, extract and geo-spatially index relevant Web pages. For an effective retrieval of such content, this paper examines the application of focused Web crawling to the geospatial domain. We describe our approach for a geo-aware focused crawling of urban areas and other regions with a high building density and present our experimental results that gives us insight into spatial Web information such as location density and link distance between topical pages. Our crawls and evaluations back our hypothesis that adaptive focused crawling yields good results on the urban geospatial topic."
+}
+
+@inproceedings{liu08,
+    crossref =  "locweb2008",
+    author =    "Jiahui Liu and Larry Birnbaum",
+    title =     "LocalSavvy: Aggregating Local Points of View about News Issues",
+    abstract =  "The web has become an important medium for news delivery and consumption. Fresh content about a variety of topics, events, and places is constantly being created and published on the web by news agencies around the world. As intuitively understood by readers, and studied in journalism, news articles produced by different social groups present different attitudes towards and interpretations of the same news issues. In this paper, we propose a new paradigm for aggregating news articles according to the local news sources associated with the stakeholders of the news issues. This new paradigm provides users the capability to aggregate and browse various local points of view about the news issues in which they are interested. We implement this paradigm in a system called LocalSavvy. LocalSavvy analyzes the news articles provided by users, using knowledge about locations automatically acquired from the web. Based on the analysis of the news issue, the system finds and aggregates local news articles published by official and unofficial news sources associated with the stakeholders. Moreover, opinions from those local social groups are extracted from the retrieved results, presented in the summaries and highlighted in the news web pages. We evaluate LocalSavvy with a user study. The quantitative and qualitative analysis shows that news articles aggregated by LocalSavvy present relevant and distinct local opinions, which can be clearly perceived by the subjects."
+}
+
+@inproceedings{zhu08,
+    crossref =  "locweb2008",
+    author =    "Ziming Zhuang and Cliff Brunk and C. Lee Giles",
+    title =     "Modeling and Visualizing Geo-Sensitive Queries Based on User Clicks",
+    abstract =  "    The number of search queries that are associated with geographical locations, either explicitly or implicitly, has been quadrupled in recent years. For such geo-sensitive queries, the ability to accurately infer users' geographical preference greatly enhances their search experience. By mining past user clicks and constructing a geographical click probability distribution model, we address two important issues in spatial Web search: how do we determine whether a search query is geo-sensitive, and how do we detect, disambiguate, and visualize the associated geographical location(s). We present our empirical study on a large-scale dataset with about 9,000 unique queries randomly drawn from the logs of a popular commercial search engine Yahoo! Search, and about 430 million user clicks on 1.6M unique Web pages over an eight-month period. Our classification method achieved recall of 0.98 and precision of 0.75 in identifying geo-sensitive search queries. We also present our preliminary findings in using geographical click probability distributions to cluster search results for queries with geographical ambiguities."
+}
+
+@inproceedings{she08,
+    crossref =  "locweb2008",
+    author =    "Chang Sheng and Wynne Hsu and Mong Li Lee",
+    title =     "Discovering Geographical-specific Interests from Web Click Data",
+    abstract =  "As the Internet continues to play an important role in many business applications, it becomes vital to increase the competitive edge by offering geographically tailored contents that reflect the common interests of the geographical region of the web visitors. In this paper, we define the problem of mining geographical-specific interests patterns. We utilize the quadtree to model the influence distributions of different features, and design an algorithm called FlexiPROBER to mine geographical-specific interests patterns that are significant in a local region. We further examine how these patterns can change over time and develop an algorithm called MineGIC to efficiently discover pattern changes. Experiment results demonstrate that the proposed algorithms are scalable and efficient. Patterns discovered from real world web click datasets reveal interesting patterns and show the evolution of the interests of people in those regions."
+}
+
+@inproceedings{att08,
+    crossref =  "locweb2008",
+    author =    "Qingqing Gan and Josh Attenberg and Alexander Markowetz and Torsten Suel",
+    title =     "Analysis of Geographic Queries in a Search Engine Log",
+    abstract =  {Geography is becoming increasingly important in web search. Search engines can often return better results to users by analyzing features such as user location or geographic terms in web pages and user queries. This is also of great commercial value as it enables location specific advertising and improved search for local businesses. As a result, major search companies have invested significant resources into geographic search technologies, also often called local search. This paper studies geographic search queries, i.e., text queries such as "hotel new york" that employ geographical terms in an attempt to restrict results to a particular region or location. Our main motivation is to identify opportunities for improving geographical search and related technologies, and we perform an analysis of 36 million queries of the recently released AOL query trace. First, we identify typical properties of geographic search (geo) queries based on a manual examination of several thousand queries. Based on these observations, we build a classifier that separates the trace into geo and non-geo queries. We then investigate the properties of geo queries in more detail, and relate them to web sites and users associated with such queries.
+We also propose a new taxonomy for geographic search queries.}
+}
+
+@inproceedings{xia08,
+    crossref =  "locweb2008",
+    author =    "Xiangye Xiao and Longhao Wang and Xing Xie and Qiong Luo",
+    title =     "Discovering Co-located Queries in Geographic Search Logs",
+    abstract =  "Though general query log mining has been studied for years, little work has been done to utilize geographic search logs. A geographic search request basically contains a query consisting of one or more keywords, and a location specifying the geographic search area. In this paper, we study the problem of discovering co-located queries which are frequently searched over nearby locations. One example co-located query pattern is “shopping mall”, “parking”. This pattern indicates that people often search “shopping mall” and “parking” over locations close to one another. We formally define co-located query patterns and propose two approaches to mine the patterns. The basic approach is based on an existing spatial mining algorithm. To find more co-located queries that only appear in specific regions, we propose a lattice based approach. It divides the geographic space into regions and mines patterns in each region. We also define a locality measure to categorize patterns into local and global. Experimental results show that the lattice based approach achieves higher performance than the basic approach in the number of patterns, the quality of patterns, and the proportion of local patterns."
+}
+
+@inproceedings{akc08,
+    crossref =  "locweb2008",
+    author =    {H\"useyin Akcan and Torsten Suel and Herv\'e Br\"onnimann},
+    title =     "Geographic Web Usage Estimation By Monitoring DNS Caches",
+    abstract =  "DNS is one of the most actively used distributed databases on earth, accessed by millions of people every day to transparently convert host names into IP addresses and vice versa. In order to improve their performance, DNS servers also keep temporary records of all requested domain names in their cache. While most of the DNS servers are configured to be used by their local users only, there still exist many DNS servers that respond to public queries. Querying these DNS servers reveals the recently visited domains. Exploiting the geographically distributed nature of DNS, one can gather usage statistics ranging from a single DNS server to global scale. In particular, this enables collecting statistics about geographic differences in web browsing behavior between different regions of a country or the world. In this paper, we present methods to identify these public DNS servers, discuss how to effectively crawl them, and describe our algorithm to extract usage estimations from the crawl data. We also evaluate our estimation algorithm using extensive simulations, and finally use our algorithms to crawl 150 U.S. universities for various domains, and explore the effects of location and time on the access rate of these domains."
+}
+
+@inproceedings{phu,
+    crossref =  "locweb2008",
+    author =    "Dinh Phung and Brett Adams and Svetha Venkatesh",
+    title =     "Computable Social Patterns from Sparse Sensor Data",
+    abstract =  "We present a computational framework to automatically discover high-order social patterns from very noisy and sparse location sensing information. The key idea in this work is to construct a social codebook, transform raw data into a 'book of life' --- a collection of social pages, each in turn is a sequence of encoded footprints. Computable patterns are then defined as repeated structures found in these sequences. Tackling this problem poses several challenges such as how to construct the codebook, how to define patterns and extract them. In particular, extracting high-order patterns are known to be a very hard problem. We address these questions and propose a Latent Social theme Dirichlet Allocation (LSDA) model, which is a personalized version of the Ngram topic models proposed recently. This model can be viewed as a Baysian clustering method, jointly discovering temporal collocation of footprints and exploiting statistical strength across social pages. Alternatively it can be viewed as dimensionality reduction method where the reduced latent space corresponds to hidden social themes or plans of user's daily activities. Applying to a real-world noisy dataset collected over 1.5 years, we show that many useful and interesting patterns can be computed automatically."
 }
 
 @proceedings{locweb2008,
     title =     locweb2008,
     booktitle = locweb2008,
+    editor =    "Susanne Boll and Erik Wilde",
     address =   beijing,
     key =       locweb2008,
     month =     apr,
     year =      2008,
     index =     "LocWeb 2008",
     topic =     "www[0.8]",
+    isbn =      "978-1-60558-160-6",
     uri =       "http://medien.informatik.uni-oldenburg.de/LocWeb2008/"
 }
 
@@ -16892,7 +16986,7 @@
     chapter =   "10",
     pages =     "325-341",
     doi =       "10.1007/978-3-540-72079-9_10",
-    abstract =  "This chapter discusses content-based recommendation systems, i.e., systems that recommend an item to a user based upon a description of the item and a profile of the user’s interests. Content-based recommendation systems may be used in a variety of domains ranging from recommending web pages, news articles, restaurants, television programs, and items for sale. Although the details of various systems differ, content-based recommendation systems share in common a means for describing the items that may be recommended, a means for creating a profile of the user that describes the types of items the user likes, and a means of comparing items to the user profile to determine what to re commend. The profile is often created and updated automatically in response to feedback on the desirability of items that have been presented to the user."
+    abstract =  "This chapter discusses content-based recommendation systems, i.e., systems that recommend an item to a user based upon a description of the item and a profile of the user's interests. Content-based recommendation systems may be used in a variety of domains ranging from recommending web pages, news articles, restaurants, television programs, and items for sale. Although the details of various systems differ, content-based recommendation systems share in common a means for describing the items that may be recommended, a means for creating a profile of the user that describes the types of items the user likes, and a means of comparing items to the user profile to determine what to re commend. The profile is often created and updated automatically in response to feedback on the desirability of items that have been presented to the user."
 }
 
 @book{adaptiveweb,
@@ -31510,12 +31604,12 @@
 @misc{gre07,
     author =    "Joe Gregorio",
     title =     "URI Template",
-    howpublished =  "Internet Draft draft-gregorio-uritemplate-02",
-    month =     nov,
-    year =      2007,
+    howpublished =  "Internet Draft draft-gregorio-uritemplate-03",
+    month =     mar,
+    year =      2008,
     topic =     "uri[0.8]",
     uri =       "https://datatracker.ietf.org/drafts/draft-gregorio-uritemplate/",
-    abstract =  "URI Templates are strings that can be transformed into URIs after embedded variables are substituted. This document defines the syntax and processing of URI Templates."
+    abstract =  "A URI Template is a compact sequence of characters used for the construction of URIs. This specification defines the URI Template syntax and the process for expanding a URI Template into a URI, along with guidelines and security considerations for the use of URI Templates on the Internet. The URI Template syntax allows for the construction of strings that are a superset of URIs, allowing an implementation to process any URI Template without knowing the scheme-specific requirements of every possible resulting URI."
 }
 
 @misc{wil02h,
@@ -37180,11 +37274,11 @@
     author =    {Erik Wilde and Martin J. D\"urst},
     title =     "URI Fragment Identifiers for the text/plain Media Type",
     howpublished =  "Internet RFC 5147",
-    month =     jan,
+    month =     apr,
     year =      2008,
     topic =     "uri[0.8] mime[0.8]",
     updates =   "wil02h",
-    abstract =  "This memo defines URI fragment identifiers for text/plain resources. These fragment identifiers make it possible to refer to parts of a text resource, identified by character count or range, line count or range, or a regular expression. These identification methods can be combined to identify more than one sub-resource of a text/plain resource."
+    abstract =  "This memo defines URI fragment identifiers for text/plain MIME entities. These fragment identifiers make it possible to refer to parts of a text/plain MIME entity, either identified by character position or range, or by line position or range. Fragment identifiers may also contain information for integrity checks to make them more robust."
 }
 
 @misc{rfc5234,

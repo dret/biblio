@@ -244,7 +244,7 @@ $ENV{$bibenv}=".:" . (exists $ENV{$bibenv} ? $ENV{$bibenv} : "") if $explicits;
 # The format the author names are given are determined by the BibTeX style file
 # $bst.bst.
 
-print STDERR `bibtex $tmp`;
+print STDERR `bibtex8 -W $tmp`;
 die "BibTeX error. Aborting leaving all temporary files $tmp.*\n" if $?;
 
 # if things went well, we can delete all these temporary files made for BibTeX.
