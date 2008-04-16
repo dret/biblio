@@ -6558,6 +6558,29 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@string{scc2008 = "Proceedings of the 2008 IEEE International Conference on Services Computing" }
+
+@inproceedings{wil08h,
+    crossref =  "scc2008",
+    author =    "Eric Kansa and Erik Wilde",
+    title =     "Tourism, Peer Production, and Location-Based Service Design",
+    pages =     "???",
+    uri =       "http://dret.net/netdret/publications#wil08h",
+    abstract =  "???"
+}
+
+@proceedings{scc2008,
+    key =       scc2008,
+    title =     scc2008,
+    booktitle = scc2008,
+    address =   honolulu,
+    month =     jul,
+    year =      2008,
+    uri =       "http://conferences.computer.org/scc/2008/"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 @string{ideas01 = "Proceedings of the International Database Engineering \& Applications Symposium" }
 
 @inproceedings{may01,
@@ -25056,14 +25079,14 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{wsi18n,
-    author =    "Addison P. Phillips and Mary Trumble",
+    author =    "Addison P. Phillips and Mary Trumble and Felix Sasaki",
     title =     "Web Services Internationalization (WS-I18N)",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-ws-i18n-20050914",
-    month =     sep,
-    year =      2005,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-ws-i18n-20080415",
+    month =     apr,
+    year =      2008,
     topic =     "i18n[0.9] soap[0.9]",
-    uri =       "http://www.w3.org/TR/2005/WD-ws-i18n-20050914",
-    abstract =  {This document (hereafter referred to as "WS-I18N") describes enhancements to SOAP messaging to provide internationalized and localized operation via locale and international preference negotiation. These mechanisms can be used to accommodate a wide variety of development models for international usage. WS I18N also provides a general-purpose mechanism for associating a "locale policy" with messages. It is designed to be extensible (e.g. support multiple international preferences and locale identifier models). By using the SOAP extensibility model, SOAP-based specifications are designed to be composed with each other to provide a rich messaging environment. By itself, WS-I18N does not ensure internationalized operation or that localized operation will occur nor does it provide a complete internationalization solution. WS-I18N is a building block that is used in conjunction with other Web service and application-specific protocols, and which can accommodate a wide variety of locale and international support models. Implementing this specification does not by itself enable international functionality in the underlying Web services or providers, but it does provide a framework for globalization that enabled products can leverage, as well as a way for enabled products to interact with systems that are not enabled.}
+    uri =       "http://www.w3.org/TR/2008/WD-ws-i18n-20080415",
+    abstract =  {This document (hereafter referred to as "WS-I18N") describes enhancements to SOAP messaging to provide internationalized and localized operations using locale and international preferences. These mechanisms can be used to accommodate a wide variety of development models for international usage. By itself, WS-I18N does not ensure internationalized operation or that localized operation will occur nor does it provide a complete internationalization solution. WS-I18N is a building block that is used in conjunction with other Web services and application-specific protocols, and which can accommodate a wide variety of locale and international support models. Implementing this specification does not by itself enable international functionality in a Web services interaction, but it does provide a framework for globalization that enabled products can leverage, as well as a way for enabled products to interact with systems that are not enabled.}
 }
 
 @misc{i18nhtmltech,
@@ -25087,6 +25110,17 @@ We also propose a new taxonomy for geographic search queries.}
     uri =       "http://www.w3.org/TR/2007/WD-i18n-html-tech-bidi-20070606",
     updates =   "i18nhtmltech",
     abstract =  "This document provides advice for the use of XHTML or HTML markup and CSS to create pages for languages that use right-to-left scripts, such as Arabic and Hebrew. It attempts to counter many of the misunderstandings or over-complexities that currently abound. It also offers advice to those preparing content that will be localized into scripts that behave like Arabic and Hebrew."
+}
+
+@misc{jlreq,
+    author =    "Toshi Kobayashi and Yasuhiro Anan",
+    title =     "Requirements of Japanese Text Layout",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-jlreq-20080411",
+    month =     apr,
+    year =      2008,
+    topic =     "i18n[0.9]",
+    uri =       "http://www.w3.org/TR/2008/WD-jlreq-20080411",
+    abstract =  "This document describes requirements for general Japanese layout realized with technologies like CSS, SVG and XSL-FO. The document is mainly based on a standard for Japanese layout, JIS X 4051. However, it addresses also areas which are not covered by JIS X 4051. The document is currently in draft stage."
 }
 
 @misc{i18nhtmltechchar,
@@ -25584,26 +25618,37 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  {This document is a placeholder. The Rule Interchange Format (RIF) Working Group has decided that the design previously published as "RIF Core" (30 March 2007 draft) is better considered as basis for Logic Rules, rather than all kinds of rules. In the future, a new Core may be published, but for now, interested parties are referred to RIF Basic Logic Dialect (BLD).}
 }
 
+@misc{riffld,
+    author =    "Harold Boley and Michael Kifer",
+    title =     "RIF Framework for Logic Dialects",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-rif-fld-20080415",
+    month =     apr,
+    year =      2008,
+    uri =       "http://www.w3.org/TR/2008/WD-rif-fld-20080415",
+    topic =     "rif[1]",
+    abstract =  "This document, developed by the Rule Interchange Format (RIF) Working Group, specifies the general framework for logic-based RIF dialects (RIF-FLD). The framework describes mechanisms for specifying the syntax and semantics of logic-based RIF dialects through a number of generic concepts such as signatures, symbol spaces, semantic structures, and so on. The actual dialects are required to specialize this framework to produce their concrete syntaxes and semantics."
+}
+
 @misc{rifbld,
     author =    "Harold Boley and Michael Kifer",
     title =     "RIF Basic Logic Dialect",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-rif-bld-20071030",
-    month =     oct,
-    year =      2007,
-    uri =       "http://www.w3.org/TR/2007/WD-rif-bld-20071030",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-rif-bld-20080415",
+    month =     apr,
+    year =      2008,
+    uri =       "http://www.w3.org/TR/2008/WD-rif-bld-20080415",
     topic =     "rif[1]",
-    abstract =  "This document, developed by the Rule Interchange Format (RIF) Working Group, specifies a basic format that allows logic rules to be exchanged between rule-based systems. As part of its Phase 1 deliverable, the RIF Working Group defines a condition language, which is envisioned to be a shared part of all RIF dialects. The RIF Condition Language is intended to be used in the bodies of the rules in RIF Basic Logic Dialect (RIF-BLD). The condition language is then extended to Horn rules and this document specifies a presentation syntax and a corresponding concrete XML syntax for RIF-BLD. A model-theoretic semantics for the language is also defined."
+    abstract =  "This document, developed by the Rule Interchange Format (RIF) Working Group, specifies a basic format that allows logic rules to be exchanged between rule-based systems. A separate document RIF Data Types and Built-Ins describes data types and built-in functions and predicates."
 }
 
 @misc{rifrdfowl,
     author =    "Jos de Bruijn",
     title =     "RIF RDF and OWL Compatibility",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-rif-rdf-owl-20071030",
-    month =     oct,
-    year =      2007,
-    uri =       "http://www.w3.org/TR/2007/WD-rif-rdf-owl-20071030",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-rif-rdf-owl-20080415",
+    month =     apr,
+    year =      2008,
+    uri =       "http://www.w3.org/TR/2008/WD-rif-rdf-owl-20080415",
     topic =     "rif[0.9] owl[0.9] rdf[0.9] rdfs[0.9]",
-    abstract =  "Rules interchanged using the Rule Interchange Format RIF may depend on or be used in combination with RDF data and/or RDF Schema or OWL data models. This document, developed by the Rule Interchange Format (RIF) Working Group, specifies compatibility of RIF with the Semantic Web languages RDF and RDFS. A future version will address compatibility with OWL."
+    abstract =  "Rules interchanged using the Rule Interchange Format (RIF) may depend on or be used in combination with RDF data and RDF Schema or OWL data models (ontologies). This document, developed by the Rule Interchange Format (RIF) Working Group, specifies the interoperation between RIF and the data and ontology languages RDF, RDFS, and OWL."
 }
 
 @misc{rexreqs,
@@ -25848,6 +25893,75 @@ We also propose a new taxonomy for geographic search queries.}
     topic =     "owl[0.9] rdf[0.9]",
     uri =       "http://www.w3.org/TR/2008/WD-owl11-mapping-to-rdf-20080108",
     abstract =  "OWL 1.1 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodeling, and extended annotations. This document provides a mapping from the functional-style syntax of OWL 1.1 to the RDF exchange syntax for OWL 1.1, and vice versa."
+}
+
+@misc{owl2syntax,
+    author =    "Boris Motik and Peter F. Patel-Schneider and Ian Horrocks",
+    title =     "OWL 2 Web Ontology Language: Structural Specification and Functional-Style Syntax",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-syntax-20080411",
+    month =     apr,
+    year =      2008,
+    topic =     "owl[1]",
+    updates =   "owl11syntax",
+    uri =       "http://www.w3.org/TR/2008/WD-owl2-syntax-20080411",
+    abstract =  "OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodelling, and extended annotations. This document defines a functional-style syntax for OWL 2, and provides an informal discussion of the meaning of the additional constructs. As well, an informational structural specification of OWL 2 ontologies is provided."
+}
+
+@misc{owl2semantics,
+    author =    "Bernardo Cuenca Grau and Boris Motik",
+    title =     "OWL 2 Web Ontology Language: Model-Theoretic Semantics",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-semantics-20080411",
+    month =     apr,
+    year =      2008,
+    topic =     "owl[1]",
+    updates =   "owl11semantics",
+    uri =       "http://www.w3.org/TR/2008/WD-owl2-semantics-20080411",
+    abstract =  "OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodeling, and extended annotations. This document provides a model-theoretic semantics for OWL 2."
+}
+
+@misc{owl2mappingtordf,
+    author =    "Bernardo Cuenca Grau and Boris Motik",
+    title =     "OWL 2 Web Ontology Language: Mapping to RDF Graphs",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-mapping-to-rdf-20080411",
+    month =     apr,
+    year =      2008,
+    topic =     "owl[0.9] rdf[0.9]",
+    uri =       "http://www.w3.org/TR/2008/WD-owl2-mapping-to-rdf-20080411",
+    updates =   "owl11mappingtordf",
+    abstract =  "OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodelling, and extended annotations. This document provides a mapping from the functional-style syntax of OWL 2 to the RDF exchange syntax for OWL 2, and vice versa."
+}
+
+@misc{owl2xmlserialization,
+    author =    "Bernardo Cuenca Grau and Boris Motik and Peter Patel-Schneider",
+    title =     "OWL 2 Web Ontology Language: XML Serialization",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-xml-serialization-20080411",
+    month =     apr,
+    year =      2008,
+    topic =     "owl[0.9] xml[0.8]",
+    uri =       "http://www.w3.org/TR/2008/WD-owl2-xml-serialization-20080411",
+    abstract =  "OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodelling, and extended annotations. This document specifies an XML syntax for OWL 2 that exactly mirrors its functional-style syntax and structural specification. An XML schema defines this syntax and is available as a separate document, as well as being included here."
+}
+
+@misc{owl2profiles,
+    author =    "Bernardo Cuenca Grau and Boris Motik and Zhe Wu and Achille Fokoue and Carsten Lutz",
+    title =     "OWL 2 Web Ontology Language: Profiles",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-profiles-20080411",
+    month =     apr,
+    year =      2008,
+    topic =     "owl[0.9]",
+    uri =       "http://www.w3.org/TR/2008/WD-owl2-profiles-20080411",
+    abstract =  "OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodelling, and extended annotations. This document provides a specification of several profiles of OWL 2 which can be more simply and/or efficiently implemented. In logic, profiles are often called fragments. Most profiles are defined by placing restrictions on the syntax of OWL 2. These restrictions have been specified by modifying the productions of the functional-style syntax."
+}
+
+@misc{owl2primer,
+    author =    "Bijan Parsia and Peter F. Patel-Schneider",
+    title =     "OWL 2 Web Ontology Language: Primer",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-primer-20080411",
+    month =     apr,
+    year =      2008,
+    topic =     "owl[0.9]",
+    uri =       "http://www.w3.org/TR/2008/WD-owl2-primer-20080411",
+    abstract =  "OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodelling, and extended annotations. This short primer provides an approachable introduction to OWL 2, including orientation for those coming from other disciplines, an example showing how OWL 2 can be used to represent first simple information and then more complex information, how OWL 2 manages ontologies, and finally the distinctions between the various sublanguages of OWL 2."
 }
 
 @misc{wordnetrdf,
@@ -26354,13 +26468,13 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{ddrcorevocabulary,
-    author =    "Andrea Trasatti and Rotan Hanrahan and Jo Rabin",
+    author =    "Jo Rabin and Andrea Trasatti and Rotan Hanrahan",
     title =     "Device Description Repository Core Vocabulary",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-ddr-core-vocabulary-20071218",
-    month =     dec,
-    year =      2007,
-    uri =       "http://www.w3.org/TR/2007/WD-ddr-core-vocabulary-20071218",
-    abstract =  "This document describes the Device Description Repository Core Vocabulary for Content Adaptation described in the charter of the Device Descriptions Working Group, as well as the process by which the vocabulary was defined."
+    howpublished =  "World Wide Web Consortium, Note NOTE-ddr-core-vocabulary-20080414",
+    month =     apr,
+    year =      2008,
+    uri =       "http://www.w3.org/TR/2008/NOTE-ddr-core-vocabulary-20080414",
+    abstract =  "This document describes the Device Description Repository Core Vocabulary for Content Adaptation in the Mobile Web, described in the charter of the Device Descriptions Working Group, as well as the process by which the Vocabulary was defined."
 }
 
 @misc{ddrsimpleapi,
@@ -29211,11 +29325,11 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{xmlhttprequest,
     author =    "Anne van Kesteren",
     title =     "The XMLHttpRequest Object",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-XMLHttpRequest-20071026",
-    month =     oct,
-    year =      2007,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-XMLHttpRequest-20080415",
+    month =     apr,
+    year =      2008,
     topic =     "ajax[1] dom[0.9]",
-    uri =       "http://www.w3.org/TR/2007/WD-XMLHttpRequest-20071026",
+    uri =       "http://www.w3.org/TR/2008/WD-XMLHttpRequest-20080415",
     abstract =  "The XMLHttpRequest Object specification defines an API that provides scripted client functionality for transferring data between a client and a server."
 }
 
@@ -29255,11 +29369,11 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{dombindings,
     author =    "Cameron McCormack",
     title =     "Language Bindings for DOM Specifications",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-DOM-Bindings-20071017",
-    month =     oct,
-    year =      2007,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-DOM-Bindings-20080410",
+    month =     apr,
+    year =      2008,
     topic =     "dom[0.9] idl[1]",
-    uri =       "http://www.w3.org/TR/2007/WD-DOM-Bindings-20071017",
+    uri =       "http://www.w3.org/TR/2008/WD-DOM-Bindings-20080410",
     abstract =  "This specification defines an Interface Definition Language (IDL) to be used by specifications that define a Document Object Model (DOM). How interfaces described with this IDL correspond to constructs within ECMAScript and Java execution environments is also detailed."
 }
 
@@ -29640,13 +29754,23 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{mmiarch,
-    author =    "James Barnett and Michael Bodell and Dave Raggett and Andrew Wahbe",
+    author =    "James Barnett",
     title =     "Multimodal Architecture and Interfaces",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-mmi-arch-20061211",
-    month =     dec,
-    year =      2006,
-    uri =       "http://www.w3.org/TR/2006/WD-mmi-arch-20061211",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-mmi-arch-20080414",
+    month =     apr,
+    year =      2008,
+    uri =       "http://www.w3.org/TR/2008/WD-mmi-arch-20080414",
     abstract =  "This document describes a loosely coupled architecture for multimodal user interfaces, which allows for co-resident and distributed implementations, and focuses on the role of markup and scripting, and the use of well defined interfaces between its constituents."
+}
+
+@misc{ctguidelines,
+    author =    "Jo Rabin",
+    title =     "Content Transformation Guidelines 1.0",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-ct-guidelines-20080414",
+    month =     apr,
+    year =      2008,
+    uri =       "http://www.w3.org/TR/2008/WD-ct-guidelines-20080414",
+    abstract =  "This document provides guidance to content transformation proxies and content providers as to how inter-work when delivering Web content."
 }
 
 @misc{inkreqs,
@@ -29691,24 +29815,44 @@ We also propose a new taxonomy for geographic search queries.}
     uri =       "http://www.w3.org/TR/1998/WD-HTTP-NG-architecture-19980710"
 }
 
-@misc{widgetsreqs,
+@misc{widgets10reqs,
     author =    "Marcos Caceres",
-    title =     "Widgets 1.0 Requirements",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-widgets-reqs-20070705",
-    month =     jul,
-    year =      2007,
-    uri =       "http://www.w3.org/TR/2007/WD-widgets-reqs-20070705",
-    abstract =  "This document lists the design goals and requirements that the Widgets 1.0 Specification needs to address in order to standardize how Widgets are scripted, digitally signed, secured, packaged and deployed in a way that is device independent, follows W3C principles, and is as interoperable as possible with existing market-leading user agents on which Widgets are run. Widgets or gadgets are usually small client-side Web applications for displaying and updating remote data, packaged in a way to allow a single download and installation on a client machine. Typical examples of Widgets include clocks, CPU gauges, sticky notes, battery-life indicators, and Web-enabled Widgets like weather forecasters, games, news readers, email checkers, photo albums and currency converters. A Widget may execute outside of a typical Web browser interface or in a kind of application commonly referred to as a Widget Engine."
+    title =     "Widgets 1.0: Requirements",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-widgets-reqs-20080414",
+    month =     apr,
+    year =      2008,
+    uri =       "http://www.w3.org/TR/2008/WD-widgets-reqs-20080414",
+    abstract =  "Widgets are small client-side Web applications for displaying and updating remote data, that are packaged in a way to allow a single download and installation on a client machine, mobile phone, or mobile Internet device. Typical examples of widgets include clocks, CPU gauges, sticky notes, battery-life indicators, games, and those that make use of Web services, like weather forecasters, news readers, email checkers, photo albums and currency converters. This document lists the design goals and requirements that specification would need to address in order to standardize various aspects of widgets."
 }
 
 @misc{widgets10,
-    author =    "Anne van Kesteren and Marcos Caceres",
-    title =     "Widgets 1.0",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-widgets-20071013",
-    month =     oct,
-    year =      2007,
-    uri =       "http://www.w3.org/TR/2007/WD-widgets-20071013",
-    abstract =  {Widgets are a class of client-side web application for displaying and/or updating local or remote data, packaged in a way to allow a single download and installation on a client machine or device. Examples include clocks, stock tickers, news casters, games and weather forecasters. This specification, when combined with other dependent specifications, defines a software solution for Widgets, including: A packaging format defined in terms of the Zip File Format Specification, to provide authors with an interoperable way to encapsulate and distribute widgets; an XML-based configuration format and processing model, to allow authors to declare metadata about a widget; a model that allows a user-agent to automatically start a widget; an HTTP-based model for version control, to allow user agents to automatically keep widgets up-to-date; a set of ECMAScript implementable DOM APIs and events, including an API to allow instantiated widgets to communicate with one another; a model that leverages the XML-Signature Syntax and Processing Specification to allow a widget to be digitally signed; a security model to reduce privacy risks and reduce the potential for damage to an end-users machine or device; a means for web browsers to automatically "discover" widgets from within a HTML document; accessibility requirements for user agents to ensure that perceptual and interactive parts of widgets are accessible.}
+    author =    "Marcos Caceres",
+    title =     "Widgets 1.0: Packaging and Configuration",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-widgets-20080414",
+    month =     apr,
+    year =      2008,
+    uri =       "http://www.w3.org/TR/2008/WD-widgets-20080414",
+    abstract =  "This document defines a Zip-based packaging format and an XML-based configuration document format for widgets. The configuration document is a simple XML-based language that authors can use to record metadata and configuration parameters about a widget. The packaging format is a container for files required by a widget."
+}
+
+@misc{widgets10land,
+    author =    "Marcos Caceres",
+    title =     "Widgets 1.0: The Widget Landscape (Q1 2008)",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-widgets-land-20080414",
+    month =     apr,
+    year =      2008,
+    uri =       "http://www.w3.org/TR/2008/WD-widgets-land-20080414",
+    abstract =  "This document surveys a group of market-leading widget user agents with the aim to inform the requirements of the Widgets 1.0: Requirements document. The survey exposes commonalities and fragmentation across widget user agents, and discusses how fragmentation currently affects, amongst other things, authoring, security, distribution and deployment, internationalization and the device-independence of widgets. The document concludes by making a set of recommendations on what aspects of widgets require standardization to reduce fragmentation to ultimately standardize a cross-platform widget solution."
+}
+
+@misc{widgets10digsig,
+    author =    "Marcos Caceres",
+    title =     "Widgets 1.0: Digital Signature",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-widgets-digsig-20080414",
+    month =     apr,
+    year =      2008,
+    uri =       "http://www.w3.org/TR/2008/WD-widgets-digsig-20080414",
+    abstract =  "This document defines a profile of the XML-Signature Syntax and Processing specification to allow a widget resource to be digitally signed. Vendors and authors can digitally sign widgets as a trust and quality assurance mechanism. Prior to instantiation, a widget user agent can use the digital signature to verify the authenticity and data integrity of the files in a widget resource. In the rare case where a widget damages the end-user's device, the digital signature may provide a user with legal recourse to prove that a widget resource was signed by a particular author or publisher."
 }
 
 @misc{png,
@@ -30531,11 +30675,11 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{xhtmlrole,
     author =    "Mark Birbeck and Shane McCarron and Steven Pemberton and T. V. Raman and Richard Schwerdtfeger",
     title =     "XHTML Role Attribute Module",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-xhtml-role-20071004",
-    month =     oct,
-    year =      2007,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-xhtml-role-20080407",
+    month =     apr,
+    year =      2008,
     topic =     "xhtml[0.9]",
-    uri =       "http://www.w3.org/TR/2007/WD-xhtml-role-20071004",
+    uri =       "http://www.w3.org/TR/2008/WD-xhtml-role-20080407",
     abstract =  "The XHTML Role Attribute defined in this specification allows the author to annotate XML Languages with machine-extractable semantic information about the purpose of an element. Use cases include accessibility, device adaptation, server-side processing, and complex data description. This attribute can be integrated into any markup language based upon XHTML Modularization."
 }
 
@@ -30701,13 +30845,13 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{dcontology,
-    author =    "Rhys Lewis",
+    author =    "Rhys Lewis and Jos\'e Manuel Cantera Fonseca",
     title =     "Delivery Context Ontology",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-dcontology-20071221",
-    month =     dec,
-    year =      2007,
-    uri =       "http://www.w3.org/TR/2007/WD-dcontology-20071221",
-    abstract =  "The Delivery Context Ontology provides a formal model of the characteristics of the environment in which devices interact with the Web. The delivery context includes the characteristics of the device, the software used to access the Web and the network providing the connection among others. The delivery context is an important source of information that can be used to adapt materials from the Web to make them useable on a wide range of different devices with different capabilities. The ontology is formally specified in the Web Ontology Language. This document describes the ontology and gives details of each property that it contains. The core, normative sections of this document are generated automatically from the ontology itself."
+    howpublished =  "World Wide Web Consortium, Working Draft WD-dcontology-20080415",
+    month =     apr,
+    year =      2008,
+    uri =       "http://www.w3.org/TR/2008/WD-dcontology-20080415",
+    abstract =  "The Delivery Context Ontology provides a formal model of the characteristics of the environment in which devices interact with the Web or other services. The delivery context includes the characteristics of the device, the software used to access the service and the network providing the connection among others. The delivery context is an important source of information that can be used to adapt materials to make them useable on a wide range of different devices with different capabilities. The ontology is formally specified in the Web Ontology Language. This document describes the ontology and gives details of each property that it contains. The core, normative sections and examples of this document are generated automatically from the ontology itself."
 }
 
 @misc{acdi,
