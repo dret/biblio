@@ -650,6 +650,23 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@string{amr = "Academy of Management Review" }
+
+@article{ort90,
+    author =    "J. Douglas Orton and Karl E. Weick",
+    journal =   amr,
+    title =     "Loosely Coupled Systems: A Reconceptualization",
+    year =      1990,
+    month =     apr,
+    volume =    15,
+    number =    2,
+    pages =     "203-223",
+    uri =       "http://www.jstor.org/sici?sici=0363-7425(199004)15%3A2%3C203%3ALCSAR%3E2.0.CO%3B2-5",
+    abstract =  "Diverse applications of the concept of loose coupling are embodied in five recurring voices that focus separately on causation, typology, effects, compensations, and outcomes. Each has a tendency to drift away from a dialectical interpretation of loose coupling toward a unidimensional interpretation of loose coupling, thereby weakening the explanatory value of the concept. The authors first use the five voices to review the loose coupling literature and then to suggest more precise and more productive uses of the concept."
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 @string{jcmc = "Journal of Computer-Mediated Communication" }
 
 @article{boy07,
@@ -4042,6 +4059,36 @@
     number =    1,
     pages =     "69-71",
     uri =       "http://csdl.computer.org/comp/mags/ic/2003/01/w1069abs.htm"
+}
+
+@article{pas06,
+    author =    "James Pasley",
+    title =     "Avoid XML Schema Wildcards For Web Service Interfaces",
+    journal =   ieeeic,
+    year =      2006,
+    month =     may,
+    volume =    10,
+    number =    3,
+    pages =     "72-79",
+    topic =     "xsdl[0.8]",
+    doi =       "10.1109/MIC.2006.45",
+    uri =       "http://doi.ieeecomputersociety.org/10.1109/MIC.2006.45",
+    abstract =  "Developers risk negative side effects when they attempt to make Web services interfaces extensible without understanding the context in which various mechanisms are applied. Given the overuse and misapplication of the HTML example,developers often litter their interfaces with XML Schema wildcards. This increases complexity and results in ambiguous interface definitions. A more appropriate versioning strategy for Web services development can help developers avoid these problems."
+}
+
+@article{pas05,
+    author =    "James Pasley",
+    title =     "How BPEL and SOA Are Changing Web Services Development",
+    journal =   ieeeic,
+    year =      2005,
+    month =     may,
+    volume =    9,
+    number =    3,
+    pages =     "60-67",
+    topic =     "bpel[0.8] soa[0.8]",
+    doi =       "10.1109/MIC.2005.56",
+    uri =       "http://doi.ieeecomputersociety.org/10.1109/MIC.2005.56",
+    abstract =  "As the use of Web services grows, organizations are increasingly choosing the Business Process Execution Language for modeling business processes within the Web services architecture. In addition to orchestrating organizations' Web services, BPEL's strengths include asynchronous message handling, reliability, and recovery. By developing Web services with BPEL in mind, organizations can implement aspects of the service-oriented architecture that might previously have been difficult to achieve."
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -10533,6 +10580,14 @@
     abstract =  "The Web Mashup Scripting Language (WMSL) enables an end-user working from his browser, e.g. not needing any other infrastructure, to quickly write mashups that integrate any two, or more, web services on the Web. The end-user accomplishes this by writing a web page that combines HTML, metadata in the form of mapping relations, and small piece of code, or script. The mapping relations enable not only the discovery and retrieval of the WMSL pages, but also affect a new programming paradigm that abstracts many programming complexities from the script writer. Furthermore, the WMSL Web pages or scripts that disparate end-users write, can be harvested by Crawlers to automatically generate the concepts needed to build lightweight ontologies containing local semantics of a web service and its data model, to extend context ontologies or middle ontologies, and to develop links, or mappings, between these ontologies. This enables an open-source model of building ontologies based on the WMSL Web page or scripts that end users write."
 }
 
+@inproceedings{sab07,
+    crossref =  "www2007p",
+    author =    "Johannes Meinecke and Frederic Majer and Martin Gaedke",
+    title =     "Construction by Linking: The Linkbase Method",
+    pages =     "1293-1294",
+    abstract =  "The success of many innovative Web applications is not based on the content they produce --- but on how they combine and link existing content. Older Web Engineering methods lack flexibility in a sense that they rely strongly on a-priori knowledge of existing content structures and do not take into account initially unknown content sources. We propose the adoption of principles that are also found in Component-based Software Engineering, to assemble highly extensible solutions from reusable artifacts. The main contribution of our work is a support system, consisting of a central service that manages n:m relationships between arbitrary Web resources, and of Web application components that realize navigation, presentation, and interaction for the linked content."
+}
+
 @proceedings{www2007p,
     title =     www2007p,
     booktitle = www2007p,
@@ -10558,17 +10613,64 @@
     topic =     "www[0.8]",
     uri =       "http://www2007.org/prog-Papers.php"
 }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@string{www2008  =    "Proceedings of the 17th International World Wide Web Conference" }
+@string{www2008p =    "Poster Proceedings of the 17th International World Wide Web Conference" }
+
+@inproceedings{pau08a,
+    crossref =  "www2008",
+    author =    "Cesare Pautasso and Olaf Zimmermann and Frank Leymann",
+    title =     {RESTful Web Services vs. "Big" Web Services: Making the Right Architectural Decision},
+    pages =     "805-814",
+    abstract =  "Recent technology trends in the Web Services (WS) domain indicate that a solution eliminating the presumed complexity of the WS-* standards may be in sight: advocates of REpresentational State Transfer (REST) have come to believe that their ideas explaining why the World Wide Web works are just as applicable to solve enterprise application integration problems and to simplify the plumbing required to build service-oriented architectures. In this paper we objectify the WS-* vs. REST debate by giving a quantitative technical comparison based on architectural principles and decisions. We show that the two approaches differ in the number of architectural decisions that must be made and in the number of available alternatives. This discrepancy between freedom-from-choice and freedom-of-choice explains the complexity difference perceived. However, we also show that there are significant differences in the consequences of certain decisions in terms of resulting development and maintenance costs. Our comparison helps technical decision makers to assess the two integration styles and technologies more objectively and select the one that best fits their needs: REST is well suited for basic, ad hoc integration scenarios, WS-* is more flexible and addresses advanced quality of service requirements commonly occurring in enterprise computing."
+}
+
+@proceedings{www2008p,
+    title =     www2008p,
+    booktitle = www2008p,
+    address =   beijing,
+    publisher = acm,
+    key =       www2008p,
+    month =     apr,
+    year =      2008,
+    index =     "WWW2008",
+    topic =     "www[0.8]"
+}
+
+@proceedings{www2008,
+    title =     www2008,
+    booktitle = www2008,
+    address =   beijing,
+    publisher = acm,
+    key =       www2008,
+    month =     apr,
+    year =      2008,
+    index =     "WWW2008",
+    topic =     "www[0.8]"
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-@string{wsw2008 =     "Proceedings of the Web Science Workshop (WSW2008) at WWW2008" }
+@string{wsw2008 =     "Proceedings of the First International Workshop on Understanding Web Evolution (WebEvolve2008)" }
 
 @inproceedings{wil08e,
     crossref =  "wsw2008",
     author =    "Erik Wilde",
     title =     "The Plain Web",
+    pages =     "79-83",
     uri =       "http://dret.net/netdret/publications#wil08e",
+    uri =       "http://journal.webscience.org/46/",
     abstract =  "The Web has become a very popular starting point for many innovations targeting infrastructure, services, and applications. One of the challenges of today's vast Web landscape is to monitor ongoing developments, put them into context, and assess their chances of success. One of the main virtues of a more scientific approach towards the Web landscape would be a clear differentiation between approaches which build on top of the infrastructure of the Web, with little embedding into the landscape itself, and those that are intended to blend into the Web, becoming a part of the Web itself. One of the main challenges in this area is to understand and classify new developments, and a better understanding of various dimensions of Web technology design would make it easier to assess the chances of success of any given development. This paper presents a preliminary classification, and presents arguments how those factors influence the chance for success."
+}
+
+@inproceedings{bol08a,
+    crossref =  "wsw2008",
+    author =    "Susanne Boll and Dirk Ahlers",
+    title =     "A Web more Geospatial: Insights into the Location Inside",
+    pages =     "40-43",
+    uri =       "http://journal.webscience.org/37/",
+    abstract =  "The Web today is considered to be a sheer unlimited resource of interlinked information which can be explored following links or can be found employing keyword-based search engines. A feature that becomes more and more relevant for our search and use of the Web is the geospatial reference of information. In this paper, we understand the Web as a vast geospatial information space in which most of the location information is still hidden inside the Web's content. We discuss the processes of uncovering hidden spatial information on the Web to realize a multitude of geospatial user scenarios. To explore the spatial character of the Web, location information needs to be discovered, understood, and augmented. By providing location insights into the existing Web, its content becomes accessible to spatial applications and thus allow users exploring the geospatial Web."
 }
 
 @proceedings{wsw2008,
@@ -10579,8 +10681,9 @@
     month =     apr,
     year =      2008,
     index =     "WSW 2008",
+    isbn =      "978-085432885-7",
     topic =     "www[0.8]",
-    uri =       "http://webscience.org/events/www2008-ws.html"
+    uri =       "http://webscience.org/events/www2008/"
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -10591,6 +10694,7 @@
     crossref =  "locweb2008",
     author =    "Erik Wilde and Martin Kofahl",
     title =     "The Locative Web",
+    pages =     "1-8",
     uri =       "http://dret.net/netdret/publications#wil08f",
     abstract =  {The concept of location has become very popular in many applications on the Web, in particular for those which aim at connecting the real world with resources on the Web. However, the Web as it is today has no overall location concept, which means that applications have to introduce their own location concepts and have done so in incompatible ways. By turning the Web into a location-aware Web, which we call the "Locative Web", location-oriented applications get better support for their location concepts on the Web, and the Web becomes an information system where location-related information can be more easily shared across different applications and application areas. We describe a location concept for the Web supporting different location types, its embedding into some of the Web's core technologies, and prototype implementations of these concepts in location-enabled Web components.}
 }
@@ -10599,6 +10703,7 @@
     crossref =  "locweb2008",
     author =    "Vlad Tanasescu and John Domingue",
     title =     "A Differential Notion of Place for Local Search",
+    pages =     "9-16",
     abstract =  "In this paper, we argue that in a local search, the what that is queried is implicitly about places and that geographic information retrieval would therefore benefit from an investigation of the semantics of place as a geographical entity. This investigation should include both the spatial and human components constitutive of the notion of place, without which the notion does not make sense. However existing knowledge representation (KR) models, such as ontologies based on logical theories, conceptual spaces, affordance or other, cannot capture in isolation all aspects of the meaning of a place. Therefore we propose to use a combination of them based on the underlying notion of difference. Differences are linked atoms of meaning. These nuances of meaning can be captured by using a variation of the technique of free association based on tagging, without committing to any KR model. Mapping to elements of different KR models can be made later to follow the requirements of a task. We demonstrate the usefulness of the approach for local search by applying it to the notion of place redefined as that location that supports a homogeneous affordance field while allowing the homogeneity of movement."
 }
 
@@ -10606,6 +10711,7 @@
     crossref =  "locweb2008",
     author =    {Andreas Henrich and Volker L\"udecke},
     title =     "Determining Geographic Representations for Arbitrary Concepts at Query Time",
+    pages =     "17-24",
     abstract =  "In typical concept@location-queries, the location is sometimes given by terms that cannot be found in gazetteers or geographic databases. Such terms range from names of vague geographical regions to more general terms such as mining or theme parks. In the present paper we describe our approach to deal with such vague location specifications. Roughly spoken, we derive a geographic representation for these location specifications from the top documents resulting from a query using the terms describing the location. These documents are parsed for toponyms and from these toponyms the region is derived. In the paper we describe an efficient process to derive the geographic representation for such situations at query time. Furthermore we present experiments depicting the performance of our approach as well as the result quality. Our approach allows for an efficient execution of queries such as camping ground near theme park or cycle path near brewery. It can also be used as a standalone-application giving a visual impression of the geographic footprint of arbitrary terms."
 }
 
@@ -10613,6 +10719,7 @@
     crossref =  "locweb2008",
     author =    {Riikka Henriksson and Tomi Kauppinen and Eero Hyv\"onen},
     title =     "Core Geographical Concepts: Case Finnish Geo-Ontology",
+    pages =     "57-60",
     abstract =  "In this paper we examine 1) the scope of geo-ontologies used especially for the purposes of information retrieval from the Web, 2) the core geographical concepts and their mutual relations, and 3) the properties the concepts have. Furthermore, we present the Finnish geo-ontology (Suomalainen paikkaontologia, SUO) and discuss the theories and principles that have governed the development process, as well as the limitations and requirements the use of geographical dictionaries as an instance data source have imposed to the content and the structure of SUO."
 }
 
@@ -10620,6 +10727,7 @@
     crossref =  "locweb2008",
     author =    "Florian A. Twaroch and Christopher B. Jones and Alia I. Abdelmoty",
     title =     "Acquisition of a Vernacular Gazetteer from Web Sources",
+    pages =     "61-64",
     abstract =  "Vernacular place names are names that are commonly in use to refer to geographical places. For purposes of effective information retrieval, the spatial extent associated with these names should be able to reflect people's perception of the place, even though this may differ sometimes from the administrative definition of the same place name. Due to their informal nature, vernacular place names are hard to capture, but methods to acquire and define vernacular place names are of great benefit to search engines and all kind of information services that deal with geographic data. This paper discusses the acquisition of vernacular use of place names from web sources and their representation as surface models derived by kernel density estimators."
 }
 
@@ -10627,6 +10735,7 @@
     crossref =  "locweb2008",
     author =    "Arno Scharl and Hermann Stern and Albert Weichselbraun",
     title =     "Annotating and Visualizing Location Data in Geospatial Web Applications",
+    pages =     "65-68",
     abstract =  "This paper presents the IDIOM Media Watch on Climate Change (www.ecoresearch.net/climate), a prototypical implementation of an environmental portal that emphasizes the importance of location data for advanced Web applications. The introductory section outlines the process of retrofitting existing knowledge repositories with geographical context information, a process also referred to as geotagging. The paper then describes the portal's functionality, which aggregates, annotates and visualizes environmental articles from 150 Anglo-American news media sites. From 300,000 news media articles gathered in weekly intervals, the system selects about 10,000 focusing on environmental issues. The crawled data is indexed and stored in a central repository. Geographic location represents a central aspect of the application, but not the only dimension used to organize and filter content. Applying the concepts of location and topography to semantic similarity, the paper concludes with discussing information landscapes as alternative interface metaphor for accessing large Web repositories."
 }
 
@@ -10634,6 +10743,7 @@
     crossref =  "locweb2008",
     author =    "Dirk Ahlers and Susanne Boll",
     title =     "Urban Web Crawling",
+    pages =     "25-32",
     abstract =  "Local search is increasingly becoming a major focus point of research interest as a widely-recognized speciality search with a large application area. Its data is usually aggregated from a variety of sources. One as yet largely untapped source of location data is the WWW. Today, the Web does not explicitly reveal its location-relation, rather this information is hidden somewhere within pages' contents. To exploit such location information, we need to find, extract and geo-spatially index relevant Web pages. For an effective retrieval of such content, this paper examines the application of focused Web crawling to the geospatial domain. We describe our approach for a geo-aware focused crawling of urban areas and other regions with a high building density and present our experimental results that gives us insight into spatial Web information such as location density and link distance between topical pages. Our crawls and evaluations back our hypothesis that adaptive focused crawling yields good results on the urban geospatial topic."
 }
 
@@ -10641,6 +10751,7 @@
     crossref =  "locweb2008",
     author =    "Jiahui Liu and Larry Birnbaum",
     title =     "LocalSavvy: Aggregating Local Points of View about News Issues",
+    pages =     "33-40",
     abstract =  "The web has become an important medium for news delivery and consumption. Fresh content about a variety of topics, events, and places is constantly being created and published on the web by news agencies around the world. As intuitively understood by readers, and studied in journalism, news articles produced by different social groups present different attitudes towards and interpretations of the same news issues. In this paper, we propose a new paradigm for aggregating news articles according to the local news sources associated with the stakeholders of the news issues. This new paradigm provides users the capability to aggregate and browse various local points of view about the news issues in which they are interested. We implement this paradigm in a system called LocalSavvy. LocalSavvy analyzes the news articles provided by users, using knowledge about locations automatically acquired from the web. Based on the analysis of the news issue, the system finds and aggregates local news articles published by official and unofficial news sources associated with the stakeholders. Moreover, opinions from those local social groups are extracted from the retrieved results, presented in the summaries and highlighted in the news web pages. We evaluate LocalSavvy with a user study. The quantitative and qualitative analysis shows that news articles aggregated by LocalSavvy present relevant and distinct local opinions, which can be clearly perceived by the subjects."
 }
 
@@ -10648,13 +10759,15 @@
     crossref =  "locweb2008",
     author =    "Ziming Zhuang and Cliff Brunk and C. Lee Giles",
     title =     "Modeling and Visualizing Geo-Sensitive Queries Based on User Clicks",
-    abstract =  "    The number of search queries that are associated with geographical locations, either explicitly or implicitly, has been quadrupled in recent years. For such geo-sensitive queries, the ability to accurately infer users' geographical preference greatly enhances their search experience. By mining past user clicks and constructing a geographical click probability distribution model, we address two important issues in spatial Web search: how do we determine whether a search query is geo-sensitive, and how do we detect, disambiguate, and visualize the associated geographical location(s). We present our empirical study on a large-scale dataset with about 9,000 unique queries randomly drawn from the logs of a popular commercial search engine Yahoo! Search, and about 430 million user clicks on 1.6M unique Web pages over an eight-month period. Our classification method achieved recall of 0.98 and precision of 0.75 in identifying geo-sensitive search queries. We also present our preliminary findings in using geographical click probability distributions to cluster search results for queries with geographical ambiguities."
+    pages =     "73-76",
+    abstract =  "The number of search queries that are associated with geographical locations, either explicitly or implicitly, has been quadrupled in recent years. For such geo-sensitive queries, the ability to accurately infer users' geographical preference greatly enhances their search experience. By mining past user clicks and constructing a geographical click probability distribution model, we address two important issues in spatial Web search: how do we determine whether a search query is geo-sensitive, and how do we detect, disambiguate, and visualize the associated geographical location(s). We present our empirical study on a large-scale dataset with about 9,000 unique queries randomly drawn from the logs of a popular commercial search engine Yahoo! Search, and about 430 million user clicks on 1.6M unique Web pages over an eight-month period. Our classification method achieved recall of 0.98 and precision of 0.75 in identifying geo-sensitive search queries. We also present our preliminary findings in using geographical click probability distributions to cluster search results for queries with geographical ambiguities."
 }
 
 @inproceedings{she08,
     crossref =  "locweb2008",
     author =    "Chang Sheng and Wynne Hsu and Mong Li Lee",
     title =     "Discovering Geographical-specific Interests from Web Click Data",
+    pages =     "41-48",
     abstract =  "As the Internet continues to play an important role in many business applications, it becomes vital to increase the competitive edge by offering geographically tailored contents that reflect the common interests of the geographical region of the web visitors. In this paper, we define the problem of mining geographical-specific interests patterns. We utilize the quadtree to model the influence distributions of different features, and design an algorithm called FlexiPROBER to mine geographical-specific interests patterns that are significant in a local region. We further examine how these patterns can change over time and develop an algorithm called MineGIC to efficiently discover pattern changes. Experiment results demonstrate that the proposed algorithms are scalable and efficient. Patterns discovered from real world web click datasets reveal interesting patterns and show the evolution of the interests of people in those regions."
 }
 
@@ -10662,6 +10775,7 @@
     crossref =  "locweb2008",
     author =    "Qingqing Gan and Josh Attenberg and Alexander Markowetz and Torsten Suel",
     title =     "Analysis of Geographic Queries in a Search Engine Log",
+    pages =     "49-56",
     abstract =  {Geography is becoming increasingly important in web search. Search engines can often return better results to users by analyzing features such as user location or geographic terms in web pages and user queries. This is also of great commercial value as it enables location specific advertising and improved search for local businesses. As a result, major search companies have invested significant resources into geographic search technologies, also often called local search. This paper studies geographic search queries, i.e., text queries such as "hotel new york" that employ geographical terms in an attempt to restrict results to a particular region or location. Our main motivation is to identify opportunities for improving geographical search and related technologies, and we perform an analysis of 36 million queries of the recently released AOL query trace. First, we identify typical properties of geographic search (geo) queries based on a manual examination of several thousand queries. Based on these observations, we build a classifier that separates the trace into geo and non-geo queries. We then investigate the properties of geo queries in more detail, and relate them to web sites and users associated with such queries.
 We also propose a new taxonomy for geographic search queries.}
 }
@@ -10670,6 +10784,7 @@ We also propose a new taxonomy for geographic search queries.}
     crossref =  "locweb2008",
     author =    "Xiangye Xiao and Longhao Wang and Xing Xie and Qiong Luo",
     title =     "Discovering Co-located Queries in Geographic Search Logs",
+    pages =     "77-84",
     abstract =  "Though general query log mining has been studied for years, little work has been done to utilize geographic search logs. A geographic search request basically contains a query consisting of one or more keywords, and a location specifying the geographic search area. In this paper, we study the problem of discovering co-located queries which are frequently searched over nearby locations. One example co-located query pattern is “shopping mall”, “parking”. This pattern indicates that people often search “shopping mall” and “parking” over locations close to one another. We formally define co-located query patterns and propose two approaches to mine the patterns. The basic approach is based on an existing spatial mining algorithm. To find more co-located queries that only appear in specific regions, we propose a lattice based approach. It divides the geographic space into regions and mines patterns in each region. We also define a locality measure to categorize patterns into local and global. Experimental results show that the lattice based approach achieves higher performance than the basic approach in the number of patterns, the quality of patterns, and the proportion of local patterns."
 }
 
@@ -10677,6 +10792,7 @@ We also propose a new taxonomy for geographic search queries.}
     crossref =  "locweb2008",
     author =    {H\"useyin Akcan and Torsten Suel and Herv\'e Br\"onnimann},
     title =     "Geographic Web Usage Estimation By Monitoring DNS Caches",
+    pages =     "85-92",
     abstract =  "DNS is one of the most actively used distributed databases on earth, accessed by millions of people every day to transparently convert host names into IP addresses and vice versa. In order to improve their performance, DNS servers also keep temporary records of all requested domain names in their cache. While most of the DNS servers are configured to be used by their local users only, there still exist many DNS servers that respond to public queries. Querying these DNS servers reveals the recently visited domains. Exploiting the geographically distributed nature of DNS, one can gather usage statistics ranging from a single DNS server to global scale. In particular, this enables collecting statistics about geographic differences in web browsing behavior between different regions of a country or the world. In this paper, we present methods to identify these public DNS servers, discuss how to effectively crawl them, and describe our algorithm to extract usage estimations from the crawl data. We also evaluate our estimation algorithm using extensive simulations, and finally use our algorithms to crawl 150 U.S. universities for various domains, and explore the effects of location and time on the access rate of these domains."
 }
 
@@ -10684,6 +10800,7 @@ We also propose a new taxonomy for geographic search queries.}
     crossref =  "locweb2008",
     author =    "Dinh Phung and Brett Adams and Svetha Venkatesh",
     title =     "Computable Social Patterns from Sparse Sensor Data",
+    pages =     "69-72",
     abstract =  "We present a computational framework to automatically discover high-order social patterns from very noisy and sparse location sensing information. The key idea in this work is to construct a social codebook, transform raw data into a 'book of life' --- a collection of social pages, each in turn is a sequence of encoded footprints. Computable patterns are then defined as repeated structures found in these sequences. Tackling this problem poses several challenges such as how to construct the codebook, how to define patterns and extract them. In particular, extracting high-order patterns are known to be a very hard problem. We address these questions and propose a Latent Social theme Dirichlet Allocation (LSDA) model, which is a personalized version of the Ngram topic models proposed recently. This model can be viewed as a Baysian clustering method, jointly discovering temporal collocation of footprints and exploiting statistical strength across social pages. Alternatively it can be viewed as dimensionality reduction method where the reduced latent space corresponds to hidden social themes or plans of user's daily activities. Applying to a real-world noisy dataset collected over 1.5 years, we show that many useful and interesting patterns can be computed automatically."
 }
 
@@ -13711,6 +13828,29 @@ We also propose a new taxonomy for geographic search queries.}
     isbn =      "1-4244-1499-7",
     uri =       "http://www.sis.pitt.edu/~iri07/",
     uri =       "http://www.informatik.uni-trier.de/~ley/db/conf/iri/iri2007.html"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@string{iri2008 = "Proceedings of the 2008 IEEE International Conference on Information Reuse and Integration" }
+
+@inproceedings{wil08i,
+    crossref =  "iri2008",
+    author =    "Erik Wilde and Yiming Liu",
+    title =     "Lightweight Linked Data",
+    pages =     "???",
+    uri =       "http://dret.net/netdret/publications#wil08i",
+    abstract =  "???"
+}
+
+@proceedings{iri2008,
+    title =     iri2008,
+    booktitle = iri2008,
+    year =      2008,
+    month =     jul,
+    address =   vegas,
+    uri =       "http://iri2008.cpsc.ucalgary.ca/",
+    uri =       "http://www.informatik.uni-trier.de/~ley/db/conf/iri/iri2008.html"
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -26478,7 +26618,7 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{ddrsimpleapi,
-    author =    "Jo Rabin and Jos\'e Manuel Cantera Fonseca and Rotan Hanrahan and Ignacio Mar\'in",
+    author =    "Jo Rabin and Jos\'e Manuel Cantera Fonseca and Rotan Hanrahan and Ignacio Mar\'\i{}n",
     title =     "Device Description Repository Simple API",
     howpublished =  "World Wide Web Consortium, Working Draft WD-DDR-Simple-API-20080404",
     month =     apr,
