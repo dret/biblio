@@ -650,6 +650,22 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@string{mitsloan = "MIT Sloan Management Review" }
+
+@article{ret07,
+    author =    "Cynthia Rettig",
+    journal =   mitsloan,
+    title =     "The Trouble with Enterprise Software",
+    year =      2007,
+    volume =    49,
+    number =    1,
+    pages =     "21-27",
+    uri =       "http://sloanreview.mit.edu/smr/issue/2007/fall/01/",
+    abstract =  "Drawing upon a wealth of data, informed experience, and expert opinion --- from Thomas Friedman to Bjarne Stroustrup, from David Gelernter to Nicholas Carr --- the author builds a case that enterprise software in large organizations has not delivered on its promise to fully integrate and intelligently control complex business processes while remaining flexible enough to adapt to changing business needs. Instead, ERP systems --- including both software applications and the data they process --- are variegated patchworks, containing 50 or more databases and hundreds of separate software programs installed over decades and interconnected by idiosyncratic, Byzantine, and poorly documented customized processes. To manage this growing complexity, IT departments have grown substantially: Today's IT departments spend 70% to 80% of their budgets just trying to keep existing systems running. The research shows, says the author, that the typical IT structure is so dense and extensive that it's often a miracle that it works at all. Enterprise systems that were supposed to streamline and simplify business processes instead have brought high risks, uncertainty, and a deeply worrying level of complexity. Rather than agility, they have produced rigidity and unexpected barriers to change, a veritable glut of information containing myriad hidden errors, and a cloud of questions regarding their overall benefits. How did this happen? Rettig points to the inherent limitations in the nature of software, the costs of implementation, and the vagaries of data. Indeed, she offers, enterprise software may be just too complex to deliver on its promises. She also suggests that the next new thing --- service-oriented architecture (SOA) --- is not likely to fare much better, for many of the same reasons. There are no easy fixes, cautions Rettig, save a large dose of sobriety, clear-eyed analysis, and emphasis on simplicity and efficiency."
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 @string{amr = "Academy of Management Review" }
 
 @article{ort90,
@@ -10626,6 +10642,14 @@
     abstract =  "Recent technology trends in the Web Services (WS) domain indicate that a solution eliminating the presumed complexity of the WS-* standards may be in sight: advocates of REpresentational State Transfer (REST) have come to believe that their ideas explaining why the World Wide Web works are just as applicable to solve enterprise application integration problems and to simplify the plumbing required to build service-oriented architectures. In this paper we objectify the WS-* vs. REST debate by giving a quantitative technical comparison based on architectural principles and decisions. We show that the two approaches differ in the number of architectural decisions that must be made and in the number of available alternatives. This discrepancy between freedom-from-choice and freedom-of-choice explains the complexity difference perceived. However, we also show that there are significant differences in the consequences of certain decisions in terms of resulting development and maintenance costs. Our comparison helps technical decision makers to assess the two integration styles and technologies more objectively and select the one that best fits their needs: REST is well suited for basic, ad hoc integration scenarios, WS-* is more flexible and addresses advanced quality of service requirements commonly occurring in enterprise computing."
 }
 
+@inproceedings{dmi08,
+    crossref =  "www2008p",
+    author =    "Pavel Dmitriev",
+    title =     "As We May Perceive: Finding the Boundaries of Compound Documents on the Web",
+    pages =     "1029-1030",
+    abstract =  "This paper considers the problem of identifying on the Web compound documents (cDocs) --- groups of web pages that in aggregate constitute semantically coherent information entities. Examples of cDocs are a news article consisting of several html pages, or a set of pages describing specifications, price, and reviews of a digital camera. Being able to identify cDocs would be useful in many applications including web and intranet search, user navigation, automated collection generation, and information extraction. In the past, several heuristic approaches have been proposed to identify cDocs. However, heuristics fail to capture the variety of types, styles and goals of information on the web, and do not account for the fact that the definition of a cDoc often depends on the context. This paper presents an experimental evaluation of three machine learning-based algorithms for cDoc discovery. These algorithms are responsive to the varying structure of cDocs and adaptive to their application-specific nature. Based on our previous work, this paper proposes a different scenario for discovering cDocs, and compares in this new setting the local machine learned clustering algorithm to a global purely graph based approach and a Conditional Markov Network approach previously applied to noun coreference task. The results show that the approach outperforms the other algorithms, suggesting that global relational characteristics of web sites are too noisy for cDoc identification purposes. "
+}
+
 @proceedings{www2008p,
     title =     www2008p,
     booktitle = www2008p,
@@ -15729,6 +15753,15 @@ We also propose a new taxonomy for geographic search queries.}
     doi =       "10.1145/1083356.1083367",
     uri =       "http://eprints.ecs.soton.ac.uk/12020/1/mind-the-semantic-gap.pdf",
     abstract =  "Hypertext can be seen as a logic representation, where semantics are encoded in both the textual nodes and the graph of links. Systems that have a very formal representation of these semantics are able to manipulate the hypertexts in a sophisticated way; for example by adapting them or sculpting them at run-time. However, hypertext systems which require the author to write in terms of structures with explicit semantics are difficult/costly to write in, and can be seen as too restrictive by certain authors because they do not allow the playful ambiguity often associated with literary hypertext. In this paper we present a vector-based model of the formality of semantics in hypertext systems, where the vectors represent the translation of semantics from author to system and from system to reader. We categorise a variety of existing systems and draw out some general conclusions about the profiles they share. We believe that our model will help hypertext system designers analyse how their own systems formalise semantics, and will warn them when they need to mind the Semantic Gap between authors and readers."
+}
+
+@inproceedings{dmi05,
+    crossref =  "acmht05",
+    author =    "Pavel Dmitriev and Carl Lagoze and Boris Suchkov",
+    title =     "As We May Perceive: Inferring Logical Documents from Hypertext",
+    pages =     "66-74",
+    doi =       "10.1145/1083356.1083370",
+    abstract =  {In recent years, many algorithms for the Web have been developed that work with information units distinct from individual web pages. These include segments of web pages or aggregation of web pages into web communities. Such logical information units improve a variety of web algorithms and provide the building blocks for the construction of organized information spaces such as digital libraries. In this paper, we focus on a type of logical information units called "compound documents". We argue that the ability to identify compound documents can improve information retrieval, automatic metadata generation, and navigation on the Web. We propose a unified framework for identifying the boundaries of compound documents, which combines both structural and content features of constituent web pages. The framework is based on a combination of machine learning and clustering algorithms, with the former algorithm supervising the latter one. We also propose a new method for evaluating quality of clusterings, based on a user behavior model. Experiments on a collection of educational web sites show that our approach can reliably identify most of the compound documents on these sites.}
 }
 
 @proceedings{acmht05,
@@ -32170,10 +32203,20 @@ We also propose a new taxonomy for geographic search queries.}
     topic =     "cnrp[1]"
 }
 
+@misc{box99a,
+    author =    "Don Box and Gopal Kavivaya and Andrew Layman and Satish Thatte and Dave Winer",
+    title =     "SOAP: Simple Object Access Protocol",
+    howpublished =  "Internet Draft draft-box-http-soap-00",
+    month =     sep,
+    year =      1999,
+    topic =     "soap[1]",
+    abstract =  "SOAP defines an RPC mechanism using XML for client-server interaction across a network by using the following mechanisms: HTTP as the base transport; XML documents for encoding of invocation requests and responses."
+}
+
 @misc{box99,
     author =    "Don Box and Gopal Kavivaya and Andrew Layman and Satish Thatte and Dave Winer",
     title =     "SOAP: Simple Object Access Protocol",
-    howpublished =  "Internet Draft",
+    howpublished =  "Internet Draft draft-box-http-soap-01",
     month =     nov,
     year =      1999,
     topic =     "soap[1]"
