@@ -5742,6 +5742,19 @@
 
 @string{ieeecomp =  "IEEE Computer" }
 
+@article{tre08,
+    author =    "Jonathan Trevor",
+    title =     "Doing the Mobile Mash",
+    journal =   ieeecomp,
+    year =      2008,
+    month =     feb,
+    volume =    41,
+    number =    2,
+    pages =     "104-106",
+    doi =       "10.1109/MC.2008.48",
+    abstract =  "Pipes lets both novice and expert developers grab Web data sources from multiple formats, manipulate that data, mash it up with other data sources or services using a visual editor, and host the results on its Web page. Once a Pipe is built, anyone can use its data output however they want, wherever they want. Mobile application development continues to be challenging given the enormous number of devices and capabilities. Services like Pipes enable developers to focus on one of the keystones of such applications: getting the right data. They also make list- and map-based visualizations easy to both build and consume. A current shortcoming of many mobile Pipes is the lack of an automatic way to provide user location."
+}
+
 @article{spo07,
     author =    "Jim Spohrer and Paul P. Maglio and John Bailey and Daniel Gruhl",
     title =     "Steps Toward a Science of Service Systems",
@@ -6228,6 +6241,15 @@
     pages =     "1150-1160",
     uri =       "http://www.vldb.org/conf/2007/papers/industrial/p1150-stonebraker.pdf",
     abstract =  {In previous papers, some of us predicted the end of "one size fits all" as a commercial relational DBMS paradigm. These papers presented reasons and experimental evidence that showed that the major RDBMS vendors can be outperformed by 1-2 orders of magnitude by specialized engines in the data warehouse, stream processing, text, and scientific database markets. Assuming that specialized engines dominate these markets over time, the current relational DBMS code lines will be left with the business data processing (OLTP) market and hybrid markets where more than one kind of capability is required. In this paper we show that current RDBMSs can be beaten by nearly two orders of magnitude in the OLTP market as well. The experimental evidence comes from comparing a new OLTP prototype, H-Store, which we have built at M.I.T. to a popular RDBMS on the standard transactional benchmark, TPC-C. We conclude that the current RDBMS code lines, while attempting to be a "one size fits all" solution, in fact, excel at nothing. Hence, they are 25 year old legacy code lines that should be retired in favor of a collection of "from scratch" specialized engines. The DBMS vendors (and the research community) should start with a clean sheet of paper and design systems for tomorrow's requirements, not continue to push code lines and architectures designed for yesterday's needs.}
+}
+
+@inproceedings{bot07,
+    crossref =  "vldb07",
+    author =    "Irina Botan and Donald Kossmann and Peter M. Fischer and Tim Kraska and Dana Florescu and Rokas Tamosevicius",
+    title =     "Extending XQuery with Window Functions",
+    pages =     "75-86",
+    uri =       "http://www.vldb.org/conf/2007/papers/research/p75-botan.pdf",
+    abstract =  "This paper presents two extensions for XQuery. The first extension allows the definition and processing of different kinds of windows over an input sequence; i.e., tumbling, sliding, and landmark windows. The second extension extends the XQuery data model (XDM) to support infinite sequences. This extension makes it possible to use XQuery as a language for continuous queries. Both extensions have been integrated into a Java-based open source XQuery engine. This paper gives details of this implementation and presents the results of running the Linear Road benchmark on the extended XQuery engine."
 }
 
 @proceedings{vldb07,
@@ -14334,6 +14356,27 @@ We also propose a new taxonomy for geographic search queries.}
     address =   vegas,
     uri =       "http://iri2008.cpsc.ucalgary.ca/",
     uri =       "http://www.informatik.uni-trier.de/~ley/db/conf/iri/iri2008.html"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@string{visions2008 = "Proceedings of the British Computer Society Conference on Visions of Computer Science" }
+
+@inproceedings{wil08l,
+    crossref =  "visions2008",
+    author =    "Erik Wilde and Martin Gaedke",
+    title =     "Web Engineering Redefined",
+    uri =       "http://dret.net/netdret/publications#wil08l",
+    abstract =  {We propose "Web Engineering 2.0" to not focus anymore on "how to engineer for the Web", but "how to engineer the Web". Web Engineering has become one of the core disciplines for building Web-oriented applications. This paper proposes to reposition Web engineering to be more specific to what the Web is, by which we mean not only an interface technology, but an information system, into which Web-oriented applications have to be embedded. More traditional Web applications often are just user interfaces to data silos, whereas the last years have shown that well-designed Web-oriented applications can essentially start with no data, and derive all their value from being open and attracting users on a large scale. Such an approach to Web engineering not only leads to a more disciplined way of engineering the Web, it also allows computer science to better integrate the special properties of the Web, most importantly the loosely coupled nature of the Web, and the importance of the social systems driving the Web.}
+}
+
+@proceedings{visions2008,
+    title =     visions2008,
+    booktitle = visions2008,
+    year =      2008,
+    month =     sep,
+    address =   london,
+    uri =       "http://www.bcs.org/server.php?show=nav.9878"
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -27626,13 +27669,25 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{xquery11usecases,
     author =    "Tim Kraska",
     title =     "XML Query (XQuery) 1.1 Use Cases",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-xquery-11-use-cases-20080327",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-xquery-11-use-cases-20080711",
+    month =     jul,
     year =      2008,
     topic =     "xquery[0.9]",
-    updates =   "xquery",
-    uri =       "http://www.w3.org/TR/2008/WD-xquery-11-use-cases-20080327",
+    updates =   "xquery xmlqusecase",
+    uri =       "http://www.w3.org/TR/2008/WD-xquery-11-use-cases-20080711",
     abstract =  "This document specifies usage scenarios for XML Query (XQuery) 1.1."
+}
+
+@misc{xquery11,
+    author =    "Donald D. Chamberlin and Jonathan Robie",
+    title =     "XQuery 1.1",
+    howpublished =  "World Wide Web Consortium, Working Draft",
+    month =     jul,
+    year =      2007,
+    topic =     "xquery[1]",
+    updates =   "xquery",
+    uri =       "http://www.w3.org/TR/2008/WD-xquery-11-20080711",
+    abstract =  "XML is a versatile markup language, capable of labeling the information content of diverse data sources including structured and semi-structured documents, relational databases, and object repositories. A query language that uses the structure of XML intelligently can express queries across all these kinds of data, whether physically stored in XML or viewed as XML via middleware. This specification describes a query language called XQuery, which is designed to be broadly applicable across many types of XML data sources. XQuery 1.1 is an extended --- with a small number of new features --- version of the XQuery 1.0 Recommendation published on 23 January 2007. A list of changes made since XQuery 1.0 can be found in the Revision Log."
 }
 
 @misc{xq10xp20fo,
@@ -31940,6 +31995,17 @@ We also propose a new taxonomy for geographic search queries.}
     topic =     "powder[0.9] wdrd[1]",
     uri =       "http://www.w3.org/TR/2007/WD-powder-xsd-20070925",
     abstract =  "This is the namespace document for the XML schema used in the Protocol for Web Description resources (POWDER). It defines the datatypes used and the structure for Description Resources where these are serialized in XML."
+}
+
+@misc{powderformal,
+    author =    "Stasinos Konstantopoulos and Phil Archer",
+    title =     "Protocol for Web Description Resources (POWDER): Formal Semantics",
+    howpublished =  "World Wide Web Consortium, Working Draft http://www.w3.org/TR/2008/WD-powder-formal-20080709",
+    month =     jul,
+    year =      2008,
+    topic =     "powder[0.9]",
+    uri =       "http://www.w3.org/TR/2008/WD-powder-formal-20080709",
+    abstract =  "This document underpins the Protocol for Web Description Resources (POWDER). It describes how the relatively simple operational format of a POWDER document can be transformed through two stages, first into a more tightly constrained XML format (POWDER-BASE), and then into an RDF/OWL encoding (POWDER-S) that may be processed by Semantic Web tools. Such processing is only possible, however, if tools implement the semantic extension defined within this document. The formal semantics of POWDER are best understood after the reader is acquainted with the Description Resources and Grouping of Resources documents."
 }
 
 @misc{xmlevents,
