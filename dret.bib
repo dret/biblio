@@ -4091,6 +4091,19 @@
 @string{ieeesoftware =  "IEEE Software" }
 
 @article{fow03b,
+    author =    "Gregor Hohpe",
+    title =     "Your Coffee Shop Doesn't Use Two-Phase Commit",
+    journal =   ieeesoftware,
+    year =      2005,
+    volume =    22,
+    number =    2,
+    pages =     "64-66",
+    doi =       "10.1109/MS.2005.52",
+    uri =       "http://www.enterpriseintegrationpatterns.com/docs/IEEE_Software_Design_2PC.pdf",
+    abstract =  "Asynchronous processing models can be highly efficient but are not without challenges. If the real world writes the best stories, then maybe we can learn something from Starbucks about designing successful asynchronous messaging solutions."
+}
+
+@article{fow03b,
     author =    "Martin Fowler",
     title =     "Who Needs an Architect?",
     journal =   ieeesoftware,
@@ -29715,13 +29728,13 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{xmlentitynames,
-    author =    "David Carlisle",
+    author =    "David Carlisle and Patrick Ion",
     title =     "XML Entity definitions for Characters",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-xml-entity-names-20071214",
-    month =     dec,
-    year =      2007,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-xml-entity-names-20080721",
+    month =     jul,
+    year =      2008,
     topic =     "xml[0.8] unicode[0.8]",
-    uri =       "http://www.w3.org/TR/2007/WD-xml-entity-names-20071214",
+    uri =       "http://www.w3.org/TR/2008/WD-xml-entity-names-20080721",
     abstract =  "This document defines several sets of names which are assigned to Unicode characters. Each of these sets is also implemented as a file of XML entity declarations."
 }
 
@@ -31122,14 +31135,14 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{css3color,
-    author =    "Tantek \c{C}elik and Chris Lilley and Steven Pemberton and Brad Pettit",
+    author =    "Tantek \c{C}elik and Chris Lilley and L. David Baron",
     title =     "CSS3 Module: Color",
-    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-css3-color-20030514",
-    month =     may,
-    year =      2003,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-css3-color-20080721",
+    month =     jul,
+    year =      2008,
     topic =     "css3[1]",
-    uri =       "http://www.w3.org/TR/2003/CR-css3-color-20030514",
-    abstract =  "CSS (Cascading Style Sheets) is a language for describing the rendering of HTML and XML documents on screen, on paper, in speech, etc. To color elements in a document, it uses color related properties and respective values. This specification describes the properties and values that are proposed for CSS level 3. It includes and extends them from properties and values of CSS level 2."
+    uri =       "http://www.w3.org/TR/2008/WD-css3-color-20080721",
+    abstract =  "CSS (Cascading Style Sheets) is a language for describing the rendering of HTML and XML documents on screen, on paper, in speech, etc. It uses color related properties and respective values to color the text, backgrounds, borders, and other parts of elements in a document. This specification describes color values and properties for foreground color and group opacity. These include properties and values from CSS level 2 and new values."
 }
 
 @misc{css3bg,
@@ -32641,24 +32654,24 @@ We also propose a new taxonomy for geographic search queries.}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 @misc{bar07,
-    author =    "Mary Barnes and James Winterbottom and Martin Thomson and Barbara Stark",
+    author =    "Mary Barnes",
     title =     "HTTP Enabled Location Delivery (HELD)",
-    howpublished =  "Internet Draft draft-ietf-geopriv-http-location-delivery-01",
+    howpublished =  "Internet Draft draft-ietf-geopriv-http-location-delivery-08",
     month =     jul,
-    year =      2007,
+    year =      2008,
     topic =     "held[1]",
     uri =       "https://datatracker.ietf.org/drafts/draft-ietf-geopriv-http-location-delivery",
-    abstract =  "A Layer 7 Location Configuration Protocol (L7 LCP) is described that is used for retrieving location information from a server within an access network. The protocol includes options for retrieving location information either by-value or by-reference. The protocol supports mobile and nomadic devices through Location URIs. The protocol is an application-layer protocol that is independent of session-layer; an HTTP, web services binding is specified."
+    abstract =  "A Layer 7 Location Configuration Protocol (L7 LCP) is described that is used for retrieving location information from a server within an access network.  The protocol includes options for retrieving location information in two forms: by value and by reference.  The protocol is an extensible application-layer protocol that is independent of session-layer.  This document describes the use of HyperText Transfer Protocol (HTTP) and HTTP over Transport Layer Security (HTTP/TLS) as transports for the protocol."
 }
 
 @misc{sch07,
     author =    "Henning Schulzrinne and Hannes Tschofenig and John B. Morris and Jorge R. Cuellar and James Polk",
     title =     "Geolocation Policy: A Document Format for Expressing Privacy Preferences for Location Information",
-    howpublished =  "Internet Draft draft-ietf-geopriv-policy-12",
-    month =     may,
-    year =      2007,
+    howpublished =  "Internet Draft draft-ietf-geopriv-policy-17",
+    month =     jun,
+    year =      2008,
     uri =       "https://datatracker.ietf.org/drafts/draft-ietf-geopriv-policy",
-    abstract =  "This document defines an authorization policy language for controlling access to location information. It extends the Common Policy authorization framework to provide location-specific access control. More specifically, this document defines condition elements specific to location information in order to restrict access based on the current location of the Target. Furthermore, it offers location- specific transformation elements to reduce the granularity of the returned location information."
+    abstract =  "This document defines an authorization policy language for controlling access to location information. It extends the Common Policy authorization framework to provide location-specific access control. More specifically, this document defines condition elements specific to location information in order to restrict access based on the current location of the Target. Furthermore, it offers location-specific transformation elements to reduce the granularity of the returned location information."
 }
 
 @misc{may07,
@@ -35418,6 +35431,15 @@ We also propose a new taxonomy for geographic search queries.}
     month =     oct,
     year =      1998,
     topic =     "ppp[0.9] chap[1]"
+}
+
+@misc{rfc2434,
+    author =    "Thomas Narten and Harald Tveit Alvestrand",
+    title =     "Guidelines for Writing an IANA Considerations Section in RFCs",
+    howpublished =  "Internet RFC 2434",
+    month =     oct,
+    year =      1998,
+    topic =     "rfc[0.9]"
 }
 
 @misc{rfc2437,
@@ -38504,6 +38526,17 @@ We also propose a new taxonomy for geographic search queries.}
     topic =     "uri[0.8] mime[0.8]",
     updates =   "wil02h",
     abstract =  "This memo defines URI fragment identifiers for text/plain MIME entities. These fragment identifiers make it possible to refer to parts of a text/plain MIME entity, either identified by character position or range, or by line position or range. Fragment identifiers may also contain information for integrity checks to make them more robust."
+}
+
+@misc{rfc5226,
+    author =    "Thomas Narten and Harald Tveit Alvestrand",
+    title =     "Guidelines for Writing an IANA Considerations Section in RFCs",
+    howpublished =  "Internet RFC 5226",
+    month =     may,
+    year =      2008,
+    topic =     "rfc[0.9]",
+    updates =   "rfc2434",
+    abstract =  "Many protocols make use of identifiers consisting of constants and other well-known values. Even after a protocol has been defined and deployment has begun, new values may need to be assigned (e.g., for a new option type in DHCP, or a new encryption or authentication transform for IPsec). To ensure that such quantities have consistent values and interpretations across all implementations, their assignment must be administered by a central authority. For IETF protocols, that role is provided by the Internet Assigned Numbers Authority (IANA). In order for IANA to manage a given namespace prudently, it needs guidelines describing the conditions under which new values can be assigned or when modifications to existing values can be made. If IANA is expected to play a role in the management of a namespace, IANA must be given clear and concise instructions describing that role. This document discusses issues that should be considered in formulating a policy for assigning values to a namespace and provides guidelines for authors on the specific text that must be included in documents that place demands on IANA."
 }
 
 @misc{rfc5234,
