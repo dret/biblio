@@ -17292,7 +17292,7 @@ We also propose a new taxonomy for geographic search queries.}
     title =     "A natural-language approach to modeling: Why is some XML so difficult to write?",
     uri =       "http://www.idealliance.org/papers/extreme/proceedings/html/2006/Marcoux01/EML2006Marcoux01.html",
     uri =       "http://www.idealliance.org/papers/extreme/proceedings/xslfo-pdf/2006/marcoux01/eml2006marcoux01.pdf",
-    abstract =  "Writing valid XML can be viewed as a collaborative process in which (roughly speaking) the modeler supplies the structure (markup), and the author the contents. When an information management chain includes document creation by a human, failure to mobilize and properly support the author in his task may result in errors or loss of valuable information. In this paper, we first argue that the usual pragmatical approaches to specifying the semantics of XML models do not allow authoring environments to easily provide sufficient semantic support to authors, whereas syntactic support is profusely available. Then, we sketch a semantic framework (provisionally called intertextual semantics), which we think could allow modelers to specify the semantics of their models in a form that can be turned into semantic support to authors in authoring environments. We discuss the pros and cons of the proposed framework, as well as avenues for further work. "
+    abstract =  "Writing valid XML can be viewed as a collaborative process in which (roughly speaking) the modeler supplies the structure (markup), and the author the contents. When an information management chain includes document creation by a human, failure to mobilize and properly support the author in his task may result in errors or loss of valuable information. In this paper, we first argue that the usual pragmatical approaches to specifying the semantics of XML models do not allow authoring environments to easily provide sufficient semantic support to authors, whereas syntactic support is profusely available. Then, we sketch a semantic framework (provisionally called intertextual semantics), which we think could allow modelers to specify the semantics of their models in a form that can be turned into semantic support to authors in authoring environments. We discuss the pros and cons of the proposed framework, as well as avenues for further work."
 }
 
 @proceedings{xmarkup2006,
@@ -26590,14 +26590,14 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{rifucr,
-    author =    "Allen Ginsberg and David Hirtle",
+    author =    "Adrian Paschke and David Hirtle and Allen Ginsberg and Paula-Lavinia Patranjan and Frank McCabe",
     title =     "RIF Use Cases and Requirements",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-rif-ucr-20060710",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-rif-ucr-20080730",
     month =     jul,
-    year =      2006,
-    uri =       "http://www.w3.org/TR/2006/WD-rif-ucr-20060710",
+    year =      2008,
+    uri =       "http://www.w3.org/TR/2008/WD-rif-ucr-20080730",
     topic =     "rif[0.9]",
-    abstract =  "This document, developed by the Rule Interchange Format (RIF) Working Group, specifies use cases and requirements for a format that allows rules to be translated between rule languages and thus transferred between rule systems. The Phase 1 version of this document presents use cases and requirements for the RIF in general. The Phase 1 deliverables will provide an extensible base with which the use cases can be addressed, but it will not be until Phase 2 that most of these use cases are directly addressed by the Working Group."
+    abstract =  "This document, developed by the Rule Interchange Format (RIF) Working Group, specifies use cases and requirements for the W3C Rule Interchange Format, a family of rule interchange dialects that allows rules to be translated between rule languages and thus transferred between rule systems."
 }
 
 @misc{rifcore,
@@ -26614,34 +26614,55 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{riffld,
     author =    "Harold Boley and Michael Kifer",
     title =     "RIF Framework for Logic Dialects",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-rif-fld-20080415",
-    month =     apr,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-rif-fld-20080730",
+    month =     jul,
     year =      2008,
-    uri =       "http://www.w3.org/TR/2008/WD-rif-fld-20080415",
+    uri =       "http://www.w3.org/TR/2008/WD-rif-fld-20080730",
     topic =     "rif[1]",
-    abstract =  "This document, developed by the Rule Interchange Format (RIF) Working Group, specifies the general framework for logic-based RIF dialects (RIF-FLD). The framework describes mechanisms for specifying the syntax and semantics of logic-based RIF dialects through a number of generic concepts such as signatures, symbol spaces, semantic structures, and so on. The actual dialects are required to specialize this framework to produce their concrete syntaxes and semantics."
+    abstract =  "This document, developed by the Rule Interchange Format (RIF) Working Group, defines a general RIF Framework for Logic Dialects (RIF-FLD). The framework describes mechanisms for specifying the syntax and semantics of logic RIF dialects through a number of generic concepts such as signatures, symbol spaces, semantic structures, and so on. The actual dialects are required to specialize this framework to produce their syntaxes and semantics."
 }
 
 @misc{rifbld,
     author =    "Harold Boley and Michael Kifer",
     title =     "RIF Basic Logic Dialect",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-rif-bld-20080415",
-    month =     apr,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-rif-bld-20080730",
+    month =     jul,
     year =      2008,
-    uri =       "http://www.w3.org/TR/2008/WD-rif-bld-20080415",
+    uri =       "http://www.w3.org/TR/2008/WD-rif-bld-20080730",
     topic =     "rif[1]",
-    abstract =  "This document, developed by the Rule Interchange Format (RIF) Working Group, specifies a basic format that allows logic rules to be exchanged between rule-based systems. A separate document RIF Data Types and Built-Ins describes data types and built-in functions and predicates."
+    abstract =  "This document, developed by the Rule Interchange Format (RIF) Working Group, specifies the Basic Logic Dialect, RIF-BLD, a format that allows logic rules to be exchanged between rule systems. The RIF-BLD presentation syntax and semantics are specified both directly and as specializations of the RIF Framework for Logic Dialects, or RIF-FLD. The XML serialization syntax of RIF-BLD is specified via a mapping from the presentation syntax. A normative XML schema is also provided."
+}
+
+@misc{rifdtb,
+    author =    "Axel Polleres and Harold Boley and Michael Kifer",
+    title =     "RIF Datatypes and Built-Ins 1.0",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-rif-dtb-20080730",
+    month =     jul,
+    year =      2008,
+    uri =       "http://www.w3.org/TR/2008/WD-rif-dtb-20080730",
+    topic =     "rif[1]"
 }
 
 @misc{rifrdfowl,
     author =    "Jos de Bruijn",
     title =     "RIF RDF and OWL Compatibility",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-rif-rdf-owl-20080415",
-    month =     apr,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-rif-rdf-owl-20080730",
+    month =     jul,
     year =      2008,
-    uri =       "http://www.w3.org/TR/2008/WD-rif-rdf-owl-20080415",
+    uri =       "http://www.w3.org/TR/2008/WD-rif-rdf-owl-20080730",
     topic =     "rif[0.9] owl[0.9] rdf[0.9] rdfs[0.9]",
-    abstract =  "Rules interchanged using the Rule Interchange Format (RIF) may depend on or be used in combination with RDF data and RDF Schema or OWL data models (ontologies). This document, developed by the Rule Interchange Format (RIF) Working Group, specifies the interoperation between RIF and the data and ontology languages RDF, RDFS, and OWL."
+    abstract =  "Rules interchanged using the Rule Interchange Format RIF may depend on or be used in combination with RDF data and RDF Schema or OWL data models (ontologies). This document, developed by the Rule Interchange Format (RIF) Working Group, specifies the interoperation between RIF and the data and ontology languages RDF, RDF Schema, and OWL."
+}
+
+@misc{rifprd,
+    author =    "Christian de Sainte Marie",
+    title =     "RIF Production Rule Dialect",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-rif-prd-20080730",
+    month =     jul,
+    year =      2008,
+    uri =       "http://www.w3.org/TR/2008/WD-rif-prd-20080730",
+    topic =     "rif[0.9]",
+    abstract =  "This document specifies RIF-PRD, a Rule Interchange Format (RIF) dialect to enable the interchange of production rules."
 }
 
 @misc{rexreqs,
@@ -30803,10 +30824,10 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{ctguidelines,
     author =    "Jo Rabin",
     title =     "Content Transformation Guidelines 1.0",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-ct-guidelines-20080414",
-    month =     apr,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-ct-guidelines-20080801",
+    month =     aug,
     year =      2008,
-    uri =       "http://www.w3.org/TR/2008/WD-ct-guidelines-20080414",
+    uri =       "http://www.w3.org/TR/2008/WD-ct-guidelines-20080801",
     abstract =  "This document provides guidance to content transformation proxies and content providers as to how inter-work when delivering Web content."
 }
 
@@ -30971,13 +30992,13 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{cssmobprof20,
     author =    "Svante Schubert",
     title =     "CSS Mobile Profile 2.0",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-css-mobile-20071019",
-    month =     oct,
-    year =      2007,
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-css-mobile-20080801",
+    month =     aug,
+    year =      2008,
     topic =     "css[0.9]",
     updates =   "cssmobprof10",
-    uri =       "http://www.w3.org/TR/2007/WD-css-mobile-20071019",
-    abstract =  "This specification defines in general a subset of CSS 2.1 that is to be considered a baseline for interoperability between implementations of CSS on constrained devices (e.g. mobile phones). Its intent is not to produce a profile of CSS incompatible with the complete specification, but rather to ensure that implementations that due to platform limitations cannot support the entire specification implement a common subset that is interoperable not only amongst constrained implementations but also with complete ones. Additionally, this specification aligns itself as much as possible with the OMA's Wireless CSS 1.1 specification."
+    uri =       "http://www.w3.org/TR/2008/CR-css-mobile-20080801",
+    abstract =  "This specification defines in general a subset of CSS 2.1 that is to be considered a baseline for interoperability between implementations of CSS on constrained devices (e.g. mobile phones). Its intent is not to produce a profile of CSS incompatible with the complete specification, but rather to ensure that implementations that due to platform limitations cannot support the entire specification implement a common subset that is interoperable not only amongst constrained implementations but also with complete ones. Additionally, this specification aligns itself as much as possible with the OMA Wireless CSS 1.1 specification. At the same time, OMA is doing alignment work in OMA  Wireless CSS 1.2. It is aimed at aligning the mandatory compliance items between CSS Mobile Profile 2.0 and OMA Wireless CSS 1.2."
 }
 
 @misc{csstvprof10,
@@ -31321,12 +31342,12 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{css3box,
     author =    "Bert Bos",
     title =     "CSS Basic Box Model",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-css3-box-20070809",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-css3-marquee-20080801",
     month =     aug,
-    year =      2007,
+    year =      2008,
     topic =     "css3[1]",
-    uri =       "http://www.w3.org/TR/2007/WD-css3-box-20070809",
-    abstract =  {CSS (Cascading Style Sheets) describes the rendering of documents on various media. When textual documents (e.g., HTML) are laid out on visual media (e.g., screen or print), CSS models the document as a hierarchy of boxes containing words, lines, paragraphs, tables, etc. each with properties such as size, color and font. This module describes the basic types of boxes, with their padding and margin, and the normal "flow" (i.e., the sequence of blocks of text with margins in-between). It also defines "floating" boxes, but other kinds of layout, such as tables, absolute positioning, ruby annotations, grid layouts, columns and numbered pages, are described by other modules. Also, the layout of text inside each line (including the handling of left-to-right and right-to-left scripts) is defined elsewhere. Boxes may contain either horizontal or vertical lines of text. Boxes of different orientations may be mixed in one flow. (This is a level 3 feature.) }
+    uri =       "http://www.w3.org/TR/2008/WD-css3-marquee-20080801",
+    abstract =  {CSS describes the rendering of documents on various media. When documents (e.g., HTML) are laid out on visual media (e.g., screen or print) and the contents of some element are too large for a given area, CSS allows the designer to specify whether and how the overflow is displayed. One way, available on certain devices, is the "marquee" effect: the content is animated and moves automatically back and forth. This module defines the properties to control that effect.}
 }
 
 @misc{css3webfonts,
@@ -32027,7 +32048,7 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2008,
     uri =       "http://www.w3.org/TR/2008/WD-mwbp-wcag-20080703",
     topic =     "wcag[0.9] mwbp[0.9]",
-    abstract =  "This technical report describes the relationships, overlaps and differences between the Web Content Accessibility Guidelines (WCAG) and the Mobile Web Best Practices (MWBP). Introductory information can be found in Web Content Accessibility and Mobile Web: Making a Web Site Accessible Both for People with Disabilities and for Mobile Devices. "
+    abstract =  "This technical report describes the relationships, overlaps and differences between the Web Content Accessibility Guidelines (WCAG) and the Mobile Web Best Practices (MWBP). Introductory information can be found in Web Content Accessibility and Mobile Web: Making a Web Site Accessible Both for People with Disabilities and for Mobile Devices."
 }
 
 @misc{mwabp,
