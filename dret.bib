@@ -28704,12 +28704,12 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{rdfasyntax,
     author =    "Ben Adida and Mark Birbeck and Shane McCarron and Steven Pemberton",
     title =     "RDFa in XHTML: Syntax and Processing --- A Collection of Attributes and Processing Rules for Extending XHTML to Support RDF",
-    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-rdfa-syntax-20080620",
-    month =     jun,
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation PR-rdfa-syntax-20080904",
+    month =     sep,
     year =      2008,
     topic =     "rdfa[1] xhtml[0.8]",
-    uri =       "http://www.w3.org/TR/2008/CR-rdfa-syntax-20080620",
-    abstract =  "The modern Web is made up of an enormous number of documents that have been created using HTML. These documents contain significant amounts of structured data, which is largely unavailable to tools and applications. When publishers can express this data more completely, and when tools can read it, a new world of user functionality becomes available, letting users transfer structured data between applications and web sites, and allowing browsing applications to improve the user experience: an event on a web page can be directly imported into a user's desktop calendar; a license on a document can be detected so that users can be informed of their rights automatically; a photo's creator, camera setting information, resolution, location and topic can be published as easily as the original photo itself, enabling structured search and sharing. RDFa is a specification for attributes to be used with languages such as HTML and XHTML to express structured data. The rendered, hypertext data of XHTML is reused by the RDFa markup, so that publishers don't need to repeat significant data in the document content. This document only specifies the use of the RDFa attributes with XHTML. The underlying abstract representation is RDF, which lets publishers build their own vocabulary, extend others, and evolve their vocabulary with maximal interoperability over time. The expressed structure is closely tied to the data, so that rendered data can be copied and pasted along with its relevant structure. The rules for interpreting the data are generic, so that there is no need for different rules for different formats; this allows authors and publishers of data to define their own formats without having to update software, register formats via a central authority, or worry that two formats may interfere with each other. RDFa shares some use cases with microformats. Whereas microformats specify both a syntax for embedding structured data into HTML documents and a vocabulary of specific terms for each microformat, RDFa specifies only a syntax and relies on independent specification of terms (RDF Classes and Properties) by others. RDFa allows terms from multiple independently-developed vocabularies to be freely intermixed and is designed such that the language can be parsed without knowledge of the specific term vocabulary being used. This document is a detailed syntax specification for RDFa, aimed at: those looking to create an RDFa parser, and who therefore need a detailed description of the parsing rules; those looking to recommend the use of RDFa within their organization, and who would like to create some guidelines for their users; anyone familiar with RDF, and who wants to understand more about what is happening 'under the hood', when an RDFa parser runs."
+    uri =       "http://www.w3.org/TR/2008/PR-rdfa-syntax-20080904",
+    abstract =  "The modern Web is made up of an enormous number of documents that have been created using HTML. These documents contain significant amounts of structured data, which is largely unavailable to tools and applications. When publishers can express this data more completely, and when tools can read it, a new world of user functionality becomes available, letting users transfer structured data between applications and web sites, and allowing browsing applications to improve the user experience: an event on a web page can be directly imported into a user's desktop calendar; a license on a document can be detected so that users can be informed of their rights automatically; a photo's creator, camera setting information, resolution, location and topic can be published as easily as the original photo itself, enabling structured search and sharing. RDFa is a specification for attributes to express structured data in any markup language. This document specifies how to use RDFa with XHTML. The rendered, hypertext data of XHTML is reused by the RDFa markup, so that publishers don't need to repeat significant data in the document content. The underlying abstract representation is RDF, which lets publishers build their own vocabulary, extend others, and evolve their vocabulary with maximal interoperability over time. The expressed structure is closely tied to the data, so that rendered data can be copied and pasted along with its relevant structure. The rules for interpreting the data are generic, so that there is no need for different rules for different formats; this allows authors and publishers of data to define their own formats without having to update software, register formats via a central authority, or worry that two formats may interfere with each other. RDFa shares some use cases with microformats. Whereas microformats specify both a syntax for embedding structured data into HTML documents and a vocabulary of specific terms for each microformat, RDFa specifies only a syntax and relies on independent specification of terms (RDF Classes and Properties) by others. RDFa allows terms from multiple independently-developed vocabularies to be freely intermixed and is designed such that the language can be parsed without knowledge of the specific term vocabulary being used. This document is a detailed syntax specification for RDFa, aimed at: those looking to create an RDFa parser, and who therefore need a detailed description of the parsing rules; those looking to recommend the use of RDFa within their organization, and who would like to create some guidelines for their users; anyone familiar with RDF, and who wants to understand more about what is happening 'under the hood', when an RDFa parser runs."
 }
 
 @misc{xhtmlrdfascenarios,
@@ -30508,7 +30508,7 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2008,
     topic =     "dom[0.9] webidl[1] idl[0.9]",
     uri =       "http://www.w3.org/TR/2008/WD-WebIDL-20080829/",
-    abstract =  "This document defines an interface definition language, Web IDL, that can be used to describe interfaces that are intended to be implemented in web browsers. Web IDL is an IDL variant with a number of features that allow the behavior of common script objects in the web platform to be specified more readily. How interfaces described with Web IDL correspond to constructs within ECMAScript and Java execution environments is also detailed. "
+    abstract =  "This document defines an interface definition language, Web IDL, that can be used to describe interfaces that are intended to be implemented in web browsers. Web IDL is an IDL variant with a number of features that allow the behavior of common script objects in the web platform to be specified more readily. How interfaces described with Web IDL correspond to constructs within ECMAScript and Java execution environments is also detailed."
 }
 
 @misc{dom,
@@ -36320,6 +36320,17 @@ We also propose a new taxonomy for geographic search queries.}
     updates =   "https"
 }
 
+@misc{rfc2821,
+    author =    "John C. Klensin",
+    title =     "Simple Mail Transfer Protocol",
+    howpublished =  "Internet RFC 2821",
+    month =     apr,
+    year =      2001,
+    topic =     "smtp[1] pop[0.9] imap[0.9] dns[0.9]",
+    updates =   "rfc821 rfc974 rfc1869 rfc1123",
+    abstract =  "This document is a self-contained specification of the basic protocol for the Internet electronic mail transport. It consolidates, updates and clarifies, but doesn't add new or change existing functionality of the following: The original SMTP (Simple Mail Transfer Protocol) specification of RFC 821, domain name system requirements and implications for mail transport from RFC 1035 and RFC 974, the clarifications and applicability statements in RFC 1123, and material drawn from the SMTP Extension mechanisms. It obsoletes RFC 821, RFC 974, and updates RFC 1123 (replaces the mail transport materials of RFC 1123). However, RFC 821 specifies some features that were not in significant use in the Internet by the mid-1990s and (in appendices) some additional transport models. Those sections are omitted here in the interest of clarity and brevity; readers needing them should refer to RFC 821. It also includes some additional material from RFC 1123 that required amplification. This material has been identified in multiple ways, mostly by tracking flaming on various lists and newsgroups and problems of unusual readings or interpretations that have appeared as the SMTP extensions have been deployed. Where this specification moves beyond consolidation and actually differs from earlier documents, it supersedes them technically as well as textually. Although SMTP was designed as a mail transport and delivery protocol, this specification also contains information that is important to its use as a 'mail submission' protocol, as recommended for POP and IMAP. Additional submission issues are discussed in RFC 2476. Section 2.3 provides definitions of terms specific to this document. Except when the historical terminology is necessary for clarity, this document uses the current 'client' and 'server' terminology to identify the sending and receiving SMTP processes, respectively. A companion document discusses message headers, message bodies and formats and structures for them, and their relationship."
+}
+
 @misc{rfc2822,
     author =    "Peter W. Resnick",
     title =     "Internet Message Format",
@@ -38742,6 +38753,16 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "This memo defines an extension to the Atom Syndication Format for describing licenses associated with Atom feeds and entries."
 }
 
+@misc{rfc4952,
+    author =    "John C. Klensin and YangWoo Ko",
+    title =     "Overview and Framework for Internationalized Email",
+    howpublished =  "Internet RFC 4952",
+    month =     jul,
+    year =      2007,
+    topic =     "smtp[1] i18n[0.9]",
+    abstract =  "Full use of electronic mail throughout the world requires that people be able to use their own names, written correctly in their own languages and scripts, as mailbox names in email addresses. This document introduces a series of specifications that define mechanisms and protocol extensions needed to fully support internationalized email addresses. These changes include an SMTP extension and extension of email header syntax to accommodate UTF-8 data. The document set also includes discussion of key assumptions and issues in deploying fully internationalized email."
+}
+
 @misc{rfc5005,
     author =    "Mark Nottingham",
     title =     "Feed Paging and Archiving",
@@ -38815,7 +38836,40 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2008,
     topic =     "ogg[0.9] mime[0.8]",
     updates =   "rfc3534",
-    abstract =  "This document describes the registration of media types for the Ogg container format and conformance requirements for implementations of these types.  This document obsoletes RFC 3534."
+    abstract =  "This document describes the registration of media types for the Ogg container format and conformance requirements for implementations of these types. This document obsoletes RFC 3534."
+}
+
+@misc{rfc5335,
+    author =    "Abel Yang",
+    title =     "Internationalized Email Headers",
+    howpublished =  "Internet RFC 5335",
+    month =     sep,
+    year =      2008,
+    topic =     "smtp[1]",
+    updates =   "rfc2045 rfc2822",
+    abstract =  "Full internationalization of electronic mail requires not only the capabilities to transmit non-ASCII content, to encode selected information in specific header fields, and to use non-ASCII characters in envelope addresses. It also requires being able to express those addresses and the information based on them in mail header fields. This document specifies an experimental variant of Internet mail that permits the use of Unicode encoded in UTF-8, rather than ASCII, as the base form for Internet email header field. This form is permitted in transmission only if authorized by an SMTP extension, as specified in an associated specification. This specification Updates section 6.4 of RFC 2045 to conform with the requirements."
+}
+
+@misc{rfc5336,
+    author =    "Jiankang Yao and Wei Mao",
+    title =     "SMTP Extension for Internationalized Email Addresses",
+    howpublished =  "Internet RFC 5336",
+    month =     sep,
+    year =      2008,
+    topic =     "smtp[1]",
+    updates =   "rfc2821 rfc2822 rfc4952",
+    abstract =  "This document specifies an SMTP extension for transport and delivery of email messages with internationalized email addresses or header information. Communication with systems that do not implement this specification is specified in another document. This document updates some syntaxes and rules defined in RFC 2821 and RFC 2822, and has some material updating RFC 4952."
+}
+
+@misc{rfc5337,
+    author =   "Chris Newman and Alexey Melnikov",
+    title =     "Internationalized Delivery Status and Disposition Notifications",
+    howpublished =  "Internet RFC 5337",
+    month =     sep,
+    year =      2008,
+    topic =     "smtp[1] dsn[1]",
+    updates =   "rfc3461 rfc3462 rfc3798",
+    abstract =  "Delivery status notifications (DSNs) are critical to the correct operation of an email system. However, the existing Draft Standards (RFC 3461, RFC 3462, RFC 3464) are presently limited to US-ASCII text in the machine-readable portions of the protocol. This specification adds a new address type for international email addresses so an original recipient address with non-US-ASCII characters can be correctly preserved even after downgrading. This also provides updated content return media types for delivery status notifications and message disposition notifications to support use of the new address type. This document experimentally extends RFC 3461, RFC 3464, and RFC 3798."
 }
 
 %%% NEED TO PICK UP AT RFC 4685 !!!!!!!!!!!!!!!!!!
