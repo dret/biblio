@@ -525,6 +525,19 @@
     abstract =  "In this paper, we investigate the problems associated with the provision of an undo support facility in the context of a synchronous shared or group editor. Previous work on the development of formal models of undo has been restricted to single user systems and has focused on the functionality of undo, as opposed to discussing the support that users require from any error recovery facility. Motivated by new issues that arise in the context of computer supported cooperative work, we aim to integrate formal modelling of undo with an analysis of how users understand undo facilities. Together, these combined perspectives of the system and user lead to concrete design advice for implementing an undo facility. The special issues that arise in the context of shared undo also shed light on the emphasis that should be placed on even single user undo. In particular, we come to regard undo not as a system command to be implemented, but as a user intention to be supported by the system."
 }
 
+@article{dan02,
+    author =    "David R. Danielson",
+    journal =   iwc,
+    title =     "Web Navigation and the Behavioral Effects of Constantly Visible Site Maps",
+    year =      2002,
+    month =     oct,
+    volume =    14,
+    number =    5,
+    pages =     "601-618",
+    doi =       "10.1016/S0953-5438(02)00024-3",
+    abstract =  "Knowledge regarding how Web information-seekers behave with respect to the structures and cues they are provided with may shed light on general principles of navigation in electronic spaces, and assist designers in making more informed structural decisions. This study examines user movement through hierarchically structured Web sites and the behavioral effects of a constantly visible, textual contents list for relatively small sites or more extensive local views than are generally used on the Web today. The site overview resulted in users abandoning fewer information-seeking tasks. Users with such context dig deeper into the site structure, make less use of the browser's Back button, and frequently make navigational movements of great hierarchical distances. Navigational correlates of success and reported confidence for users with the overview differ from those without such context. Both with and without a constant overview, the relationship between the source and destination pages may help predict the amount of time spent at the destination. Experimental reports are preceded by a review of click-stream navigation behavior research."
+}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 @string{oir = "Online Information Review" }
@@ -6736,6 +6749,28 @@
     year =      2004,
     index =     "BSCP 2004",
     uri =       "http://www.ics.uci.edu/~lopes/bspc04.html"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@string{hcir2008 = "Proceedings of the Second Workshop on Human-Computer Interaction and Information Retrieval" }
+
+@inproceedings{wil08p,
+    crossref =  "hcir2008",
+    author =    "Erik Wilde",
+    title =     "Site Metadata on the Web",
+    uri =       "http://dret.net/netdret/publications#wil08p",
+    abstract =  "The navigation structure of Web sites can be regarded as metadata that can be used for interesting applications in User Interface (UI) design and Human-Computer Interaction (HCI), as well as for Information Retrieval (IR) tasks. However, there currently is no established format for site metadata, which makes it hard for Web sites to publish their structure in a machine-readable way, which could then be used by HCI and/or IR applications. We propose a model and a format for site metadata that is built on top of an existing format and thus could be deployed with little overhead by publishers as well as consumers. Making site metadata available as machine-readable data can be used for improving user interfaces (informing user agents about the context of the page they are displaying) and better information retrieval (allowing search engines to use sitemap information for better ranking and display of the results)."
+}
+
+@proceedings{hcir2008,
+    title =     hcir2008,
+    booktitle = hcir2008,
+    address =   redmond,
+    month =     oct,
+    year =      2008,
+    index =     "HCIR 2008",
+    uri =       "http://research.microsoft.com/~ryenw/hcir2008/"
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -28569,12 +28604,23 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{httpinrdf,
     author =    "Johannes Koch and Carlos A. Velasco and Shadi Abou-Zahra",
     title =     "HTTP Vocabulary in RDF",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-HTTP-in-RDF-20070323",
-    month =     mar,
-    year =      2007,
-    topic =     "http[0.8]",
-    uri =       "http://www.w3.org/TR/2007/WD-HTTP-in-RDF-20070323",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-HTTP-in-RDF-20080908",
+    month =     sep,
+    year =      2008,
+    topic =     "http[0.8] rdf[0.8]",
+    uri =       "http://www.w3.org/TR/2008/WD-HTTP-in-RDF-20080908",
     abstract =  "The identification of resources on the Web by URI may not be sufficient to uniquely resolve a document as other factors such as HTTP content negotiation might come into play. This issue is particularly significant for quality assurance testing, conformance claims, and reporting languages like the Evaluation and Report Language (EARL). This document describes a representation of HTTP vocabulary in RDF. The terms defined by this document allow HTTP headers that have been exchanged between a client and a server to be recorded in RDF format. The terms defined by this document includes vocabulary for HTTPS as well as other extensions to the core specification."
+}
+
+@misc{contentinrdf,
+    author =    "Johannes Koch and Carlos A. Velasco",
+    title =     "Representing Content in RDF",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-Content-in-RDF-20080908",
+    month =     sep,
+    year =      2008,
+    topic =     "http[0.8] rdf[0.8]",
+    uri =       "http://www.w3.org/TR/2008/WD-Content-in-RDF-20080908",
+    abstract =  "This document is a specification for a vocabulary to represent Content in RDF. This vocabulary is intended to provide a flexible framework within different usage scenarios to semantically represent any type of content, be it on the Web or in local storage media. For example, it can be used by Web accessibility evaluation tools to record a representation of the assessed Web content in an Evaluation And Report Language (EARL) 1.0 Schema evaluation report. The document contains introductory information on its usage and some examples."
 }
 
 @misc{poix,
@@ -38851,6 +38897,16 @@ We also propose a new taxonomy for geographic search queries.}
     topic =     "abnf[1]",
     updates =   "rfc4234",
     abstract =  "Internet technical specifications often need to define a formal syntax. Over the years, a modified version of Backus-Naur Form (BNF), called Augmented BNF (ABNF), has been popular among many Internet specifications. The current specification documents ABNF. It balances compactness and simplicity with reasonable representational power. The differences between standard BNF and ABNF involve naming rules, repetition, alternatives, order-independence, and value ranges. This specification also supplies additional rule definitions and encoding for a core lexical analyzer of the type common to several Internet specifications."
+}
+
+@misc{rfc5261,
+    author =   "Jari Urpalainen",
+    title =     "An Extensible Markup Language (XML) Patch Operations Framework Utilizing XML Path Language (XPath) Selectors",
+    howpublished =  "Internet RFC 5261",
+    month =     sep,
+    year =      2008,
+    topic =     "xpath[0.7] xml[0.9]",
+    abstract =  "Extensible Markup Language (XML) documents are widely used as containers for the exchange and storage of arbitrary data in today's systems. In order to send changes to an XML document, an entire copy of the new version must be sent, unless there is a means of indicating only the portions that have changed. This document describes an XML patch framework utilizing XML Path language (XPath) selectors. These selector values and updated new data content constitute the basis of patch operations described in this document. In addition to them, with basic <add>, <replace>, and <remove>  directives a set of patches can then be applied to update an existing XML document."
 }
 
 @misc{rfc5334,
