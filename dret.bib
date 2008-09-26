@@ -6640,6 +6640,33 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@string{eswc07 = "Proceedings of the 4th European Semantic Web Conference" }
+
+@inproceedings{suo07,
+    crossref =  "eswc07",
+    author =    {Osma Suominen and Kim Viljanen and Eero Hyv\"onen},
+    title =     "User-Centric Faceted Search for Semantic Portals",
+    pages =     "356-370",
+    uri =       "http://www.springerlink.com/content/h8479834kn50n502/",
+    abstract =  "Many semantic portals use faceted browsing, where the facets are based on the underlying indexing ontologies of the content. However, in many cases, like in medical applications, the ontologies may be very large and complex, and do not provide the end-user with intuitive facet hierarchies for conceptualizing the content, for formulating queries, and for classifying the search results. We argue that in such cases end-user facets should be separated from the annotation ontologies, and show how to generalize the semantic view-based search paradigm to take into account this fact. A user-centric card sorting method is proposed for designing intuitive views for the end-users and a method for mapping its facets onto the indexing ontologies and search items is presented. The system has been implemented in a prototype of the semantic portal TerveSuomi.fi, a national health promotion portal in Finland."
+}
+
+@proceedings{eswc07,
+    title =     eswc07,
+    booktitle = eswc07,
+    editor =    {John Davies and York Sure and Holger Lausen and Siegfried Handschuh and Uwe Keller and Stefan Decker and Abraham Bernstein and Pascal Hitzler and Thorsten Liebig and Johanna V\"olker},
+    address =   inns,
+    series =    LNCS,
+    volume =    4519,
+    month =     jun,
+    year =      2007,
+    index =     "ESWC 2007",
+    doi =       "10.1007/978-3-540-72667-8",
+    uri =       "http://www.springerlink.com/content/tr7816141645/?p=54002b997a8043e284f75d96899f2c4c&pi=0"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 @string{iswc2005p = "Poster Proceedings of the 4th International Semantic Web Conference" }
 
 @inproceedings{wie05,
@@ -19202,6 +19229,20 @@ We also propose a new taxonomy for geographic search queries.}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % technical reports
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@techreport{lou05,
+    author =    "Steve Loughran and Edmund Smith",
+    title =     "Rethinking the Java SOAP Stack",
+    institution = hplabs,
+    address =   bristol,
+    year =      2005,
+    month =     may,
+    day =       17,
+    number =    "HPL-2005-83",
+    topic =     "soap[0.8] java[0.8]",
+    uri =       "http://www.hpl.hp.com/techreports/2005/HPL-2005-83.pdf",
+    abstract =  "This paper examines the current SOAP APIs in Java, and in particular the Java API for XML-based RPC, commonly known as JAX-RPC, which is effectively the standard API for SOAP on the Java platform. We claim that JAX-RPC, and indeed any SOAP API that relies upon a perfect two-way mapping between XML data and native language objects is fundamentally flawed. Furthermore, we claim that the attempt JAX-RPC makes to extend the remote method invocation metaphor to SOAP services is counterproductive. We base our argument both upon experience with JAX-RPC and SOAP, and upon experience of previous distributed computing technologies. We argue that JAX-RPC is not capable of delivering on the SOAP design goals, but conclude by suggesting an alternate system, Alpine, which is free from many known flaws of existing systems, and should prove better able to deliver upon the promise of SOAP."
+}
 
 @techreport{mar04e,
     author =    "Paolo Marinelli and Claudio Sacerdoti Coen and Fabio Vitali",
@@ -38963,6 +39004,16 @@ We also propose a new taxonomy for geographic search queries.}
     topic =     "smtp[1] dsn[1]",
     updates =   "rfc3461 rfc3462 rfc3798",
     abstract =  "Delivery status notifications (DSNs) are critical to the correct operation of an email system. However, the existing Draft Standards (RFC 3461, RFC 3462, RFC 3464) are presently limited to US-ASCII text in the machine-readable portions of the protocol. This specification adds a new address type for international email addresses so an original recipient address with non-US-ASCII characters can be correctly preserved even after downgrading. This also provides updated content return media types for delivery status notifications and message disposition notifications to support use of the new address type. This document experimentally extends RFC 3461, RFC 3464, and RFC 3798."
+}
+
+@misc{rfc5341,
+    author =   "Cullen Jennings and Vijay K. Gurbani",
+    title =     "The Internet Assigned Number Authority (IANA) tel Uniform Resource Identifier (URI) Parameter Registry",
+    howpublished =  "Internet RFC 5341",
+    month =     sep,
+    year =      2008,
+    updates =   "rfc3966",
+    abstract =  "This document creates an Internet Assigned Number Authority (IANA) registry for tel Uniform Resource Identifier (URI) parameters and their values.  It populates the registry with the parameters defined in the tel URI specification, along with the parameters in tel URI extensions defined for number portability and trunk groups."
 }
 
 %%% NEED TO PICK UP AT RFC 4685 !!!!!!!!!!!!!!!!!!
