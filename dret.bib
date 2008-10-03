@@ -2692,7 +2692,7 @@
     doi =       "10.1145/1400181.1400195",
     uri =       "http://dret.net/netdret/publications#wil08m",
     uri =       "http://portal.acm.org/citation.cfm?doid=1400181.1400195",
-    abstract =  "The classical approach to the data aspect of system design distinguishes conceptual, logical, and physical models. Models of each type or level are governed by metamodels that specify the kinds of concepts and constraints that can be used by each model; in most cases metamodels are accompanied by languages for describing models. For example, in database design, conceptual models usually conform to the Entity-Relationship (ER) metamodel (or some extension of it), the logical model maps ER models to relational tables and introduces normalization, and the physical model handles implementation issues such as possible denormalizations in the context of a particular database schema language. In this modeling methodology, there is a single hierarchy of models that rests on the assumption that one data model spans all modeling levels and applies to all the applications in some domain. The "one true model" approach assumes homogeneity, but this does not work very well for the Web. The Web as a constantly growing ecosystem of heterogeneous data and services has challenged a number of practices and theories about the design of IT landscapes. Instead of being governed by "one true model" used by everyone, the underlying assumption of top-down design, Web data and services evolve in an uncoordinated fashion. As a result, a fundamental challenge with Web data and services is matching and mapping local and often partial models that not only are different models of the same application domain, but also differ, implicitly or explicitly, in their associated metamodels."
+    abstract =  {The classical approach to the data aspect of system design distinguishes conceptual, logical, and physical models. Models of each type or level are governed by metamodels that specify the kinds of concepts and constraints that can be used by each model; in most cases metamodels are accompanied by languages for describing models. For example, in database design, conceptual models usually conform to the Entity-Relationship (ER) metamodel (or some extension of it), the logical model maps ER models to relational tables and introduces normalization, and the physical model handles implementation issues such as possible denormalizations in the context of a particular database schema language. In this modeling methodology, there is a single hierarchy of models that rests on the assumption that one data model spans all modeling levels and applies to all the applications in some domain. The "one true model" approach assumes homogeneity, but this does not work very well for the Web. The Web as a constantly growing ecosystem of heterogeneous data and services has challenged a number of practices and theories about the design of IT landscapes. Instead of being governed by "one true model" used by everyone, the underlying assumption of top-down design, Web data and services evolve in an uncoordinated fashion. As a result, a fundamental challenge with Web data and services is matching and mapping local and often partial models that not only are different models of the same application domain, but also differ, implicitly or explicitly, in their associated metamodels.}
 }
 
 @article{hen08,
@@ -38964,6 +38964,28 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2008,
     topic =     "xpath[0.7] xml[0.9]",
     abstract =  "Extensible Markup Language (XML) documents are widely used as containers for the exchange and storage of arbitrary data in today's systems. In order to send changes to an XML document, an entire copy of the new version must be sent, unless there is a means of indicating only the portions that have changed. This document describes an XML patch framework utilizing XML Path language (XPath) selectors. These selector values and updated new data content constitute the basis of patch operations described in this document. In addition to them, with basic <add>, <replace>, and <remove>  directives a set of patches can then be applied to update an existing XML document."
+}
+
+@misc{rfc5321,
+    author =   "John C. Klensin",
+    title =     "Simple Mail Transfer Protocol",
+    howpublished =  "Internet RFC 5321",
+    month =     oct,
+    year =      2008,
+    updates =   "rfc1123 rfc2821",
+    topic =     "smtp[1]",
+    abstract =  {This document is a specification of the basic protocol for Internet electronic mail transport.  It consolidates, updates, and clarifies several previous documents, making all or parts of most of them obsolete.  It covers the SMTP extension mechanisms and best practices for the contemporary Internet, but does not provide details about particular extensions.  Although SMTP was designed as a mail transport and delivery protocol, this specification also contains information that is important to its use as a "mail submission" protocol for "split-UA" (User Agent) mail reading systems and mobile environments.}
+}
+
+@misc{rfc5322,
+    author =   "Peter W. Resnick",
+    title =     "Internet Message Format",
+    howpublished =  "Internet RFC 5322",
+    month =     oct,
+    year =      2008,
+    updates =   "rfc2822 rfc4021",
+    topic =     "smtp[0.9] imf[1]",
+    abstract =  {This document specifies the Internet Message Format (IMF), a syntax for text messages that are sent between computer users, within the framework of "electronic mail" messages.  This specification is a revision of Request For Comments (RFC) 2822, which itself superseded Request For Comments (RFC) 822, "Standard for the Format of ARPA Internet Text Messages", updating it to reflect current practice and incorporating incremental changes that were specified in other RFCs.}
 }
 
 @misc{rfc5334,
