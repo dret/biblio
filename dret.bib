@@ -27089,60 +27089,82 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{owl2syntax,
-    author =    "Boris Motik and Peter F. Patel-Schneider and Ian Horrocks",
+    author =    "Boris Motik and Peter F. Patel-Schneider and Bijan Parsia",
     title =     "OWL 2 Web Ontology Language: Structural Specification and Functional-Style Syntax",
     howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-syntax-20080411",
-    month =     apr,
+    month =     oct,
     year =      2008,
     topic =     "owl[1]",
     updates =   "owl11syntax",
     uri =       "http://www.w3.org/TR/2008/WD-owl2-syntax-20080411",
-    abstract =  "OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodelling, and extended annotations. This document defines a functional-style syntax for OWL 2, and provides an informal discussion of the meaning of the additional constructs. As well, an informational structural specification of OWL 2 ontologies is provided."
+    abstract =  "OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodelling, and extended annotations. This document defines OWL 2 ontologies in terms of their structure, and it also defines a functional-style syntax in which ontologies can be written. Furthermore, this document provides an intuitive description of each of the constructs provided by the language."
 }
 
 @misc{owl2semantics,
-    author =    "Bernardo Cuenca Grau and Boris Motik",
-    title =     "OWL 2 Web Ontology Language: Model-Theoretic Semantics",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-semantics-20080411",
-    month =     apr,
+    author =    "Boris Motik and Peter F. Patel-Schneider and Bernardo Cuenca Grau",
+    title =     "OWL 2 Web Ontology Language: Direct Semantics",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-semantics-20081008",
+    month =     oct,
     year =      2008,
     topic =     "owl[1]",
     updates =   "owl11semantics",
-    uri =       "http://www.w3.org/TR/2008/WD-owl2-semantics-20080411",
-    abstract =  "OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodeling, and extended annotations. This document provides a model-theoretic semantics for OWL 2."
+    uri =       "http://www.w3.org/TR/2008/WD-owl2-semantics-20081008",
+    abstract =  "OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodelling, and extended annotations. This document provides the direct model-theoretic semantics for OWL 2, which is compatible with the description logic SROIQ. Furthermore, this document defines the most common inference problems for OWL 2."
+}
+
+@misc{owl2rdfbasedsemantics,
+    author =    "Michael Schneider",
+    title =     "OWL 2 Web Ontology Language: RDF-Based Semantics",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-rdf-based-semantics-20081008",
+    month =     oct,
+    year =      2008,
+    topic =     "owl[0.9] rdf[0.9]",
+    uri =       "http://www.w3.org/TR/2008/WD-owl2-rdf-based-semantics-20081008",
+    abstract =  {OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodelling, and extended annotations. This document provides the RDFS-compatible model-theoretic semantics for OWL 2, called "OWL 2 Full".}
+}
+
+@misc{owl2test,
+    author =    "Michael Smith and Ian Horrocks",
+    title =     "OWL 2 Web Ontology Language: Conformance and Test Cases",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-test-20081008",
+    month =     oct,
+    year =      2008,
+    topic =     "owl[0.9]",
+    uri =       "http://www.w3.org/TR/2008/WD-owl2-test-20081008",
+    abstract =  "OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodelling, and extended annotations. This document describes the conditions that OWL 2 tools must satisfy in order to be conformant with the language specification. It also presents a set of tests that both illustrate the features of the language and can be used for testing conformance."
 }
 
 @misc{owl2mappingtordf,
-    author =    "Bernardo Cuenca Grau and Boris Motik",
+    author =    "Peter F. Patel-Schneider and Boris Motik",
     title =     "OWL 2 Web Ontology Language: Mapping to RDF Graphs",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-mapping-to-rdf-20080411",
-    month =     apr,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-mapping-to-rdf-20081008",
+    month =     oct,
     year =      2008,
     topic =     "owl[0.9] rdf[0.9]",
-    uri =       "http://www.w3.org/TR/2008/WD-owl2-mapping-to-rdf-20080411",
+    uri =       "http://www.w3.org/TR/2008/WD-owl2-mapping-to-rdf-20081008",
     updates =   "owl11mappingtordf",
     abstract =  "OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodelling, and extended annotations. This document provides a mapping from the functional-style syntax of OWL 2 to the RDF exchange syntax for OWL 2, and vice versa."
 }
 
 @misc{owl2xmlserialization,
-    author =    "Bernardo Cuenca Grau and Boris Motik and Peter Patel-Schneider",
+    author =    "Boris Motik and Peter Patel-Schneider",
     title =     "OWL 2 Web Ontology Language: XML Serialization",
     howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-xml-serialization-20080411",
-    month =     apr,
+    month =     oct,
     year =      2008,
     topic =     "owl[0.9] xml[0.8]",
     uri =       "http://www.w3.org/TR/2008/WD-owl2-xml-serialization-20080411",
-    abstract =  "OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodelling, and extended annotations. This document specifies an XML syntax for OWL 2 that exactly mirrors its functional-style syntax and structural specification. An XML schema defines this syntax and is available as a separate document, as well as being included here."
+    abstract =  "OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodelling, and extended annotations. This document specifies an XML syntax for OWL 2 that mirrors its structural specification. An XML schema defines this syntax and is available as a separate document, as well as being included here."
 }
 
 @misc{owl2profiles,
-    author =    "Bernardo Cuenca Grau and Boris Motik and Zhe Wu and Achille Fokoue and Carsten Lutz",
+    author =    "Boris Motik and Bernardo Cuenca Grau and Ian Horrocks and Zhe Wu and Achille Fokoue and Carsten Lutz",
     title =     "OWL 2 Web Ontology Language: Profiles",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-profiles-20080411",
-    month =     apr,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-profiles-20081008",
+    month =     oct,
     year =      2008,
     topic =     "owl[0.9]",
-    uri =       "http://www.w3.org/TR/2008/WD-owl2-profiles-20080411",
+    uri =       "http://www.w3.org/TR/2008/WD-owl2-profiles-20081008",
     abstract =  "OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodelling, and extended annotations. This document provides a specification of several profiles of OWL 2 which can be more simply and/or efficiently implemented. In logic, profiles are often called fragments. Most profiles are defined by placing restrictions on the syntax of OWL 2. These restrictions have been specified by modifying the productions of the functional-style syntax."
 }
 
@@ -27490,8 +27512,8 @@ We also propose a new taxonomy for geographic search queries.}
     editor =    "Paolo Baggia",
     author =    "Paul Bagshaw and Daniel C. Burnett and Jerry Carter and Frank Scahill",
     title =     "Pronunciation Lexicon Specification (PLS) Version 1.0",
-    howpublished =  "World Wide Web Consortium, Proposed Recommendation PR-pronunciation-lexicon-20080818",
-    month =     aug,
+    howpublished =  "World Wide Web Consortium, Recommendation PR-pronunciation-lexicon-20080818",
+    month =     oct,
     year =      2008,
     topic =     "pls[1]",
     updates =   "lexiconreqs",
@@ -29646,15 +29668,15 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{smil30,
-    author =    {Dick Bulterman and Jack Jansen and Sjoerd Mullender and Marisa DeMeglio and Julien Quint and Petri Vuorimaa and Samuel Cruz-Lara and Hiroshi Kawamura and Daniel Weck and Eric Hyche and Xabiel Garc\'\i{}a Pa{\~n}eda and David Melendi and Thierry Michel and Daniel F. Zucker},
+    author =    {Dick Bulterman and Jack Jansen and Pablo Cesar and Sjoerd Mullender and Marisa DeMeglio and Julien Quint and Petri Vuorimaa and Samuel Cruz-Lara and Hiroshi Kawamura and Daniel Weck and Eric Hyche and Xabiel Garc\'\i{}a Pa{\~n}eda and David Melendi and Thierry Michel and Daniel F. Zucker},
     title =     "Synchronized Multimedia Integration Language (SMIL 3.0)",
-    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-SMIL3-20080115",
-    month =     jan,
+    howpublished =  "World Wide Web Consortium, Proposed Recommendation PR-SMIL3-20081006",
+    month =     oct,
     year =      2008,
     topic =     "xml[0.4] smil[1] hypermedia[0.8]",
     updates =   "smil21",
-    uri =       "http://www.w3.org/TR/2008/CR-SMIL3-20080115",
-    abstract =  {This document specifies the third version of the Synchronized Multimedia Integration Language (SMIL, pronounced "smile"). SMIL 3.0 has the following design goals: (1) Define an XML-based language that allows authors to write interactive multimedia presentations. Using SMIL, an author can describe the temporal behaviour of a multimedia presentation, associate hyperlinks with media objects and describe the layout of the presentation on a screen. (2) Allow reusing of SMIL syntax and semantics in other XML-based languages, in particular those who need to represent timing and synchronization. For example, SMIL components are used for integrating timing into XHTML and into SVG. (3) Extend the functionalities contained in the SMIL 2.1 into new or revised SMIL 3.0 modules. (4) Define new SMIL 3.0 Profiles incorporating features useful within the industry.}
+    uri =       "http://www.w3.org/TR/2008/PR-SMIL3-20081006",
+    abstract =  {This document specifies the third version of the Synchronized Multimedia Integration Language (SMIL, pronounced "smile"). SMIL 3.0 has the following design goals: (1) Define an XML-based language that allows authors to write interactive multimedia presentations. Using SMIL, an author may describe the temporal behaviour of a multimedia presentation, associate hyperlinks with media objects and describe the layout of the presentation on a screen. (2) Allow reusing of SMIL syntax and semantics in other XML-based languages, in particular those who need to represent timing and synchronization. For example, SMIL components are used for integrating timing into XHTML and into SVG. (3) Extend the functionalities contained in the SMIL 2.1 into new or revised SMIL 3.0 modules. (4) Define new SMIL 3.0 Profiles incorporating features useful within the industry.}
 }
 
 @misc{smiltimesheets,
@@ -30598,12 +30620,12 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{xmlhttprequest2,
     author =    "Anne van Kesteren",
     title =     "XMLHttpRequest Level 2",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-XMLHttpRequest2-20080225",
-    month =     feb,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-XMLHttpRequest2-20080930",
+    month =     sep,
     year =      2008,
     topic =     "ajax[1] dom[0.9]",
     updates =   "xmlhttprequest",
-    uri =       "http://www.w3.org/TR/2008/WD-XMLHttpRequest2-20080225",
+    uri =       "http://www.w3.org/TR/2008/WD-XMLHttpRequest2-20080930",
     abstract =  "XMLHttpRequest Level 2 enhances XMLHttpRequest with new features, such as cross-site requests, progress events, and the handling of byte streams for both sending and receiving."
 }
 
@@ -31127,6 +31149,16 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "This document defines a profile of the XML-Signature Syntax and Processing specification to allow a widget resource to be digitally signed. Vendors and authors can digitally sign widgets as a trust and quality assurance mechanism. Prior to instantiation, a widget user agent can use the digital signature to verify the authenticity and data integrity of the files in a widget resource. In the rare case where a widget damages the end-user's device, the digital signature may provide a user with legal recourse to prove that a widget resource was signed by a particular author or publisher."
 }
 
+@misc{widgets10updates,
+    author =    "Marcos Caceres",
+    title =     "Widgets 1.0: Updates",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-widgets-updates-20081007",
+    month =     oct,
+    year =      2008,
+    uri =       "http://www.w3.org/TR/2008/WD-widgets-updates-20081007",
+    abstract =  "This specification defines a model to allow a widget user agent to locate and replace a widget resource with a new or different version of a widget resource. The updates model is designed to work both over HTTP and from local storage. For updates performed via the Web, the model makes use a simple XML documents that authors place on a Web server to indicate, amongst other things, where the next most suitable version of a widget resource can be retrieved from. It also defines a mechanism that allows authors to be notified of installation errors or success. This specification also describes how to renegotiate security policies when widgets are updated."
+}
+
 @misc{png,
     author =    "Thomas Boutell and Tom Lane",
     title =     "PNG (Portable Network Graphics) Specification",
@@ -31484,7 +31516,7 @@ We also propose a new taxonomy for geographic search queries.}
     topic =     "css3[1]",
     updates =   "css3border css3bg",
     uri =       "http://www.w3.org/TR/2008/WD-css3-background-20080910",
-    abstract =  "CSS is a language for describing the rendering of structured documents (such as HTML and XML) on screen, on paper, in speech, etc. This draft contains the features of CSS level 3 relating to borders and backgrounds. It includes and extends the functionality of CSS level 2, which builds on CSS level 1. The main extensions compared to level 2 are borders consisting of images, boxes with multiple backgrounds, boxes with rounded corners and boxes with shadows. This module replaces two earlier drafts: CSS3 Backgrounds and CSS3 Border. "
+    abstract =  "CSS is a language for describing the rendering of structured documents (such as HTML and XML) on screen, on paper, in speech, etc. This draft contains the features of CSS level 3 relating to borders and backgrounds. It includes and extends the functionality of CSS level 2, which builds on CSS level 1. The main extensions compared to level 2 are borders consisting of images, boxes with multiple backgrounds, boxes with rounded corners and boxes with shadows. This module replaces two earlier drafts: CSS3 Backgrounds and CSS3 Border."
 }
 
 @misc{css3sel,
@@ -31946,12 +31978,12 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{xhtmlmodsec,
     author =    "Daniel Austin and Subramanian Peruvemba and Shane McCarron and Masayasu Ishikawa and Mark Birbeck",
     title =     "XHTML Modularization 1.1",
-    howpublished =  "World Wide Web Consortium, Proposed Recommendation PR-xhtml-modularization-20080611",
-    month =     jun,
+    howpublished =  "World Wide Web Consortium, Recommendation REC-xhtml-modularization-20081008",
+    month =     aug,
     year =      2008,
     topic =     "xml[0.5] html[0.7] xhtml[1]",
     updates =   "xhtmlmod xhtmlmodsch",
-    uri =       "http://www.w3.org/TR/2008/PR-xhtml-modularization-20080611",
+    uri =       "http://www.w3.org/TR/2008/REC-xhtml-modularization-20081008",
     abstract =  "This document is version 1.1 of XHTML Modularization, an abstract modularization of XHTML and implementations of the abstraction using XML Document Type Definitions (DTDs), and XML Schemas. This modularization provides a means for subsetting and extending XHTML, a feature needed for extending XHTML's reach onto emerging platforms. This specification is intended for use by language designers as they construct new XHTML Family Markup Languages. This specification does not define the semantics of elements and attributes, only how those elements and attributes are assembled into modules, and from those modules into markup languages. This second version of this specification includes several minor updates to provide clarifications and address errors found in the first version. It also provides an implementation using XML Schemas."
 }
 
