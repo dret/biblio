@@ -210,7 +210,6 @@
 @string{irvine =    "Irvine, California" }
 @string{istanbul =  "Istanbul, Turkey" }
 @string{ithaca =    "Ithaca, New York" }
-@string{sanjose =   "San Jose, California" }
 @string{jyvael =    {Jyv\"askyl\"a, Finland}}
 @string{karlsruhe = "Karlsruhe, Germany" }
 @string{klagenfurt = "Klagenfurt, Austria" }
@@ -291,6 +290,7 @@
 @string{santonio =  "San Antonio, Texas" }
 @string{saratoga =  "Saratoga Springs, New York" }
 @string{sardinia =  "Sardinia, Italy" }
+@string{sanjose =   "San Jose, California" }
 @string{santa =     "Santa Barbara, California" }
 @string{sausalito = "Sausalito, California" }
 @string{scotts =    "Scottsdale, Arizona" }
@@ -300,6 +300,7 @@
 @string{setubal =   "Set\'ubal, Portugal" }
 @string{shanghai =  "Shanghai" }
 @string{sheffield = "Sheffield, UK" }
+@string{silicon =   "Silicon Valley, California" }
 @string{sophia =    "Sophia Antipolis, France" }
 @string{south =     "Southampton, UK" }
 @string{stanford =  "Stanford, California" }
@@ -330,6 +331,7 @@
 @string{wok =       "Wokingham, England" }
 @string{wollo =     "Wollongong, Australia" }
 @string{yokohama =  "Yokohama, Japan" }
+@string{yorktown =  "Yorktown Heights, NY" }
 @string{zikhron =   "Zikhron-Yaakov, Israel" }
 @string{zueri =     {Z\"urich, Switzerland} }
 
@@ -11236,6 +11238,15 @@
     abstract =  "The success of many innovative Web applications is not based on the content they produce --- but on how they combine and link existing content. Older Web Engineering methods lack flexibility in a sense that they rely strongly on a-priori knowledge of existing content structures and do not take into account initially unknown content sources. We propose the adoption of principles that are also found in Component-based Software Engineering, to assemble highly extensible solutions from reusable artifacts. The main contribution of our work is a support system, consisting of a central service that manages n:m relationships between arbitrary Web resources, and of Web application components that realize navigation, presentation, and interaction for the linked content."
 }
 
+@inproceedings{sun07a,
+    crossref =  "www2007p",
+    author =    "Yang Sun and Ziming Zhuang and C. Lee Giles",
+    title =     "A Large-Scale Study of Robots.txt",
+    pages =     "1123-1124",
+    uri =       "http://botseer.ist.psu.edu/pp1034-sun.pdf",
+    abstract =  "Search engines largely rely on Web robots to collect information from the Web. Due to the unregulated open-access nature of the Web, robot activities are extremely diverse. Such crawling activities can be regulated from the server side by deploying the Robots Exclusion Protocol in a file called robots.txt. Although it is not an enforcement standard, ethical robots (and many commercial) will follow the rules specified in robots.txt. With our focused crawler, we investigate 7,593 websites from education, government, news, and business domains. Five crawls have been conducted in succession to study the temporal changes. Through statistical analysis of the data, we present a survey of the usage of Web robots rules at the Web scale. The results also show that the usage of robots.txt has increased over time."
+}
+
 @proceedings{www2007p,
     title =     www2007p,
     booktitle = www2007p,
@@ -14599,6 +14610,50 @@ We also propose a new taxonomy for geographic search queries.}
     month =     sep,
     address =   london,
     uri =       "http://www.bcs.org/server.php?show=nav.9878"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@string{wi2007 = "Proceedings of the 2007 IEEE/WIC/ACM International Conference on Web Intelligence" }
+
+@inproceedings{sun07b,
+    crossref =  "wi2007",
+    author =    "Yang Sun and Ziming Zhuang and Isaac G. Councill and C. Lee Giles",
+    title =     "Determining Bias to Search Engines from Robots.txt",
+    pages =     "149-155",
+    uri =       "http://botseer.ist.psu.edu/wi2007robotbias.pdf",
+    abstract =  "Search engines largely rely on robots (i.e., crawlers or spiders) to collect information from the Web. Such crawling activities can be regulated from the server side by deploying the Robots Exclusion Protocol in a file called robots.txt. Ethical robots will follow the rules specified in robots.txt. Websites can explicitly specify an access preference for each robot by name. Such biases may lead to a “rich get richer” situation, in which a few popular search engines ultimately dominate the Web because they have preferred access to resources that are inaccessible to others. This issue is seldom addressed, although the robots.txt convention has become a de facto standard for robot regulation and search engines have become an indispensable tool for information access. We propose a metric to evaluate the degree of bias to which specific robots are subjected. We have investigated 7,593 websites covering education, government, news, and business domains, and collected 2,925 distinct robots.txt files. Results of content and statistical analysis of the data confirm that the robots of popular search engines and information portals, such as Google, Yahoo, and MSN, are generally favored by most of the websites we have sampled. The results also show a strong correlation between the search engine market share and the bias toward particular search engine robots."
+}
+
+@proceedings{wi2007,
+    title =     wi2007,
+    booktitle = wi2007,
+    year =      2007,
+    month =     nov,
+    address =   silicon,
+    isbn =      "0-7695-3026-5",
+    uri =       "http://www.sigmod.org/dblp/db/conf/webi/webi2007.html"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@string{icwe2008 = "Proceedings of the 8th International Conference on Web Engineering" }
+
+@inproceedings{sun08,
+    crossref =  "icwe2008",
+    author =    "Yang Sun and Isaac G. Councill and C. Lee Giles",
+    title =     "BotSeer: An Automated Information System for Analyzing Web Robots",
+    uri =       "http://botseer.ist.psu.edu/sun-botseer.pdf",
+    abstract =  "Robots.txt files are vital to the web since they are supposed to regulate what search engines can and cannot crawl. We present BotSeer, a Web-based information system and search tool that provides resources and services for researching Web robots and trends in Robot Exclusion Protocol deployment and adherence. BotSeer currently indexes and analyzes 2.2 million robots.txt files obtained from 13.2 million websites, as well as a large Web server log of real-world robot behavior and related analyses. BotSeer provides three major services including robots.txt searching, robot bias analysis, and robot-generated log analysis. BotSeer serves as a resource for studying the regulation and behavior of Web robots as well as a tool to inform the creation of effective robots.txt files and crawler implementations."
+}
+
+@proceedings{icwe2008,
+    title =     icwe2008,
+    booktitle = icwe2008,
+    year =      2008,
+    month =     jul,
+    address =   yorktown,
+    uri =       "http://icwe2008.webengineering.org/"
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -39117,7 +39172,7 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2008,
     updates =   "rfc1123 rfc2821",
     topic =     "smtp[1]",
-    abstract =  {This document is a specification of the basic protocol for Internet electronic mail transport.  It consolidates, updates, and clarifies several previous documents, making all or parts of most of them obsolete.  It covers the SMTP extension mechanisms and best practices for the contemporary Internet, but does not provide details about particular extensions.  Although SMTP was designed as a mail transport and delivery protocol, this specification also contains information that is important to its use as a "mail submission" protocol for "split-UA" (User Agent) mail reading systems and mobile environments.}
+    abstract =  {This document is a specification of the basic protocol for Internet electronic mail transport. It consolidates, updates, and clarifies several previous documents, making all or parts of most of them obsolete. It covers the SMTP extension mechanisms and best practices for the contemporary Internet, but does not provide details about particular extensions. Although SMTP was designed as a mail transport and delivery protocol, this specification also contains information that is important to its use as a "mail submission" protocol for "split-UA" (User Agent) mail reading systems and mobile environments.}
 }
 
 @misc{rfc5322,
@@ -39128,7 +39183,7 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2008,
     updates =   "rfc2822 rfc4021",
     topic =     "smtp[0.9] imf[1]",
-    abstract =  {This document specifies the Internet Message Format (IMF), a syntax for text messages that are sent between computer users, within the framework of "electronic mail" messages.  This specification is a revision of Request For Comments (RFC) 2822, which itself superseded Request For Comments (RFC) 822, "Standard for the Format of ARPA Internet Text Messages", updating it to reflect current practice and incorporating incremental changes that were specified in other RFCs.}
+    abstract =  {This document specifies the Internet Message Format (IMF), a syntax for text messages that are sent between computer users, within the framework of "electronic mail" messages. This specification is a revision of Request For Comments (RFC) 2822, which itself superseded Request For Comments (RFC) 822, "Standard for the Format of ARPA Internet Text Messages", updating it to reflect current practice and incorporating incremental changes that were specified in other RFCs.}
 }
 
 @misc{rfc5334,
@@ -39182,7 +39237,7 @@ We also propose a new taxonomy for geographic search queries.}
     month =     sep,
     year =      2008,
     updates =   "rfc3966",
-    abstract =  "This document creates an Internet Assigned Number Authority (IANA) registry for tel Uniform Resource Identifier (URI) parameters and their values.  It populates the registry with the parameters defined in the tel URI specification, along with the parameters in tel URI extensions defined for number portability and trunk groups."
+    abstract =  "This document creates an Internet Assigned Number Authority (IANA) registry for tel Uniform Resource Identifier (URI) parameters and their values. It populates the registry with the parameters defined in the tel URI specification, along with the parameters in tel URI extensions defined for number portability and trunk groups."
 }
 
 %%% NEED TO PICK UP AT RFC 4685 !!!!!!!!!!!!!!!!!!
