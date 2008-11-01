@@ -6343,6 +6343,32 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@string{vldb04 = "Proceedings of the 30th International Conference on Very Large Data Bases" }
+
+@inproceedings{don04,
+    crossref =  "vldb04",
+    author =    "Xin Dong and Alon Y. Halevy and Jayant Madhavan and Ema Nemes and Jun Zhang",
+    title =     "Similarity Search for Web Services",
+    pages =     "372-383",
+    uri =       "http://www.vldb.org/conf/2004/RS10P1.PDF",
+    abstract =  "Web services are loosely coupled software components, published, located, and invoked across the web. The growing number of web services available within an organization and on the Web raises a new and challenging search problem: locating desired web services. Traditional keyword search is insufficient in this context: the specific types of queries users require are not captured, the very small text fragments in web services are unsuitable for keyword search, and the underlying structure and semantics of the web services are not exploited. We describe the algorithms underlying the Woogle search engine for web services. Woogle supports similarity search for web services, such as finding similar web-service operations and finding operations that compose with a given one. We describe novel techniques to support these types of searches, and an experimental study on a collection of over 1500 web-service operations that shows the high recall and precision of our algorithms."
+}
+
+@proceedings{vldb04,
+    title =     vldb04,
+    booktitle = vldb04,
+    editor =    {Mario A. Nascimento and M. Tamer \"Ozsu and Donald Kossmann and Ren\'ee J. Miller and Jos\'e A. Blakeley and K. Bernhard Schiefer},
+    publisher = acm,
+    address =   toronto,
+    month =     sep,
+    year =      2004,
+    isbn =      "0-12-088469-0",
+    index =     "VLDB 2004",
+    uri =       "http://www.informatik.uni-trier.de/~ley/db/conf/vldb/vldb2004.html"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 @string{vldb06 = "Proceedings of the 32nd International Conference on Very Large Data Bases" }
 
 @inproceedings{jhi06,
@@ -6387,6 +6413,16 @@
     pages =     "75-86",
     uri =       "http://www.vldb.org/conf/2007/papers/research/p75-botan.pdf",
     abstract =  "This paper presents two extensions for XQuery. The first extension allows the definition and processing of different kinds of windows over an input sequence; i.e., tumbling, sliding, and landmark windows. The second extension extends the XQuery data model (XDM) to support infinite sequences. This extension makes it possible to use XQuery as a language for continuous queries. Both extensions have been integrated into a Java-based open source XQuery engine. This paper gives details of this implementation and presents the results of running the Linear Road benchmark on the extended XQuery engine."
+}
+
+@inproceedings{bex07,
+    crossref =  "vldb07",
+    author =    "Geert Jan Bex and Frank Neven and Stijn Vansummeren",
+    title =     "Inferring XML Schema Definitions from XML Data",
+    pages =     "998-1009",
+    uri =       "http://www.vldb.org/conf/2007/papers/research/p998-bex.pdf",
+    topic =     "xsd[0.9]",
+    abstract =  "Although the presence of a schema enables many optimizations for operations on XML documents, recent studies have shown that many XML documents in practice either do not refer to a schema, or refer to a syntactically incorrect one. It is therefore of utmost importance to provide tools and techniques that can automatically generate schemas from sets of sample documents. While previous work in this area has mostly focused on the inference of Document Type Definitions (DTDs for short), we will consider the inference of XML Schema Definitions (XSDs for short) –-- the increasingly popular schema formalism that is turning DTDs obsolete. In contrast to DTDs where the content model of an element depends only on the element’s name, the content model in an XSD can also depend on the context in which the element is used. Hence, while the inference of DTDs basically reduces to the inference of regular expressions from sets of sample strings, the inference of XSDs also entails identifying from a corpus of sample documents the contexts in which elements bear different content models. Since a seminal result by Gold implies that no inference algorithm can learn the complete class of XSDs from positive examples only, we focus on a class of XSDs that captures most XSDs occurring in practice. For this class, we provide a theoretically complete algorithm that always infers the correct XSD when a sufficiently large corpus of XML documents is available. In addition, we present a variant of this algorithm that works well on real-world (and therefore incomplete) data sets."
 }
 
 @proceedings{vldb07,
@@ -19436,9 +19472,9 @@ We also propose a new taxonomy for geographic search queries.}
     author =    "Gr\'egory Cob\'ena and Talel Abdessalem and Yassine Hinnach",
     title =     "WebWatching UK Web Communities: Final Report For The WebWatch Project",
     institution = "British Library Research and Innovation Centre",
-    howpublished = "British Library Research and Innovation Report 146",
     year =      1999,
     month =     jul,
+    number =    "British Library Research and Innovation Report 146",
     uri =       "http://www.ukoln.ac.uk/web-focus/webwatch/reports/final/rtf-html/single/report.html",
     abstract =  "This document is the final report for the WebWatch project. The aim of the project was to develop and use robot software for analysing and profiling Web sites within various UK communities and to report on the findings. This document reviews the original bid, gives a background to robot software, describes the robot software used by the WebWatch project, and summaries the conclusions gained from the WebWatch trawls. A list of recommendations for further work in this area is given. The appendices include a number of the reports which have been produced which describe the main trawls carried out by the project."
 }
