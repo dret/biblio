@@ -4349,6 +4349,21 @@
     abstract =  "Compared to approaches such as Web services and the Web Services Description Language (WSDL), which promote specialization for each service interface, the uniform-interface constraint reduces client-server coupling and helps minimize gratuitous differences in interface and method semantics across disparate resources. REST isn't a silver bullet, but its flexibility and relative simplicity make it highly applicable not only to Web-scale systems but also to a wide variety of enterprise integration problems. The representational state transfer (REST) architectural style, on the other hand, makes very specific and highly useful trade-offs meticulously chosen to enhance the scalability, extensibility, manageability, and maintainability of distributed systems and applications."
 }
 
+@article{vin08c,
+    author =    "Steve Vinoski",
+    title =     "RESTful Web Services Development Checklist",
+    journal =   ieeeic,
+    year =      2008,
+    month =     nov,
+    volume =    12,
+    number =    6,
+    pages =     "94-96",
+    doi =       "10.1109/MIC.2008.130",
+    uri =       "http://steve.vinoski.net/pdf/IEEE-RESTful_Web_Services_Development_Checklist.pdf",
+    topic =     "rest[0.9]",
+    abstract =  "Representational State Transfer (REST) architectural style proponents describe it as being easy, but this in no way implies that REST is trivial or simplistic, nor does it mean that RESTful systems lack sophistication. The author covers the primary areas that developers must continually consider as they design and build Web services. Tools can certainly provide reminders about these areas and help to track progress, but ultimately, developers must understand the underlying technical issues to be able to make suitable design and implementation choices."
+}
+
 @article{vin03,
     author =    "Steve Vinoski",
     title =     "It's Just a Mapping Problem",
@@ -9887,6 +9902,16 @@
     doi =       "10.1109/ICDE.2003.1260813",
     topic =     "xpath[0.8]",
     abstract =  "We present a streaming algorithm for evaluating XPath expressions that use backward axes (parent and ancestor) and forward axes in a single document-order traversal of an XML document. Other streaming XPath processors handle only forward axes. We show through experiments that our algorithm significantly outperforms (by more than a factor of two) a traditional non-streaming XPath engine. Furthermore, our algorithm scales better because it retains only the relevant portions of the input document in memory. Our engine successfully processes documents over 1GB in size, whereas the traditional XPath engine degrades considerably in performance for documents over 100 MB in size and fails to complete for documents of size over 200 MB."
+}
+
+@inproceedings{rag03,
+    crossref =  "icde2003",
+    author =    "Sriram Raghavan and Hector Garcia-Molina",
+    title =     "Representing Web Graphs",
+    pages =     "405-416",
+    doi =       "10.1109/ICDE.2003.1260809",
+    uri =       "http://www.almaden.ibm.com/cs/people/rsriram/pubs/icde03.pdf",
+    abstract =  "A Web repository is a large special-purpose collection of Web pages and associated indexes. Many useful queries and computations over such repositories involve traversal and navigation of the Web graph. However, efficient traversal of huge Web graphs containing several hundred million vertices and a few billion edges is a challenging problem. An additional complication is the lack of a schema to describe the structure of Web graphs. As a result, naive graph representation schemes can significantly increase query execution time and limit the usefulness of Web repositories. We propose a novel representation for Web graphs, called an S-Node representation. We demonstrate that S-Node representations are highly space-efficient, enabling in-memory processing of very large Web graphs. In addition, we present detailed experiments that show that S-Node representations can significantly reduce query execution times when compared with other schemes for representing Web graphs."
 }
 
 @proceedings{icde2003,
