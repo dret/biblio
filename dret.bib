@@ -6468,6 +6468,30 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@string{vldb08 = "Proceedings of the 34th International Conference on Very Large Data Bases" }
+
+@inproceedings{mad08,
+    crossref =  "vldb08",
+    author =    "Jayant Madhavan and David Ko and \L{}ucja Kot and Vignesh Ganapathy and Alex Rasmussen and Alon Halevy",
+    title =     "Google's Deep Web Crawl",
+    pages =     "1241-1252",
+    doi =       "10.1145/1454159.1454163",
+    abstract =  "The Deep Web, i.e., content hidden behind HTML forms, has long been acknowledged as a significant gap in search engine coverage. Since it represents a large portion of the structured data on the Web, accessing Deep-Web content has been a long-standing challenge for the database community. This paper describes a system for surfacing Deep-Web content, i.e., pre-computing submissions for each HTML form and adding the resulting HTML pages into a search engine index. The results of our surfacing have been incorporated into the Google search engine and today drive more than a thousand queries per second to Deep-Web content. Surfacing the Deep Web poses several challenges. First, our goal is to index the content behind many millions of HTML forms that span many languages and hundreds of domains. This necessitates an approach that is completely automatic, highly scalable, and very efficient. Second, a large number of forms have text inputs and require valid inputs values to be submitted. We present an algorithm for selecting input values for text search inputs that accept keywords and an algorithm for identifying inputs which accept only values of a specific type. Third, HTML forms often have more than one input and hence a naive strategy of enumerating the entire Cartesian product of all possible inputs can result in a very large number of URLs being generated. We present an algorithm that efficiently navigates the search space of possible input combinations to identify only those that generate URLs suitable for inclusion into our web search index. We present an extensive experimental evaluation validating the effectiveness of our algorithms."
+}
+
+@proceedings{vldb08,
+    title =     vldb08,
+    booktitle = vldb08,
+    publisher = acm,
+    address =   auckland,
+    month =     aug,
+    year =      2008,
+    index =     "VLDB 2008",
+    uri =       "http://dblp.uni-trier.de/db/journals/pvldb/pvldb1.html"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 @string{icmb05 = "Proceedings of the 2005 International Conference on Mobile Business" }
 
 @inproceedings{ye05,

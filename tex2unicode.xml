@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id$ -->
+<!-- ShaRef TeX2Unicode character mapping table, maps TeX codes to Unicode code points (hex values!) -->
+<!DOCTYPE tex2unicode [
+    <!ELEMENT tex2unicode (map+)>
+    <!ATTLIST tex2unicode
+        version CDATA #IMPLIED >
+    <!ELEMENT map (tex+, unicode, comment?)>
+    <!ATTLIST map
+        charset (US-ASCII | ISO-8859-1) #IMPLIED >
+    <!ELEMENT tex (#PCDATA)>
+    <!ELEMENT comment (#PCDATA)>
+    <!ELEMENT unicode (#PCDATA)>
+]>
+<tex2unicode version="$Id$">
+    <!-- special characters and accented letters -->
+    <map charset="US-ASCII">
+        <tex>\#</tex>
+        <unicode>23</unicode>
+    </map>
+    <map charset="US-ASCII">
+        <tex>\%</tex>
+        <unicode>25</unicode>
+    </map>
+    <map charset="US-ASCII">
+        <tex>\&amp;</tex>
+        <unicode>26</unicode>
+    </map>
+    <map charset="US-ASCII">
+        <tex>\~{}</tex>
+        <unicode>7E</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>!`</tex>
+        <unicode>A1</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\S{}</tex>
+        <unicode>A7</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\"{}</tex>
+        <unicode>A8</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\copyright{}</tex>
+        <unicode>A9</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\-</tex>
+        <unicode>AD</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\={}</tex>
+        <unicode>AF</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>$^\circ$</tex>
+        <tex>$^{\circ}$</tex>
+        <unicode>B0</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>$\pm$</tex>
+        <unicode>B1</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>$^2$</tex>
+        <tex>$^{2}$</tex>
+        <unicode>B2</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>$^3$</tex>
+        <tex>$^{3}$</tex>
+        <unicode>B3</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\'{}</tex>
+        <unicode>B4</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>$\mu$</tex>
+        <unicode>B5</unicode>
+        <comment>also mapped as U+03BC</comment>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\P{}</tex>
+        <unicode>B6</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>$\cdot$</tex>
+        <unicode>B7</unicode>
+        <comment>also mapped as U+22C5</comment>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\c{ }</tex>
+        <unicode>B8</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>$^1$</tex>
+        <tex>$^{1}$</tex>
+        <unicode>B9</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>?`</tex>
+        <unicode>BF</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\`A</tex>
+        <tex>\`{A}</tex>
+        <unicode>C0</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\'A</tex>
+        <tex>\'{A}</tex>
+        <unicode>C1</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\^A</tex>
+        <tex>\^{A}</tex>
+        <unicode>C2</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\~A</tex>
+        <tex>\~{A}</tex>
+        <unicode>C3</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\"A</tex>
+        <tex>\"{A}</tex>
+        <unicode>C4</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\r{A}</tex>
+        <unicode>C5</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>{\AE}</tex>
+        <tex>\AE{}</tex>
+        <unicode>C6</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\c{C}</tex>
+        <unicode>C7</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\`E</tex>
+        <tex>\`{E}</tex>
+        <unicode>C8</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\'E</tex>
+        <tex>\'{E}</tex>
+        <unicode>C9</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\^E</tex>
+        <tex>\^{E}</tex>
+        <unicode>CA</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\"E</tex>
+        <tex>\"{E}</tex>
+        <unicode>CB</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\`I</tex>
+        <tex>\`{I}</tex>
+        <unicode>CC</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\'I</tex>
+        <tex>\'{I}</tex>
+        <unicode>CD</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\^I</tex>
+        <tex>\^{I}</tex>
+        <unicode>CE</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\"I</tex>
+        <tex>\"{I}</tex>
+        <unicode>CF</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>{\DH}</tex>
+        <tex>\DH{}</tex>
+        <unicode>D0</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\~N</tex>
+        <tex>\~{N}</tex>
+        <unicode>D1</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\`O</tex>
+        <tex>\`{O}</tex>
+        <unicode>D2</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\'O</tex>
+        <tex>\'{O}</tex>
+        <unicode>D3</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\^O</tex>
+        <tex>\^{O}</tex>
+        <unicode>D4</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\~O</tex>
+        <tex>\~{O}</tex>
+        <unicode>D5</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\"O</tex>
+        <tex>\"{O}</tex>
+        <unicode>D6</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>$\times$</tex>
+        <unicode>D7</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>{\O}</tex>
+        <tex>\O{}</tex>
+        <unicode>D8</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\`U</tex>
+        <tex>\`{U}</tex>
+        <unicode>D9</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\'U</tex>
+        <tex>\'{U}</tex>
+        <unicode>DA</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\^U</tex>
+        <tex>\^{U}</tex>
+        <unicode>DB</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\"U</tex>
+        <tex>\"{U}</tex>
+        <unicode>DC</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\'Y</tex>
+        <tex>\'{Y}</tex>
+        <unicode>DD</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>{\TH}</tex>
+        <tex>\TH{}</tex>
+        <unicode>DE</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>{\ss}</tex>
+        <tex>\ss{}</tex>
+        <unicode>DF</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\`a</tex>
+        <tex>\`{a}</tex>
+        <unicode>E0</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\'a</tex>
+        <tex>\'{a}</tex>
+        <unicode>E1</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\^a</tex>
+        <tex>\^{a}</tex>
+        <unicode>E2</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\~a</tex>
+        <tex>\~{a}</tex>
+        <unicode>E3</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\"a</tex>
+        <tex>\"{a}</tex>
+        <unicode>E4</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\r{a}</tex>
+        <unicode>E5</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>{\ae}</tex>
+        <tex>\ae{}</tex>
+        <unicode>E6</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\c{c}</tex>
+        <unicode>E7</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\`e</tex>
+        <tex>\`{e}</tex>
+        <unicode>E8</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\'e</tex>
+        <tex>\'{e}</tex>
+        <unicode>E9</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\^e</tex>
+        <tex>\^{e}</tex>
+        <unicode>EA</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\"e</tex>
+        <tex>\"{e}</tex>
+        <unicode>EB</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>{\`\i}</tex>
+        <tex>\`{\i}</tex>
+        <tex>\`\i{}</tex>
+        <unicode>EC</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>{\'\i}</tex>
+        <tex>\'{\i}</tex>
+        <tex>\'\i{}</tex>
+        <unicode>ED</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>{\^\i}</tex>
+        <tex>\^{\i}</tex>
+        <tex>\^\i{}</tex>
+        <unicode>EE</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>{\"\i}</tex>
+        <tex>\"{\i}</tex>
+        <tex>\"\i{}</tex>
+        <unicode>EF</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>{\dh}</tex>
+        <tex>\dh{}</tex>
+        <unicode>F0</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\~n</tex>
+        <tex>\~{n}</tex>
+        <unicode>F1</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\`o</tex>
+        <tex>\`{o}</tex>
+        <unicode>F2</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\'o</tex>
+        <tex>\'{o}</tex>
+        <unicode>F3</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\^o</tex>
+        <tex>\^{o}</tex>
+        <unicode>F4</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\~o</tex>
+        <tex>\~{o}</tex>
+        <unicode>F5</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\"o</tex>
+        <tex>\"{o}</tex>
+        <unicode>F6</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>$\div$</tex>
+        <unicode>F7</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>{\o}</tex>
+        <tex>\o{}</tex>
+        <unicode>F8</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\`u</tex>
+        <tex>\`{u}</tex>
+        <unicode>F9</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\'u</tex>
+        <tex>\'{u}</tex>
+        <unicode>FA</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\^u</tex>
+        <tex>\^{u}</tex>
+        <unicode>FB</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\"u</tex>
+        <tex>\"{u}</tex>
+        <unicode>FC</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\'y</tex>
+        <tex>\'{y}</tex>
+        <unicode>FD</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>{\th}</tex>
+        <tex>\th{}</tex>
+        <unicode>FE</unicode>
+    </map>
+    <map charset="ISO-8859-1">
+        <tex>\"y</tex>
+        <tex>\"{y}</tex>
+        <unicode>FF</unicode>
+    </map>
+    <map>
+        <tex>\=A</tex>
+        <tex>\={A}</tex>
+        <unicode>100</unicode>
+    </map>
+    <map>
+        <tex>\=a</tex>
+        <tex>\={a}</tex>
+        <unicode>101</unicode>
+    </map>
+    <map>
+        <tex>\u{A}</tex>
+        <unicode>102</unicode>
+    </map>
+    <map>
+        <tex>\u{a}</tex>
+        <unicode>103</unicode>
+    </map>
+    <map>
+        <tex>\'C</tex>
+        <tex>\'{C}</tex>
+        <unicode>106</unicode>
+    </map>
+    <map>
+        <tex>\'c</tex>
+        <tex>\'{c}</tex>
+        <unicode>107</unicode>
+    </map>
+    <map>
+        <tex>\^C</tex>
+        <tex>\^{C}</tex>
+        <unicode>108</unicode>
+    </map>
+    <map>
+        <tex>\^c</tex>
+        <tex>\^{c}</tex>
+        <unicode>109</unicode>
+    </map>
+    <map>
+        <tex>\.C</tex>
+        <tex>\.{C}</tex>
+        <unicode>10A</unicode>
+    </map>
+    <map>
+        <tex>\.c</tex>
+        <tex>\.{c}</tex>
+        <unicode>10B</unicode>
+    </map>
+    <map>
+        <tex>\v{C}</tex>
+        <unicode>10C</unicode>
+    </map>
+    <map>
+        <tex>\v{c}</tex>
+        <unicode>10D</unicode>
+    </map>
+    <map>
+        <tex>\v{D}</tex>
+        <unicode>10E</unicode>
+    </map>
+    <map>
+        <tex>\v{d}</tex>
+        <unicode>10F</unicode>
+    </map>
+    <map>
+        <tex>{\DJ}</tex>
+        <tex>\DJ{}</tex>
+        <unicode>110</unicode>
+    </map>
+    <map>
+        <tex>{\dj}</tex>
+        <tex>\dj{}</tex>
+        <unicode>111</unicode>
+    </map>
+    <map>
+        <tex>\=E</tex>
+        <tex>\={E}</tex>
+        <unicode>112</unicode>
+    </map>
+    <map>
+        <tex>\=e</tex>
+        <tex>\={e}</tex>
+        <unicode>113</unicode>
+    </map>
+    <map>
+        <tex>\u{E}</tex>
+        <unicode>114</unicode>
+    </map>
+    <map>
+        <tex>\u{e}</tex>
+        <unicode>115</unicode>
+    </map>
+    <map>
+        <tex>\.E</tex>
+        <tex>\.{E}</tex>
+        <unicode>116</unicode>
+    </map>
+    <map>
+        <tex>\.e</tex>
+        <tex>\.{e}</tex>
+        <unicode>117</unicode>
+    </map>
+    <map>
+        <tex>\v{E}</tex>
+        <unicode>11A</unicode>
+    </map>
+    <map>
+        <tex>\v{e}</tex>
+        <unicode>11B</unicode>
+    </map>
+    <map>
+        <tex>\^G</tex>
+        <tex>\^{G}</tex>
+        <unicode>11C</unicode>
+    </map>
+    <map>
+        <tex>\^g</tex>
+        <tex>\^{g}</tex>
+        <unicode>11D</unicode>
+    </map>
+    <map>
+        <tex>\u{G}</tex>
+        <unicode>11E</unicode>
+    </map>
+    <map>
+        <tex>\u{g}</tex>
+        <unicode>11F</unicode>
+    </map>
+    <map>
+        <tex>\.G</tex>
+        <tex>\.{G}</tex>
+        <unicode>120</unicode>
+    </map>
+    <map>
+        <tex>\.g</tex>
+        <tex>\.{g}</tex>
+        <unicode>121</unicode>
+    </map>
+    <map>
+        <tex>\c{G}</tex>
+        <unicode>122</unicode>
+    </map>
+    <map>
+        <tex>\c{g}</tex>
+        <unicode>123</unicode>
+    </map>
+    <map>
+        <tex>\^H</tex>
+        <tex>\^{H}</tex>
+        <unicode>124</unicode>
+    </map>
+    <map>
+        <tex>\^h</tex>
+        <tex>\^{h}</tex>
+        <unicode>125</unicode>
+    </map>
+    <map>
+        <tex>{\i}</tex>
+        <tex>\i{}</tex>
+        <unicode>131</unicode>
+    </map>
+    <map>
+        <tex>\v{L}</tex>
+        <unicode>13D</unicode>
+    </map>
+    <map>
+        <tex>\v{l}</tex>
+        <unicode>13E</unicode>
+    </map>
+    <map>
+        <tex>{\L}</tex>
+        <tex>\L{}</tex>
+        <unicode>141</unicode>
+    </map>
+    <map>
+        <tex>{\l}</tex>
+        <tex>\l{}</tex>
+        <unicode>142</unicode>
+    </map>
+    <map>
+        <tex>\v{N}</tex>
+        <unicode>147</unicode>
+    </map>
+    <map>
+        <tex>\v{n}</tex>
+        <unicode>148</unicode>
+    </map>
+    <map>
+        <tex>{\OE}</tex>
+        <tex>\OE{}</tex>
+        <unicode>152</unicode>
+    </map>
+    <map>
+        <tex>{\oe}</tex>
+        <tex>\oe{}</tex>
+        <unicode>153</unicode>
+    </map>
+    <map>
+        <tex>\v{R}</tex>
+        <unicode>158</unicode>
+    </map>
+    <map>
+        <tex>\v{r}</tex>
+        <unicode>159</unicode>
+    </map>
+    <map>
+        <tex>\v{S}</tex>
+        <unicode>160</unicode>
+    </map>
+    <map>
+        <tex>\v{s}</tex>
+        <unicode>161</unicode>
+    </map>
+    <map>
+        <tex>\v{T}</tex>
+        <unicode>164</unicode>
+    </map>
+    <map>
+        <tex>\v{t}</tex>
+        <unicode>165</unicode>
+    </map>
+    <map>
+        <tex>D\v{Z}</tex>
+        <unicode>1C4</unicode>
+    </map>
+    <map>
+        <tex>D\v{z}</tex>
+        <unicode>1C5</unicode>
+    </map>
+    <map>
+        <tex>d\v{z}</tex>
+        <unicode>1C6</unicode>
+    </map>
+    <map>
+        <tex>\v{Z}</tex>
+        <unicode>17D</unicode>
+        <comment>must be substituted after &amp;#x1C4;, because only after substituting all &quot;&#x1C4;&quot; occurrences does it make sense to substitute &quot;&#x17D;&quot;.</comment>
+    </map>
+    <map>
+        <tex>\v{z}</tex>
+        <unicode>17E</unicode>
+        <comment>must be substituted after &amp;#x1C5; and &amp;#x1C6;, because only after substituting all &quot;&#x1C5;&quot; and &quot;&#x1C6;&quot; occurrences does it make sense to substitute &quot;&#x17E;&quot;.</comment>
+    </map>
+    <map>
+        <tex>\v{A}</tex>
+        <unicode>1CD</unicode>
+    </map>
+    <map>
+        <tex>\v{a}</tex>
+        <unicode>1CE</unicode>
+    </map>
+    <map>
+        <tex>\v{I}</tex>
+        <unicode>1CF</unicode>
+    </map>
+    <map>
+        <tex>{\v\i}</tex>
+        <tex>\v{\i}</tex>
+        <tex>\v\i{}</tex>
+        <unicode>1D0</unicode>
+    </map>
+    <map>
+        <tex>\v{O}</tex>
+        <unicode>1D1</unicode>
+    </map>
+    <map>
+        <tex>\v{o}</tex>
+        <unicode>1D2</unicode>
+    </map>
+    <map>
+        <tex>\v{U}</tex>
+        <unicode>1D3</unicode>
+    </map>
+    <map>
+        <tex>\v{u}</tex>
+        <unicode>1D4</unicode>
+    </map>
+    <map>
+        <tex>\v{G}</tex>
+        <unicode>1E6</unicode>
+    </map>
+    <map>
+        <tex>\v{g}</tex>
+        <unicode>1E7</unicode>
+    </map>
+    <map>
+        <tex>\v{K}</tex>
+        <unicode>1E8</unicode>
+    </map>
+    <map>
+        <tex>\v{k}</tex>
+        <unicode>1E9</unicode>
+    </map>
+    <map>
+        <tex>\v{H}</tex>
+        <unicode>21E</unicode>
+    </map>
+    <map>
+        <tex>\v{h}</tex>
+        <unicode>21F</unicode>
+    </map>
+    <!-- greek letters -->
+    <map>
+        <tex>$\Gamma$</tex>
+        <unicode>393</unicode>
+    </map>
+    <map>
+        <tex>$\Delta$</tex>
+        <unicode>394</unicode>
+    </map>
+    <map>
+        <tex>$\Theta$</tex>
+        <unicode>398</unicode>
+    </map>
+    <map>
+        <tex>$\Lambda$</tex>
+        <unicode>39B</unicode>
+    </map>
+    <map>
+        <tex>$\Xi$</tex>
+        <unicode>39E</unicode>
+    </map>
+    <map>
+        <tex>$\Pi$</tex>
+        <unicode>3A0</unicode>
+    </map>
+    <map>
+        <tex>$\Sigma$</tex>
+        <unicode>3A3</unicode>
+    </map>
+    <map>
+        <tex>$\Upsilon$</tex>
+        <unicode>3A5</unicode>
+    </map>
+    <map>
+        <tex>$\Phi$</tex>
+        <unicode>3A6</unicode>
+    </map>
+    <map>
+        <tex>$\Psi$</tex>
+        <unicode>3A8</unicode>
+    </map>
+    <map>
+        <tex>$\Omega$</tex>
+        <unicode>3A9</unicode>
+    </map>
+    <map>
+        <tex>$\alpha$</tex>
+        <unicode>3B1</unicode>
+    </map>
+    <map>
+        <tex>$\beta$</tex>
+        <unicode>3B2</unicode>
+    </map>
+    <map>
+        <tex>$\gamma$</tex>
+        <unicode>3B3</unicode>
+    </map>
+    <map>
+        <tex>$\delta$</tex>
+        <unicode>3B4</unicode>
+    </map>
+    <map>
+        <tex>$\epsilon$</tex>
+        <unicode>3F5</unicode>
+    </map>
+    <map>
+        <tex>$\varepsilon$</tex>
+        <unicode>3B5</unicode>
+    </map>
+    <map>
+        <tex>$\zeta$</tex>
+        <unicode>3B6</unicode>
+    </map>
+    <map>
+        <tex>$\eta$</tex>
+        <unicode>3B7</unicode>
+    </map>
+    <map>
+        <tex>$\theta$</tex>
+        <unicode>3B8</unicode>
+    </map>
+    <map>
+        <tex>$\vartheta$</tex>
+        <unicode>3D1</unicode>
+    </map>
+    <map>
+        <tex>$\iota$</tex>
+        <unicode>3B9</unicode>
+    </map>
+    <map>
+        <tex>$\kappa$</tex>
+        <unicode>3BA</unicode>
+    </map>
+    <map>
+        <tex>$\lamba$</tex>
+        <unicode>3BB</unicode>
+    </map>
+    <map>
+        <tex>$\mu$</tex>
+        <unicode>3BC</unicode>
+        <comment>also mapped as U+00B5</comment>
+    </map>
+    <map>
+        <tex>$\nu$</tex>
+        <unicode>3BD</unicode>
+    </map>
+    <map>
+        <tex>$\xi$</tex>
+        <unicode>3BE</unicode>
+    </map>
+    <map>
+        <tex>$\pi$</tex>
+        <unicode>3C0</unicode>
+    </map>
+    <map>
+        <tex>$\varpi$</tex>
+        <unicode>3D6</unicode>
+    </map>
+    <map>
+        <tex>$\rho$</tex>
+        <unicode>3C1</unicode>
+    </map>
+    <map>
+        <tex>$\varrho$</tex>
+        <unicode>3F1</unicode>
+    </map>
+    <map>
+        <tex>$\sigma$</tex>
+        <unicode>3C3</unicode>
+    </map>
+    <map>
+        <tex>$\varsigma$</tex>
+        <unicode>3C2</unicode>
+    </map>
+    <map>
+        <tex>$\tau$</tex>
+        <unicode>3C4</unicode>
+    </map>
+    <map>
+        <tex>$\upsilon$</tex>
+        <unicode>3C5</unicode>
+    </map>
+    <map>
+        <tex>$\phi$</tex>
+        <unicode>3D5</unicode>
+    </map>
+    <map>
+        <tex>$\varphi$</tex>
+        <unicode>3C6</unicode>
+    </map>
+    <map>
+        <tex>$\chi$</tex>
+        <unicode>3C7</unicode>
+    </map>
+    <map>
+        <tex>$\psi$</tex>
+        <unicode>3C8</unicode>
+    </map>
+    <map>
+        <tex>$\omega$</tex>
+        <unicode>3C9</unicode>
+    </map>
+    <map>
+        <tex>$\partial$</tex>
+        <unicode>2202</unicode>
+    </map>
+    <map>
+        <tex>$\mp$</tex>
+        <unicode>2213</unicode>
+    </map>
+    <map>
+        <tex>$\dotplus$</tex>
+        <unicode>2214</unicode>
+    </map>
+    <map>
+        <tex>$\ast$</tex>
+        <unicode>2217</unicode>
+    </map>
+    <map>
+        <tex>$\circ$</tex>
+        <unicode>2218</unicode>
+    </map>
+    <map>
+        <tex>$\bullet$</tex>
+        <unicode>2219</unicode>
+    </map>
+    <map>
+        <tex>$\vee$</tex>
+        <unicode>2227</unicode>
+    </map>
+    <map>
+        <tex>$\wedge$</tex>
+        <unicode>2228</unicode>
+    </map>
+    <map>
+        <tex>$\cap$</tex>
+        <unicode>2229</unicode>
+    </map>
+    <map>
+        <tex>$\cup$</tex>
+        <unicode>222A</unicode>
+    </map>
+    <map>
+        <tex>$\uplus$</tex>
+        <unicode>228E</unicode>
+    </map>
+    <map>
+        <tex>$\sqcap$</tex>
+        <unicode>2293</unicode>
+    </map>
+    <map>
+        <tex>$\sqcup$</tex>
+        <unicode>2294</unicode>
+    </map>
+    <map>
+        <tex>$\oplus$</tex>
+        <unicode>2295</unicode>
+    </map>
+    <map>
+        <tex>$\ominus$</tex>
+        <unicode>2296</unicode>
+    </map>
+    <map>
+        <tex>$\otimes$</tex>
+        <unicode>2297</unicode>
+    </map>
+    <map>
+        <tex>$\oslash$</tex>
+        <unicode>2298</unicode>
+    </map>
+    <map>
+        <tex>$\odot$</tex>
+        <unicode>2299</unicode>
+    </map>
+    <map>
+        <tex>$\cdot$</tex>
+        <tex>$\centerdot$</tex>
+        <unicode>22C5</unicode>
+        <comment>also mapped as U+00B7</comment>
+    </map>
+    <map>
+        <tex>$\star$</tex>
+        <unicode>22C6</unicode>
+    </map>
+    <!-- punctuation marks -->
+    <map>
+        <tex>---</tex>
+        <unicode>2014</unicode>
+        <comment>must be substituted before &amp;#x2013;, because &amp;#x2013; ('--') is a literal substring of '---'.</comment>
+    </map>
+    <map>
+        <tex>--</tex>
+        <unicode>2013</unicode>
+        <comment>must be substituted after &amp;#x2014;, because only after substituting all '---' occurrences does it make sense to substitute '--'.</comment>
+    </map>
+    <map>
+        <tex>``</tex>
+        <unicode>201C</unicode>
+        <comment>must be substituted before &amp;#x2018;, because &amp;#x2018; ('`') is a literal substring of '``'.</comment>
+    </map>
+    <map>
+        <tex>''</tex>
+        <unicode>201D</unicode>
+        <comment>must be substituted before &amp;#x2019;, because &amp;#x2019; (&quot;'&quot;) is a literal substring of &quot;''&quot;.</comment>
+    </map>
+    <map>
+        <tex>`</tex>
+        <unicode>2018</unicode>
+        <comment>must be substituted after &amp;#x201C;, because only after substituting all &quot;''&quot; occurrences does it make sense to substitute &quot;'&quot;.</comment>
+    </map>
+    <map>
+        <tex>'</tex>
+        <unicode>2019</unicode>
+        <comment>must be substituted after &amp;#x201D;, because only after substituting all '``' occurrences does it make sense to substitute '`'.</comment>
+    </map>
+    <map>
+        <tex/>
+        <unicode>FEFF</unicode>
+        <comment>if there is a BOM in the Unicode, discard it.</comment>
+    </map>
+</tex2unicode>

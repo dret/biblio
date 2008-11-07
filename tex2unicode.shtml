@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html lang="en-US" xml:lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>TeX2Unicode Character Conversion Table</title>
+<link rel="start" href="./" />
+<link rel="stylesheet" type="text/css" href="/dretnet.css" />
+<link rel="stylesheet" type="text/css" href="/netdret/netdret.css" />
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+</head>
+
+<body onload="if (self != top) top.location = self.location">
+
+<h1>TeX2Unicode Character Conversion Table</h1>
+
+<hr />
+
+<p>This is the character conversion table used for conversions between TeX characters and Unicode characters. If you have any comments, corrections, or additions regarding this table, <a href="mailto:dret@berkeley.edu">please let us know</a>. In addition to this HTML table, you may also be interested in the following resources:</p>
+
+<ul>
+
+<li>If you are interested in a machine-readable version of the character conversion table, you can get the <a href="tex2unicode.xml">XML version of the table</a>. The XML version of the table is a trivial mapping table with a very small DTD in its internal subset, so it should be easy to understand and use.</li>
+
+<li>A <a href="unicode2tex.sed"><code>sed</code> script for converting Unicode to TeX characters</a>. This text file is an UTF-8 file, so if your <code>sed</code> does not support UTF-8, you are out of luck.</li>
+
+<li>Three <a href="unicode2tex.xsl">XSLT 2.0 character maps for mapping Unicode characters to the corresponding TeX codes</a>. The tables are split (the character map names are <code>US-ASCII</code>, <code>ISO-8859-1</code>, and <code>all</code>) so that the first two tables can be used to only map characters that are not part of US-ASCII respectively ISO-8859-1, while the other table maps all entries of the <a href="tex2unicode.xml">tex2unicode mapping table</a> (hopefully producing a US-ASCII file).</li>
+
+</ul>
+
+<hr />
+
+<!--#include virtual="tex2unicode.xhtml" -->
+
+<!--#include virtual="/foot.shtml" -->
