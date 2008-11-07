@@ -610,6 +610,14 @@
         <unicode>148</unicode>
     </map>
     <map>
+        <tex>\H{O}</tex>
+        <unicode>150</unicode>
+    </map>
+    <map>
+        <tex>\H{o}</tex>
+        <unicode>151</unicode>
+    </map>
+    <map>
         <tex>{\OE}</tex>
         <tex>\OE{}</tex>
         <unicode>152</unicode>
@@ -642,6 +650,14 @@
     <map>
         <tex>\v{t}</tex>
         <unicode>165</unicode>
+    </map>
+    <map>
+        <tex>\H{U}</tex>
+        <unicode>170</unicode>
+    </map>
+    <map>
+        <tex>\H{u}</tex>
+        <unicode>171</unicode>
     </map>
     <map>
         <tex>D\v{Z}</tex>

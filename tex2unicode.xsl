@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- $Header: /usr/cvs/Sharef/Sharef/bibconvert/xslt/tex2unicode.xsl,v 1.13 2005/09/01 12:20:42 dret Exp $ -->
+<!-- $Id$ -->
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:gxsl="alias:namespace" exclude-result-prefixes="xs">
 	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 	<!-- the base directory for all output files, must be a valid absolute or relative URI (no trailing slash required) -->
