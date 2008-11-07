@@ -35,6 +35,8 @@
 			<table rules="groups" cellpadding="4">
 				<thead>
 					<tr>
+						<th align="center" valign="bottom">Hex</th>
+						<th align="center" valign="bottom">Decimal</th>
 						<th align="center" valign="bottom">Character</th>
 						<th align="center" valign="bottom">TeX Code</th>
 						<th align="center" valign="bottom">TeX Code Variations</th>
@@ -45,6 +47,11 @@
 				</thead>
 				<tbody>
 					<xsl:for-each select="/tex2unicode/map">
+						<xsl:variable name="decunicode">
+							<xsl:call-template name="Hex2Dec">
+								<xsl:with-param name="value" select="unicode"/>
+							</xsl:call-template>
+						</xsl:variable>
 						<tr>
 							<xsl:attribute name="class">
 								<xsl:choose>
@@ -52,12 +59,13 @@
 									<xsl:otherwise>l2</xsl:otherwise>
 								</xsl:choose>
 							</xsl:attribute>
+							<td align="right">
+								<xsl:value-of select="unicode"/>
+							</td>
+							<td align="right">
+								<xsl:value-of select="$decunicode"/>
+							</td>
 							<td align="center">
-								<xsl:variable name="decunicode">
-									<xsl:call-template name="Hex2Dec">
-										<xsl:with-param name="value" select="unicode"/>
-									</xsl:call-template>
-								</xsl:variable>
 								<xsl:value-of select="codepoints-to-string(xs:integer($decunicode))"/>
 							</td>
 							<td align="center">

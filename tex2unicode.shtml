@@ -10,6 +10,10 @@
 <link rel="stylesheet" type="text/css" href="/netdret/netdret.css" />
 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<style type="text/css">
+.l1 { background : #E3E3E3 ; }
+.l2 { background : #DDDDDD ; }
+</style>
 </head>
 
 <body onload="if (self != top) top.location = self.location">
