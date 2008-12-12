@@ -413,11 +413,11 @@
 @string{uci =       "{University of California, Irvine}" }
 @string{ucla =      "{University of California, Los Angeles}" }
 @string{ucsb =      "{University of California, Santa Barbara}" }
-@string{unc =       "{University of North Carolina}" }
 @string{ufreiburg = {{Universit\"at Freiburg}} }
 @string{uhelsinki = "{University of Helsinki}" }
 @string{ubergen =   "{University of Bergen}" }
 @string{uic =       "{University of Illinois}" }
+@string{unc =       "{University of North Carolina}" }
 @string{uniarhus =  "{University of \r{A}rhus}" }
 @string{unibo   =   "{University of Bologna}" }
 @string{unibonn =   "{University of Bonn}" }
@@ -426,6 +426,7 @@
 @string{unizh =     "{University of Zurich}" }
 @string{unoslo =    "{University of Oslo}" }
 @string{upenn =     "{University of Pennsylvania}" }
+@string{uscgisrl =  "{University of Southern California, GIS Research Laboratory}" }
 @string{utokyo =    "{University of Tokyo}" }
 @string{utk =       "{University of Tennessee}" }
 @string{uwash =     "{University of Washington}" }
@@ -19611,15 +19612,26 @@ We also propose a new taxonomy for geographic search queries.}
 % technical reports
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@techreport{gol08,
+    author =    "Daniel W. Goldberg",
+    title =     "A Geocoding Best Practices Guide",
+    institution = uscgisrl,
+    address=    la,
+    month =     nov,
+    year =      2008,
+    uri =       "http://www.naaccr.org/filesystem/pdf/Geocoding_Best_Practices.pdf",
+    abstract =  "The advent of geographic information science and the accompanying technologies (geo-graphic information systems, global positioning systems, remote sensing, and more recently location-based services) have forever changed the ways in which people conceive of and navigate planet Earth. Geocoding is a key bridge linking the old and the new --- a world in which streets and street addresses served as the primary location identifiers and the modern world in which more precise representations are possible and needed to explore, analyze, and visualize geographic patterns, their drivers, and their consequences. Geocoding, viewed from this perspective, brings together the knowledge and work of the geographer and the computer scientist. The author, Daniel Goldberg, has done an excellent job in laying out the fundamentals of geocoding as a process using the best contributions from both of these once-disparate fields. This book will serve as a rich reference manual for those who want to inject more science and less art (uncertainty) into their geocoding tasks. This is particularly important for medical geography and epidemiology applications, as recent research findings point to environmental conditions that may contribute to and/or exacerbate health problems that vary over distances of hundreds and even tens of meters (i.e., as happens with proximity to free-ways). These findings call for much better and more deliberate geocoding practices than many practitioners have used to date and bring the contents of this best practices manual to the fore. This book provides a long overdue summary of the state-of-the-art of geocoding and will be essential reading for those that wish and/or need to generate detailed and accurate geographic positions from street addresses and the like."
+}
+
 @techreport{mat04,
     author =    "Adam Mathes",
     title =     "Folksonomies --- Cooperative Classification and Communication Through Shared Metadata",
-    uri =       "http://www.adammathes.com/academic/computer-mediated-communication/folksonomies.html",
     howpublished = "Computer Mediated Communication (LIS590CMC)",
     institution = uic,
     address=    urbana,
     month =     dec,
     year =      2004,
+    uri =       "http://www.adammathes.com/academic/computer-mediated-communication/folksonomies.html",
     abstract =  "This paper examines user-generated metadata as implemented and applied in two web services designed to share and organize digital media to better understand grassroots classification. Metadata --- data about data --- allows systems to collocate related information, and helps users find relevant information. The creation of metadata has generally been approached in two ways: professional creation and author creation. In libraries and other organizations, creating metadata, primarily in the form of catalog records, has traditionally been the domain of dedicated professionals working with complex, detailed rule sets and vocabularies. The primary problem with this approach is scalability and its impracticality for the vast amounts of content being produced and used, especially on the World Wide Web. The apparatus and tools built around professional cataloging systems are generally too complicated for anyone without specialized training and knowledge. A second approach is for metadata to be created by authors. The movement towards creator described documents was heralded by SGML, the WWW, and the Dublin Core Metadata Initiative. There are problems with this approach as well --- often due to inadequate or inaccurate description, or outright deception. This paper examines a third approach: user-created metadata, where users of the documents and media create metadata for their own individual use that is also shared throughout a community."
 }
 
@@ -25724,6 +25736,16 @@ We also propose a new taxonomy for geographic search queries.}
     uri =       "http://www.iso.org/iso/en/CatalogueDetailPage.CatalogueDetail?CSNUMBER=27446"
 }
 
+@misc{iso24517-1,
+    author =    iso,
+    title =     "Document Management -- Engineering Document Format using PDF -- Part 1: Use of PDF 1.6 (PDF/E-1)",
+    howpublished =  "ISO 24517-1:2008",
+    topic =     "pdfe[1]",
+    year =      2008,
+    month =     may,
+    uri =       "ISO 24517-1:2008 specifies the use of the Portable Document Format (PDF) Version 1.6 for the creation of documents used in engineering workflows. ISO 24517-1:2008 does not define the following: method of electronic distribution; method of creation or conversion from paper or electronic documents to the PDF/E format; specific technical design, user interface, or implementation; required computer hardware and/operating systems; or methods for validating the conformance of PDF/E files or readers."
+}
+
 @misc{iso24824-1,
     author =    iso,
     title =     "Information Technology --- Generic Applications of ASN.1: Fast Infoset",
@@ -25763,7 +25785,7 @@ We also propose a new taxonomy for geographic search queries.}
     howpublished =  "ISO/IEC 29500-2:2008",
     year =      2008,
     month =     nov,
-    topic =     "ooxml[1]",
+    topic =     "ooxml[0.9] opc[1]",
     uri =       "http://standards.iso.org/ittf/PubliclyAvailableStandards/c051459_ISOIEC%2029500-2_2008_Electronic_inserts.zip",
     abstract =  "ISO/IEC 29500-2:2008 defines a general-purpose file/component packaging facility, which is built on top of the widely used ZIP file structure."
 }
@@ -25788,6 +25810,17 @@ We also propose a new taxonomy for geographic search queries.}
     topic =     "ooxml[1]",
     uri =       "http://standards.iso.org/ittf/PubliclyAvailableStandards/c051462_ISOIEC%2029500-4_2008(E).zip",
     abstract =  "ISO/IEC 29500-4:2008 defines a set of XML elements and attributes, over and above those defined by ISO/IEC 29500-1, that provide support for legacy Microsoft Office applications; that is, those prior to the 2008 release. It specifies requirements for Office Open XML consumers and producers that comply to the transitional conformance category."
+}
+
+@misc{iso32000-1,
+    author =    iso,
+    title =     "Document Management --- Portable Document Format --- Part 1: PDF 1.7",
+    howpublished =  "ISO 32000-1:2008",
+    year =      2008,
+    month =     jul,
+    topic =     "pdf[1]",
+    uri =       "http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=51502",
+    abstract =  "ISO 32000-1:2008 specifies a digital form for representing electronic documents to enable users to exchange and view electronic documents independent of the environment in which they were created or the environment in which they are viewed or printed. It is intended for the developer of software that creates PDF files (conforming writers), software that reads existing PDF files and interprets their contents for display and interaction (conforming readers) and PDF products that read and/or write PDF files for a variety of other purposes (conforming products). ISO 32000-1:2008 does not specify the following: specific processes for converting paper or electronic documents to the PDF format; specific technical design, user interface or implementation or operational details of rendering; specific physical methods of storing these documents such as media and storage conditions; methods for validating the conformance of PDF files or readers; required computer hardware and/or operating system."
 }
 
 @misc{isoects,
@@ -26346,6 +26379,16 @@ We also propose a new taxonomy for geographic search queries.}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % ECMA documents
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@misc{xps,
+    author =    ecma,
+    title =     "XML Paper Specification --- XPS Specification and Reference Guide",
+    howpublished =  "Working Draft 1.3",
+    month =     nov,
+    year =      2008,
+    topic =     "xps[1]",
+    uri =       "http://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.3.pdf"
+}
 
 @misc{ecmascript,
     author =    ecma,
@@ -27686,7 +27729,7 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2008,
     topic =     "owl[0.9]",
     uri =       "http://www.w3.org/TR/2008/WD-owl2-new-features-20081202",
-    abstract =  "OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodeling, and extended annotations. This document is a simple introduction to the new features of the OWL 2 Web Ontology Language, including an explanation of its differences with respect to OWL 1. It also presents the requirements that have motivated the design of the main new features, and their rationale from a theoretical and implementation perspective. Thus it is intended to supplement the Use Cases and Requirements provided as part of the initial OWL Recommendation and to be an overview of OWL 2 new features. "
+    abstract =  "OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodeling, and extended annotations. This document is a simple introduction to the new features of the OWL 2 Web Ontology Language, including an explanation of its differences with respect to OWL 1. It also presents the requirements that have motivated the design of the main new features, and their rationale from a theoretical and implementation perspective. Thus it is intended to supplement the Use Cases and Requirements provided as part of the initial OWL Recommendation and to be an overview of OWL 2 new features."
 }
 
 @misc{owl2syntax,
@@ -27756,7 +27799,7 @@ We also propose a new taxonomy for geographic search queries.}
     topic =     "owl[0.9] rdf[0.9]",
     uri =       "http://www.w3.org/TR/2008/WD-owl2-mapping-to-rdf-20081202",
     updates =   "owl11mappingtordf",
-    abstract =  "OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodeling, and extended annotations. This document defines a mapping of OWL 2 ontology into the RDF syntax, and vice versa. "
+    abstract =  "OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodeling, and extended annotations. This document defines a mapping of OWL 2 ontology into the RDF syntax, and vice versa."
 }
 
 @misc{owl2xmlserialization,
@@ -28342,11 +28385,21 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{ddrsimpleapi,
     author =    "Jo Rabin and Jos\'e Manuel Cantera Fonseca and Rotan Hanrahan and Ignacio Mar\'\i{}n",
     title =     "Device Description Repository Simple API",
-    howpublished =  "World Wide Web Consortium, Proposed Recommendation PR-DDR-Simple-API-20080917",
-    month =     sep,
+    howpublished =  "World Wide Web Consortium, Recommendation REC-DDR-Simple-API-20081205",
+    month =     dec,
     year =      2008,
-    uri =       "http://www.w3.org/TR/2008/PR-DDR-Simple-API-20080917",
+    uri =       "http://www.w3.org/TR/2008/REC-DDR-Simple-API-20081205",
     abstract =  {Web content delivered to mobile devices usually benefits from being tailored to take into account a range of factors such as screen size, markup language support and image format support. Such information is stored in "Device Description Repositories" (DDRs). This document describes a simple API for access to DDRs, in order to ease and promote the development of Web content that adapts to its Delivery Context.}
+}
+
+@misc{ddstructures,
+    author =    "Jos\'e Manuel Cantera Fonseca",
+    title =     "Device Description Structures",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-dd-structures-20081205",
+    month =     dec,
+    year =      2008,
+    uri =       "http://www.w3.org/TR/2008/WD-dd-structures-20081205",
+    abstract =  "Content Adaptation on the Mobile Web can be simplified by creating groups for those devices that share common characteristics. This WG Note defines an XML format, a group definition syntax and an extension to the DDR Simple API that can be used in the development of adaptive Mobile Web sites that exploit grouping."
 }
 
 @misc{xprocrequirements,
@@ -28913,35 +28966,35 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{wcag20,
     author =    "Ben Caldwell and Michael Cooper and Loretta Guarino Reid and Gregg Vanderheiden",
     title =     "Web Content Accessibility Guidelines 2.0",
-    howpublished =  "World Wide Web Consortium, Proposed Recommendation PR-WCAG20-20081103",
-    month =     nov,
+    howpublished =  "World Wide Web Consortium, Recommendation REC-WCAG20-20081211",
+    month =     dec,
     year =      2008,
     topic =     "wai[0.9] wcag[1]",
     updates =   "waica",
-    uri =       "http://www.w3.org/TR/2008/PR-WCAG20-20081103",
-    abstract =  {Web Content Accessibility Guidelines (WCAG) 2.0 covers a wide range of recommendations for making Web content more accessible. Following these guidelines will make content accessible to a wider range of people with disabilities, including blindness and low vision, deafness and hearing loss, learning disabilities, cognitive limitations, limited movement, speech difficulties, photosensitivity and combinations of these. Following these guidelines will also often make your Web content more usable to users in general. WCAG 2.0 success criteria are written as testable statements that are not technology-specific. Guidance about satisfying the success criteria in specific technologies, as well as general information about interpreting the success criteria, are provided in separate documents. An Overview of Web Content Accessibility Guidelines (WCAG) 2.0 Last Call Documents is also available. Until WCAG 2.0 advances to W3C Recommendation, the current and referenceable document is Web Content Accessibility Guidelines 1.0, published as a W3C Recommendation May 1999.}
+    uri =       "http://www.w3.org/TR/2008/REC-WCAG20-20081211",
+    abstract =  {Web Content Accessibility Guidelines (WCAG) 2.0 covers a wide range of recommendations for making Web content more accessible. Following these guidelines will make content accessible to a wider range of people with disabilities, including blindness and low vision, deafness and hearing loss, learning disabilities, cognitive limitations, limited movement, speech disabilities, photosensitivity and combinations of these. Following these guidelines will also often make your Web content more usable to users in general. WCAG 2.0 success criteria are written as testable statements that are not technology-specific. Guidance about satisfying the success criteria in specific technologies, as well as general information about interpreting the success criteria, is provided in separate documents. See Web Content Accessibility Guidelines (WCAG) Overview for an introduction and links to WCAG technical and educational material. WCAG 2.0 succeeds Web Content Accessibility Guidelines 1.0, which was published as a W3C Recommendation May 1999. Although it is possible to conform either to WCAG 1.0 or to WCAG 2.0 (or both), the W3C recommends that new and updated content use WCAG 2.0. The W3C also recommends that Web accessibility policies reference WCAG 2.0.}
 }
 
 @misc{understandingwcag20,
     author =    "Ben Caldwell and Michael Cooper and Loretta Guarino Reid and Gregg Vanderheiden",
     title =     "Understanding WCAG 2.0",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-UNDERSTANDING-WCAG20-20081103",
-    month =     nov,
+    howpublished =  "World Wide Web Consortium, Note NOTE-UNDERSTANDING-WCAG20-20081211",
+    month =     dec,
     year =      2008,
     topic =     "wcag[0.8]",
-    uri =       "http://www.w3.org/TR/2008/WD-UNDERSTANDING-WCAG20-20081103",
-    abstract =  {This document, "Understanding WCAG 2.0," is an essential guide to understanding and using Web Content Accessibility Guidelines 2.0. It is part of a series of documents that support WCAG 2.0. Please note that the contents of this document are informative (they provide guidance), and not normative (they do not set requirements for conforming to WCAG 2.0). WCAG 2.0 establishes a set of Success Criteria to define conformance to the WCAG 2.0 Guidelines. A Success Criterion is a testable statement that will be either true or false when applied to specific Web content. "Understanding WCAG 2.0" provides detailed information about each Success Criterion, including its intent, the key terms that are used in the Success Criterion, and how the Success Criteria in WCAG 2.0 help people with different types of disabilities. This document also provides examples of Web content that meet the success criterion using various Web technologies (for instance, HTML, CSS, XML), and common examples of Web content that does not meet the success criterion. This document indicates specific techniques to meet each Success Criterion. Details for how to implement each technique are available in "Techniques for WCAG 2.0", but "Understanding WCAG 2.0" provides the information about the relationship of each technique to the Success Criteria. Techniques are categorized by the level of support they provide for the Success Criteria. "Sufficient techniques" are sufficient to meet a particular Success Criterion (either by themselves or in combination with other techniques), while other techniques are advisory and therefore optional. None of the techniques are required to meet WCAG 2.0, although some may be the only known method if a particular technology is used. "Advisory techniques" are not sufficient to meet the Success Criteria on their own (because they are not testable or provide incomplete support) but it is encouraged that authors follow them when possible to provide enhanced accessibility. Another support category is "Failure techniques", which describe authoring practices known to cause Web content not to conform to WCAG 2.0. Although failure techniques provide advisory information about certain authoring practices, authors must avoid those practices in order to meet the WCAG 2.0 Success Criteria. This document is part of a series of documents published by the W3C Web Accessibility Initiative (WAI) to support WCAG 2.0.}
+    uri =       "http://www.w3.org/TR/2008/NOTE-UNDERSTANDING-WCAG20-20081211",
+    abstract =  {This document, "Understanding WCAG 2.0," is an essential guide to understanding and using Web Content Accessibility Guidelines (WCAG) 2.0. It is part of a series of documents that support WCAG 2.0. Please note that the contents of this document are informative (they provide guidance), and not normative (they do not set requirements for conforming to WCAG 2.0). See Web Content Accessibility Guidelines (WCAG) Overview for an introduction to WCAG, supporting technical documents, and educational material. WCAG 2.0 establishes a set of Success Criteria to define conformance to the WCAG 2.0 Guidelines. A Success Criterion is a testable statement that will be either true or false when applied to specific Web content. "Understanding WCAG 2.0" provides detailed information about each Success Criterion, including its intent, the key terms that are used in the Success Criterion, and how the Success Criteria in WCAG 2.0 help people with different types of disabilities. This document also provides examples of Web content that meet the success criterion using various Web technologies (for instance, HTML, CSS, XML), and common examples of Web content that does not meet the success criterion. This document indicates specific techniques to meet each Success Criterion. Details for how to implement each technique are available in Techniques for WCAG 2.0, but "Understanding WCAG 2.0" provides the information about the relationship of each technique to the Success Criteria. Techniques are categorized by the level of support they provide for the Success Criteria. "Sufficient techniques" are sufficient to meet a particular Success Criterion (either by themselves or in combination with other techniques), while other techniques are advisory and therefore optional. None of the techniques are required to meet WCAG 2.0, although some may be the only known method if a particular technology is used. "Advisory techniques" are not sufficient to meet the Success Criteria on their own (because they are not testable or provide incomplete support) but it is encouraged that authors follow them when possible to provide enhanced accessibility. Another support category is "Common Failures", which describe authoring practices known to cause Web content not to conform to WCAG 2.0. Although failures provide advisory information about certain authoring practices, authors must avoid those practices in order to meet the WCAG 2.0 Success Criteria. This document is part of a series of documents published by the W3C Web Accessibility Initiative (WAI) to support WCAG 2.0. This document was published as a Working Group Note at the same time WCAG 2.0 was published as a W3C Recommendation. Unlike WCAG 2.0, is expected that the information in Understanding WCAG 2.0 will be updated from time to time. See Web Content Accessibility Guidelines (WCAG) Overview for an introduction to WCAG, supporting technical documents, and educational material.}
 }
 
 @misc{wcag20techs,
     author =    "Ben Caldwell and Michael Cooper and Loretta Guarino Reid and Gregg Vanderheiden",
     title =     "Techniques for WCAG 2.0",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-WCAG20-TECHS-20081103",
-    month =     nov,
+    howpublished =  "World Wide Web Consortium, Note NOTE-WCAG20-TECHS-20081211",
+    month =     dec,
     year =      2008,
     topic =     "wai[0.9] wcag[1]",
-    uri =       "http://www.w3.org/TR/2008/WD-WCAG20-TECHS-20081103",
-    abstract =  {"Techniques for WCAG 2.0" provides information to Web content developers who wish to satisfy the success criteria of Web Content Accessibility Guidelines 2.0 (WCAG 2.0). Techniques are specific authoring practices that may be used in support of the WCAG 2.0 success criteria. This document provides "General Techniques" that describe basic practices that are applicable to any technology, and technology-specific techniques that provide information applicable to specific technologies. Currently, technology-specific techniques are available for HTML, CSS, ECMAScript, SMIL, ARIA, and Web servers. The World Wide Web Consortium only documents techniques for non-proprietary technologies; the WCAG Working Group hopes vendors of other technologies will provide similar techniques to describe how to conform to WCAG 2.0 using those technologies. Use of the techniques provided in this document makes it easier for Web content to demonstrate conformance to WCAG 2.0 success criteria than if these techniques are not used. Besides the techniques provided in this document, there may be other techniques that can be used to implement conformance to WCAG 2.0. The WCAG WG encourages submission of such techniques so they can be considered for inclusion in this document, in order to make the set of techniques maintained by the WCAG WG as comprehensive as possible. Please submit techniques for consideration using the "Techniques Submission Form." This document is part of a series of documents published by the W3C Web Accessibility Initiative (WAI) to support WCAG 2.0.}
+    uri =       "http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211",
+    abstract =  {"Techniques for WCAG 2.0" provides information to Web content developers who wish to satisfy the success criteria of Web Content Accessibility Guidelines (WCAG) 2.0. Techniques are specific authoring practices that may be used in support of the WCAG 2.0 success criteria. This document provides "General Techniques" that describe basic practices that are applicable to any technology, and technology-specific techniques that provide information applicable to specific technologies. The World Wide Web Consortium only documents techniques for non-proprietary technologies; the WCAG Working Group hopes vendors of other technologies will provide similar techniques to describe how to conform to WCAG 2.0 using those technologies. Use of the techniques provided in this document makes it easier for Web content to demonstrate conformance to WCAG 2.0 success criteria than if these techniques are not used. Besides the techniques provided in this document, there may be other techniques that can be used to implement conformance to WCAG 2.0. The WCAG WG encourages submission of such techniques so they can be considered for inclusion in this document, in order to make the set of techniques maintained by the WCAG WG as comprehensive as possible. Please submit techniques for consideration using the "Techniques Submission Form." This document is part of a series of documents published by the W3C Web Accessibility Initiative (WAI) to support WCAG 2.0. This document was published as a Working Group Note at the same time WCAG 2.0 was published as a W3C Recommendation. Unlike WCAG 2.0, is expected that the information in Understanding WCAG 2.0 will be updated from time to time. See Web Content Accessibility Guidelines (WCAG) Overview for an introduction to WCAG, supporting technical documents, and educational material. }
 }
 
 @misc{wcag20checklist,
@@ -30205,7 +30258,7 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2005,
     topic =     "www[0.9] unicode[0.9]",
     updates =   "webchar10",
-    uri =       "http://www.w3.org/TR/2005/REC-charmod-20050215/",
+    uri =       "http://www.w3.org/TR/2005/REC-charmod-20050215",
     abstract =  {This Architectural Specification provides authors of specifications, software developers, and content developers with a common reference for interoperable text manipulation on the World Wide Web, building on the Universal Character Set, defined jointly by the Unicode Standard and ISO/IEC 10646. Topics addressed include use of the terms 'character', 'encoding' and 'string', a reference processing model, choice and identification of character encodings, character escaping, and string indexing. For normalization and string identity matching, see the companion document "Character Model for the World Wide Web 1.0: Normalization". For resource identifiers, see the companion document "Character Model for the World Wide Web 1.0: Resource Identifiers".}
 }
 
@@ -30754,7 +30807,7 @@ We also propose a new taxonomy for geographic search queries.}
     month =     jun,
     year =      2001,
     topic =     "xml[0.6] xlink[0.8] xsl[0.8]",
-    uri =       "http://www.w3.org/TR/2001/NOTE-xml-link-style-20010605/",
+    uri =       "http://www.w3.org/TR/2001/NOTE-xml-link-style-20010605",
     abstract =  "The interaction of XLink linking elements and styling has not previously been carefully described. This note, the result of an XML Linking/XSL joint task force, attempts to rectify that oversight by providing a clear conceptual model for linking and styling and suggestions for the practical application of that model using current W3C Recommendations (and Working Drafts, Candidate Recommendations, and Proposed Recommendations)."
 }
 
@@ -31326,7 +31379,7 @@ We also propose a new taxonomy for geographic search queries.}
     month =     aug,
     year =      2008,
     topic =     "dom[0.9] webidl[1] idl[0.9]",
-    uri =       "http://www.w3.org/TR/2008/WD-WebIDL-20080829/",
+    uri =       "http://www.w3.org/TR/2008/WD-WebIDL-20080829",
     abstract =  "This document defines an interface definition language, Web IDL, that can be used to describe interfaces that are intended to be implemented in web browsers. Web IDL is an IDL variant with a number of features that allow the behavior of common script objects in the web platform to be specified more readily. How interfaces described with Web IDL correspond to constructs within ECMAScript and Java execution environments is also detailed."
 }
 
@@ -34828,6 +34881,14 @@ We also propose a new taxonomy for geographic search queries.}
     topic =     "ftp[1]"
 }
 
+@misc{rfc974,
+    author =    "Craig Partridge",
+    title =     "Mail Routing and the Domain System",
+    howpublished =  "Internet RFC 974",
+    month =     jan,
+    year =      1986
+}
+
 @misc{rfc977,
     author =    "Brian Kantor and Phil Lapsley",
     title =     "Network News Transfer Protocol",
@@ -37952,6 +38013,26 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2003,
     topic =     "mime[0.9]",
     abstract =  "This document describes the use of a mechanism for identifying body parts that a sender deems critical in a multi-part Internet mail message. The mechanism described is a parameter to Content-Disposition, as described by RFC 3204. By knowing what parts of a message the sender deems critical, a content gateway can intelligently handle multi-part messages when providing gateway services to systems of lesser capability. Critical content can help a content gateway to decide what parts to forward. It can indicate how hard a gateway should try to deliver a body part. It can help the gateway to pick body parts that are safe to silently delete when a system of lesser capability receives a message. In addition, critical content can help the gateway chose the notification strategy for the receiving system. Likewise, if the sender expects the destination to do some processing on a body part, critical content allows the sender to mark body parts that the receiver must process."
+}
+
+@misc{rfc3461,
+    author =    "Keith Moore",
+    title =     "Simple Mail Transfer Protocol (SMTP) Service Extension for Delivery Status Notifications (DSNs)",
+    howpublished =  "Internet RFC 3461",
+    month =     jan,
+    year =      2003,
+    topic =     "smtp[0.9]",
+    abstract =  "This memo defines an extension to the Simple Mail Transfer Protocol (SMTP) service, which allows an SMTP client to specify (a) that Delivery Status Notifications (DSNs) should be generated under certain conditions, (b) whether such notifications should return the contents of the message, and (c) additional information, to be returned with a DSN, that allows the sender to identify both the recipient(s) for which the DSN was issued, and the transaction in which the original message was sent."
+}
+
+@misc{rfc3462,
+    author =    "Gregory M. Vaudreuil",
+    title =     "The Multipart/Report Content Type for the Reporting of Mail System Administrative Messages",
+    howpublished =  "Internet RFC 3462",
+    month =     jan,
+    year =      2003,
+    topic =     "smtp[0.9]",
+    abstract =  {The Multipart/Report Multipurpose Internet Mail Extensions (MIME) content-type is a general "family" or "container" type for electronic mail reports of any kind.  Although this memo defines only the use of the Multipart/Report content-type with respect to delivery status reports, mail processing programs will benefit if a single content- type is used to for all kinds of reports. This document is part of a four document set describing the delivery status report service.  This collection includes the Simple Mail Transfer Protocol (SMTP) extensions to request delivery status reports, a MIME content for the reporting of delivery reports, an enumeration of extended status codes, and a multipart container for the delivery report, the original message, and a human-friendly summary of the failure.}
 }
 
 @misc{rfc3467,
