@@ -3885,6 +3885,118 @@
 
 @string{ieeedataeng =  "IEEE Data Engineering Bulletin" }
 
+@article{gru08,
+    author =    "Torsten Grust and Jan Rittinger and Jens Teubner",
+    title =     "Pathfinder: XQuery Off the Relational Shelf",
+    journal =   ieeedataeng,
+    year =      2008,
+    month =     dec,
+    volume =    31,
+    number =    4,
+    pages =     "7-14",
+    topic =     "xquery[0.8]",
+    uri =       "http://sites.computer.org/debull/A08dec/pathfinder.pdf",
+    abstract =  "The Pathfinder project makes inventive use of relational database technology --- originally developed to process data of strictly tabular shape—to construct efficient database --- supported XML and XQuery processors. Pathfinder targets database engines that implement a set-oriented mode of query execution: many off-the-shelf traditional database systems make for suitable XQuery runtime environments, but a number of off-beat storage back-ends fit that bill as well. While Pathfinder has been developed with a close eye on the XQuery semantics, some of the techniques that we will review here will be generally useful to evaluate XQuery-style iterative languages on database back-ends."
+}
+
+@article{wu08,
+    author =    "Yuqing Wu and Stelios Paparizos and H. V. Jagadish",
+    title =     "Querying XML in TIMBER",
+    journal =   ieeedataeng,
+    year =      2008,
+    month =     dec,
+    volume =    31,
+    number =    4,
+    pages =     "15-24",
+    topic =     "xquery[0.8]",
+    uri =       "http://sites.computer.org/debull/A08dec/timber.pdf",
+    abstract =  "In this paper, we describe the TIMBER XML database system implemented at University of Michigan. TIMBER was one of the first native XML database systems, designed from the ground up to store and query semi-structured data. A distinctive principle of TIMBER is its algebraic underpinning. Central contributions of the TIMBER project include: (1) tree algebras that capture the structural nature of XML queries; (2) the stack-based family of algorithms to evaluate structural joins; (3) new rule-based query optimization techniques that take care of the heterogeneous nature of the intermediate results and take the schema information into consideration; (4) cost-based query optimization techniques and summary structures for result cardinality estimation; and (5) a family of structural indices for more efficient query evaluation. In this paper, we describe not only the architecture of TIMBER, its storage model, and engineering choices we made, but also present in hindsight, our retrospective on what went well and not so well with our design and engineering choices."
+}
+
+@article{ozc08,
+    author =    {Fatma \"Ozcan and Normen Seemann and Ling Wang},
+    title =     "XQuery Rewrite Optimization in IBM DB2 pureXML",
+    journal =   ieeedataeng,
+    year =      2008,
+    month =     dec,
+    volume =    31,
+    number =    4,
+    pages =     "25-32",
+    topic =     "xquery[0.8]",
+    uri =       "http://sites.computer.org/debull/A08dec/ibm.pdf",
+    abstract =  "In this paper, we describe XQuery compilation and rewrite optimization in DB2 pureXML, a hybrid relational and XML database management system. DB2 pureXML has been designed to scale to large collections of XML data. In such a system, effective filtering of XML documents and efficient execution of XML navigation are vital for high throughput. Hence the focus of rewrite optimization is to consolidate navigation constructs as much as possible and to pushdown comparison predicates and navigation constructs into data access to enable index usage. In this paper, we describe the new rewrite transformations we have implemented specifically for XQuery and its navigational constructs. We also briefly discuss how some of the existing rewrite transformations developed for the SQL engine are extended and adapted for XQuery."
+}
+
+@article{liu08b,
+    author =    "Zhen Hua Liu and Anguel Novoselsky and Vikas Arora",
+    title =     "Towards a Unified Declarative and Imperative XQuery Processor",
+    journal =   ieeedataeng,
+    year =      2008,
+    month =     dec,
+    volume =    31,
+    number =    4,
+    pages =     "33-40",
+    topic =     "xquery[0.8]",
+    uri =       "http://sites.computer.org/debull/A08dec/oracle.pdf",
+    abstract =  "Since the birth of XML, the processing of XML query languages like XQuery/XQueryP has been widely researched in the academic and industrial communities. Most of the approaches consider XQuery as a declarative query language similar to SQL, for which the iterator-based (stream-based), lazy evaluation processing strategy can be applied. The processing is combined with XML indexing, materialized view, XML view query rewrite over source data. An alternative approach views XQuery as a procedural programming language associated with eager, step-based evaluation, where each expression is fully evaluated by the end of the corresponding expression execution step. Usually, this approach uses a virtual machine running byte-code for compiled programs. In this paper, we share our experience of building a unified XQuery engine for the Oracle XML DB integrating both approaches. The key contribution of our approach is that the unified XQuery processor integrates both declarative and imperative XQuery/XQueryP processing paradigms. Furthermore, the processor is designed with a clean separation between the logical XML data model and the physical representation so that it can be optimized with various physical XML storages and data index and view models. We also discuss the challenges in our approach and our overall vision of the evolution of XQuery/XQueryP processors."
+}
+
+@article{hol08,
+    author =    "Mary Holstege",
+    title =     "Big, Fast XQuery: Enabling Content Applications",
+    journal =   ieeedataeng,
+    year =      2008,
+    month =     dec,
+    volume =    31,
+    number =    4,
+    pages =     "41-48",
+    topic =     "xquery[0.8]",
+    uri =       "http://sites.computer.org/debull/A08dec/marklogic.pdf",
+    abstract =  "Increasingly, companies recognize that most of their important information does not exist in relational stores but in documents. For a long time, textual information has been relatively inaccessible and unusable. Database applications allow relational data to be used and re-used; the architecture of relational database systems allow such applications to function even in the face of large amounts of data. XML and XQuery now allow the creation of a new kind of application that unlocks content in a similar way: a content application. In this paper, we examine the technologies that enable content applications to operate at scale in the context of MarkLogic Server."
+}
+
+@article{blo08,
+    author =    "Michael Blow and Vinayak Borkar and Michael Carey and Daniel Engovatov and Dmitry Lychagin and Panagiotis Reveliotis and Joshua Spiegel and Till Westmann",
+    title =     "Experiences with XQuery Processing for Data and Service Federation",
+    journal =   ieeedataeng,
+    year =      2008,
+    month =     dec,
+    volume =    31,
+    number =    4,
+    pages =     "49-56",
+    topic =     "xquery[0.8]",
+    uri =       "http://sites.computer.org/debull/A08dec/bea.pdf",
+    abstract =  "In this paper, we describe our experiences in building and evolving an XQuery engine with a focus on data and service federation use cases. The engine that we discuss is a core component of the BEA AquaLogic Data Services Platform product (recently re-released under the name Oracle Data Service Integrator). This XQuery engine was designed to provide efficient query and update capabilities over various classes of enterprise data sources, serving as the data access layer in a service-oriented architecture (SOA). The goal of this paper is to give an architectural overview of the engine, discussing some of the key implementation techniques that were employed as well as several XQuery language extensions that were introduced to address common data and service integration problems and challenges."
+}
+
+@article{cap08,
+    author =    "Marc {Van Cappellen} and Wouter Cordewiner and Carlo Innocenti",
+    title =     "Data Aggregation, Heterogeneous Data Sources and Streaming Processing: How Can XQuery Help?",
+    journal =   ieeedataeng,
+    year =      2008,
+    month =     dec,
+    volume =    31,
+    number =    4,
+    pages =     "57-64",
+    topic =     "xquery[0.8]",
+    uri =       "http://sites.computer.org/debull/A08dec/datadirect.pdf",
+    abstract =  "Software infrastructures and applications more and more must deal with data available in a variety of different storage engines, accessible through a multitude of protocols and interfaces; and it is common that the size of the data involved requires streaming-based processing. This article shows how XQuery can leverage the XML Data Model to abstract the data physical details and to offer optimized processing allowing the development of highly scalable and performant data integration solutions."
+}
+
+@article{kay08,
+    author =    "Michael Kay",
+    title =     "Ten Reasons Why Saxon XQuery is Fast",
+    journal =   ieeedataeng,
+    year =      2008,
+    month =     dec,
+    volume =    31,
+    number =    4,
+    pages =     "65-",
+    topic =     "xquery[0.8]",
+    uri =       "http://sites.computer.org/debull/A08dec/saxonica.pdf",
+    abstract =  "This paper describes the internal features of the Saxon XQuery processor that make the most significant contribution to its speed of execution. For each of the features, an attempt is made to quantify the contribution, in most cases by comparing performance achieved when the feature is enabled or disabled."
+}
+
 @article{dia06,
     author =    "Yanlei Diao and Michael J. Franklin",
     title =     "High-Performance XML Filtering: An Overview of YFilter",
@@ -11778,6 +11890,24 @@ We also propose a new taxonomy for geographic search queries.}
     isbn =      "978-1-60558-160-6",
     uri =       "http://medien.informatik.uni-oldenburg.de/LocWeb2008/",
     uri =       "http://portal.acm.org/toc.cfm?id=1367798&type=proceeding&coll=ACM&dl=ACM"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@string{locweb2009 =     "Proceedings of the Second International Workshop on Location and the Web (LocWeb 2009)" }
+
+@proceedings{locweb2009,
+    title =     locweb2009,
+    booktitle = locweb2009,
+    editor =    "Erik Wilde",
+    address =   madrid,
+    key =       locweb2009,
+    month =     apr,
+    year =      2009,
+    index =     "LocWeb 2009",
+    topic =     "www[0.8]",
+    isbn =      "978-1-60558-457-7",
+    uri =       "http://ifgi.uni-muenster.de/locweb2009/"
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -31753,13 +31883,13 @@ We also propose a new taxonomy for geographic search queries.}
     editor =    "Michael Johnston",
     author =    "Paolo Baggia and Daniel C. Burnett and Jerry Carter and Deborah A. Dahl and Gerry McCobb and Dave Raggett",
     title =     "EMMA: Extensible MultiModal Annotation Markup Language",
-    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-emma-20071211",
-    month =     nov,
-    year =      2007,
+    howpublished =  "World Wide Web Consortium, Proposed Recommendation PR-emma-20081215",
+    month =     dec,
+    year =      2008,
     topic =     "emma[1]",
     updates =   "emmareqs",
-    uri =       "http://www.w3.org/TR/2007/CR-emma-20071211",
-    abstract =  "The W3C Multimodal Interaction working group aims to develop specifications to enable access to the Web using multi-modal interaction. This document is part of a set of specifications for multi-modal systems, and provides details of an XML markup language for describing the interpretation of user input. Examples of interpretation of user input are a transcription into words of a raw signal, for instance derived from speech, pen or keystroke input, a set of attribute/value pairs describing their meaning, or a set of attribute/value pairs describing a gesture. The interpretation of the user's input is expected to be generated by signal interpretation processes, such as speech and ink recognition, semantic interpreters, and other types of processors for use by components that act on the user's inputs such as interaction managers."
+    uri =       "http://www.w3.org/TR/2008/PR-emma-20081215",
+    abstract =  "The W3C Multimodal Interaction Working Group aims to develop specifications to enable access to the Web using multi-modal interaction. This document is part of a set of specifications for multi-modal systems, and provides details of an XML markup language for describing the interpretation of user input. Examples of interpretation of user input are a transcription into words of a raw signal, for instance derived from speech, pen or keystroke input, a set of attribute/value pairs describing their meaning, or a set of attribute/value pairs describing a gesture. The interpretation of the user's input is expected to be generated by signal interpretation processes, such as speech and ink recognition, semantic interpreters, and other types of processors for use by components that act on the user's inputs such as interaction managers."
 }
 
 @misc{mmidevfeedback,
@@ -31984,12 +32114,12 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{cssmobprof20,
     author =    "Svante Schubert",
     title =     "CSS Mobile Profile 2.0",
-    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-css-mobile-20080801",
-    month =     aug,
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-css-mobile-20081210",
+    month =     dec,
     year =      2008,
     topic =     "css[0.9]",
     updates =   "cssmobprof10",
-    uri =       "http://www.w3.org/TR/2008/CR-css-mobile-20080801",
+    uri =       "http://www.w3.org/TR/2008/CR-css-mobile-20081210",
     abstract =  "This specification defines in general a subset of CSS 2.1 that is to be considered a baseline for interoperability between implementations of CSS on constrained devices (e.g. mobile phones). Its intent is not to produce a profile of CSS incompatible with the complete specification, but rather to ensure that implementations that due to platform limitations cannot support the entire specification implement a common subset that is interoperable not only amongst constrained implementations but also with complete ones. Additionally, this specification aligns itself as much as possible with the OMA Wireless CSS 1.1 specification. At the same time, OMA is doing alignment work in OMA  Wireless CSS 1.2. It is aimed at aligning the mandatory compliance items between CSS Mobile Profile 2.0 and OMA Wireless CSS 1.2."
 }
 
