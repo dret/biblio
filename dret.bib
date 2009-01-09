@@ -153,6 +153,7 @@
 @string{burlington = "Burlington, Vermont" }
 @string{camb =      "Cambridge, UK" }
 @string{cambm =     "Cambridge, Massachusetts" }
+@string{cancun =    "Canc\'un, Mexico" }
 @string{cannes =    "Cannes, France" }
 @string{chapel =    "Chapel Hill, North Carolina" }
 @string{cheshire =  "Cheshire, Connecticut" }
@@ -4754,6 +4755,37 @@
     volume =    18,
     number =    2,
     topic =     "drm[0.8] isp[0.7]"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@string{yjolt =  "Yale Journal of Law \& Technology" }
+
+@article{rob08,
+    author =    "David Robinson and Harlan Yu and William P. Zeller and Edward W. Felten",
+    title =     "Government Data and the Invisible Hand",
+    journal =   yjolt,
+    year =      2008,
+    volume =    11,
+    uri =       "http://ssrn.com/abstract=1138083",
+    abstract =  "If the next Presidential administration really wants to embrace the potential of Internet-enabled government transparency, it should follow a counter-intuitive but ultimately compelling strategy: reduce the federal role in presenting important government information to citizens. Today, government bodies consider their own websites to be a higher priority than technical infrastructures that open up their data for others to use. We argue that this understanding is a mistake. It would be preferable for government to understand providing reusable data, rather than providing websites, as the core of its online publishing responsibility. Rather than struggling, as it currently does, to design sites that meet each end-user need, we argue that the executive branch should focus on creating a simple, reliable and publicly accessible infrastructure that exposes the underlying data. Private actors, either nonprofit or commercial, are better suited to deliver government information to citizens and can constantly create and reshape the tools individuals use to find and leverage public data. The best way to ensure that the government allows private parties to compete on equal terms in the provision of government data is to require that federal websites themselves use the same open systems for accessing the underlying data as they make available to the public at large."
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@string{geoinf =  "GeoInformatica" }
+
+@article{mok05,
+    author =    "Mohamed F. Mokbel and Xiaopeng Xiong and Moustafa A. Hammad and Walid G. Aref",
+    title =     "Continuous Query Processing of Spatio-Temporal Data Streams in PLACE",
+    journal =   geoinf,
+    year =      2005,
+    month =     dec,
+    volume =    9,
+    number =    4,
+    pages =     "343-365",
+    uri =       "10.1007/s10707-005-4576-7",
+    abstract =  "The tremendous increase in the use of cellular phones, GPS-like devices, and RFIDs results in highly dynamic environments where objects as well as queries are continuously moving. In this paper, we present a continuous query processor designed specifically for highly dynamic environments (e.g., location-aware environments). We implemented the proposed continuous query processor inside the PLACE server (Pervasive Location-Aware Computing Environments); a scalable location-aware database server developed at Purdue University. The PLACE server extends data streaming management systems to support location-aware environments. These environments are characterized by the wide variety of continuous spatio-temporal queries and the unbounded spatio-temporal streams. The proposed continuous query processor includes: (1) New incremental spatio-temporal operators to support a wide variety of continuous spatio-temporal queries, (2) Extended semantics of sliding window queries to deal with spatial sliding windows as well as temporal sliding windows, and (3) A shared-execution framework for scalable execution of a set of concurrent continuous spatio-temporal queries. Experimental evaluation shows promising performance of the continuous query processor of the PLACE server."
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -10346,6 +10378,32 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@string{icde2008 = "Proceedings of the 24th International Conference on Data Engineering" }
+
+@inproceedings{ahm08,
+    crossref =  "icde2008",
+    author =    "Yanif Ahmad and Suman Nath",
+    title =     "COLR-Tree: Communication-Efficient Spatio-Temporal Indexing for a Sensor Data Web Portal",
+    pages =     "784-793",
+    uri =       "http://ieeexplore.ieee.org/search/wrapper.jsp?arnumber=4497487",
+    uri =       "http://research.microsoft.com/apps/pubs/default.aspx?id=76107",
+    abstract =  "We present COLR-Tree, an abstraction layer designed to support efficient spatio-temporal queries on live data gathered from a large collection of sensors. We use COLR-Tree in a publicly-available sensor web portal to separate the concerns of sensor data management from the web portal application. COLR-Tree uses two techniques to optimize end-to-end latencies of users' queries by minimizing expensive data collection from sensors. First, it uses a novel technique to effectively cache aggregate results computed over sensor data with different expiry times. Second, it incorporates an efficient one-pass sampling algorithm with its range lookup to utilize cached data and compensate for occasional unavailability of sensors. We evaluate our implementation of COLR-Tree on SQL Server 2005 with a real, large workload from Windows Live Local. Our experiments demonstrate that COLR-Tree significantly improves both the end-to-end query performance and the number of sensors accessed compared to existing techniques."
+}
+
+@proceedings{icde2008,
+    title =     icde2008,
+    booktitle = icde2008,
+    publisher = ieeecsp,
+    address =   cancun,
+    key =       icde2008,
+    month =     apr,
+    year =      2008,
+    uri =       "http://www.informatik.uni-trier.de/~ley/db/conf/icde/icde2008.html",
+    index =     "ICDE 2008"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 @string{apwww95 =   "Proceedings of the Asia-Pacific World Wide Web '95 Conference" }
 
 @inproceedings{pam95,
@@ -13075,6 +13133,16 @@ We also propose a new taxonomy for geographic search queries.}
     uri =       "http://www.cs.cornell.edu/~yangf/152.pdf",
     doi =       "10.1145/1142473.1142580",
     abstract =  "Current application development tools provide completely different programming models for the application server (e.g., Java and J2EE) and the client web browser (e.g., JavaScript and HTML). Consequently, the application developer is forced to partition the application code between the server and client at the time of writing the application. However, the partitioning of the code between the client and server may have to be changed during the evolution of the application for performance reasons (it may be better to push more functionality to the client), for correctness reasons (data that conflicts with multiple clients cannot always be pushed to clients), and for supporting clients with different computing power (browsers on desktops vs. PDAs). Since the client and server use different programming models, moving application code from client to server (and vice versa) reduces programmer productivity and also has the potential to introduce concurrency bugs. In this demonstration, we advocate an alternative solution to this problem: we propose developing applications using a unified declarative high-level language called Hilda, and show how a Hilda compiler can automatically (and correctly) partition Hilda code between the client and the server using a real Course Management System application. We illustrate our techniques using two clients: a powerful laptop machine and a less powerful PDA."
+}
+
+@inproceedings{pap06,
+    crossref =  "sigmod2006",
+    author =    "Olga Papaemmanouil and Yanif Ahmad and U\u{g}ur \c{C}etintemel and John Jannotti and Yenel Yildirim",
+    title =     "Extensible Optimization in Overlay Dissemination Trees",
+    pages =     "611-622",
+    uri =       "http://www.cs.brandeis.edu/~olga/Papaemmanouil/Publications_files/xport_sigmod06.pdf",
+    doi =       "10.1145/1142473.1142541",
+    abstract =  {We introduce XPORT, a profile-driven distributed data dissemination system that supports an extensible set of data types, profile types, and optimization metrics. XPORT efficiently implements a generic tree-based overlay network, which can be customized per application using a small number of methods that encapsulate application-specific data filtering, profile aggregation, and optimization logic. The clean separation between the "plumbing" and "application" enables the system to uniformly support disparate dissemination-based applications.We first provide an overview of the basic XPORT model and architecture. We then describe in detail an extensible optimization framework, based on a two-level aggregation model, that facilitates easy specification of a wide range of commonly used performance goals. We discuss distributed tree transformation protocols that allow XPORT to iteratively optimize its operation to achieve these goals under changing network and application conditions. Finally, we demonstrate the flexibility and the effectiveness of XPORT using real-world data and experimental results obtained from both prototype-based LAN emulation and deployment on PlanetLab.}
 }
 
 @proceedings{sigmod2006,
