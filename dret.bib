@@ -11852,7 +11852,45 @@
     month =     apr,
     year =      2008,
     index =     "WWW2008",
+    topic =     "www[0.8]",
+    uri =       "http://www.informatik.uni-trier.de/~ley/db/conf/www/www2008.html"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@string{www2009  =    "Proceedings of the 18th International World Wide Web Conference" }
+@string{www2009p =    "Poster Proceedings of the 18th International World Wide Web Conference" }
+
+@inproceedings{pau09a,
+    crossref =  "www2009",
+    author =    "Cesare Pautasso and Erik Wilde",
+    title =     "Why is the Web Loosely Coupled? A Multi-Faceted Metric for Service Design",
+    abstract =  {Loose coupling is often quoted as a desirable property of systems architectures. One of the main goals of building systems using Web technologies is to achieve loose coupling. However, given the lack of a widely accepted definition of this term, it becomes hard to use coupling as a criterion to evaluate alternative Web technology choices, as all options may exhibit, and claim to provide, some kind of "loose" coupling effects. This paper presents a systematic study of the degree of coupling found in service-oriented systems based on a multi-faceted approach. Thanks to the metric introduced in this paper, coupling is no longer a one-dimensional concept with loose coupling found somewhere in between tight coupling and no coupling. The paper shows how the metric can be applied to real-world examples in order to support and improve the design process of service-oriented systems.}
+}
+
+@proceedings{www2009p,
+    title =     www2009p,
+    booktitle = www2009p,
+    address =   madrid,
+    publisher = acm,
+    key =       www2009p,
+    month =     apr,
+    year =      2009,
+    index =     "WWw2009",
     topic =     "www[0.8]"
+}
+
+@proceedings{www2009,
+    title =     www2009,
+    booktitle = www2009,
+    address =   madrid,
+    publisher = acm,
+    key =       www2009,
+    month =     apr,
+    year =      2009,
+    index =     "WWW2009",
+    topic =     "www[0.8]",
+    uri =       "http://www.informatik.uni-trier.de/~ley/db/conf/www/www2009.html"
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -12022,7 +12060,8 @@ We also propose a new taxonomy for geographic search queries.}
     topic =     "www[0.8]",
     isbn =      "978-1-60558-160-6",
     uri =       "http://medien.informatik.uni-oldenburg.de/LocWeb2008/",
-    uri =       "http://portal.acm.org/toc.cfm?id=1367798&type=proceeding&coll=ACM&dl=ACM"
+    uri =       "http://portal.acm.org/toc.cfm?id=1367798&type=proceeding&coll=ACM&dl=ACM",
+    uri =       "http://www.informatik.uni-trier.de/~ley/db/conf/www/locweb2008.html"
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -13047,6 +13086,30 @@ We also propose a new taxonomy for geographic search queries.}
     isbn =      "089791659X",
     src =       "Ethics: P713922",
     index =     "SIGMETRICS '94"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@string{metrics2001 = "Proceedings of the 2001 ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Systems" }
+
+@inproceedings{tal01,
+    crossref =  "metrics2001",
+    author =    "Jerome Talim and Zhen Liu and Philippe Nain and Edward G. Coffman",
+    title =     "Controlling the Robots of Web Search Engines",
+    pages =     "236-244",
+    doi =       "10.1145/378420.378788",
+    abstract =  "Robots are deployed by a Web search engine for collecting information from different Web servers in order to maintain the currency of its data base of Web pages. In this paper, we investigate the number of robots to be used by a search engine so as to maximize the currency of the data base without putting an unnecessary load on the network. We adopt a finite-buffer queueing model to represent the system. The arrivals to the queueing system are Web pages brought by the robots; service corresponds to the indexing of these pages. Good performance requires that the number of robots, and thus the arrival rate of the queueing system, be chosen so that the indexing queue is rarely starved or saturated. Thus, we formulate a multi-criteria stochastic optimization problem with the loss rate and empty-buffer probability being the criteria. We take the common approach of reducing the problem to one with a single objective that is a linear function of the given criteria. Both static and dynamic policies can be considered. In the static setting the number of robots is held fixed; in the dynamic setting robots may be re-activated/de-activated as a function of the state. Under the assumption that arrivals form a Poisson process and that service times are independent and exponentially distributed random variables, we determine an optimal decision rule for the dynamic setting, i.e., a rule that varies the number of robots in such a way as to minimize a given linear function of the loss rate and empty-buffer probability. Our results are compared with known results for the static case. A numerical study indicates that substantial gains can be achieved by dynamically controlling the activity of the robots."
+}
+
+@proceedings{metrics2001,
+    title =     metrics2001,
+    booktitle = metrics2001,
+    address =   cambm,
+    key =       metrics2001,
+    month =     jun,
+    year =      2001,
+    index =     "SIGMETRICS 2001",
+    uri =       "http://www.informatik.uni-trier.de/~ley/db/conf/sigmetrics/sigmetrics2001.html"
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -15310,10 +15373,13 @@ We also propose a new taxonomy for geographic search queries.}
 @proceedings{icwe2008,
     title =     icwe2008,
     booktitle = icwe2008,
+    editor =    "Daniel Schwabe and Francisco Curbera and Paul Dantzig",
     year =      2008,
     month =     jul,
     address =   yorktown,
-    uri =       "http://icwe2008.webengineering.org/"
+    isbn =      "978-0-7695-3261-5",
+    uri =       "http://icwe2008.webengineering.org/",
+    uri =       "http://www.informatik.uni-trier.de/~ley/db/conf/icwe/icwe2008.html"
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -33790,12 +33856,12 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{curie,
     author =    "Mark Birbeck and Shane McCarron",
     title =     "CURIE Syntax 1.0 --- A Syntax for Expressing Compact URIs",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-curie-20080506",
-    month =     may,
-    year =      2008,
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-curie-20090116",
+    month =     jan,
+    year =      2009,
     topic =     "uri[0.9] curie[1] iri[0.9]",
-    uri =       "http://www.w3.org/TR/2008/WD-curie-20080506",
-    abstract =  "The aim of this document is to outline a syntax for expressing URIs in a generic, abbreviated syntax. While it has been produced in conjunction with the HTML Working Group, it is not specifically targeted at use by XHTML Family Markup Languages. Note that the target audience for this document is Language designers, not the users of those Languages."
+    uri =       "http://www.w3.org/TR/2009/CR-curie-20090116",
+    abstract =  "This document defines a generic, abbreviated syntax for expressing URIs. This syntax is intended to be used as a common element by language designers. Target languages include, but are not limited to, XML languages. The intended audience for this document is Language designers, not the users of those Languages."
 }
 
 @misc{soap11,
