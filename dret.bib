@@ -12998,6 +12998,36 @@ We also propose a new taxonomy for geographic search queries.}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@string{edbt2004ws =    "Current Trends in Database Technology --- EDBT 2004 Workshops" }
+
+@inproceedings{mei04,
+    crossref =  "edbt2004ws",
+    author =    "Ulrich Meissen and Stefan Pfennigschmidt and Agn\`es Voisard and Tjark Wahnfried",
+    title =     "Context- and Situation-Awareness in Information Logistics",
+    pages =     "335-344",
+    doi =       "10.1007/b101218",
+    uri =       "http://www.springerlink.com/content/lkgum4wjmyuy55hu/",
+    topic =     "tamino[1]",
+    abstract =  "In order to deliver relevant information at the right time to its mobile users, systems such as event notification systems need to be aware of the users' context, which includes the current time, their location, or the devices they use. Many context frameworks have been introduced in the past few years. However, they usually do not consider the notion of characteristic features of contexts that are invariant during certain time intervals. Knowing the current situation of a user allows the system to better target the information to be delivered. This paper presents a model to handle various contexts and situations in information logistics. A context is defined as a collection of values usually observed by sensors, e.g., location or temperature. A situation builds on this concept by introducing semantical aspects defined in an ontology. Our situation awareness proposal has been tested in two projects."
+}
+
+@proceedings{edbt2004ws,
+    title =     edbt2004ws,
+    booktitle = edbt2004ws,
+    editor =    {Wolfgang Lindner and Marco Mesiti and Can T\"urker and Yannis Tzitzikas and Athena Vakali},
+    publisher = springer,
+    series =    LNCS,
+    volume =    3268,
+    address =   hera,
+    month =     mar,
+    year =      2004,
+    isbn =      "978-3-540-23305-3",
+    index =     "EDBT 2004",
+    uri =       "http://www.springerlink.com/content/tpkb57t0qhxr"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 @string{networking =    "Networking in Open Systems" }
 
 @inproceedings{che86,
@@ -40578,6 +40608,16 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "Extensible Markup Language (XML) documents are widely used as containers for the exchange and storage of arbitrary data in today's systems. In order to send changes to an XML document, an entire copy of the new version must be sent, unless there is a means of indicating only the portions that have changed. This document describes an XML patch framework utilizing XML Path language (XPath) selectors. These selector values and updated new data content constitute the basis of patch operations described in this document. In addition to them, with basic <add>, <replace>, and <remove>  directives a set of patches can then be applied to update an existing XML document."
 }
 
+@misc{rfc5267,
+    author =   "Dave Cridland and Curtis King",
+    title =     "Contexts for IMAP4",
+    howpublished =  "Internet RFC 5267",
+    month =     jul,
+    year =      2008,
+    topic =     "imap[0.9]",
+    abstract =  "The IMAP4rev1 protocol has powerful search facilities as part of the core protocol, but lacks the ability to create live, updated results that can be easily handled.  This memo provides such an extension, and shows how it can be used to provide a facility similar to virtual mailboxes."
+}
+
 @misc{rfc5321,
     author =   "John C. Klensin",
     title =     "Simple Mail Transfer Protocol",
@@ -40684,6 +40724,27 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "The Session Initiation Protocol (SIP) is the subject of numerous specifications that have been produced by the IETF. It can be difficult to locate the right document, or even to determine the set of Request for Comments (RFC) about SIP. This specification serves as a guide to the SIP RFC series. It lists a current snapshot of the specifications under the SIP umbrella, briefly summarizes each, and groups them into categories."
 }
 
+@misc{rfc5465,
+    author =   "Arnt Gulbrandsen and Curtis King and Alexey Melnikov",
+    title =     "The IMAP NOTIFY Extension",
+    howpublished =  "Internet RFC 5465",
+    month =     feb,
+    year =      2009,
+    topic =     "imap[0.9]",
+    updates =   "rfc5267",
+    abstract =  "This document defines an IMAP extension that allows a client to request specific kinds of unsolicited notifications for specified mailboxes, such as messages being added to or deleted from such mailboxes."
+}
+
+@misc{rfc5466,
+    author =   "Alexey Melnikov and Curtis King",
+    title =     "IMAP4 Extension for Named Searches (Filters)",
+    howpublished =  "Internet RFC 5466",
+    month =     feb,
+    year =      2009,
+    topic =     "imap[0.9]",
+    abstract =  "The document defines a way to persistently store named IMAP (RFC 3501) searches on the server.  Such named searches can be subsequently referenced in a SEARCH or any other command that accepts a search criterion as a parameter."
+}
+
 @misc{rfc5469,
     author =   "Pasi Eronen",
     title =     "DES and IDEA Cipher Suites for Transport Layer Security (TLS)",
@@ -40691,8 +40752,7 @@ We also propose a new taxonomy for geographic search queries.}
     month =     feb,
     year =      2009,
     topic =     "tls[0.9] des[0.9] idea[0.9]",
-   abstract =  "Transport Layer Security (TLS) versions 1.0 (RFC 2246) and 1.1 (RFC 4346) include cipher suites based on DES (Data Encryption Standard) and IDEA (International Data Encryption Algorithm) algorithms. DES (when used in single-DES mode) and IDEA are no longer recommended for general use in TLS, and have been removed from TLS version 1.2 (RFC 5246). This document specifies these cipher suites for completeness
-   and discusses reasons why their use is no longer recommended."
+    abstract =  "Transport Layer Security (TLS) versions 1.0 (RFC 2246) and 1.1 (RFC 4346) include cipher suites based on DES (Data Encryption Standard) and IDEA (International Data Encryption Algorithm) algorithms. DES (when used in single-DES mode) and IDEA are no longer recommended for general use in TLS, and have been removed from TLS version 1.2 (RFC 5246). This document specifies these cipher suites for completeness and discusses reasons why their use is no longer recommended."
 }
 
 %%% NEED TO PICK UP AT RFC 4685 !!!!!!!!!!!!!!!!!!
