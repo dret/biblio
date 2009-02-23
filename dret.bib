@@ -1203,6 +1203,25 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@string{infosys = "Information Systems" }
+
+@article{bra08,
+    author =    "Claus Brabrand and Anders M\o{}ller and Michael I. Schwartzbach",
+    journal =   infosys,
+    title =     "Dual Syntax for XML Languages",
+    year =      2008,
+    month =     jun,
+    volume =    33,
+    number =    "4-5",
+    pages =     "385-406",
+    doi =       "10.1016/j.is.2008.01.006",
+    uri =       "http://www.brics.dk/~amoeller/papers/xsugar/journal.pdf",
+    topic =     "xsugar[1]",
+    abstract =  "XML is successful as a machine processable data interchange format, but it is often too verbose for human use. For this reason, many XML languages permit an alternative more legible non-XML syntax. XSLT stylesheets are often used to convert from the XML syntax to the alternative syntax; however, such transformations are not reversible since no general tool exists to automatically parse the alternative syntax back into XML. We present XSugar, which makes it possible to manage dual syntax for XML languages. An XSugar specification is built around a context-free grammar that unifies the two syntaxes of a language. Given such a specification, the XSugar tool can translate from alternative syntax to XML and vice versa. Moreover, the tool statically checks that the transformations are reversible and that all XML documents generated from the alternative syntax are valid according to a given XML schema."
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 @string{ijcis = "International Journal of Cooperative Information Systems" }
 
 @article{kno01b,
@@ -5490,6 +5509,20 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 @string{acmtoplas =     "ACM Transactions on Programming Languages and Systems" }
+
+@article{mol07,
+    author =    "Anders M\o{}ller and Mads {\O{}sterby Olesen} and Michael I. Schwartzbach",
+    title =     "Static Validation of XSL Transformations",
+    journal =   acmtoplas,
+    year =      2007,
+    month =     aug,
+    volume =    29,
+    number =    4,
+    topic =     "xslt[0.8]",
+    doi =       "10.1145/1255450.1255454",
+    uri =       "http://www.brics.dk/~amoeller/papers/xslt/xslt.pdf",
+    abstract =  "XSL Transformations (XSLT) is a programming language for defining transformations among XML languages. The structure of these languages is formally described by schemas, for example using DTD or XML Schema, which allows individual documents to be validated. However, existing XSLT tools offer no static guarantees that, under the assumption that the input is valid relative to the input schema, the output of the transformation is valid relative to the output schema. We present a validation technique for XSLT based on the XML graph formalism introduced in the static analysis of JWIG Web services and XACT XML transformations. Being able to provide static guarantees, we can detect a large class of errors in an XSLT stylesheet at the time it is written instead of later when it has been deployed, and thereby provide benefits similar to those of static type checkers for modern programming languages. Our analysis takes a pragmatic approach that focuses its precision on the essential language features but still handles the entire XSLT language. We evaluate the analysis precision on a range of real stylesheets and demonstrate how it may be useful in practice."
+}
 
 @article{hos05,
     author =    "Haruo Hosoya and J\'er\^ome Vouillon and Benjamin C. Pierce",
@@ -13477,6 +13510,32 @@ We also propose a new taxonomy for geographic search queries.}
     isbn =      "978-1-59593-914-2",
     uri =       "http://www.informatik.uni-trier.de/~ley/db/conf/gis/gis2007.html",
     index =     "GIS 2007"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@string{acmgis2008 =    "Proceedings of the 16th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems" }
+
+@inproceedings{tei08,
+    crossref =  "acmgis2008",
+    author =    "Benjamin E. Teitler and Michael D. Lieberman and Daniele Panozzo and Jagan Sankaranarayanan and Hanan Samet and Jon Sperling",
+    title =     "NewsStand: A New View on News",
+    doi =       "10.1145/1463434.1463458",
+    uri =       "http://www.cs.umd.edu/~hjs/pubs/newsstand-acmgis2008.pdf",
+    abstract =  "News articles contain a wealth of implicit geographic content that if exposed to readers improves understanding of today's news. However, most articles are not explicitly geotagged with their geographic content, and few news aggregation systems expose this content to users. A new system named NewsStand is presented that collects, analyzes, and displays news stories in a map interface, thus leveraging on their implicit geographic content. NewsStand monitors RSS feeds from thousands of online news sources and retrieves articles within minutes of publication. It then extracts geographic content from articles using a custom-built geotagger, and groups articles into story clusters using a fast online clustering algorithm. By panning and zooming in NewsStand's map interface, users can retrieve stories based on both topical significance and geographic region, and see substantially different stories depending on position and zoom level."
+}
+
+@proceedings{acmgis2008,
+    editor =    "Walid G. Aref and Mohamed F. Mokbel and Markus Schneider",
+    title =     acmgis2008,
+    booktitle = acmgis2008,
+    address =   irvine,
+    month =     nov,
+    year =      2008,
+    publisher = acm,
+    isbn =      "978-1-60558-323-5",
+    uri =       "http://www.informatik.uni-trier.de/~ley/db/conf/gis/gis2008.html",
+    index =     "GIS 2008"
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
