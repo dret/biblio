@@ -29585,11 +29585,11 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{xmldsigbestpractices,
     author =    "Frederick Hirsch and Pratik Datta",
     title =     "XML Signature Best Practices",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-xmldsig-bestpractices-20081114",
-    month =     nov,
-    year =      2008,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-xmldsig-bestpractices-20090226",
+    month =     feb,
+    year =      2009,
     topic =     "xmldsig[0.9]",
-    uri =       "http://www.w3.org/TR/2008/WD-xmldsig-bestpractices-20081114",
+    uri =       "http://www.w3.org/TR/2009/WD-xmldsig-bestpractices-20090226",
     abstract =  "This document collects best practices for implementors and users of the XML Signature specification. Most of these best practices are related to improving security and mitigating attacks, yet others are for best practices in the practical use of XML Signature, such as signing XML that doesn't use namespaces, for example."
 }
 
@@ -29615,6 +29615,40 @@ We also propose a new taxonomy for geographic search queries.}
     topic =     "xmldsig[0.9]",
     uri =       "http://www.w3.org/TR/2008/NOTE-xmldsig2ed-tests-20080610",
     abstract =  "This document defines interoperability test cases for Canonical XML 1.1 and XML Signature Syntax and Processing, Second Edition. The changes tested include C14N11 handling of attributes in the XML namespace, including xml:id and xml:base, appropriate C14N11 nodeset to octet stream transform processing, modifications to RFC 3986 dot segment processing for C14N11, and RFC 4514 string encoding of Distinguished Names. The tests include standalone C14N11 tests as well as tests integrated with XML signature generation and validation. This document also includes earlier test cases used in XML Signature for regression testing."
+}
+
+@misc{xmldsigcore1,
+    author =    "Donald E. Eastlake and Joseph M. Reagle and David Solo and Frederick Hirsch and Thomas Roessler and Kelvin Yiu",
+    title =     "XML Signature Syntax and Processing Version 1.1",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-xmldsig-core1-20090226",
+    month =     feb,
+    year =      2009,
+    topic =     "xmldsig[1]",
+    updates =   "xmldsigcore2nd",
+    uri =       "http://www.w3.org/TR/2009/WD-xmldsig-core1-20090226",
+    abstract =  "This document specifies XML digital signature processing rules and syntax. XML Signatures provide integrity, message authentication, and/or signer authentication services for data of any type, whether located within the XML that includes the signature or elsewhere."
+}
+
+@misc{xmldsigproperties,
+    author =    "Frederick Hirsch",
+    title =     "XML Signature Properties",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-xmldsig-properties-20090226",
+    month =     feb,
+    year =      2009,
+    topic =     "xmldsig[0.9]",
+    uri =       "http://www.w3.org/TR/2009/WD-xmldsig-properties-20090226",
+    abstract =  "This document outlines proposed standard XML Signature Properties syntax and processing rules and an associated namespace for these properties. The intent is these can be composed with any version of XML Signature using the XML SignatureProperties element."
+}
+
+@misc{xmldsigsimplify,
+    author =    "Frederick Hirsch and Pratik Datta",
+    title =     "XML Signature Transform Simplification: Requirements and Design",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-xmldsig-simplify-20090226",
+    month =     feb,
+    year =      2009,
+    topic =     "xmldsig[0.9]",
+    uri =       "http://www.w3.org/TR/2009/WD-xmldsig-simplify-20090226",
+    abstract =  "This document outlines a proposed simplification of the XML Signature Transform mechanism, intended to enhance security, performance, streamability and to ease adoption."
 }
 
 @misc{dsigusage,
@@ -29669,15 +29703,60 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "This document specifies a process for encrypting data and representing the result in XML. The data may be arbitrary data (including an XML document), an XML element, or XML element content. The result of encrypting data is an XML Encryption element which contains or references the cipher data."
 }
 
+@misc{xmlenccore1,
+    author =    "Donald E. Eastlake and Joseph M. Reagle and Takeshi Imamura and Blair Dillaway and Ed Simon and Kelvin Yiu",
+    title =     "XML Encryption Syntax and Processing Version 1.1",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-xmlenc-core1-20090226",
+    month =     feb,
+    year =      2009,
+    topic =     "xmlenc[1]",
+    updates =   "xmlencsynproc",
+    uri =       "http://www.w3.org/TR/2009/WD-xmlenc-core1-20090226",
+    abstract =  "This document specifies a process for encrypting data and representing the result in XML. The data may be arbitrary data (including an XML document), an XML element, or XML element content. The result of encrypting data is an XML Encryption element which contains or references the cipher data."
+}
+
+@misc{xmlsecalgorithms,
+    author =    "Frederick Hirsch and Thomas Roessler and Kelvin Yiu",
+    title =     "XML Security Algorithm Cross-Reference",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-xmlsec-algorithms-20090226",
+    month =     feb,
+    year =      2009,
+    topic =     "xmldsig[0.9] xmlenc[0.9] dsa[0.8] rsa[0.8] hmac[0.8] md5[0.8] sha[0.8] des[0.8]",
+    uri =       "http://www.w3.org/TR/2009/WD-xmlsec-algorithms-20090226",
+    abstract =  "This Note summarizes XML Security algorithm URI identifiers and the specifications associated with them."
+}
+
+@misc{xmlsecderivedkeys,
+    author =    {Magnus Nystr\"om},
+    title =     "XML Security Derived Keys",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-xmlsec-derivedkeys-20090226",
+    month =     feb,
+    year =      2009,
+    topic =     "xmlenc[0.9] xmldsig[0.9]",
+    uri =       "http://www.w3.org/TR/2009/WD-xmlsec-derivedkeys-20090226",
+    abstract =  {Key derivation is a well-established mechanism for generating new cryptographic keys material from some existing, original ("master") key material and potentially other information. This document augments XML Signature and XML Encryption by defining XML types and elements necessary to enable use of derived keys in XML security applications.}
+}
+
 @misc{xmldecrypt,
     author =    "Merlin Hughes and Takeshi Imamura and Hiroshi Maruyama",
     title =     "Decryption Transform for XML Signature",
     howpublished =  "World Wide Web Consortium, Recommendation REC-xmlenc-decrypt-20021210",
     month =     dec,
     year =      2002,
-    topic =     "xml[0.8]",
+    topic =     "xmldsig[0.8]",
     uri =       "http://www.w3.org/TR/2002/REC-xmlenc-decrypt-20021210",
     abstract =  {This document specifies an XML Signature "decryption transform" that enables XML Signature applications to distinguish between those XML Encryption structures that were encrypted before signing (and must not be decrypted) and those that were encrypted after signing (and must be decrypted) for the signature to validate.}
+}
+
+@misc{xmlsecreqs,
+    author =    "Frederick Hirsch and Thomas Roessler",
+    title =     "XML Security Use Cases and Requirements",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-xmlsec-reqs-20090226",
+    month =     feb,
+    year =      2009,
+    topic =     "xmldisg[0.8] xmlenc[0.8]",
+    uri =       "http://www.w3.org/TR/2009/WD-xmlsec-reqs-20090226",
+    abstract =  "This Note summarizes scenarios, design decisions, and requirements for the XML Signature and Canonical XML specifications, to guide ongoing W3C work to revise these specifications."
 }
 
 @misc{xades,
@@ -29999,24 +30078,35 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{ariapractices,
     author =    "Lisa Pappas and Michael Cooper and Richard Schwerdtfeger",
     title =     "WAI-ARIA Best Practices",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-wai-aria-practices-20080204",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-wai-aria-practices-20090224",
     month =     feb,
-    year =      2008,
+    year =      2009,
     topic =     "aria[1]",
-    uri =       "http://www.w3.org/TR/2008/WD-wai-aria-practices-20080204",
+    uri =       "http://www.w3.org/TR/2009/WD-wai-aria-practices-20090224",
     abstract =  "This document specifies Best Practices for delivering accessible rich internet applications using WAI-ARIA. The principle objective is to produce a usable, accessible experience over the Web. It provides recommended approaches to create accessible Web content using WAI-ARIA roles, states, and properties to make widgets, navigation, and behaviors accessible. The document also describes considerations that might not be evident to most implementers from the WAI-ARIA specification alone. This document is directed primarily to Web application developers, but the guidance is also useful to user agent and assistive technology developers. This document is part of the WAI-ARIA suite described in the WAI-ARIA Overview."
 }
 
 @misc{aria,
-    author =    "Michael Cooper and Richard Schwerdtfeger and Lisa Seeman and Lisa Pappas",
-    title =     "Accessible Rich Internet Applications (WAI-ARIA) Version 1.0",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-wai-aria-20080806",
-    month =     aug,
-    year =      2008,
+    author =    "James Craig and Michael Cooper and Lisa Pappas and Richard Schwerdtfeger and Lisa Seeman",
+    title =     "Accessible Rich Internet Applications (WAI-ARIA) 1.0",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-wai-aria-20090224",
+    month =     feb,
+    year =      2009,
     topic =     "aria[1]",
     updates =   "ariastate ariarole",
-    uri =       "http://www.w3.org/TR/2008/WD-wai-aria-20080806",
-    abstract =  "Accessibility of Web content to people with disabilities requires semantic information about widgets, structures, and behaviors, in order to allow Assistive Technologies to make appropriate transformations. This specification provides an ontology of roles, states, and properties that set out an abstract model for accessible interfaces and can be used to improve the accessibility and interoperability of Web Content and Applications. This information can be mapped to accessibility frameworks that use this information to provide alternative access solutions. Similarly, this information can be used to change the rendering of content dynamically using different style sheet properties. The result is an interoperable method for associating behaviors with document-level markup. This document is part of the WAI-ARIA suite described in the ARIA Overview."
+    uri =       "http://www.w3.org/TR/2009/WD-wai-aria-20090224",
+    abstract =  "Accessibility of web content requires semantic information about widgets, structures, and behaviors, in order to allow assistive technology to convey appropriate information to persons with disabilities. This specification provides an ontology of roles, states, and properties that define accessible user interface elements and can be used to improve the accessibility and interoperability of web content and applications. These semantics are designed to allow an author to properly convey user interface behaviors and structural information in document-level markup, to an assistive technology. This document is part of the WAI-ARIA suite described in the WAI-ARIA Overview."
+}
+
+@misc{ariaimplementation,
+    author =    "Aaron Leventhal and Michael Cooper",
+    title =     "WAI-ARIA 1.0 User Agent Implementation Guide",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-wai-aria-implementation-20090224",
+    month =     feb,
+    year =      2009,
+    topic =     "aria[1]",
+    uri =       "http://www.w3.org/TR/2009/WD-wai-aria-implementation-20090224",
+    abstract =  "This document describes how user agents should respond to roles, states, and properties provided in Web content via WAI-ARIA. These features are used by authors creating accessible rich internet applications. Users often access the content using assistive technologies that rely on platform accessibility APIs to obtain and interact with information from the page. The WAI-ARIA User Agent Implementation Guide defines how implementations should expose content to accessibility APIs, helping to ensure that this information appears in a manner consistent with author intent. This document is part of the WAI-ARIA suite described in the ARIA Overview."
 }
 
 @misc{rwabackplane,
@@ -32116,10 +32206,10 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{wscui,
     author =    "Thomas Roessler and Anil Saldhana",
     title =     "Web Security Context: User Interface Guidelines",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-wsc-ui-20080724",
-    month =     jul,
-    year =      2008,
-    uri =       "http://www.w3.org/TR/2008/WD-wsc-ui-20080724",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-wsc-ui-20090226",
+    month =     feb,
+    year =      2009,
+    uri =       "http://www.w3.org/TR/2009/WD-wsc-ui-20090226",
     abstract =  "This specification defines guidelines and requirements for the presentation and communication of Web security context information to end-users."
 }
 
