@@ -4835,7 +4835,7 @@
 @string{geoinf =  "GeoInformatica" }
 
 @article{wei06,
-    author =    {Norbert Wei{\ss}enberg and Agn\`es Voisard and R\"diger Gartmann},
+    author =    {Norbert Wei{\ss}enberg and Agn\`es Voisard and R\"udiger Gartmann},
     title =     "An Ontology-Based Approach to Personalized Situation-Aware Mobile Service Supply",
     journal =   geoinf,
     year =      2006,
@@ -28037,6 +28037,61 @@ We also propose a new taxonomy for geographic search queries.}
     uri =       "http://www.w3.org/TR/2002/NOTE-wscl10-20020314"
 }
 
+@misc{wstransfer,
+    author =    "Doug Davis and Ashok Malhotra and Katy Warr and Wu Chou",
+    title =     "Web Services Transfer (WS-Transfer)",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-ws-transfer-20090317",
+    month =     mar,
+    year =      2009,
+    topic =     "wstransfer[1]",
+    uri =       "http://www.w3.org/TR/2009/WD-ws-transfer-20090317",
+    abstract =  "This specification describes a general SOAP-based protocol for accessing XML representations of Web service-based resources."
+}
+
+@misc{wsresourcetransfer,
+    author =    "Doug Davis and Ashok Malhotra and Katy Warr and Wu Chou",
+    title =     "Web Services Resource Transfer (WS-RT)",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-ws-resource-transfer-20090317",
+    month =     mar,
+    year =      2009,
+    topic =     "wsrt[1] wstransfer[0.9]",
+    uri =       "http://www.w3.org/TR/2009/WD-ws-resource-transfer-20090317",
+    abstract =  "This specification defines extensions to WS-Transfer. While its initial design focuses on management resource access its use is not necessarily limited to those situations."
+}
+
+@misc{wsmetadataexchange,
+    author =    "Doug Davis and Ashok Malhotra and Katy Warr and Wu Chou",
+    title =     "Web Services Metadata Exchange (WS-MetadataExchange)",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-ws-metadata-exchange-20090317",
+    month =     mar,
+    year =      2009,
+    topic =     "wsmetadataexchange[1] wstransfer[0.9] wsaddressing[0.9]",
+    uri =       "http://www.w3.org/TR/2009/WD-ws-metadata-exchange-20090317",
+    abstract =  "This specification defines how metadata associated with a Web service endpoint can be represented as WS-Transfer resources, how metadata can be embedded in WS-Addressing, WS-Addressing 1.0 endpoint references, and how metadata could be retrieved from a Web service endpoint."
+}
+
+@misc{wseventing,
+    author =    "Doug Davis and Ashok Malhotra and Katy Warr and Wu Chou",
+    title =     "Web Services Eventing (WS-Eventing)",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-ws-eventing-20090317",
+    month =     mar,
+    year =      2009,
+    topic =     "wseventing[1]",
+    uri =       "http://www.w3.org/TR/2009/WD-ws-eventing-20090317",
+    abstract =  "This specification describes a protocol that allows Web services to subscribe to or accept subscriptions for event notification messages."
+}
+
+@misc{wsenumeration,
+    author =    "Doug Davis and Ashok Malhotra and Katy Warr and Wu Chou",
+    title =     "Web Services Enumeration (WS-Enumeration)",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-ws-enumeration-20090317",
+    month =     mar,
+    year =      2009,
+    topic =     "wstransfer[1]",
+    uri =       "http://www.w3.org/TR/2009/WD-ws-enumeration-20090317",
+    abstract =  "This specification describes a general SOAP-based protocol for enumerating a sequence of XML elements that is suitable for traversing logs, message queues, or other linear information models."
+}
+
 @misc{egovimproving,
     author =    "Jos\'e M. Alonso and Kevin Novak",
     title =     "Improving Access to Government through Better Use of the Web",
@@ -28817,23 +28872,23 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{skosreference,
     author =    "Alistair Miles and Sean Bechhofer",
     title =     "SKOS Simple Knowledge Organization System Reference",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-skos-reference-20080829",
-    month =     aug,
-    year =      2008,
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-skos-reference-20090317",
+    month =     mar,
+    year =      2009,
     topic =     "skos[1]",
-    uri =       "http://www.w3.org/TR/2008/WD-skos-reference-20080829",
+    uri =       "http://www.w3.org/TR/2009/CR-skos-reference-20090317",
     abstract =  "This document defines the Simple Knowledge Organization System (SKOS), a common data model for sharing and linking knowledge organization systems via the Web. Many knowledge organization systems, such as thesauri, taxonomies, classification schemes and subject heading systems, share a similar structure, and are used in similar applications. SKOS captures much of this similarity and makes it explicit, to enable data and technology sharing across diverse applications. The SKOS data model provides a standard, low-cost migration path for porting existing knowledge organization systems to the Semantic Web. SKOS also provides a light weight, intuitive language for developing and sharing new knowledge organization systems. It may be used on its own, or in combination with formal knowledge representation languages such as the Web Ontology language (OWL). This document is the normative specification of the Simple Knowledge Organization System. It is intended for readers who are involved in the design and implementation of information systems, and who already have a good understanding of Semantic Web technology, especially RDF and OWL."
 }
 
 @misc{skosprimer,
     author =    "Antoine Isaac and Ed Summers",
     title =     "SKOS Simple Knowledge Organization System Primer",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-skos-primer-20080829",
-    month =     aug,
-    year =      2008,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-skos-primer-20090317",
+    month =     mar,
+    year =      2009,
     topic =     "skos[0.9]",
-    uri =       "http://www.w3.org/TR/2008/WD-skos-primer-20080829",
-    abstract =  "SKOS --- Simple Knowledge Organization System --- provides a model for expressing the basic structure and content of concept schemes such as thesauri, classification schemes, subject heading lists, taxonomies, folksonomies, and other similar types of controlled vocabulary. As an application of the Resource Description Framework (RDF), SKOS allows concepts to be composed and published on the World Wide Web, linked with data on the Web and integrated into other concept schemes. This document is a user guide for those who would like to represent their concept scheme using SKOS. In basic SKOS, conceptual resources (concepts) are identified with URIs, labelled with strings in one or more natural languages, documented with various types of note, semantically related to each other in informal hierarchies and association networks, and aggregated into concept schemes. In advanced SKOS, conceptual resources can be mapped across concept schemes and grouped into labelled or ordered collections. Relationships between concept labels can be specified. Finally, the SKOS vocabulary itself can be extended to suit the needs of particular communities of practice or combined with other modelling vocabularies. This document is a companion to the SKOS Reference, which gives the normative reference on SKOS."
+    uri =       "http://www.w3.org/TR/2009/WD-skos-primer-20090317",
+    abstract =  "SKOS --- Simple Knowledge Organization System --- provides a model for expressing the basic structure and content of concept schemes such as thesauri, classification schemes, subject heading lists, taxonomies, folksonomies, and other similar types of controlled vocabulary. As an application of the Resource Description Framework (RDF), SKOS allows concepts to be composed and published on the World Wide Web, linked with data on the Web and integrated into other concept schemes. This document is a user guide for those who would like to represent their concept scheme using SKOS. In basic SKOS, conceptual resources (concepts) are identified with URIs, labeled with strings in one or more natural languages, documented with various types of note, semantically related to each other in informal hierarchies and association networks, and aggregated into concept schemes. In advanced SKOS, conceptual resources can be mapped across concept schemes and grouped into labeled or ordered collections. Relationships between concept labels can be specified. Finally, the SKOS vocabulary itself can be extended to suit the needs of particular communities of practice or combined with other modeling vocabularies. This document is a companion to the SKOS Reference, which gives the normative reference on SKOS."
 }
 
 @misc{vbireqs,
@@ -29278,12 +29333,12 @@ We also propose a new taxonomy for geographic search queries.}
 
 @misc{accesscontrol,
     author =    "Anne van Kesteren",
-    title =     "Access Control for Cross-Site Requests",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-access-control-20080912",
-    month =     sep,
-    year =      2008,
+    title =     "Cross-Origin Resource Sharing",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-cors-20090317",
+    month =     mar,
+    year =      2009,
     topic =     "pi[0.7] http[0.7] javascript[0.7]",
-    uri =       "http://www.w3.org/TR/2008/WD-access-control-20080912",
+    uri =       "http://www.w3.org/TR/2009/WD-cors-20090317",
     abstract =  "This document defines a mechanism to enable client-side cross-site requests. Specifications that want to enable cross-site requests in an API they define can use the algorithms defined by this specification. If such an API is used on http://example.org resources, a resource on http://hello-world.example can opt in using the mechanism described by this specification (e.g., specifying Access-Control-Allow-Origin: http://example.org as response header), which would allow that resource to be fetched cross-site from http://example.org."
 }
 
@@ -33377,6 +33432,17 @@ We also propose a new taxonomy for geographic search queries.}
     uri =       "http://www.w3.org/XML/2005/xsd-versioning-use-cases/2006-01-31.html",
     topic =     "xsd[0.8]",
     abstract =  "This document describes use cases where XML Schemas are being versioned. These are situations when there are more than one XML Schema, and those schemas are related to each other in some way. The use cases describe the desired behaviour from XML Schema processors when they encounter the different versions of schemas and the instances defined by them. This document has been produced by the W3C XML Schema Working Group, to serve as input to the Working Group's work on the versioning of XML Schemas. It is used to define what types of versioning situations that XML Schema should addressing. The use cases illustrate the types of versioning problems that should be solved by versioning mechanisms that might be added to XML Schema. XML Schema might not be able to solve all the use cases, but it is hoped that it can solve a majority of them."
+}
+
+@misc{selfdescribingdocuments,
+    author =    "Noah Mendelsohn",
+    title =     "The Self-Describing Web",
+    howpublished =  "World Wide Web Consortium, TAG Finding 07 February 2009",
+    month =     feb,
+    year =      2009,
+    topic =     "atom[0.8] xml[0.8] rdfa[0.8] rdf[0.8] uri[0.8] http[0.8]",
+    uri =       "http://www.w3.org/2001/tag/doc/selfDescribingDocuments-2009-02-07",
+    abstract =  "The Web is designed to support flexible exploration of information by human users and by automated agents. For such exploration to be productive, information published by many different sources and for a variety of purposes must be comprehensible to a wide range of Web client software, and to users of that software. HTTP and other Web technologies can be used to deploy resource representations that are self-describing: information about the encodings used for each representation is provided explicitly within the representation. Starting with a URI, there is a standard algorithm that a user agent can apply to retrieve and interpret such representations. Furthermore, representations can be what we refer to as grounded in the Web, by ensuring that specifications required to interpret them are determined unambiguously based on the URI, and that explicit references connect the pertinent specifications to each other. Web-grounding ensures that the specifications needed to interpret information on the Web can be identified unambiguously. When such self-describing, Web-grounded resources are linked together, the Web as a whole can support reliable, ad hoc discovery of information. This finding describes how document formats, markup conventions, attribute values, and other data formats can be designed to facilitate the deployment of self-describing, Web-grounded Web content."
 }
 
 @misc{xmlversioning,
@@ -40823,7 +40889,7 @@ We also propose a new taxonomy for geographic search queries.}
     month =     jul,
     year =      2008,
     topic =     "imap[0.9]",
-    abstract =  "The IMAP4rev1 protocol has powerful search facilities as part of the core protocol, but lacks the ability to create live, updated results that can be easily handled.  This memo provides such an extension, and shows how it can be used to provide a facility similar to virtual mailboxes."
+    abstract =  "The IMAP4rev1 protocol has powerful search facilities as part of the core protocol, but lacks the ability to create live, updated results that can be easily handled. This memo provides such an extension, and shows how it can be used to provide a facility similar to virtual mailboxes."
 }
 
 @misc{rfc5321,
@@ -40950,7 +41016,7 @@ We also propose a new taxonomy for geographic search queries.}
     month =     feb,
     year =      2009,
     topic =     "imap[0.9]",
-    abstract =  "The document defines a way to persistently store named IMAP (RFC 3501) searches on the server.  Such named searches can be subsequently referenced in a SEARCH or any other command that accepts a search criterion as a parameter."
+    abstract =  "The document defines a way to persistently store named IMAP (RFC 3501) searches on the server. Such named searches can be subsequently referenced in a SEARCH or any other command that accepts a search criterion as a parameter."
 }
 
 @misc{rfc5469,
@@ -40970,7 +41036,7 @@ We also propose a new taxonomy for geographic search queries.}
     month =     mar,
     year =      2009,
     topic =     "tcp[0.9]",
-    abstract =  "The TCP user timeout controls how long transmitted data may remain unacknowledged before a connection is forcefully closed.  It is a local, per-connection parameter. This document specifies a new TCP option --- the TCP User Timeout Option --- that allows one end of a TCP connection to advertise its current user timeout value. This information provides advice to the other end of the TCP connection to adapt its user timeout accordingly. Increasing the user timeouts on both ends of a TCP connection allows it to survive extended periods without end-to-end connectivity. Decreasing the user timeouts allows busy servers to explicitly notify their clients that they will maintain the connection state only for a short time without connectivity."
+    abstract =  "The TCP user timeout controls how long transmitted data may remain unacknowledged before a connection is forcefully closed. It is a local, per-connection parameter. This document specifies a new TCP option --- the TCP User Timeout Option --- that allows one end of a TCP connection to advertise its current user timeout value. This information provides advice to the other end of the TCP connection to adapt its user timeout accordingly. Increasing the user timeouts on both ends of a TCP connection allows it to survive extended periods without end-to-end connectivity. Decreasing the user timeouts allows busy servers to explicitly notify their clients that they will maintain the connection state only for a short time without connectivity."
 }
 
 %%% NEED TO PICK UP AT RFC 4685 !!!!!!!!!!!!!!!!!!
