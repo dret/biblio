@@ -28630,6 +28630,17 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodeling, and extended annotations. This document is a simple introduction to the new features of the OWL 2 Web Ontology Language, including an explanation of its differences with respect to OWL 1. It also presents the requirements that have motivated the design of the main new features, and their rationale from a theoretical and implementation perspective. Thus it is intended to supplement the Use Cases and Requirements provided as part of the initial OWL Recommendation and to be an overview of OWL 2 new features."
 }
 
+@misc{owl2overview,
+    author =    "{W3C OWL Working Group}",
+    title =     "OWL 2 Web Ontology Language: Document Overview",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-overview-20090327",
+    month =     mar,
+    year =      2009,
+    topic =     "owl[0.9]",
+    uri =       "http://www.w3.org/TR/2009/WD-owl2-overview-20090327",
+    abstract =  "The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language for the Semantic Web with formally defined meaning. OWL 2 ontologies provide classes, properties, individuals, and data values and are stored as Semantic Web documents. OWL 2 ontologies can be used along with information written in RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF documents. This document, part 1 of 13 in the OWL 2 document set, serves as an introduction to OWL 2 and the various other OWL 2 documents. It describes the various syntaxes for OWL 2, the different kinds of semantics, the defined profiles (sub-languages), and the differences between OWL 1 and OWL 2."
+}
+
 @misc{owl2syntax,
     author =    "Boris Motik and Peter F. Patel-Schneider and Bijan Parsia",
     title =     "OWL 2 Web Ontology Language: Structural Specification and Functional-Style Syntax",
@@ -32920,13 +32931,14 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{widgets10digsig,
-    author =    "Marcos Caceres",
+    author =    "Frederick Hirsch and Marcos Caceres and Mark Priestley",
     title =     "Widgets 1.0: Digital Signature",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-widgets-digsig-20080414",
-    month =     apr,
-    year =      2008,
-    uri =       "http://www.w3.org/TR/2008/WD-widgets-digsig-20080414",
-    abstract =  "This document defines a profile of the XML-Signature Syntax and Processing specification to allow a widget resource to be digitally signed. Vendors and authors can digitally sign widgets as a trust and quality assurance mechanism. Prior to instantiation, a widget user agent can use the digital signature to verify the authenticity and data integrity of the files in a widget resource. In the rare case where a widget damages the end-user's device, the digital signature may provide a user with legal recourse to prove that a widget resource was signed by a particular author or publisher."
+    howpublished =  "World Wide Web Consortium, Working Draft WD-widgets-digsig-20090331",
+    month =     mar,
+    year =      2009,
+    topic =     "xmldsig[0.9]",
+    uri =       "http://www.w3.org/TR/2009/WD-widgets-digsig-20090331",
+    abstract =  "This document defines a profile of the XML Signature Syntax and Processing 1.1 specification to allow a widget package to be digitally signed. Widget authors and distributors can digitally sign widgets as a trust and quality assurance mechanism. Prior to instantiation, a user agent can use the digital signature to verify the integrity of the widget package and perform source authentication. This document specifies conformance requirements on both widget packages and user agents."
 }
 
 @misc{widgets10updates,
@@ -41108,6 +41120,16 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2009,
     topic =     "tcp[0.9]",
     abstract =  "The TCP user timeout controls how long transmitted data may remain unacknowledged before a connection is forcefully closed. It is a local, per-connection parameter. This document specifies a new TCP option --- the TCP User Timeout Option --- that allows one end of a TCP connection to advertise its current user timeout value. This information provides advice to the other end of the TCP connection to adapt its user timeout accordingly. Increasing the user timeouts on both ends of a TCP connection allows it to survive extended periods without end-to-end connectivity. Decreasing the user timeouts allows busy servers to explicitly notify their clients that they will maintain the connection state only for a short time without connectivity."
+}
+
+@misc{rfc5504,
+    author =   "Kazunori Fujiwara and Yoshiro Yoneya",
+    title =     "Downgrading Mechanism for Email Address Internationalization",
+    howpublished =  "Internet RFC 5504",
+    month =     mar,
+    year =      2009,
+    topic =     "smtp[0.9] utf8[0.8]",
+    abstract =  "Traditional mail systems handle only ASCII characters in SMTP envelope and mail header fields. The Email Address Internationalization (UTF8SMTP) extension allows UTF-8 characters in SMTP envelope and mail header fields. To avoid rejecting internationalized email messages when a server in the delivery path does not support the UTF8SMTP extension, some sort of converting mechanism is required. This document describes a downgrading mechanism for Email Address Internationalization. Note that this is a way to downgrade, not tunnel. There is no associated up-conversion mechanism, although internationalized email clients might use original internationalized addresses or other data when displaying or replying to downgraded messages."
 }
 
 %%% NEED TO PICK UP AT RFC 4685 !!!!!!!!!!!!!!!!!!
