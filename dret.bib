@@ -12054,8 +12054,28 @@
     crossref =  "www2009",
     author =    "Cesare Pautasso and Erik Wilde",
     title =     "Why is the Web Loosely Coupled? A Multi-Faceted Metric for Service Design",
+    pages =     "911-920",
     uri =       "http://dret.net/netdret/publications#pau09a",
+    uri =       "http://www2009.org/proceedings/pdf/p911.pdf",
     abstract =  {Loose coupling is often quoted as a desirable property of systems architectures. One of the main goals of building systems using Web technologies is to achieve loose coupling. However, given the lack of a widely accepted definition of this term, it becomes hard to use coupling as a criterion to evaluate alternative Web technology choices, as all options may exhibit, and claim to provide, some kind of "loose" coupling effects. This paper presents a systematic study of the degree of coupling found in service-oriented systems based on a multi-faceted approach. Thanks to the metric introduced in this paper, coupling is no longer a one-dimensional concept with loose coupling found somewhere in between tight coupling and no coupling. The paper shows how the metric can be applied to real-world examples in order to support and improve the design process of service-oriented systems.}
+}
+
+@inproceedings{sch09a,
+    crossref =  "www2009",
+    author =    "Uri Schonfeld and Narayanan Shivakumar",
+    title =     "Sitemaps: Above and Beyond the Crawl of Duty",
+    pages =     "991-1000",
+    uri =       "http://www2009.org/proceedings/pdf/p991.pdf",
+    abstract =  {Comprehensive coverage of the public web is crucial to web search engines. Search engines use crawlers to retrieve pages and then discover new ones by extracting the pages' outgoing links. However, the set of pages reachable from the publicly linked web is estimated to be significantly smaller than the invisible web, the set of documents that have no incoming links and can only be retrieved through web applications and web forms. The Sitemaps protocol is a fast-growing web protocol supported jointly by major search engines to help content creators and search engines unlock this hidden data by making it available to search engines. In this paper, we perform a detailed study of how "classic" discovery crawling compares with Sitemaps, in key measures such as coverage and freshness over key representative websites as well as over billions of URLs seen at Google. We observe that Sitemaps and discovery crawling complement each other very well, and offer different tradeoffs.}
+}
+
+@inproceedings{bay09,
+    crossref =  "www2009p",
+    author =    "Eda Baykan and Monika Henzinger and Ludmila Marian and Ingmar Weber",
+    title =     "Purely URL-based Topic Classification",
+    pages =     "1109-1110",
+    uri =       "http://www2009.org/proceedings/pdf/p1109.pdf",
+    abstract =  "Given only the URL of a web page, can we identify its topic? This is the question that we examine in this paper. Usually, web pages are classified using their content, but a URL-only classifier is preferable, (i) when speed is crucial, (ii) to enable content filtering before an (objectionable) web page is downloaded, (iii) when a page's content is hidden in images, (iv) to annotate hyperlinks in a personalized web browser, without fetching the target page, and (v) when a focused crawler wants to infer the topic of a target page before devoting bandwidth to download it. We apply a machine learning approach to the topic identification task and evaluate its performance in extensive experiments on categorized web pages from the Open Directory Project (ODP). When training separate binary classifiers for each topic, we achieve typical F-measure values between 80 and 85, and a typical precision of around 85. We also ran experiments on a small data set of university web pages. For the task of classifying these pages into faculty, student, course and project pages, our methods improve over previous approaches by 13.8 points of F-measure."
 }
 
 @proceedings{www2009p,
@@ -33590,6 +33610,17 @@ We also propose a new taxonomy for geographic search queries.}
     uri =       "http://www.w3.org/XML/2005/xsd-versioning-use-cases/2006-01-31.html",
     topic =     "xsd[0.8]",
     abstract =  "This document describes use cases where XML Schemas are being versioned. These are situations when there are more than one XML Schema, and those schemas are related to each other in some way. The use cases describe the desired behaviour from XML Schema processors when they encounter the different versions of schemas and the instances defined by them. This document has been produced by the W3C XML Schema Working Group, to serve as input to the Working Group's work on the versioning of XML Schemas. It is used to define what types of versioning situations that XML Schema should addressing. The use cases illustrate the types of versioning problems that should be solved by versioning mechanisms that might be added to XML Schema. XML Schema might not be able to solve all the use cases, but it is hoped that it can solve a majority of them."
+}
+
+@misc{hashinuri,
+    author =    "T. V. Raman",
+    title =     "Usage Patterns For Client-Side URI Parameters",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-hash-in-uri-20090415",
+    month =     apr,
+    year =      2009,
+    topic =     "uri[0.8]",
+    uri =       "http://www.w3.org/TR/2009/WD-hash-in-uri-20090415",
+    abstract =  "Designers of URIs have traditionally used ? to encode server-side parameters. At its inception, the Web also introduced fragment identifiers (preceded by #) as a means of addressing specific locations in a document. As highly interactive applications get built using Web parts (HTML, CSS and JavaScript component resources that are themselves Web addressable, there is an increasing need for encoding interaction state as part of the URI. The Web is beginning to discover and codify design patterns based on fragment identifiers for many of these use cases. This draft finding is being prepared in response to TAG issue #60. This document explores the issues that arise in this context, and attempts to define best practices that help create URIs for intermediate pages in a Web application so that the back button does the right thing, and enable clients to address into specific points in a stream of content, e.g., video. The goal of this finding is to initially collect the various usage scenarios that are leading to innovative uses of client-side URI parameters, along with the solutions that have been developed by the Web community. When this exercise is complete, this finding will conclude by ensuring that these design patterns are mutually compatible. If some of these usage patterns are identified as being in conflict, we will recommend best practices that help side-step such conflicts. We encourage the wider Web community to point us at emerging usage scenarios and design patterns so that we maximize our chances of arriving at a final finding that helps move forward the architecture of the Web in a self-consistent manner."
 }
 
 @misc{selfdescribingdocuments,
