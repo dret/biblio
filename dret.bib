@@ -12055,9 +12055,20 @@
     author =    "Cesare Pautasso and Erik Wilde",
     title =     "Why is the Web Loosely Coupled? A Multi-Faceted Metric for Service Design",
     pages =     "911-920",
+    topic =     "soa[0.9] rest[0.8] ws-star[0.8] rpc[0.8]",
     uri =       "http://dret.net/netdret/publications#pau09a",
     uri =       "http://www2009.org/proceedings/pdf/p911.pdf",
     abstract =  {Loose coupling is often quoted as a desirable property of systems architectures. One of the main goals of building systems using Web technologies is to achieve loose coupling. However, given the lack of a widely accepted definition of this term, it becomes hard to use coupling as a criterion to evaluate alternative Web technology choices, as all options may exhibit, and claim to provide, some kind of "loose" coupling effects. This paper presents a systematic study of the degree of coupling found in service-oriented systems based on a multi-faceted approach. Thanks to the metric introduced in this paper, coupling is no longer a one-dimensional concept with loose coupling found somewhere in between tight coupling and no coupling. The paper shows how the metric can be applied to real-world examples in order to support and improve the design process of service-oriented systems.}
+}
+
+@inproceedings{kri09,
+    crossref =  "www2009",
+    author =    "Balachander Krishnamurthy and Craig E. Wills",
+    title =     "Privacy Diffusion on the Web: A Longitudinal Perspective",
+    pages =     "541-550",
+    topic =     "cookies[0.9] javascript[0.9]",
+    uri =       "http://www2009.org/proceedings/pdf/p541.pdf",
+    abstract =  "For the last few years we have studied the diffusion of private information about users as they visit various Web sites triggering data gathering aggregation by third parties. This paper reports on our longitudinal study consisting of multiple snapshots of our examination of such diffusion over four years. We examine the various technical ways by which third-party aggregators acquire data and the depth of user-related information acquired. We study techniques for protecting against this privacy diffusion as well as limitations of such techniques. We introduce the concept of secondary privacy damage. Our results show increasing aggregation of user-related data by a steadily decreasing number of entities. A handful of companies are able to track users' movement across almost all of the popular Web sites. Virtually all the protection techniques have significant limitations highlighting the seriousness of the problem and the need for alternate solutions."
 }
 
 @inproceedings{sch09a,
@@ -28716,149 +28727,160 @@ We also propose a new taxonomy for geographic search queries.}
 
 @misc{owl2newfeatures,
     author =    "Christine Golbreich and Evan K. Wallace",
-    title =     "OWL 2 Web Ontology Language: New Features and Rationale",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-new-features-20081202",
-    month =     dec,
-    year =      2008,
+    title =     "OWL 2 Web Ontology Language --- New Features and Rationale",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-new-features-20090421",
+    month =     apr,
+    year =      2009,
     topic =     "owl[0.9]",
-    uri =       "http://www.w3.org/TR/2008/WD-owl2-new-features-20081202",
-    abstract =  "OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodeling, and extended annotations. This document is a simple introduction to the new features of the OWL 2 Web Ontology Language, including an explanation of its differences with respect to OWL 1. It also presents the requirements that have motivated the design of the main new features, and their rationale from a theoretical and implementation perspective. Thus it is intended to supplement the Use Cases and Requirements provided as part of the initial OWL Recommendation and to be an overview of OWL 2 new features."
+    uri =       "http://www.w3.org/TR/2009/WD-owl2-new-features-20090421",
+    abstract =  "The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language for the Semantic Web with formally defined meaning. OWL 2 ontologies provide classes, properties, individuals, and data values and are stored as Semantic Web documents. OWL 2 ontologies can be used along with information written in RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF documents. The OWL 2 Document Overview describes the overall state of OWL 2, and should be read before other OWL 2 documents. This document is a simple introduction to the new features of the OWL 2 Web Ontology Language, including an explanation of its differences with respect to OWL 1. It also presents the requirements that have motivated the design of the main new features, and their rationale from a theoretical and implementation perspective."
 }
 
 @misc{owl2overview,
     author =    "{W3C OWL Working Group}",
-    title =     "OWL 2 Web Ontology Language: Document Overview",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-overview-20090327",
-    month =     mar,
+    title =     "OWL 2 Web Ontology Language --- Document Overview",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-overview-20090421",
+    month =     apr,
     year =      2009,
     topic =     "owl[0.9]",
-    uri =       "http://www.w3.org/TR/2009/WD-owl2-overview-20090327",
-    abstract =  "The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language for the Semantic Web with formally defined meaning. OWL 2 ontologies provide classes, properties, individuals, and data values and are stored as Semantic Web documents. OWL 2 ontologies can be used along with information written in RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF documents. This document, part 1 of 13 in the OWL 2 document set, serves as an introduction to OWL 2 and the various other OWL 2 documents. It describes the various syntaxes for OWL 2, the different kinds of semantics, the defined profiles (sub-languages), and the differences between OWL 1 and OWL 2."
+    uri =       "http://www.w3.org/TR/2009/WD-owl2-overview-20090421",
+    abstract =  "The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language for the Semantic Web with formally defined meaning. OWL 2 ontologies provide classes, properties, individuals, and data values and are stored as Semantic Web documents. OWL 2 ontologies can be used along with information written in RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF documents. This document serves as an introduction to OWL 2 and the various other OWL 2 documents. It describes the syntaxes for OWL 2, the different kinds of semantics, the available profiles (sub-languages), and the relationship between OWL 1 and OWL 2."
 }
 
 @misc{owl2syntax,
     author =    "Boris Motik and Peter F. Patel-Schneider and Bijan Parsia",
-    title =     "OWL 2 Web Ontology Language: Structural Specification and Functional-Style Syntax",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-syntax-20081202",
-    month =     dec,
-    year =      2008,
+    title =     "OWL 2 Web Ontology Language --- Structural Specification and Functional-Style Syntax",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-syntax-20090421",
+    month =     apr,
+    year =      2009,
     topic =     "owl[1]",
     updates =   "owl11syntax",
-    uri =       "http://www.w3.org/TR/2008/WD-owl2-syntax-20081202",
-    abstract =  "OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodeling, and extended annotations. This document defines OWL 2 ontologies in terms of their structure, and it also defines a functional-style syntax in which ontologies can be written. Furthermore, this document provides an intuitive description of each of the constructs provided by the language."
+    uri =       "http://www.w3.org/TR/2009/WD-owl2-syntax-20090421",
+    abstract =  "The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language for the Semantic Web with formally defined meaning. OWL 2 ontologies provide classes, properties, individuals, and data values and are stored as Semantic Web documents. OWL 2 ontologies can be used along with information written in RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF documents. The OWL 2 Document Overview describes the overall state of OWL 2, and should be read before other OWL 2 documents. The meaningful constructs provided by OWL 2 are defined in terms of their structure. As well, a functional-style syntax is defined for these constructs, with examples and informal descriptions. One can reason with OWL 2 ontologies under either the RDF-Based Semantics or the Direct Semantics. If certain restrictions on OWL 2 ontologies are satisfied and the ontology is in OWL 2 DL, reasoning under the Direct Semantics can be implemented using techniques well known in the literature."
 }
 
 @misc{owl2manchestersyntax,
     author =    "Matthew Horridge and Peter F. Patel-Schneider",
-    title =     "OWL 2 Web Ontology Language: Manchester Syntax",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-manchester-syntax-20081202",
-    month =     dec,
-    year =      2008,
+    title =     "OWL 2 Web Ontology Language --- Manchester Syntax",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-manchester-syntax-20090421",
+    month =     apr,
+    year =      2009,
     topic =     "owl[1]",
     updates =   "owl11syntax",
-    uri =       "http://www.w3.org/TR/2008/WD-owl2-manchester-syntax-20081202",
-    abstract =  "OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodeling, and extended annotations. The Manchester syntax is a user-friendly compact syntax for OWL 2; it is frame-based, as opposed to the axiom-based other syntaxes for OWL 2. The Manchester Syntax is used in the OWL 2 Primer, and this document provides the language used there. It is expected that tools will extend the Manchester Syntax for their own purposes, and tool builders may collaboratively extend the common language. It is already used in Prot\'eg\'e 4 and TopBraid composer."
+    uri =       "http://www.w3.org/TR/2009/WD-owl2-manchester-syntax-20090421",
+    abstract =  "The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language for the Semantic Web with formally defined meaning. OWL 2 ontologies provide classes, properties, individuals, and data values and are stored as Semantic Web documents. OWL 2 ontologies can be used along with information written in RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF documents. The OWL 2 Document Overview describes the overall state of OWL 2, and should be read before other OWL 2 documents. The Manchester syntax is a user-friendly compact syntax for OWL 2 ontologies; it is frame-based, as opposed to the axiom-based other syntaxes for OWL 2. The Manchester Syntax is used in the OWL 2 Primer, and this document provides the language used there. It is expected that tools will extend the Manchester Syntax for their own purposes, and tool builders may collaboratively extend the common language."
 }
 
 @misc{owl2semantics,
     author =    "Boris Motik and Peter F. Patel-Schneider and Bernardo Cuenca Grau",
-    title =     "OWL 2 Web Ontology Language: Direct Semantics",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-semantics-20081202",
-    month =     dec,
-    year =      2008,
+    title =     "OWL 2 Web Ontology Language --- Direct Semantics",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-semantics-20090421",
+    month =     apr,
+    year =      2009,
     topic =     "owl[1]",
     updates =   "owl11semantics",
-    uri =       "http://www.w3.org/TR/2008/WD-owl2-semantics-20081202",
-    abstract =  "OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodeling, and extended annotations. This document provides the direct model-theoretic semantics for OWL 2, which is compatible with the description logic SROIQ. Furthermore, this document defines the most common inference problems for OWL 2."
+    uri =       "http://www.w3.org/TR/2009/WD-owl2-semantics-20090421",
+    abstract =  "The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language for the Semantic Web with formally defined meaning. OWL 2 ontologies provide classes, properties, individuals, and data values and are stored as Semantic Web documents. OWL 2 ontologies can be used along with information written in RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF documents. The OWL 2 Document Overview describes the overall state of OWL 2, and should be read before other OWL 2 documents. This document provides the direct model-theoretic semantics for OWL 2, which is compatible with the description logic SROIQ. Furthermore, this document defines the most common inference problems for OWL 2."
 }
 
 @misc{owl2rdfbasedsemantics,
     author =    "Michael Schneider",
-    title =     "OWL 2 Web Ontology Language: RDF-Based Semantics",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-rdf-based-semantics-20081202",
-    month =     dec,
-    year =      2008,
+    title =     "OWL 2 Web Ontology Language --- RDF-Based Semantics",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-rdf-based-semantics-20090421",
+    month =     apr,
+    year =      2009,
     topic =     "owl[0.9] rdf[0.9]",
-    uri =       "http://www.w3.org/TR/2008/WD-owl2-rdf-based-semantics-20081202",
-    abstract =  {OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodeling, and extended annotations. This document provides the RDF-compatible model-theoretic semantics for OWL 2, called "OWL 2 Full". }
+    uri =       "http://www.w3.org/TR/2009/WD-owl2-rdf-based-semantics-20090421",
+    abstract =  "The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language for the Semantic Web with formally defined meaning. OWL 2 ontologies provide classes, properties, individuals, and data values and are stored as Semantic Web documents. OWL 2 ontologies can be used along with information written in RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF documents. The OWL 2 Document Overview describes the overall state of OWL 2, and should be read before other OWL 2 documents. This document defines the RDF-compatible model-theoretic semantics of OWL 2."
 }
 
 @misc{owl2test,
     author =    {Michael Smith and Ian Horrocks and Markus Kr\"otzsch},
-    title =     "OWL 2 Web Ontology Language: Conformance and Test Cases",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-test-20081202",
-    month =     dec,
-    year =      2008,
+    title =     "OWL 2 Web Ontology Language --- Conformance",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-test-20090421",
+    month =     apr,
+    year =      2009,
     topic =     "owl[0.9]",
-    uri =       "http://www.w3.org/TR/2008/WD-owl2-test-20081202",
-    abstract =  "OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodeling, and extended annotations. This document describes the conditions that OWL 2 tools must satisfy in order to be conformant with the language specification. It also presents a set of tests that both illustrate the features of the language and can be used for testing conformance."
+    uri =       "http://www.w3.org/TR/2009/WD-owl2-test-20090421",
+    abstract =  "The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language for the Semantic Web with formally defined meaning. OWL 2 ontologies provide classes, properties, individuals, and data values and are stored as Semantic Web documents. OWL 2 ontologies can be used along with information written in RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF documents. The OWL 2 Document Overview describes the overall state of OWL 2, and should be read before other OWL 2 documents. This document describes the conditions that OWL 2 tools must satisfy in order to be conformant with the language specification. It also presents a common format for OWL 2 test cases that both illustrate the features of the language and can be used for testing conformance."
 }
 
 @misc{owl2mappingtordf,
     author =    "Peter F. Patel-Schneider and Boris Motik",
-    title =     "OWL 2 Web Ontology Language: Mapping to RDF Graphs",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-mapping-to-rdf-20081202",
-    month =     dec,
-    year =      2008,
+    title =     "OWL 2 Web Ontology Language --- Mapping to RDF Graphs",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-mapping-to-rdf-20090421/",
+    month =     apr,
+    year =      2009,
     topic =     "owl[0.9] rdf[0.9]",
-    uri =       "http://www.w3.org/TR/2008/WD-owl2-mapping-to-rdf-20081202",
+    uri =       "http://www.w3.org/TR/2009/WD-owl2-mapping-to-rdf-20090421",
     updates =   "owl11mappingtordf",
-    abstract =  "OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodeling, and extended annotations. This document defines a mapping of OWL 2 ontology into the RDF syntax, and vice versa."
+    abstract =  "The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language for the Semantic Web with formally defined meaning. OWL 2 ontologies provide classes, properties, individuals, and data values and are stored as Semantic Web documents. OWL 2 ontologies can be used along with information written in RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF documents. The OWL 2 Document Overview describes the overall state of OWL 2, and should be read before other OWL 2 documents. This document defines the mapping of OWL 2 ontologies into RDF graphs, and vice versa."
 }
 
 @misc{owl2xmlserialization,
-    author =    "Boris Motik and Peter Patel-Schneider",
-    title =     "OWL 2 Web Ontology Language: XML Serialization",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-xml-serialization-20081202",
-    month =     dec,
-    year =      2008,
+    author =    "Boris Motik and Bijan Parsia and Peter Patel-Schneider",
+    title =     "OWL 2 Web Ontology Language --- XML Serialization",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-xml-serialization-20090421",
+    month =     apr,
+    year =      2009,
     topic =     "owl[0.9] xml[0.8]",
-    uri =       "http://www.w3.org/TR/2008/WD-owl2-xml-serialization-20081202",
-    abstract =  "OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodeling, and extended annotations. This document specifies an XML syntax for OWL 2 that mirrors its structural specification. An XML schema defines this syntax and is available as a separate document, as well as being included here."
+    uri =       "http://www.w3.org/TR/2009/WD-owl2-xml-serialization-20090421",
+    abstract =  "The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language for the Semantic Web with formally defined meaning. OWL 2 ontologies provide classes, properties, individuals, and data values and are stored as Semantic Web documents. OWL 2 ontologies can be used along with information written in RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF documents. The OWL 2 Document Overview describes the overall state of OWL 2, and should be read before other OWL 2 documents. This document specifies an XML serialization for OWL 2 that mirrors its structural specification. An XML schema defines this syntax and is available as a separate document, as well as being included here."
 }
 
 @misc{owl2profiles,
     author =    "Boris Motik and Bernardo Cuenca Grau and Ian Horrocks and Zhe Wu and Achille Fokoue and Carsten Lutz",
-    title =     "OWL 2 Web Ontology Language: Profiles",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-profiles-20081202",
-    month =     dec,
-    year =      2008,
+    title =     "OWL 2 Web Ontology Language --- Profiles",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-profiles-20090421",
+    month =     apr,
+    year =      2009,
     topic =     "owl[0.9]",
-    uri =       "http://www.w3.org/TR/2008/WD-owl2-profiles-20081202",
-    abstract =  "OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodeling, and extended annotations. This document provides a specification of several profiles of OWL 2 which can be more simply and/or efficiently implemented. In logic, profiles are often called fragments. Most profiles are defined by placing restrictions on the structure of OWL 2 ontologies. These restrictions have been specified by modifying the productions of the functional-style syntax."
+    uri =       "http://www.w3.org/TR/2009/WD-owl2-profiles-20090421",
+    abstract =  "The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language for the Semantic Web with formally defined meaning. OWL 2 ontologies provide classes, properties, individuals, and data values and are stored as Semantic Web documents. OWL 2 ontologies can be used along with information written in RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF documents. The OWL 2 Document Overview describes the overall state of OWL 2, and should be read before other OWL 2 documents. This document provides a specification of several profiles of OWL 2 which can be more simply and/or efficiently implemented. In logic, profiles are often called fragments. Most profiles are defined by placing restrictions on the structure of OWL 2 ontologies. These restrictions have been specified by modifying the productions of the functional-style syntax."
 }
 
 @misc{owl2primer,
-    author =    "Bijan Parsia and Peter F. Patel-Schneider",
-    title =     "OWL 2 Web Ontology Language: Primer",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-primer-20080411",
+    author =    {Pascal Hitzler and Markus Kr\"otzsch and Bijan Parsia and Peter F. Patel-Schneider and Sebastian Rudolph},
+    title =     "OWL 2 Web Ontology Language --- Primer",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-primer-20090421",
     month =     apr,
-    year =      2008,
+    year =      2009,
     topic =     "owl[0.9]",
-    uri =       "http://www.w3.org/TR/2008/WD-owl2-primer-20080411",
-    abstract =  "OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodeling, and extended annotations. This short primer provides an approachable introduction to OWL 2, including orientation for those coming from other disciplines, an example showing how OWL 2 can be used to represent first simple information and then more complex information, how OWL 2 manages ontologies, and finally the distinctions between the various sublanguages of OWL 2."
+    uri =       "http://www.w3.org/TR/2009/WD-owl2-primer-20090421",
+    abstract =  "The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language for the Semantic Web with formally defined meaning. OWL 2 ontologies provide classes, properties, individuals, and data values and are stored as Semantic Web documents. OWL 2 ontologies can be used along with information written in RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF documents. The OWL 2 Document Overview describes the overall state of OWL 2, and should be read before other OWL 2 documents. This primer provides an approachable introduction to OWL 2, including orientation for those coming from other disciplines, a running example showing how OWL 2 can be used to represent first simple information and then more complex information, how OWL 2 manages ontologies, and finally the distinctions between the various sublanguages of OWL 2."
 }
 
 @misc{owl2quickreference,
-    author =    "Jie Bao and Elisa F. Kendall and Deborah L. McGuinness and Evan K. Wallace",
-    title =     "OWL 2 Web Ontology Language: Quick Reference Guide",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-quick-reference-20081202",
-    month =     dec,
-    year =      2008,
+    author =    "Jie Bao and Elisa F. Kendall and Deborah L. McGuinness",
+    title =     "OWL 2 Web Ontology Language --- Quick Reference Guide",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-quick-reference-20090421",
+    month =     apr,
+    year =      2009,
     topic =     "owl[0.9]",
-    uri =       "http://www.w3.org/TR/2008/WD-owl2-quick-reference-20081202",
-    abstract =  "OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodeling, and extended annotations. This document is intended to provide a quick reference to the OWL 2 language, similar to what was provided in the Language Synopsis section of the OWL Web Ontology Language Overview. Inspiration for this effort includes work by the ebiquity Research Group at the University of Maryland Baltimore County (UMBC) on earlier versions of a Reference Card for the Semantic Web. A draft printable version is available, but it is obsolete with respect to the current wiki version."
+    uri =       "http://www.w3.org/TR/2009/WD-owl2-quick-reference-20090421",
+    abstract =  "The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language for the Semantic Web with formally defined meaning. OWL 2 ontologies provide classes, properties, individuals, and data values and are stored as Semantic Web documents. OWL 2 ontologies can be used along with information written in RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF documents. The OWL 2 Document Overview describes the overall state of OWL 2, and should be read before other OWL 2 documents. This document provides a quick reference guide to the OWL 2 language, similar to what was provided in the Language Synopsis section of the OWL Web Ontology Language Overview. Inspiration for this effort includes work by the ebiquity Research Group at the University of Maryland Baltimore County (UMBC) on earlier versions of a Reference Card for the Semantic Web. A draft printable version is available , but it is obsolete with respect to the current wiki version."
+}
+
+@misc{owl2drlinear,
+    author =    "Bijan Parsia and Uli Sattler",
+    title =     "OWL 2 Web Ontology Language --- Data Range Extension: Linear Equations",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-dr-linear-20090421",
+    month =     apr,
+    year =      2009,
+    topic =     "owl[0.9]",
+    uri =       "http://www.w3.org/TR/2009/WD-owl2-dr-linear-20090421",
+    abstract =  "The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language for the Semantic Web with formally defined meaning. OWL 2 ontologies provide classes, properties, individuals, and data values and are stored as Semantic Web documents. OWL 2 ontologies can be used along with information written in RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF documents. The OWL 2 Document Overview describes the overall state of OWL 2, and should be read before other OWL 2 documents. This document specifies a syntax and semantics for incorporating linear equations with rational coefficients solved in the reals in OWL 2."
 }
 
 @misc{rdftext,
     author =    "Jie Bao and Axel Polleres and Boris Motik",
     title =     "rdf:text: A Datatype for Internationalized Text",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-rdf-text-20081202",
-    month =     dec,
-    year =      2008,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-rdf-text-20090421",
+    month =     apr,
+    year =      2009,
     topic =     "rif[0.8] owl[0.8]",
-    uri =       "http://www.w3.org/TR/2008/WD-rdf-text-20081202",
-    abstract =  "This document presents the specification for a primitive datatype representing internationalized text that is used in both the RIF and OWL languages."
+    uri =       "http://www.w3.org/TR/2009/WD-rdf-text-20090421",
+    abstract =  "This document presents the specification for a primitive datatype representing internationalized text that is used in both the RIF and OWL 2 languages."
 }
 
 @misc{wordnetrdf,
@@ -29591,6 +29613,18 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "This document defines the W3C XQuery 1.0 and XPath 2.0 Data Model (XDM), which is the data model of at least XPath 2.0, XSLT 2.0, and XQuery, and any other specifications that reference it. This data model is based on the XPath 1.0 data model and earlier work on an XML Query Data Model. This document is the result of joint work by the XSL Working Group and the XML Query Working Group."
 }
 
+@misc{xmlqdata2nd,
+    author =    "Anders Berglund and Mary F. Fern\'andez and Ashok Malhotra and Jonathan Marsh and Marton Nagy and Norman Walsh",
+    title =     "XQuery 1.0 and XPath 2.0 Data Model (XDM) (Second Edition)",
+    howpublished =  "World Wide Web Consortium, Proposed Edited Recommendation PER-xpath-datamodel-20090421",
+    month =     apr,
+    year =      2009,
+    updates =   "xmlqdata",
+    topic =     "xquery[0.9] xpath2[0.9] xdm[1]",
+    uri =       "http://www.w3.org/TR/2009/PER-xpath-datamodel-20090421",
+    abstract =  "This document defines the W3C XQuery 1.0 and XPath 2.0 Data Model (XDM), which is the data model of at least XPath 2.0, XSLT 2.0, and XQuery, and any other specifications that reference it. This data model is based on the XPath 1.0 data model and earlier work on an XML Query Data Model. This document is the result of joint work by the XSL Working Group and the XML Query Working Group."
+}
+
 @misc{xmlqalg,
     author =    "Peter Fankhauser and Mary F. Fern\'andez and Ashok Malhotra and Michael Rys and J\'er\^ome Sim\'eon and Philip Wadler",
     title =     "The XML Query Algebra",
@@ -29610,6 +29644,18 @@ We also propose a new taxonomy for geographic search queries.}
     topic =     "xquery[1] xpath2[1]",
     updates =   "xmlqalg",
     uri =       "http://www.w3.org/TR/2007/REC-xquery-semantics-20070123",
+    abstract =  "This document defines formally the semantics of XQuery 1.0 and XPath 2.0."
+}
+
+@misc{xquerysem2nd,
+    author =    "Denise Draper and Michael Dyck and Peter Fankhauser and Mary F. Fern\'andez and Ashok Malhotra and Kristoffer H. Rose and Michael Rys and J\'er\^ome Sim\'eon and Philip Wadler",
+    title =     "XQuery 1.0 and XPath 2.0 Formal Semantics (Second Edition)",
+    howpublished =  "World Wide Web Consortium, Proposed Edited Recommendation PER-xquery-semantics-20090421",
+    month =     apr,
+    year =      2009,
+    topic =     "xquery[1] xpath2[1]",
+    updates =   "xquerysem",
+    uri =       "http://www.w3.org/TR/2009/PER-xquery-semantics-20090421",
     abstract =  "This document defines formally the semantics of XQuery 1.0 and XPath 2.0."
 }
 
@@ -29693,6 +29739,18 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "XML is a versatile markup language, capable of labeling the information content of diverse data sources including structured and semi-structured documents, relational databases, and object repositories. A query language that uses the structure of XML intelligently can express queries across all these kinds of data, whether physically stored in XML or viewed as XML via middleware. This specification describes a query language called XQuery, which is designed to be broadly applicable across many types of XML data sources."
 }
 
+@misc{xquery2nd,
+    author =    "Scott Boag and Donald D. Chamberlin and Mary F. Fern\'andez and Daniela Florescu and Jonathan Robie and J\'er\^ome Sim\'eon",
+    title =     "XQuery 1.0: An XML Query Language (Second Edition)",
+    howpublished =  "World Wide Web Consortium, Proposed Edited Recommendation PER-xquery-20090421",
+    month =     apr,
+    year =      2009,
+    topic =     "xquery[1]",
+    uri =       "http://www.w3.org/TR/2009/PER-xquery-20090421",
+    updates =   "xquery",
+    abstract =  "XML is a versatile markup language, capable of labeling the information content of diverse data sources including structured and semi-structured documents, relational databases, and object repositories. A query language that uses the structure of XML intelligently can express queries across all these kinds of data, whether physically stored in XML or viewed as XML via middleware. This specification describes a query language called XQuery, which is designed to be broadly applicable across many types of XML data sources."
+}
+
 @misc{xquerysx10requirements,
     author =    "Daniel Engovatov and Daniela Florescu and Giorgio Ghelli",
     title =     "XQuery Scripting Extension 1.0 Requirements",
@@ -29759,6 +29817,18 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2007,
     topic =     "xquery[1] xpath2[1] xdm[0.9]",
     uri =       "http://www.w3.org/TR/2007/REC-xpath-functions-20070123",
+    abstract =  {This document defines constructor functions, operators and functions on the datatypes defined in "XML Schema Part 2: Datatypes Second Edition" and the datatypes defined in "XQuery 1.0 and XPath 2.0 Data Model". It also discusses functions and operators on nodes and node sequences as defined in XDM. These functions and operators are defined for use in XPath) 2.0, XQuery 1.0 and XSLT 2.0 and other related XML standards. The signatures and summaries of functions defined in this document are available at: http://www.w3.org/2006/xpath-functions.}
+}
+
+@misc{xq10xp20fo2nd,
+    author =    "Ashok Malhotra and Jim Melton and Norman Walsh and Michael Kay",
+    title =     "XQuery 1.0 and XPath 2.0 Functions and Operators (Second Edition)",
+    howpublished =  "World Wide Web Consortium, Proposed Edited Recommendation PER-xpath-functions-20090421",
+    month =     apr,
+    year =      2009,
+    updates =   "xq10xp20fo",
+    topic =     "xquery[1] xpath2[1] xdm[0.9]",
+    uri =       "http://www.w3.org/TR/2009/PER-xpath-functions-20090421",
     abstract =  {This document defines constructor functions, operators and functions on the datatypes defined in "XML Schema Part 2: Datatypes Second Edition" and the datatypes defined in "XQuery 1.0 and XPath 2.0 Data Model". It also discusses functions and operators on nodes and node sequences as defined in XDM. These functions and operators are defined for use in XPath) 2.0, XQuery 1.0 and XSLT 2.0 and other related XML standards. The signatures and summaries of functions defined in this document are available at: http://www.w3.org/2006/xpath-functions.}
 }
 
@@ -31781,7 +31851,7 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2009,
     topic =     "svg[0.9]",
     uri =       "http://www.w3.org/TR/2009/WD-SVG-Transforms-20090320",
-    abstract =  " This working draft defines features of the Scalable Vector Graphics (SVG) Language that are specifically for display environments. This document defines the markup used by SVG Transforms. SVG Transforms allows two-dimensional objects to be transformed using three-dimensional transformations. Although originally designed for use in SVG, some aspects of this specification are defined in XML and are accessed via presentation properties, and therefore could be used in other environments, such as HTML styled with CSS and XSL-FO. This document defines the markup used by SVG Transforms."
+    abstract =  "This working draft defines features of the Scalable Vector Graphics (SVG) Language that are specifically for display environments. This document defines the markup used by SVG Transforms. SVG Transforms allows two-dimensional objects to be transformed using three-dimensional transformations. Although originally designed for use in SVG, some aspects of this specification are defined in XML and are accessed via presentation properties, and therefore could be used in other environments, such as HTML styled with CSS and XSL-FO. This document defines the markup used by SVG Transforms."
 }
 
 @misc{xbl,
@@ -32144,6 +32214,18 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "XPath 2.0 is an expression language that allows the processing of values conforming to the data model defined in the XQuery 1.0 and XPath 2.0 Data Model (XDM). The data model provides a tree representation of XML documents as well as atomic values such as integers, strings, and booleans, and sequences that may contain both references to nodes in an XML document and atomic values. The result of an XPath expression may be a selection of nodes from the input documents, or an atomic value, or more generally, any sequence allowed by the data model. The name of the language derives from its most distinctive feature, the path expression, which provides a means of hierarchic addressing of the nodes in an XML tree. XPath 2.0 is a superset of XPath 1.0, with the added capability to support a richer set of data types, and to take advantage of the type information that becomes available when documents are validated using XML Schema. A backwards compatibility mode is provided to ensure that nearly all XPath 1.0 expressions continue to deliver the same result with XPath 2.0; exceptions to this policy are noted in Section I (Backwards Compatibility with XPath 1.0)."
 }
 
+@misc{xpath20second,
+    author =    "Anders Berglund and Scott Boag and Donald D. Chamberlin and Mary F. Fern\'andez and Michael Kay and Jonathan Robie and J\'er\^ome Sim\'eon",
+    title =     "XML Path Language (XPath) 2.0 (Second Edition)",
+    howpublished =  "World Wide Web Consortium, Proposed Edited Recommendation PER-xpath20-20090421",
+    month =     apr,
+    year =      2009,
+    topic =     "xml[0.6] xpath2[1]",
+    uri =       "http://www.w3.org/TR/2009/PER-xpath20-20090421",
+    updates =   "xpath20",
+    abstract =  "XPath 2.0 is an expression language that allows the processing of values conforming to the data model defined in the XQuery 1.0 and XPath 2.0 Data Model (XDM). The data model provides a tree representation of XML documents as well as atomic values such as integers, strings, and booleans, and sequences that may contain both references to nodes in an XML document and atomic values. The result of an XPath expression may be a selection of nodes from the input documents, or an atomic value, or more generally, any sequence allowed by the data model. The name of the language derives from its most distinctive feature, the path expression, which provides a means of hierarchic addressing of the nodes in an XML tree. XPath 2.0 is a superset of XPath 1.0, with the added capability to support a richer set of data types, and to take advantage of the type information that becomes available when documents are validated using XML Schema. A backwards compatibility mode is provided to ensure that nearly all XPath 1.0 expressions continue to deliver the same result with XPath 2.0; exceptions to this policy are noted in Section I (Backwards Compatibility with XPath 1.0)."
+}
+
 @misc{xqxpparsing,
     author =    "Scott Boag",
     title =     "Building a Tokenizer for XPath or XQuery",
@@ -32330,6 +32412,18 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "This specification defines the syntax and semantics of XSLT 2.0, a language for transforming XML documents into other XML documents. XSLT 2.0 is a revised version of the XSLT 1.0 Recommendation published on 16 November 1999. The changes made in this document are designed to meet the requirements for XSLT 2.0 described in XSLT 2.0 Requirements. The way in which each requirement has been addressed is outlined in I Checklist of Requirements. A summary of the changes since XSLT 1.0 is included in Changes from XSLT 1.0. XSLT 2.0 is designed to be used in conjunction with XPath 2.0. XSLT shares the same data model as XPath 2.0, which is defined in the XPath 2.0 Data Model, and it uses the library of functions and operators defined in XPath 2.0 Functions and Operators. XSLT 2.0 also includes optional facilities to serialize the results of a transformation, by means of an interface to the serialization component described in XSLT and XQuery Serialization."
 }
 
+@misc{xslt20sec,
+    author =    "Michael Kay",
+    title =     "XSL Transformations (XSLT) Version 2.0",
+    howpublished =  "World Wide Web Consortium, Proposed Edited Recommendation PER-xslt20-20090421",
+    month =     apr,
+    year =      2009,
+    topic =     "xslt2[1]",
+    updates =   "xslt20",
+    uri =       "http://www.w3.org/TR/2009/PER-xslt20-20090421",
+    abstract =  "This specification defines the syntax and semantics of XSLT 2.0, a language for transforming XML documents into other XML documents. XSLT 2.0 is a revised version of the XSLT 1.0 Recommendation published on 16 November 1999. The changes made in this document are designed to meet the requirements for XSLT 2.0 described in XSLT 2.0 Requirements. The way in which each requirement has been addressed is outlined in I Checklist of Requirements. A summary of the changes since XSLT 1.0 is included in Changes from XSLT 1.0. XSLT 2.0 is designed to be used in conjunction with XPath 2.0. XSLT shares the same data model as XPath 2.0, which is defined in the XPath 2.0 Data Model, and it uses the library of functions and operators defined in XPath 2.0 Functions and Operators. XSLT 2.0 also includes optional facilities to serialize the results of a transformation, by means of an interface to the serialization component described in XSLT and XQuery Serialization."
+}
+
 @misc{xsltxqueryserialize,
     author =    "Scott Boag and Michael Kay and Joanne Tong and Norman Walsh and Henry Zongaro",
     title =     "XSLT 2.0 and XQuery 1.0 Serialization",
@@ -32341,6 +32435,18 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  {This document defines serialization of an instance of the data model as defined in "XQuery 1.0 and XPath 2.0 Data Model" into a sequence of octets. Serialization is designed to be a component of a expanded a host language such as "XSL Transformations (XSLT) Version 2.0" or "XQuery 1.0: An XML Query Language".}
 }
 
+@misc{xsltxqueryserialize2nd,
+    author =    "Scott Boag and Michael Kay and Joanne Tong and Norman Walsh and Henry Zongaro",
+    title =     "XSLT 2.0 and XQuery 1.0 Serialization (Second Edition)",
+    howpublished =  "World Wide Web Consortium, Proposed Edited Recommendation PER-xslt-xquery-serialization-20090421",
+    month =     apr,
+    year =      2009,
+    topic =     "xslt2[0.9] xquery[0.9]",
+    updates =   "xsltxqueryserialize",
+    uri =       "http://www.w3.org/TR/2009/PER-xslt-xquery-serialization-20090421",
+    abstract =  {This document defines serialization of an instance of the data model as defined in "XQuery 1.0 and XPath 2.0 Data Model" into a sequence of octets. Serialization is designed to be a component of a expanded a host language such as "XSL Transformations (XSLT) Version 2.0" or "XQuery 1.0: An XML Query Language".}
+}
+
 @misc{xqueryx,
     author =    "Jim Melton and Subramanian Muralidhar",
     title =     "XML Syntax for XQuery 1.0 (XQueryX)",
@@ -32349,6 +32455,18 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2007,
     topic =     "xqueryx[1] xquery[0.9]",
     uri =       "http://www.w3.org/TR/2007/REC-xqueryx-20070123",
+    abstract =  "This document presents an XML Syntax for XQuery 1.0."
+}
+
+@misc{xqueryx2nd,
+    author =    "Jim Melton and Subramanian Muralidhar",
+    title =     "XML Syntax for XQuery 1.0 (XQueryX) (Second Edition)",
+    howpublished =  "World Wide Web Consortium, Proposed Edited Recommendation PER-xqueryx-20090421",
+    month =     apr,
+    year =      2009,
+    topic =     "xqueryx[1] xquery[0.9]",
+    updates =   "xqueryx",
+    uri =       "http://www.w3.org/TR/2009/PER-xqueryx-20090421",
     abstract =  "This document presents an XML Syntax for XQuery 1.0."
 }
 
@@ -33049,10 +33167,10 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{widgetsapis,
     author =    "Arve Bersvendsen and Marcos Caceres",
     title =     "Widgets 1.0: APIs and Events",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-widgets-apis-20090205",
-    month =     feb,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-widgets-apis-20090423",
+    month =     apr,
     year =      2009,
-    uri =       "http://www.w3.org/TR/2009/WD-widgets-apis-20090205",
+    uri =       "http://www.w3.org/TR/2009/WD-widgets-apis-20090423",
     abstract =  "This specification defines a set of APIs and events for the Widgets 1.0 Family of Specifications that enable baseline functionality for widgets. The APIs and Events defined by this specification defines, amongst other things, the means to access the metadata declared in a widget's configuration document; receive events related to changes in the view state of a widget; determine the locale under which a widget is currently running; be notified of events relating to the widget being updated; invoke a widget to open a URL on the system's default browser; requests the user's attention in a device independent manner; and check if any additional APIs requested via the configuration document's feature element have successfully loaded."
 }
 
@@ -33113,12 +33231,12 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{css21,
     author =    "Bert Bos and Tantek \c{C}elik and Ian Hickson and H\r{a}kon Wium Lie",
     title =     "Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification",
-    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-CSS21-20070719",
-    month =     jul,
-    year =      2007,
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-CSS2-20090423",
+    month =     apr,
+    year =      2009,
     topic =     "css2[1]",
     updates =   "css2",
-    uri =       "http://www.w3.org/TR/2007/CR-CSS21-20070719",
+    uri =       "http://www.w3.org/TR/2009/CR-CSS2-20090423",
     abstract =  {This specification defines Cascading Style Sheets, level 2 revision 1 (CSS 2.1). CSS 2.1 is a style sheet language that allows authors and users to attach style (e.g., fonts and spacing) to structured documents (e.g., HTML documents and XML applications). By separating the presentation style of documents from the content of documents, CSS 2.1 simplifies Web authoring and site maintenance. CSS 2.1 builds on CSS2 which builds on CSS1. It supports media-specific style sheets so that authors may tailor the presentation of their documents to visual browsers, aural devices, printers, braille devices, handheld devices, etc. It also supports content positioning, table layout, features for internationalization and some properties related to user interface. CSS 2.1 corrects a few errors in CSS2 (the most important being a new definition of the height/width of absolutely positioned elements, more influence for HTML's "style" attribute and a new calculation of the 'clip' property), and adds a few highly requested features which have already been widely implemented. But most of all CSS 2.1 represents a "snapshot" of CSS usage: it consists of all CSS features that are implemented interoperably at the date of publication of the Recommendation. CSS 2.1 is derived from and is intended to replace CSS2. Some parts of CSS2 are unchanged in CSS 2.1, some parts have been altered, and some parts removed. The removed portions may be used in a future CSS3 specification. Future specs should refer to CSS 2.1 (unless they need features from CSS2 which have been dropped in CSS 2.1, and then they should only reference CSS2 for those features, or preferably reference such feature(s) in the respective CSS3 Module that includes those feature(s)).}
 }
 
@@ -33792,12 +33910,12 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{html5,
     author =    "Ian Hickson and David Hyatt",
     title =     "HTML 5 --- A Vocabulary and Associated APIs for HTML and XHTML",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-html5-20090212",
-    month =     feb,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-html5-20090423",
+    month =     apr,
     year =      2009,
     topic =     "html[1]",
     updates =   "html401",
-    uri =       "http://www.w3.org/TR/2009/WD-html5-20090212",
+    uri =       "http://www.w3.org/TR/2009/WD-html5-20090423",
     abstract =  "This specification defines the 5th major revision of the core language of the World Wide Web: the Hypertext Markup Language (HTML). In this version, new features are introduced to help Web application authors, new elements are introduced based on research into prevailing authoring practices, and special attention has been given to defining clear conformance criteria for user agents in an effort to improve interoperability."
 }
 
@@ -33813,14 +33931,58 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{html5diff,
-    author =    "Ian Hickson and David Hyatt",
+    author =    "Anne van Kesteren",
     title =     "HTML 5 differences from HTML 4",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-html5-diff-20090212",
-    month =     feb,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-html5-diff-20090423",
+    month =     apr,
     year =      2009,
     topic =     "html[0.9]",
-    uri =       "http://www.w3.org/TR/2009/WD-html5-diff-20090212",
+    uri =       "http://www.w3.org/TR/2009/WD-html5-diff-20090423",
     abstract =  {HTML 5 defines the fifth major revision of the core language of the World Wide Web, HTML. "HTML 5 differences from HTML 4" describes the differences between HTML 4 and HTML 5 and provides some of the rationale for the changes. This document may not provide accurate information as the HTML 5 specification is still actively in development. When in doubt, always check the HTML 5 specification itself.}
+}
+
+@misc{eventsource,
+    author =    "Ian Hickson",
+    title =     "Server-Sent Events",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-eventsource-20090423",
+    month =     apr,
+    year =      2009,
+    topic =     "html[0.9] http[0.8] dom[0.8]",
+    uri =       "http://www.w3.org/TR/2009/WD-eventsource-20090423",
+    abstract =  "This specification defines an API for opening an HTTP connection for receiving push notifications from a server in the form of DOM events. The API is designed such that it can be extended to work with other push notification schemes such as Push SMS."
+}
+
+@misc{websockets,
+    author =    "Ian Hickson",
+    title =     "The Web Sockets API",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-websockets-20090423",
+    month =     apr,
+    year =      2009,
+    topic =     "dom[0.9]",
+    uri =       "http://www.w3.org/TR/2009/WD-websockets-20090423",
+    abstract =  "This specification defines an API that enables Web pages to use the Web Sockets protocol for two-way communication with a remote host."
+}
+
+@misc{webstorage,
+    author =    "Ian Hickson",
+    title =     "Web Storage",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-webstorage-20090423",
+    month =     apr,
+    year =      2009,
+    topic =     "dom[0.9]",
+    uri =       "http://www.w3.org/TR/2009/WD-webstorage-20090423",
+    abstract =  "This specification defines two APIs for persistent data storage in Web clients: one for accessing key-value pair data and another for accessing structured data."
+}
+
+@misc{webworkers,
+    author =    "Ian Hickson",
+    title =     "Web Workers",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-workers-20090423",
+    month =     apr,
+    year =      2009,
+    topic =     "dom[0.9]",
+    uri =       "http://www.w3.org/TR/2009/WD-workers-20090423",
+    abstract =  "This specification defines an API that allows Web application authors to spawn background workers running scripts in parallel to their main page. This allows for thread-like operation with message-passing as the coordination mechanism."
 }
 
 @misc{offlinewebapps,
@@ -35011,11 +35173,12 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{mqueries,
     author =    "H\r{a}kon Wium Lie and Tantek \c{C}elik and Daniel Glazman and Anne van Kesteren",
     title =     "Media Queries",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-css3-mediaqueries-20081015",
-    month =     oct,
-    year =      2008,
-    uri =       "http://www.w3.org/TR/2008/WD-css3-mediaqueries-20081015",
-    abstract =  {HTML4 and CSS2 currently support media-dependent style sheets tailored for different media types. For example, a document may use sans-serif fonts when displayed on a screen and serif fonts when printed. "Screen" and "print" are two of media types that have been defined. Media Queries extend the functionality of media types by allowing more precise labeling of style sheets. A Media Query consists of a media type and one or more expressions to limit the scope of style sheets. Among the media features that can be used in media queries are "width", "height", and "color". By using Media Queries, presentations can be tailored to a specific range of output devices without changing the content itself.}
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-css3-mediaqueries-20090423",
+    month =     apr,
+    year =      2009,
+    topic =     "css[0.9]",
+    uri =       "http://www.w3.org/TR/2009/CR-css3-mediaqueries-20090423",
+    abstract =  {HTML4 and CSS2 currently support media-dependent style sheets tailored for different media types. For example, a document may use sans-serif fonts when displayed on a screen and serif fonts when printed. "screen" and "print" are two media types that have been defined. Media queries extend the functionality of media types by allowing more precise labeling of style sheets. A media query consists of a media type and zero or more expressions to limit the scope of style sheets. Among the media features that can be used in media queries are "width", "height", and "color". By using media queries, presentations can be tailored to a specific range of output devices without changing the content itself. }
 }
 
 @misc{xup,
