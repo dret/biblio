@@ -602,6 +602,24 @@
         <unicode>142</unicode>
     </map>
     <map>
+        <tex>\'N</tex>
+        <tex>\'{N}</tex>
+        <unicode>143</unicode>
+    </map>
+    <map>
+        <tex>\'n</tex>
+        <tex>\'{n}</tex>
+        <unicode>144</unicode>
+    </map>
+    <map>
+        <tex>\c{N}</tex>
+        <unicode>145</unicode>
+    </map>
+    <map>
+        <tex>\c{n}</tex>
+        <unicode>146</unicode>
+    </map>
+    <map>
         <tex>\v{N}</tex>
         <unicode>147</unicode>
     </map>
