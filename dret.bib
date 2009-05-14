@@ -2406,6 +2406,21 @@
     abstract =  {We propose two new tools to address the evolution of hyperlinked corpora. First, we define time graphs to extend the traditional notion of an evolving directed graph, capturing link creation as a point phenomenon in time. Second, we develop definitions and algorithms for time-dense community tracking, to crystallize the notion of community evolution. We develop these tools in the context of Blogspace, the space of weblogs (or blogs). Our study involves approximately 750 K links among 25 K blogs. We create a time graph on these blogs by an automatic analysis of their internal time stamps. We then study the evolution of connected component structure and microscopic community structure in this time graph. We show that Blogspace underwent a transition behavior around the end of 2001, and has been rapidly expanding, not just in metrics of scale but also in metrics of community structure and connectedness. By randomizing link destinations in Blogspace, but retaining sources and timestamps, we introduce a concept of randomized Blogspace. Herein, we observe similar evolution of a giant component, but no corresponding increase in community structure. Having demonstrated the formation of micro-communities over time, we then turn to the ongoing activity within active communities. We extend recent work of Kleinberg (2002) to discover dense periods of "bursty" intra-community link creation. Furthermore, we find that the blogs that give rise to these communities are significantly more enduring than an average blog.}
 }
 
+@article{liu01,
+    author =    "Mengchi Liu and Tok Wang Ling",
+    title =     "A Conceptual Model and Rule-Based Query Language for HTML",
+    journal =   wwwiis,
+    publisher = springer,
+    year =      2001,
+    month =     mar,
+    volume =    1,
+    number =    "1-2",
+    pages =     "49-77",
+    doi =       "10.1023/A:1012408428703",
+    uri =       "http://www.springerlink.com/content/g713234846787156/",
+    abstract =  "Most documents available over the Web conform to the HTML specification. Such documents are hierarchically structured in nature. The existing data models for the Web either fail to capture the hierarchical structure within the documents or can only provide a very low level representation of such hierarchical structure. How to represent and query HTML documents at a higher level is an important issue. In this paper, we first propose a novel conceptual model for HTML. This conceptual model has only a few simple constructs but is able to represent the complex hierarchical structure within HTML documents at a level that is close to human conceptualization/visualization of the documents. We also describe how to convert HTML documents based on this conceptual model. Using the conceptual model and conversion method, one can capture the essence (i.e., semistructure) of HTML documents in a natural and simple way. Based on this conceptual model, we then present a rule–based language to query HTML documents over the Internet. This language provides a simple but very powerful way to query both intra–document structures and inter–document structures and allows the query results to be restructured. Being rule–based, it naturally supports negation and recursion and therefore is more expressive than SQL–based languages. A logical semantics is also provided."
+}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 @string{wwwj =      "World Wide Web Journal" }
@@ -34465,7 +34480,8 @@ We also propose a new taxonomy for geographic search queries.}
     howpublished =  "World Wide Web Consortium, Note NOTE-acdi-20030901",
     month =     sep,
     year =      2003,
-    uri =       "http://www.w3.org/TR/2003/NOTE-acdi-20030901"
+    uri =       "http://www.w3.org/TR/2003/NOTE-acdi-20030901",
+    abstract =  "This document discusses the challenges that authors commonly face when building web content and applications that can be accessed by users via a wide variety of different devices with different capabilities. The document examines the effects on authors and the implications for authoring techniques that assist in the preparation of sites that can support a wide variety of devices. As a consequence, it also derives a set of requirements for such techniques. This document is one of a series produced by the Device Independence Working Group, part of the W3C Device Independence Activity. The DIWG activity statement can be seen at http://www.w3.org/2001/di/Activity. Other documents in the series address the implementation of solutions to the requirements raised here. For example, there are documents in the series reviewing current techniques that can be used to address these requirements and exploring how future versions of existing W3C specifications can provide solutions."
 }
 
 @misc{atdi,
@@ -34475,7 +34491,8 @@ We also propose a new taxonomy for geographic search queries.}
     howpublished =  "World Wide Web Consortium, Note NOTE-di-atdi-20040218",
     month =     feb,
     year =      2004,
-    uri =       "http://www.w3.org/TR/2004/NOTE-di-atdi-20040218"
+    uri =       "http://www.w3.org/TR/2004/NOTE-di-atdi-20040218",
+    abstract =  "The document provides a summary of several techniques and best practices that Web site authors and solution providers may employ when creating and delivering content to a diverse set of access mechanisms."
 }
 
 @misc{digloss,
@@ -34486,6 +34503,16 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2005,
     uri =       "http://www.w3.org/TR/2005/WD-di-gloss-20050118",
     abstract =  "This document is a glossary of terms used in other documents produced by the Device Independence Working Group (DIWG). Details of the entire series of documents can be found on the W3C Device Independence Activity home page."
+}
+
+@misc{ditest,
+    author =    {Dominique Haza\"el-Massieux and Carmelo Montanez},
+    title =     "Guidelines for writing device independent tests",
+    howpublished =  "World Wide Web Consortium, Note NOTE-di-testing-20090512",
+    month =     may,
+    year =      2009,
+    uri =       "http://www.w3.org/TR/2009/NOTE-di-testing-20090512",
+    abstract =  "As support for Web technologies grows, it is important that tests writers develop test suites that will work as well as possible across devices. This document offers guidance in the form of simple guidelines to follow to create device-independent tests."
 }
 
 @misc{ruby,
