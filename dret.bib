@@ -2702,6 +2702,20 @@
 
 @string{cacm =      "Communications of the ACM" }
 
+@article{bar09,
+    author =    "Adam Barth and Collin Jackson and John C. Mitchell",
+    title =     "Securing Frame Communication in Browsers",
+    journal =   cacm,
+    volume =    52,
+    number =    6,
+    pages =     "83-91",
+    year =      2009,
+    month =     jun,
+    doi =       "10.1145/1516046.1516066",
+    uri =       "http://cacm.acm.org/magazines/2009/6/28500-securing-frame-communication-in-browsers/fulltext",
+    abstract =  "Many Web sites embed third-party content in frames, relying on the browser's security policy to protect against malicious content. However, frames provide insufficient isolation in browsers that let framed content navigate other frames. We evaluate existing frame navigation policies and advocate a stricter policy, which we deploy in the open-source browsers. In addition to preventing undesirable interactions, the browser's strict isolation policy also affects communication between cooperating frames. We therefore analyze two techniques for interframe communication between isolated frames. The first method, fragment identifier messaging, initially provides confidentiality without authentication, which we repair using concepts from a well-known network protocol. The second method, postMessage, initially provides authentication, but we discover an attack that breaches confidentiality. We propose improvements in the postMessage API to provide confidentiality; our proposal has been standardized and adopted in browser implementations."
+}
+
 @article{sou08,
     author =    "Steve Souders",
     title =     "High-Performance Web Sites",
@@ -2790,7 +2804,7 @@
     topic =     "xml[0.8]",
     doi =       "10.1145/1364782.1364795",
     uri =       "http://dret.net/netdret/publications#wil08j",
-    uri =       "http://portal.acm.org/citation.cfm?doid=1364782.1364795",
+    uri =       "http://cacm.acm.org/magazines/2008/7/5363-xml-fever/fulltext",
     abstract =  "The Extensible Markup Language (XML), which just celebrated its 10th birthday, is one of the big success stories of the Web. Apart from basic Web technologies (URIs, HTTP, and HTML) and the advanced scripting driving the Web 2.0 wave, XML is by far the most successful and ubiquitous Web technology. With great power, however, comes great responsibility, so while XML's success is well earned as the first truly universal standard for structured data, it must now deal with numerous problems that have grown up around it. These are not entirely the fault of XML itself, but instead can be attributed to exaggerated claims and ideas of what XML is and what it can do."
 }
 
@@ -2806,7 +2820,7 @@
     topic =     "xml[0.8]",
     doi =       "10.1145/1400181.1400195",
     uri =       "http://dret.net/netdret/publications#wil08m",
-    uri =       "http://portal.acm.org/citation.cfm?doid=1400181.1400195",
+    uri =       "http://cacm.acm.org/magazines/2008/10/521-document-design-matters/fulltext",
     abstract =  {The classical approach to the data aspect of system design distinguishes conceptual, logical, and physical models. Models of each type or level are governed by metamodels that specify the kinds of concepts and constraints that can be used by each model; in most cases metamodels are accompanied by languages for describing models. For example, in database design, conceptual models usually conform to the Entity-Relationship (ER) metamodel (or some extension of it), the logical model maps ER models to relational tables and introduces normalization, and the physical model handles implementation issues such as possible denormalizations in the context of a particular database schema language. In this modeling methodology, there is a single hierarchy of models that rests on the assumption that one data model spans all modeling levels and applies to all the applications in some domain. The "one true model" approach assumes homogeneity, but this does not work very well for the Web. The Web as a constantly growing ecosystem of heterogeneous data and services has challenged a number of practices and theories about the design of IT landscapes. Instead of being governed by "one true model" used by everyone, the underlying assumption of top-down design, Web data and services evolve in an uncoordinated fashion. As a result, a fundamental challenge with Web data and services is matching and mapping local and often partial models that not only are different models of the same application domain, but also differ, implicitly or explicitly, in their associated metamodels.}
 }
 
@@ -17423,7 +17437,8 @@ We also propose a new taxonomy for geographic search queries.}
     title =     "Investigating Link Service Infrastructures",
     pages =     "151-160",
     topic =     "dls[0.9]",
-    uri =       "http://www.bib.ecs.soton.ac.uk/records/3422",
+    uri =       "http://eprints.ecs.soton.ac.uk/2694/",
+    doi =       "10.1145/336296.336325",
     abstract =  "Variations on the Distributed Link Service have now been deployed across a spectrum of hypermedia and multimedia projects. Although some implementations have utilised standard database technologies and hypermedia tools behind the scenes, most of the network services have been proprietary implementations. In this paper we discuss the motivation and requirements for a large scale, dynamic and open distributed link service using third party components, and explore the use of off-the-shelf services to provide the distributed infrastructure for link services. In particular we investigate HTTP, LDAP and Whois++ as candidate technologies."
 }
 
@@ -28898,91 +28913,91 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{owl2newfeatures,
     author =    "Christine Golbreich and Evan K. Wallace",
     title =     "OWL 2 Web Ontology Language --- New Features and Rationale",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-new-features-20090421",
-    month =     apr,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-new-features-20090611",
+    month =     jun,
     year =      2009,
     topic =     "owl[0.9]",
-    uri =       "http://www.w3.org/TR/2009/WD-owl2-new-features-20090421",
-    abstract =  "The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language for the Semantic Web with formally defined meaning. OWL 2 ontologies provide classes, properties, individuals, and data values and are stored as Semantic Web documents. OWL 2 ontologies can be used along with information written in RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF documents. The OWL 2 Document Overview describes the overall state of OWL 2, and should be read before other OWL 2 documents. This document is a simple introduction to the new features of the OWL 2 Web Ontology Language, including an explanation of its differences with respect to OWL 1. It also presents the requirements that have motivated the design of the main new features, and their rationale from a theoretical and implementation perspective."
+    uri =       "http://www.w3.org/TR/2009/WD-owl2-new-features-20090611",
+    abstract =  "The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language for the Semantic Web with formally defined meaning. OWL 2 ontologies provide classes, properties, individuals, and data values and are stored as Semantic Web documents. OWL 2 ontologies can be used along with information written in RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF documents. The OWL 2 Document Overview describes the overall state of OWL 2, and should be read before other OWL 2 documents. This document is a simple introduction to the new features of the OWL 2 Web Ontology Language, including an explanation of the differences between the initial version of OWL and OWL 2. The document also presents the requirements that have motivated the design of the main new features, and their rationale from a theoretical and implementation perspective."
 }
 
 @misc{owl2overview,
     author =    "{W3C OWL Working Group}",
     title =     "OWL 2 Web Ontology Language --- Document Overview",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-overview-20090421",
-    month =     apr,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-overview-20090611",
+    month =     jun,
     year =      2009,
     topic =     "owl[0.9]",
-    uri =       "http://www.w3.org/TR/2009/WD-owl2-overview-20090421",
+    uri =       "http://www.w3.org/TR/2009/WD-owl2-overview-20090611",
     abstract =  "The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language for the Semantic Web with formally defined meaning. OWL 2 ontologies provide classes, properties, individuals, and data values and are stored as Semantic Web documents. OWL 2 ontologies can be used along with information written in RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF documents. This document serves as an introduction to OWL 2 and the various other OWL 2 documents. It describes the syntaxes for OWL 2, the different kinds of semantics, the available profiles (sub-languages), and the relationship between OWL 1 and OWL 2."
 }
 
 @misc{owl2syntax,
     author =    "Boris Motik and Peter F. Patel-Schneider and Bijan Parsia",
     title =     "OWL 2 Web Ontology Language --- Structural Specification and Functional-Style Syntax",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-syntax-20090421",
-    month =     apr,
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-owl2-syntax-20090611",
+    month =     jun,
     year =      2009,
     topic =     "owl[1]",
     updates =   "owl11syntax",
-    uri =       "http://www.w3.org/TR/2009/WD-owl2-syntax-20090421",
+    uri =       "http://www.w3.org/TR/2009/CR-owl2-syntax-20090611",
     abstract =  "The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language for the Semantic Web with formally defined meaning. OWL 2 ontologies provide classes, properties, individuals, and data values and are stored as Semantic Web documents. OWL 2 ontologies can be used along with information written in RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF documents. The OWL 2 Document Overview describes the overall state of OWL 2, and should be read before other OWL 2 documents. The meaningful constructs provided by OWL 2 are defined in terms of their structure. As well, a functional-style syntax is defined for these constructs, with examples and informal descriptions. One can reason with OWL 2 ontologies under either the RDF-Based Semantics or the Direct Semantics. If certain restrictions on OWL 2 ontologies are satisfied and the ontology is in OWL 2 DL, reasoning under the Direct Semantics can be implemented using techniques well known in the literature."
 }
 
 @misc{owl2manchestersyntax,
     author =    "Matthew Horridge and Peter F. Patel-Schneider",
     title =     "OWL 2 Web Ontology Language --- Manchester Syntax",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-manchester-syntax-20090421",
-    month =     apr,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-manchester-syntax-20090611",
+    month =     jun,
     year =      2009,
     topic =     "owl[1]",
     updates =   "owl11syntax",
-    uri =       "http://www.w3.org/TR/2009/WD-owl2-manchester-syntax-20090421",
+    uri =       "http://www.w3.org/TR/2009/WD-owl2-manchester-syntax-20090611",
     abstract =  "The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language for the Semantic Web with formally defined meaning. OWL 2 ontologies provide classes, properties, individuals, and data values and are stored as Semantic Web documents. OWL 2 ontologies can be used along with information written in RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF documents. The OWL 2 Document Overview describes the overall state of OWL 2, and should be read before other OWL 2 documents. The Manchester syntax is a user-friendly compact syntax for OWL 2 ontologies; it is frame-based, as opposed to the axiom-based other syntaxes for OWL 2. The Manchester Syntax is used in the OWL 2 Primer, and this document provides the language used there. It is expected that tools will extend the Manchester Syntax for their own purposes, and tool builders may collaboratively extend the common language."
 }
 
 @misc{owl2semantics,
     author =    "Boris Motik and Peter F. Patel-Schneider and Bernardo Cuenca Grau",
     title =     "OWL 2 Web Ontology Language --- Direct Semantics",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-semantics-20090421",
-    month =     apr,
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-owl2-direct-semantics-20090611",
+    month =     jun,
     year =      2009,
     topic =     "owl[1]",
     updates =   "owl11semantics",
-    uri =       "http://www.w3.org/TR/2009/WD-owl2-semantics-20090421",
+    uri =       "http://www.w3.org/TR/2009/CR-owl2-direct-semantics-20090611",
     abstract =  "The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language for the Semantic Web with formally defined meaning. OWL 2 ontologies provide classes, properties, individuals, and data values and are stored as Semantic Web documents. OWL 2 ontologies can be used along with information written in RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF documents. The OWL 2 Document Overview describes the overall state of OWL 2, and should be read before other OWL 2 documents. This document provides the direct model-theoretic semantics for OWL 2, which is compatible with the description logic SROIQ. Furthermore, this document defines the most common inference problems for OWL 2."
 }
 
 @misc{owl2rdfbasedsemantics,
     author =    "Michael Schneider",
     title =     "OWL 2 Web Ontology Language --- RDF-Based Semantics",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-rdf-based-semantics-20090421",
-    month =     apr,
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-owl2-rdf-based-semantics-20090611",
+    month =     jun,
     year =      2009,
     topic =     "owl[0.9] rdf[0.9]",
-    uri =       "http://www.w3.org/TR/2009/WD-owl2-rdf-based-semantics-20090421",
+    uri =       "http://www.w3.org/TR/2009/CR-owl2-rdf-based-semantics-20090611",
     abstract =  "The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language for the Semantic Web with formally defined meaning. OWL 2 ontologies provide classes, properties, individuals, and data values and are stored as Semantic Web documents. OWL 2 ontologies can be used along with information written in RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF documents. The OWL 2 Document Overview describes the overall state of OWL 2, and should be read before other OWL 2 documents. This document defines the RDF-compatible model-theoretic semantics of OWL 2."
 }
 
 @misc{owl2test,
     author =    {Michael Smith and Ian Horrocks and Markus Kr\"otzsch},
     title =     "OWL 2 Web Ontology Language --- Conformance",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-test-20090421",
-    month =     apr,
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-owl2-conformance-20090611",
+    month =     jun,
     year =      2009,
     topic =     "owl[0.9]",
-    uri =       "http://www.w3.org/TR/2009/WD-owl2-test-20090421",
+    uri =       "http://www.w3.org/TR/2009/CR-owl2-conformance-20090611",
     abstract =  "The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language for the Semantic Web with formally defined meaning. OWL 2 ontologies provide classes, properties, individuals, and data values and are stored as Semantic Web documents. OWL 2 ontologies can be used along with information written in RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF documents. The OWL 2 Document Overview describes the overall state of OWL 2, and should be read before other OWL 2 documents. This document describes the conditions that OWL 2 tools must satisfy in order to be conformant with the language specification. It also presents a common format for OWL 2 test cases that both illustrate the features of the language and can be used for testing conformance."
 }
 
 @misc{owl2mappingtordf,
     author =    "Peter F. Patel-Schneider and Boris Motik",
     title =     "OWL 2 Web Ontology Language --- Mapping to RDF Graphs",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-mapping-to-rdf-20090421/",
-    month =     apr,
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-owl2-mapping-to-rdf-20090611",
+    month =     jun,
     year =      2009,
     topic =     "owl[0.9] rdf[0.9]",
-    uri =       "http://www.w3.org/TR/2009/WD-owl2-mapping-to-rdf-20090421",
+    uri =       "http://www.w3.org/TR/2009/CR-owl2-mapping-to-rdf-20090611",
     updates =   "owl11mappingtordf",
     abstract =  "The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language for the Semantic Web with formally defined meaning. OWL 2 ontologies provide classes, properties, individuals, and data values and are stored as Semantic Web documents. OWL 2 ontologies can be used along with information written in RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF documents. The OWL 2 Document Overview describes the overall state of OWL 2, and should be read before other OWL 2 documents. This document defines the mapping of OWL 2 ontologies into RDF graphs, and vice versa."
 }
@@ -28990,67 +29005,67 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{owl2xmlserialization,
     author =    "Boris Motik and Bijan Parsia and Peter Patel-Schneider",
     title =     "OWL 2 Web Ontology Language --- XML Serialization",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-xml-serialization-20090421",
-    month =     apr,
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-owl2-xml-serialization-20090611",
+    month =     jun,
     year =      2009,
     topic =     "owl[0.9] xml[0.8]",
-    uri =       "http://www.w3.org/TR/2009/WD-owl2-xml-serialization-20090421",
+    uri =       "http://www.w3.org/TR/2009/CR-owl2-xml-serialization-20090611",
     abstract =  "The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language for the Semantic Web with formally defined meaning. OWL 2 ontologies provide classes, properties, individuals, and data values and are stored as Semantic Web documents. OWL 2 ontologies can be used along with information written in RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF documents. The OWL 2 Document Overview describes the overall state of OWL 2, and should be read before other OWL 2 documents. This document specifies an XML serialization for OWL 2 that mirrors its structural specification. An XML schema defines this syntax and is available as a separate document, as well as being included here."
 }
 
 @misc{owl2profiles,
     author =    "Boris Motik and Bernardo Cuenca Grau and Ian Horrocks and Zhe Wu and Achille Fokoue and Carsten Lutz",
     title =     "OWL 2 Web Ontology Language --- Profiles",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-profiles-20090421",
-    month =     apr,
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-owl2-profiles-20090611",
+    month =     jun,
     year =      2009,
     topic =     "owl[0.9]",
-    uri =       "http://www.w3.org/TR/2009/WD-owl2-profiles-20090421",
+    uri =       "http://www.w3.org/TR/2009/CR-owl2-profiles-20090611",
     abstract =  "The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language for the Semantic Web with formally defined meaning. OWL 2 ontologies provide classes, properties, individuals, and data values and are stored as Semantic Web documents. OWL 2 ontologies can be used along with information written in RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF documents. The OWL 2 Document Overview describes the overall state of OWL 2, and should be read before other OWL 2 documents. This document provides a specification of several profiles of OWL 2 which can be more simply and/or efficiently implemented. In logic, profiles are often called fragments. Most profiles are defined by placing restrictions on the structure of OWL 2 ontologies. These restrictions have been specified by modifying the productions of the functional-style syntax."
 }
 
 @misc{owl2primer,
     author =    {Pascal Hitzler and Markus Kr\"otzsch and Bijan Parsia and Peter F. Patel-Schneider and Sebastian Rudolph},
     title =     "OWL 2 Web Ontology Language --- Primer",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-primer-20090421",
-    month =     apr,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-primer-20090611",
+    month =     jun,
     year =      2009,
     topic =     "owl[0.9]",
-    uri =       "http://www.w3.org/TR/2009/WD-owl2-primer-20090421",
+    uri =       "http://www.w3.org/TR/2009/WD-owl2-primer-20090611",
     abstract =  "The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language for the Semantic Web with formally defined meaning. OWL 2 ontologies provide classes, properties, individuals, and data values and are stored as Semantic Web documents. OWL 2 ontologies can be used along with information written in RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF documents. The OWL 2 Document Overview describes the overall state of OWL 2, and should be read before other OWL 2 documents. This primer provides an approachable introduction to OWL 2, including orientation for those coming from other disciplines, a running example showing how OWL 2 can be used to represent first simple information and then more complex information, how OWL 2 manages ontologies, and finally the distinctions between the various sublanguages of OWL 2."
 }
 
 @misc{owl2quickreference,
-    author =    "Jie Bao and Elisa F. Kendall and Deborah L. McGuinness",
+    author =    "Jie Bao and Elisa F. Kendall and Deborah L. McGuinness and Peter F. Patel-Schneider",
     title =     "OWL 2 Web Ontology Language --- Quick Reference Guide",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-quick-reference-20090421",
-    month =     apr,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-quick-reference-20090611",
+    month =     jun,
     year =      2009,
     topic =     "owl[0.9]",
-    uri =       "http://www.w3.org/TR/2009/WD-owl2-quick-reference-20090421",
-    abstract =  "The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language for the Semantic Web with formally defined meaning. OWL 2 ontologies provide classes, properties, individuals, and data values and are stored as Semantic Web documents. OWL 2 ontologies can be used along with information written in RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF documents. The OWL 2 Document Overview describes the overall state of OWL 2, and should be read before other OWL 2 documents. This document provides a quick reference guide to the OWL 2 language, similar to what was provided in the Language Synopsis section of the OWL Web Ontology Language Overview. Inspiration for this effort includes work by the ebiquity Research Group at the University of Maryland Baltimore County (UMBC) on earlier versions of a Reference Card for the Semantic Web. A draft printable version is available , but it is obsolete with respect to the current wiki version."
+    uri =       "http://www.w3.org/TR/2009/WD-owl2-quick-reference-20090611",
+    abstract =  "The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language for the Semantic Web with formally defined meaning. OWL 2 ontologies provide classes, properties, individuals, and data values and are stored as Semantic Web documents. OWL 2 ontologies can be used along with information written in RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF documents. The OWL 2 Document Overview describes the overall state of OWL 2, and should be read before other OWL 2 documents."
 }
 
 @misc{owl2drlinear,
     author =    "Bijan Parsia and Uli Sattler",
     title =     "OWL 2 Web Ontology Language --- Data Range Extension: Linear Equations",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-dr-linear-20090421",
-    month =     apr,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-owl2-dr-linear-20090611",
+    month =     jun,
     year =      2009,
     topic =     "owl[0.9]",
-    uri =       "http://www.w3.org/TR/2009/WD-owl2-dr-linear-20090421",
+    uri =       "http://www.w3.org/TR/2009/WD-owl2-dr-linear-20090611",
     abstract =  "The OWL 2 Web Ontology Language, informally OWL 2, is an ontology language for the Semantic Web with formally defined meaning. OWL 2 ontologies provide classes, properties, individuals, and data values and are stored as Semantic Web documents. OWL 2 ontologies can be used along with information written in RDF, and OWL 2 ontologies themselves are primarily exchanged as RDF documents. The OWL 2 Document Overview describes the overall state of OWL 2, and should be read before other OWL 2 documents. This document specifies a syntax and semantics for incorporating linear equations with rational coefficients solved in the reals in OWL 2."
 }
 
 @misc{rdftext,
     author =    "Jie Bao and Axel Polleres and Boris Motik",
-    title =     "rdf:text: A Datatype for Internationalized Text",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-rdf-text-20090421",
-    month =     apr,
+    title =     "rdf:PlainLiteral: A Datatype for RDF Plain Literals",
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-rdf-plain-literal-20090611",
+    month =     jun,
     year =      2009,
     topic =     "rif[0.8] owl[0.8]",
-    uri =       "http://www.w3.org/TR/2009/WD-rdf-text-20090421",
-    abstract =  "This document presents the specification for a primitive datatype representing internationalized text that is used in both the RIF and OWL 2 languages."
+    uri =       "http://www.w3.org/TR/2009/CR-rdf-plain-literal-20090611",
+    abstract =  "This document presents the specification of a primitive datatype for the plain literals of RDF."
 }
 
 @misc{wordnetrdf,
@@ -29186,22 +29201,22 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{skosreference,
     author =    "Alistair Miles and Sean Bechhofer",
     title =     "SKOS Simple Knowledge Organization System Reference",
-    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-skos-reference-20090317",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Proposed Recommendation PR-skos-reference-20090615",
+    month =     jun,
     year =      2009,
     topic =     "skos[1]",
-    uri =       "http://www.w3.org/TR/2009/CR-skos-reference-20090317",
+    uri =       "http://www.w3.org/TR/2009/PR-skos-reference-20090615",
     abstract =  "This document defines the Simple Knowledge Organization System (SKOS), a common data model for sharing and linking knowledge organization systems via the Web. Many knowledge organization systems, such as thesauri, taxonomies, classification schemes and subject heading systems, share a similar structure, and are used in similar applications. SKOS captures much of this similarity and makes it explicit, to enable data and technology sharing across diverse applications. The SKOS data model provides a standard, low-cost migration path for porting existing knowledge organization systems to the Semantic Web. SKOS also provides a light weight, intuitive language for developing and sharing new knowledge organization systems. It may be used on its own, or in combination with formal knowledge representation languages such as the Web Ontology language (OWL). This document is the normative specification of the Simple Knowledge Organization System. It is intended for readers who are involved in the design and implementation of information systems, and who already have a good understanding of Semantic Web technology, especially RDF and OWL."
 }
 
 @misc{skosprimer,
     author =    "Antoine Isaac and Ed Summers",
     title =     "SKOS Simple Knowledge Organization System Primer",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-skos-primer-20090317",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-skos-primer-20090615",
+    month =     jun,
     year =      2009,
     topic =     "skos[0.9]",
-    uri =       "http://www.w3.org/TR/2009/WD-skos-primer-20090317",
+    uri =       "http://www.w3.org/TR/2009/WD-skos-primer-20090615",
     abstract =  "SKOS --- Simple Knowledge Organization System --- provides a model for expressing the basic structure and content of concept schemes such as thesauri, classification schemes, subject heading lists, taxonomies, folksonomies, and other similar types of controlled vocabulary. As an application of the Resource Description Framework (RDF), SKOS allows concepts to be composed and published on the World Wide Web, linked with data on the Web and integrated into other concept schemes. This document is a user guide for those who would like to represent their concept scheme using SKOS. In basic SKOS, conceptual resources (concepts) are identified with URIs, labeled with strings in one or more natural languages, documented with various types of note, semantically related to each other in informal hierarchies and association networks, and aggregated into concept schemes. In advanced SKOS, conceptual resources can be mapped across concept schemes and grouped into labeled or ordered collections. Relationships between concept labels can be specified. Finally, the SKOS vocabulary itself can be extended to suit the needs of particular communities of practice or combined with other modeling vocabularies. This document is a companion to the SKOS Reference, which gives the normative reference on SKOS."
 }
 
@@ -35735,6 +35750,17 @@ We also propose a new taxonomy for geographic search queries.}
     topic =     "atompub[1] atom[0.9]",
     uri =       "https://datatracker.ietf.org/drafts/draft-ietf-atompub-protocol/",
     abstract =  "The Atom Publishing Protocol (APP) is an application-level protocol for publishing and editing Web resources. The protocol is based on HTTP transport of Atom-formatted representations. The Atom format is documented in the Atom Syndication Format."
+}
+
+@misc{bry09,
+    author =    "Anthony Bryan",
+    title =     "The Metalink Download Description Format",
+    howpublished =  "Internet Draft draft-bryan-metalink-05",
+    month =     jan,
+    year =      2009,
+    uri =       "https://datatracker.ietf.org/drafts/draft-bryan-metalink/",
+    abstract =  "This document specifies Metalink Documents, an XML-based download description format.
+"
 }
 
 @misc{ham09a,
