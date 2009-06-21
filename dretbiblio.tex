@@ -1,4 +1,4 @@
-\documentclass[10pt,a4paper]{article}
+\documentclass[10pt]{article}
 
 \def\doctitle{dret.net bibliography}
 \def\docauthor{Erik Wilde}
@@ -7,7 +7,7 @@
 \usepackage{fancyheadings}
 \usepackage{multicol}
 \usepackage[miniindex,biblabels,small,editors]{authorindex}
-\usepackage[a4paper={true},
+\usepackage[a4paper={false},letterpaper={true},
 colorlinks={true},
 linkcolor={blue},
 citecolor={blue},
@@ -16,13 +16,9 @@ pdfstartview={Fit},
 pdfview={Fit},
 bookmarks={false},
 pdftitle={Bibliography of \docauthor},
-pdfsubject={Bibliography of \docauthor},
 pdfauthor={\docauthor},
 pdfkeywords={Bibliography \docauthor}
 ]{hyperref}
-
-% page size for a4 layout
-\setpapersize{A4}
 
 % macros for fancyheadings package
 \pagestyle{fancy}
