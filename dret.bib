@@ -806,6 +806,18 @@
 
 @string{fmonday = "First Monday" }
 
+@article{sha09,
+    author =    "Rajiv Shah and Jay Kesan",
+    journal =   fmonday,
+    title =     "Running Code as Part of an Open Standards Policy",
+    year =      2009,
+    month =     jun,
+    volume =    14,
+    number =    6,
+    uri =       "http://www.uic.edu/htbin/cgiwrap/bin/ojs/index.php/fm/article/view/2414/2201",
+    abstract =  {Governments around the world are considering implementing or even mandating open standards policies. They believe these policies will provide economic, socio–political, and technical benefits. In this article, we analyze the failure of the Massachusetts’s open standards policy as applied to document formats. We argue it failed due to the lack of running code. Running code refers to multiple independent, interoperable implementations of an open standard. With running code, users have choice in their adoption of a software product and consequently economic and technological benefits. We urge governments to incorporate a “running code” requirement when adopting an open standards policy.}
+}
+
 @article{hub09,
     author =    "Bernardo A. Huberman and Daniel M. Romero and Fang Wu",
     journal =   fmonday,
@@ -15866,19 +15878,34 @@ We also propose a new taxonomy for geographic search queries.}
     title =     "Web Site Metadata",
     pages =     "300-314",
     uri =       "http://dret.net/netdret/publications#wil09f",
+    uri =       "http://www.springerlink.com/content/ap63560553261517/",
+    doi =       "10.1007/978-3-642-02818-2_25",
     abstract =  "Understanding the availability of site metadata on the Web is a foundation for any system or application that wants to work with the pages published by Web sites, and also wants to understand a Web site's structure. There is little information available about how much information Web sites make available about themselves, and this paper presents data addressing this question. Based on this analysis of available Web site metadata, it is easier for Web-oriented applications to be based on statistical analysis rather than assumptions when relying on Web site metadata. Our study of robots.txt files and sitemaps can be used as a starting point for Web-oriented applications wishing to work with Web site metadata."
+}
+
+@inproceedings{raz09,
+    crossref =  "icwe2009",
+    author =    "Amir R. Razavi and Alexandros Marinos and Sotiris Moschoyiannis and Paul J. Krause",
+    title =     "RESTful Transactions Supported by the Isolation Theorems",
+    pages =     "394-409",
+    uri =       "http://www.springerlink.com/content/t720m1222t81n12g/",
+    doi =       "10.1007/978-3-642-02818-2_32",
+    topics =    "RETRO[1] REST[0.8]",
+    abstract =  "With REST becoming the dominant architectural paradigm for web services in distributed systems, more and more use cases are applied to it, including use cases that require transactional guarantees. We propose a RESTful transaction model that satisfies both the constraints of transactions and those of the REST architectural style. We then apply the isolation theorems to prove the robustness of its properties on a formal level."
 }
 
 @proceedings{icwe2009,
     title =     icwe2009,
     booktitle = icwe2009,
-    editor =    "Martin Gaedke and Michael Grossniklaus",
+    editor =    "Martin Gaedke and Michael Grossniklaus and Oscar D\'\i{}az",
     year =      2009,
     month =     jun,
     publisher = springer,
     series =    LNCS,
     volume =    5648,
     address =   sanseb,
+    isbn =      "978-3-642-02817-5",
+    doi =       "10.1007/978-3-642-02818-2",
     uri =       "http://icwe2009.webengineering.org/",
     uri =       "http://www.informatik.uni-trier.de/~ley/db/conf/icwe/icwe2009.html"
 }
@@ -20363,6 +20390,15 @@ We also propose a new taxonomy for geographic search queries.}
     month =     oct,
     address =   cupertino,
     index =     "TrueType"
+}
+
+@manual{sbvr10,
+    title =     "Semantics of Business Vocabulary and Business Rules (SBVR) --- Version 1.0",
+    organization =  omg,
+    year =      2008,
+    month =     jan,
+    address =   framing,
+    topic =     "sbvr[1]"
 }
 
 @manual{corba,
@@ -25557,9 +25593,21 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2009,
     month =     apr,
     day =       3,
-    updates =   "ombm0915",
+    updates =   "ombm0910",
     uri =       "http://www.recovery.gov/?q=node/317",
     uri =       "http://www.whitehouse.gov/omb/asset.aspx?AssetId=1067"
+}
+
+@misc{ombm0921,
+    author =    "Peter R. Orszag",
+    title =     "Implementing Guidance for the Reports on Use of Funds Pursuant to the American Recovery and Reinvestment Act of 2009",
+    howpublished = "Office of Management and Budget Memorandum M-09-21",
+    address =   wash,
+    year =      2009,
+    month =     jun,
+    day =       22,
+    updates =   "ombm0915",
+    uri =       "http://www.whitehouse.gov/omb/asset.aspx?AssetId=1412"
 }
 
 @misc{ombm0919,
@@ -26083,6 +26131,16 @@ We also propose a new taxonomy for geographic search queries.}
     howpublished =  "ISO/IEC 9075",
     year =      1992,
     topic =     "sql[1]"
+}
+
+@misc{iso9075-1:2008,
+    author =    iso,
+    title =     "Information Technology --- Database Languages --- SQL --- Part 1: Framework (SQL/Framework)",
+    howpublished =  "ISO/IEC 9075-1:2008",
+    month =     jan,
+    year =      2009,
+    topic =     "sqlxml[1]",
+    abstract =  "ISO/IEC 9075 defines the SQL language. The scope of the SQL language is the definition of data structure and the operations on data stored in that structure. ISO/IEC 9075-1:2008, ISO/IEC 9075-2:2008 and ISO/IEC 9075-11:2008 encompass the minimum requirements of the language. Other parts define extensions. ISO/IEC 9075-1:2008 specifies the conceptual framework used in other parts of ISO/IEC 9075 to specify the grammar of SQL and the result of processing statements in that language by an SQL-implementation."
 }
 
 @misc{iso9075-14,
@@ -28374,55 +28432,55 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{wstransfer,
     author =    "Doug Davis and Ashok Malhotra and Katy Warr and Wu Chou",
     title =     "Web Services Transfer (WS-Transfer)",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-ws-transfer-20090317",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-ws-transfer-20090625",
+    month =     jun,
     year =      2009,
     topic =     "wstransfer[1]",
-    uri =       "http://www.w3.org/TR/2009/WD-ws-transfer-20090317",
+    uri =       "http://www.w3.org/TR/2009/WD-ws-transfer-20090625",
     abstract =  "This specification describes a general SOAP-based protocol for accessing XML representations of Web service-based resources."
 }
 
 @misc{wsresourcetransfer,
     author =    "Doug Davis and Ashok Malhotra and Katy Warr and Wu Chou",
     title =     "Web Services Resource Transfer (WS-RT)",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-ws-resource-transfer-20090317",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-ws-resource-transfer-20090625",
+    month =     jun,
     year =      2009,
     topic =     "wsrt[1] wstransfer[0.9]",
-    uri =       "http://www.w3.org/TR/2009/WD-ws-resource-transfer-20090317",
-    abstract =  "This specification defines extensions to WS-Transfer. While its initial design focuses on management resource access its use is not necessarily limited to those situations."
+    uri =       "http://www.w3.org/TR/2009/WD-ws-resource-transfer-20090625",
+    abstract =  "This specification defines extensions to WS-Transfer primarily to provide fragment-based access to resources."
 }
 
 @misc{wsmetadataexchange,
     author =    "Doug Davis and Ashok Malhotra and Katy Warr and Wu Chou",
     title =     "Web Services Metadata Exchange (WS-MetadataExchange)",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-ws-metadata-exchange-20090317",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-ws-metadata-exchange-20090625",
+    month =     jun,
     year =      2009,
     topic =     "wsmetadataexchange[1] wstransfer[0.9] wsaddressing[0.9]",
-    uri =       "http://www.w3.org/TR/2009/WD-ws-metadata-exchange-20090317",
-    abstract =  "This specification defines how metadata associated with a Web service endpoint can be represented as WS-Transfer resources, how metadata can be embedded in WS-Addressing, WS-Addressing 1.0 endpoint references, and how metadata could be retrieved from a Web service endpoint."
+    uri =       "http://www.w3.org/TR/2009/WD-ws-metadata-exchange-20090625",
+    abstract =  "This specification defines how metadata associated with a Web service endpoint can be represented as WS-Transfer resources, how metadata can be embedded in WS-Addressing endpoint references, and how metadata could be retrieved from a Web service endpoint."
 }
 
 @misc{wseventing,
     author =    "Doug Davis and Ashok Malhotra and Katy Warr and Wu Chou",
     title =     "Web Services Eventing (WS-Eventing)",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-ws-eventing-20090317",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-ws-eventing-20090625",
+    month =     jun,
     year =      2009,
     topic =     "wseventing[1]",
-    uri =       "http://www.w3.org/TR/2009/WD-ws-eventing-20090317",
+    uri =       "http://www.w3.org/TR/2009/WD-ws-eventing-20090625",
     abstract =  "This specification describes a protocol that allows Web services to subscribe to or accept subscriptions for event notification messages."
 }
 
 @misc{wsenumeration,
     author =    "Doug Davis and Ashok Malhotra and Katy Warr and Wu Chou",
     title =     "Web Services Enumeration (WS-Enumeration)",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-ws-enumeration-20090317",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-ws-enumeration-20090625 ",
+    month =     jun,
     year =      2009,
     topic =     "wstransfer[1]",
-    uri =       "http://www.w3.org/TR/2009/WD-ws-enumeration-20090317",
+    uri =       "http://www.w3.org/TR/2009/WD-ws-enumeration-20090625",
     abstract =  "This specification describes a general SOAP-based protocol for enumerating a sequence of XML elements that is suitable for traversing logs, message queues, or other linear information models."
 }
 
@@ -33391,11 +33449,11 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{widgets10digsig,
     author =    "Frederick Hirsch and Marcos C\'aceres and Mark Priestley",
     title =     "Widgets 1.0: Digital Signature",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-widgets-digsig-20090430",
-    month =     apr,
+    howpublished =  "World Wide Web Consortium, Working Draft CR-widgets-digsig-20090625",
+    month =     jun,
     year =      2009,
     topic =     "xmldsig[0.9]",
-    uri =       "http://www.w3.org/TR/2009/WD-widgets-digsig-20090430",
+    uri =       "http://www.w3.org/TR/2009/CR-widgets-digsig-20090625",
     abstract =  "This document defines a profile of the XML Signature Syntax and Processing 1.1 specification to allow a widget package to be digitally signed. Widget authors and distributors can digitally sign widgets as a mechanism to ensure continuity of authorship and distributorship. Prior to instantiation, a user agent can use the digital signature to verify the integrity of the widget package and to confirm the signing key(s). This document specifies conformance requirements on both widget packages and user agents."
 }
 
@@ -34802,13 +34860,13 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{mobileok10,
-    author =    "Phil Archer and Jo Rabin",
+    author =    "Jo Rabin and Phil Archer",
     title =     "W3C mobileOK Scheme 1.0",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-mobileOK-20081117",
-    month =     nov,
-    year =      2008,
+    howpublished =  "World Wide Web Consortium, Note NOTE-mobileOK-20090625",
+    month =     jun,
+    year =      2009,
     topic =     "mobileok[0.9]",
-    uri =       "http://www.w3.org/TR/2008/WD-mobileOK-20081117",
+    uri =       "http://www.w3.org/TR/2009/NOTE-mobileOK-20090625",
     abstract =  "The mobileOK scheme allows content providers to promote their content as being suitable for use on very basic mobile devices. This document provides an overview of the scheme and references the documentation that composes it."
 }
 
@@ -36485,6 +36543,17 @@ We also propose a new taxonomy for geographic search queries.}
     topic =     "jsf[1]",
     uri =       "http://www.jcp.org/en/jsr/detail?id=127",
     abstract =  "This specification defines an architecture and APIs which simplify the creation and maintenance of Java Server application GUIs."
+}
+
+@misc{jsr168,
+    author =    "Martin Scott Nicklous",
+    title =     "Portlet Specification",
+    howpublished =  "Java Specification Request (JSR) 168",
+    month =     oct,
+    year =      2003,
+    topic =     "portlet[1]",
+    uri =       "http://www.jcp.org/en/jsr/detail?id=168",
+    abstract =  "To enable interoperability between Portlets and Portals, this specification will define a set of APIs for Portal computing addressing the areas of aggregation, personalization, presentation and security."
 }
 
 @misc{jsr170,
