@@ -168,6 +168,7 @@
 @string{dagstuhl  = "Dagstuhl, Germany" }
 @string{dallas    = "Dallas, Texas" }
 @string{darmstadt = "Darmstadt, Germany" }
+@string{delft =     "Delft, Netherlands" }
 @string{denver =    "Denver, Colorado" }
 @string{desna =     "Desn\'a --- \v{C}ern\'a \v{R}\'{\i}\v{c}ka, Czech Republic" }
 @string{dord =      "Dordrecht, Netherlands" }
@@ -412,6 +413,7 @@
 @string{tei =       "{Text Encoding Initiative}" }
 @string{tik =       {{Computer Engineering and Networks Laboratory, ETH Z\"urich}} }
 @string{tub =       {{Technische Universit\"at Berlin}} }
+@string{tud-serg =  {{Delft University of Technology, Software Engineering Research Group}} }
 @string{tum =       {{Technische Universit\"at M\"unchen}} }
 @string{ubc =       "{University of British Columbia}" }
 @string{ucb =       "{University of California, Berkeley}" }
@@ -20643,6 +20645,17 @@ We also propose a new taxonomy for geographic search queries.}
 % technical reports
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@techreport{boz07,
+    author =    "Engin Bozdag and Ali Mesbah and Arie van Deursen",
+    title =     "A Comparison of Push and Pull Techniques for AJAX",
+    howpublished = "TUD-SERG-2007-016a",
+    institution = tud-serg,
+    address=    delft,
+    year =      2007,
+    uri =       "http://swerl.tudelft.nl/twiki/pub/Main/TechnicalReports/TUD-SERG-2007-016.pdf",
+    abstract =  "AJAX applications are designed to have high user interactivity and low user-perceived latency. Real-time dynamic web data such as news headlines, stock tickers, and auction updates need to be propagated to the users as soon as possible. However, AJAX still suffers from the limitations of the Web’s request/response architecture which prevents servers from pushing real-time dynamic web data. Such applications usually use a pull style to obtain the latest updates, where the client actively requests the changes based on a predefined interval. It is possible to overcome this limitation by adopting a push style of interaction where the server broadcasts data when a change occurs on the server side. Both these options have their own trade-offs. This paper explores the fundamental limits of browser-based applications and analyzes push solutions for AJAX technology. It also shows the results of an empirical study comparing push and pull."
+}
+
 @techreport{mot08b,
     author =    "Luca Mottola and Gian Pietro Picco",
     title =     "Programming Wireless Sensor Networks: Fundamental Concepts and State of the Art",
@@ -28514,6 +28527,28 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "This specification defines the interchange format for Service Modeling Language, Version 1.1 (SML) models. This format identifies the model being interchanged, distinguishes between model definition documents and model instance documents, and defines the binding of rule documents with other documents in the interchange model."
 }
 
+@misc{smlxlink,
+    author =    "Pratul Dublish and Len Charest",
+    title =     "The SML XLink Reference Scheme",
+    howpublished =  "World Wide Web Consortium, Note NOTE-sml-xlink-ref-scheme-20090630",
+    month =     jun,
+    year =      2009,
+    topic =     "sml[0.9] xlink[0.8]",
+    uri =       "http://www.w3.org/TR/2009/NOTE-sml-xlink-ref-scheme-20090630",
+    abstract =  "The Service Modeling Language (SML) specification extends the Extensible Markup Language (XML) and XML Schema with a mechanism for incorporating into XML documents references to other documents or document fragments. This technical note addresses the construction of an SML reference scheme based on the XML Linking Language (XLink)."
+}
+
+@misc{smlepr,
+    author =    "Kirk Wilson",
+    title =     "Framework for SML EPR-Based Reference Schemes",
+    howpublished =  "World Wide Web Consortium, Note NOTE-sml-epr-ref-scheme-20090630",
+    month =     jun,
+    year =      2009,
+    topic =     "sml[0.9] wsaddr[0.8]",
+    uri =       "http://www.w3.org/TR/2009/NOTE-sml-epr-ref-scheme-20090630",
+    abstract =  "The Service Modeling Language (SML) specification extends the Extensible Markup Language (XML) and XML Schema with a mechanism for incorporating into XML documents references to other documents or document fragments. This technical note addresses the construction of SML reference schemes for document or document fragment references that employ WS-Addressing (WS-A) endpoint references (EPRs)."
+}
+
 @misc{wsareq,
     author =    "Daniel Austin and Abbie Barbir and Christopher Ferris and Sharad Garg",
     title =     "Web Services Architecture Requirements",
@@ -28637,6 +28672,7 @@ We also propose a new taxonomy for geographic search queries.}
     month =     may,
     year =      2006,
     uri =       "http://www.w3.org/TR/2006/REC-ws-addr-core-20060509",
+    topic =      "wsaddr[1]",
     abstract =  "Web Services Addressing provides transport-neutral mechanisms to address Web services and messages. Web Services Addressing 1.0 --- Core (this document) defines a set of abstract properties and an XML Infoset representation thereof to reference Web services and to facilitate end-to-end addressing of endpoints in messages. This specification enables messaging systems to support message transmission through networks that include processing nodes such as endpoint managers, firewalls, and gateways in a transport-neutral manner."
 }
 
@@ -28647,7 +28683,7 @@ We also propose a new taxonomy for geographic search queries.}
     month =     may,
     year =      2006,
     uri =       "http://www.w3.org/TR/2006/REC-ws-addr-soap-20060509",
-    topic =      "soap[0.8]",
+    topic =      "soap[0.8] wsaddr[1]",
     abstract =  "Web Services Addressing provides transport-neutral mechanisms to address Web services and messages. Web Services Addressing 1.0 --- SOAP Binding (this document) defines the binding of the abstract properties defined in Web Services Addressing 1.0 --- Core to SOAP Messages."
 }
 
@@ -33813,11 +33849,11 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{css3multi,
     author =    "H\r{a}kon Wium Lie",
     title =     "CSS3 Module: Multi-Column Layout",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-css3-multicol-20070606",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-css3-multicol-20090630",
     month =     jun,
-    year =      2007,
+    year =      2009,
     topic =     "css3[1]",
-    uri =       "http://www.w3.org/TR/2007/WD-css3-multicol-20070606",
+    uri =       "http://www.w3.org/TR/2009/WD-css3-multicol-20090630",
     abstract =  "This module describes multi-column layout in CSS. It builds on the CSS3 Box model module and adds functionality to flow the content of an element into multiple columns."
 }
 
