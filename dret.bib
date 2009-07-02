@@ -41584,6 +41584,17 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "The Session Initiation Protocol (SIP) is often used to initiate connections to applications such as voicemail or interactive voice recognition systems. This specification describes a convention for forming SIP service URIs that request particular services based on redirecting targets from such applications."
 }
 
+@misc{rfc4467,
+    author =    "Mark R. Crispin",
+    title =     "Internet Message Access Protocol (IMAP) --- URLAUTH Extension",
+    howpublished =  "Internet RFC 4467",
+    month =     may,
+    year =      2006,
+    topic =     "imap[0.9]",
+    updates =   "rfc3501",
+    abstract =  {This document describes the URLAUTH extension to the Internet Message Access Protocol (IMAP) (RFC 3501) and the IMAP URL Scheme (IMAPURL) (RFC 2192). This extension provides a means by which an IMAP client can use URLs carrying authorization to access limited message data on the IMAP server. An IMAP server that supports this extension indicates this with a capability name of "URLAUTH".}
+}
+
 @misc{rfc4501,
     author =    "Simon Josefsson",
     title =     "Domain Name System Uniform Resource Identifiers",
@@ -41746,6 +41757,17 @@ We also propose a new taxonomy for geographic search queries.}
     topic =     "atompub[1] atom[0.9]",
     updates =   "gre06",
     abstract =  "The Atom Publishing Protocol (AtomPub) is an application-level protocol for publishing and editing Web resources. The protocol is based on HTTP transfer of Atom-formatted representations. The Atom format is documented in the Atom Syndication Format."
+}
+
+@misc{rfc5092,
+    author =    "Chris Newman and Alexey Melnikov",
+    title =     "IMAP URL Scheme",
+    howpublished =  "Internet RFC 5092",
+    month =     nov,
+    year =      2007,
+    topic =     "imap[0.9] uri[0.8]",
+    updates =   "rfc4467 rfc2192",
+    abstract =  "IMAP (RFC 3501) is a rich protocol for accessing remote message stores. It provides an ideal mechanism for accessing public mailing list archives as well as private and shared message stores. This document defines a URL scheme for referencing objects on an IMAP server. This document obsoletes RFC 2192. It also updates RFC 4467."
 }
 
 @misc{rfc5139,
@@ -41988,6 +42010,17 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2009,
     topic =     "rfc[1]",
     abstract =  "This RFC marks the 40th anniversary of the RFC document series."
+}
+
+@misc{rfc5593,
+    author =   "Neil L. Cook",
+    title =     "Internet Message Access Protocol (IMAP) --- URL Access Identifier Extension",
+    howpublished =  "Internet RFC 5593",
+    month =     jun,
+    year =      2009,
+    topic =     "imap[0.9] uri[0.8]",
+    updates =   "rfc5092",
+    abstract =  "The existing IMAP URL specification (RFC 5092) lists several <access> identifiers and <access> identifier prefixes that can be used to restrict access to URLAUTH-generated URLs. However, these identifiers do not provide facilities for new services such as streaming. This document proposes a set of new <access> identifiers as well as an IANA mechanism to register new <access> identifiers for future applications. This document updates RFC 5092."
 }
 
 %%% NEED TO PICK UP AT RFC 4685 !!!!!!!!!!!!!!!!!!
