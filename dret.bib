@@ -12393,6 +12393,7 @@ We also propose a new taxonomy for geographic search queries.}
 @proceedings{www2009,
     title =     www2009,
     booktitle = www2009,
+    editor =    {Juan Quemada and Gonzalo Le\'on and Yo\"elle S. Maarek and Wolfgang Nejdl},
     address =   madrid,
     publisher = acm,
     key =       www2009,
@@ -12422,6 +12423,28 @@ We also propose a new taxonomy for geographic search queries.}
     month =     apr,
     year =      2009,
     uri =       "http://www.integror.net/mem2009/"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@string{ldow2009 =     "Proceedings of the 2nd Workshop on Linked Data on the Web" }
+
+@inproceedings{vol09,
+    crossref =  "ldow2009",
+    author =    "Julius Volz and Christian Bizer and Martin Gaedke and Georgi Kobilarov",
+    title =     "Silk --- A Link Discovery Framework for the Web of Data",
+    uri =       "http://events.linkeddata.org/ldow2009/papers/ldow2009_paper13.pdf",
+    abstract =  "The Web of Data is built upon two simple ideas: Employ the RDF data model to publish structured data on the Web and to set explicit RDF links between entities within different data sources. This paper presents the Silk Link Discovery Framework, a tool for finding relationships between entities within different data sources. Data publishers can use Silk to set RDF links from their data sources to other data sources on the Web. Silk features a declarative language for specifying which types of RDF links should be discovered between data sources as well as which conditions entities must fulfill in order to be interlinked. Link conditions may be based on various similarity metrics and can take the graph around entities into account, which is addressed using a path-based selector language. Silk accesses data sources over the SPARQL protocol and can thus be used without having to replicate datasets locally."
+}
+
+@proceedings{ldow2009,
+    title =     ldow2009,
+    booktitle = ldow2009,
+    address =   madrid,
+    key =       ldow2009,
+    month =     apr,
+    year =      2009,
+    uri =       "http://events.linkeddata.org/ldow2009/"
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -15010,6 +15033,31 @@ We also propose a new taxonomy for geographic search queries.}
     index =     "ICSE 2002",
     isbn =      "0-7695-0493-0",
     uri =       "http://www.informatik.uni-trier.de/~ley/db/conf/icse/icse2002.html"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@string{icse2004 = "Proceedings of the 26th International Conference on Software Engineering" }
+
+@inproceedings{kha04,
+    crossref =  "icse2004",
+    author =    "Rohit Khare and Richard N. Taylor",
+    title =     "Extending the Representational State Transfer (REST) Architectural Style for Decentralized Systems",
+    doi =       "10.1109/ICSE.2004.1317465",
+    uri =       "http://www.ics.uci.edu/~rohit/ARRESTED-ICSE.pdf",
+    abstract =  "Because it takes time and trust to establish agreement, traditional consensus-based architectural styles cannot safely accommodate resources that change faster than it takes to transmit notification of that change, nor resources that must be shared across independent agencies. The alternative is decentralization: permitting independent agencies to make their own decisions. Our definition contrasts with that of distribution, in which several agents share control of a single decision. Ultimately, the physical limits of network latency and the social limits of independent agency call for solutions that can accommodate multiple values for the same variable. Our approach to this challenge is architectural: proposing constraints on the configuration of components and connectors to induce particular desired properties of the whole application. Specifically, we present, implement, and evaluate variations of the World Wide Web's Representational State Transfer (REST) architectural style that support distributed and decentralized systems."
+}
+
+@proceedings{icse2004,
+    title =     icse2004,
+    booktitle = icse2004,
+    year =      2004,
+    month =     may,
+    publisher = acm,
+    address =   edinburgh,
+    index =     "ICSE 2004",
+    isbn =      "0-7695-2163-0",
+    uri =       "http://www.informatik.uni-trier.de/~ley/db/conf/icse/icse2004.html"
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -31196,6 +31244,17 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "The Resource Description Framework RDF allows users to describe both Web documents and concepts from the real world --- people, organisations, topics, things --- in a computer-processable way. Publishing such descriptions on the Web creates the Semantic Web. URIs (Uniform Resource Identifiers) are very important, providing both the core of the framework itself and the link between RDF and the Web. This document presents guidelines for their effective use. It discusses two strategies, called 303 URIs and hash URIs. It gives pointers to several Web sites that use these solutions, and briefly discusses why several other proposals have problems."
 }
 
+@misc{urispace,
+    author =    "Mark Nottingham",
+    title =     "URISpace 1.0",
+    howpublished =  "World Wide Web Consortium, Note NOTE-urispace-20010215",
+    month =     feb,
+    year =      2001,
+    topic =     "uri[0.9]",
+    uri =       "http://www.w3.org/TR/2001/NOTE-urispace-20010215",
+    abstract =  "URISpace provides a flexible mechanism for assigning metadata to a group of resources, based on the namespace described by their URIs."
+}
+
 @misc{skosucr,
     author =    "Antoine Isaac and Jon Phipps and Daniel Rubin",
     title =     "SKOS Use Cases and Requirements",
@@ -36008,12 +36067,12 @@ We also propose a new taxonomy for geographic search queries.}
 
 @misc{not09a,
     author =    "Mark Nottingham and Eran Hammer-Lahav",
-    title =     "Host Metadata for the Web",
-    howpublished =  "Internet Draft draft-nottingham-site-meta-01",
-    month =     feb,
+    title =     "Defining Well-Known URIs",
+    howpublished =  "Internet Draft draft-nottingham-site-meta-02",
+    month =     jul,
     year =      2009,
     uri =       "https://datatracker.ietf.org/drafts/draft-nottingham-site-meta/",
-    abstract =  "This memo describes a method for locating host-specific metadata for the Web."
+    abstract =  {This memo defines a path prefix for "well-known locations" in URIs.}
 }
 
 @misc{sne09c,
@@ -36041,8 +36100,8 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{not08,
     author =    "Mark Nottingham",
     title =     "Link Relations and HTTP Header Linking",
-    howpublished =  "Internet Draft draft-nottingham-http-link-header-05",
-    month =     jun,
+    howpublished =  "Internet Draft draft-nottingham-http-link-header-06",
+    month =     jul,
     year =      2009,
     topic =     "http[0.9] atompub[0.8] atom[0.8] html[0.8]",
     uri =       "https://datatracker.ietf.org/drafts/draft-nottingham-http-link-header/",
