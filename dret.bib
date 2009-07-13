@@ -2744,6 +2744,20 @@
 
 @string{cacm =      "Communications of the ACM" }
 
+@article{fos08,
+    author =    "Ian Foster and Savas Parastatidis and Paul Watson and Mark McKeown",
+    title =     "How Do I Model State? Let Me Count the Ways",
+    journal =   cacm,
+    volume =    51,
+    number =    9,
+    pages =     "34-41",
+    year =      2008,
+    month =     sep,
+    doi =       "10.1145/1378727.1378739",
+    uri =       "http://cacm.acm.org/magazines/2008/9/5323-how-do-i-model-state/fulltext",
+    abstract =  "Many Web sites embed third-party content in frames, relying on the browser's security policy to protect against malicious content. However, frames provide insufficient isolation in browsers that let framed content navigate other frames. We evaluate existing frame navigation policies and advocate a stricter policy, which we deploy in the open-source browsers. In addition to preventing undesirable interactions, the browser's strict isolation policy also affects communication between cooperating frames. We therefore analyze two techniques for interframe communication between isolated frames. The first method, fragment identifier messaging, initially provides confidentiality without authentication, which we repair using concepts from a well-known network protocol. The second method, postMessage, initially provides authentication, but we discover an attack that breaches confidentiality. We propose improvements in the postMessage API to provide confidentiality; our proposal has been standardized and adopted in browser implementations."
+}
+
 @article{bar09,
     author =    "Adam Barth and Collin Jackson and John C. Mitchell",
     title =     "Securing Frame Communication in Browsers",
@@ -10051,6 +10065,31 @@
     isbn =      "1581133618",
     index =     "PODS 2001",
     uri =       "http://www.informatik.uni-trier.de/~ley/db/conf/pods/pods2001.html"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@string{pods02 =  "Proceedings of the Twenty-first ACM SIGACT-SIGMOD-SIGART Symposium on Principles of Database Systems" }
+
+@inproceedings{bab02,
+    crossref =  "pods02",
+    author =    "Brian Babcock and Shivnath Babu and Mayur Datar and Rajeev Motwani and Jennifer Widom",
+    title =     "Models and Issues in Data Stream Systems",
+    pages =     "1-16",
+    doi =       "10.1145/543613.543615",
+    abstract =  "In this overview paper we motivate the need for and research issues arising from a new model of data processing. In this model, data does not take the form of persistent relations, but rather arrives in multiple, continuous, rapid, time-varying data streams. In addition to reviewing past work relevant to data stream systems and current projects in the area, the paper explores topics in stream query languages, new requirements and challenges in query processing, and algorithmic issues."
+}
+
+@proceedings{pods02,
+    title =     pods02,
+    booktitle = pods02,
+    editor =    "Lucian Popa",
+    publisher = acm,
+    address =   madison,
+    month =     jun,
+    year =      2002,
+    index =     "PODS 2002",
+    uri =       "http://www.informatik.uni-trier.de/~ley/db/conf/pods/pods02.html"
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
