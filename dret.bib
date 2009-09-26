@@ -21116,8 +21116,37 @@ We also propose a new taxonomy for geographic search queries.}
     day =       17,
     number =    "HPL-2005-83",
     topic =     "soap[0.8] java[0.8]",
-    uri =       "http://www.hpl.hp.com/techreports/2005/HPL-2005-83.pdf",
+    uri =       "http://www.hpl.hp.com/techreports/2005/HPL-2005-83.html",
     abstract =  "This paper examines the current SOAP APIs in Java, and in particular the Java API for XML-based RPC, commonly known as JAX-RPC, which is effectively the standard API for SOAP on the Java platform. We claim that JAX-RPC, and indeed any SOAP API that relies upon a perfect two-way mapping between XML data and native language objects is fundamentally flawed. Furthermore, we claim that the attempt JAX-RPC makes to extend the remote method invocation metaphor to SOAP services is counterproductive. We base our argument both upon experience with JAX-RPC and SOAP, and upon experience of previous distributed computing technologies. We argue that JAX-RPC is not capable of delivering on the SOAP design goals, but conclude by suggesting an alternate system, Alpine, which is free from many known flaws of existing systems, and should prove better able to deliver upon the promise of SOAP."
+}
+
+@techreport{car03b,
+    author =    "Jeremy J. Carroll and Patrick Stickler",
+    title =     "RDF Triples in XML",
+    institution = hplabs,
+    address =   bristol,
+    year =      2003,
+    month =     feb,
+    day =       11,
+    number =    "HPL-2003-268",
+    topic =     "trix[1] rdf[0.9]",
+    uri =       "http://www.hpl.hp.com/techreports/2003/HPL-2003-268.html",
+    abstract =  "Many approaches to writing RDF in XML have been proposed. The revised standard RDF/XML still has many known problems. It is not intrinsically difficult to have a clear serialization of RDF in XML, and we present a simple solution. We add the ability to name graphs, noting that in practice this is already widely used. We use XSLT as a general syntactic extensibility mechanism to provide human friendly macros for our syntax."
+}
+
+@techreport{car04c,
+    author =    "Jeremy J. Carroll and Patrick Stickler",
+    title =     "TriX: RDF Triples in XML",
+    institution = hplabs,
+    address =   bristol,
+    year =      2004,
+    month =     may,
+    day =       13,
+    number =    "HPL-2004-56",
+    topic =     "trix[1] rdf[0.9]",
+    updates =   "car03b",
+    uri =       "http://www.hpl.hp.com/techreports/2004/HPL-2004-56.html",
+    abstract =  "Many approaches to writing RDF in XML have been proposed. The revised standard RDF/XML still has many known problems. It is not intrinsically difficult to have a clear serialization of RDF in XML, and we present a simple solution. We add the ability to name graphs, noting that in practice this is already widely used. We use XSLT as a general syntactic extensibility mechanism to provide human friendly macros for our syntax."
 }
 
 @techreport{mar04e,
@@ -28872,55 +28901,55 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{wstransfer,
     author =    "Doug Davis and Ashok Malhotra and Katy Warr and Wu Chou",
     title =     "Web Services Transfer (WS-Transfer)",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-ws-transfer-20090625",
-    month =     jun,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-ws-transfer-20090924",
+    month =     sep,
     year =      2009,
     topic =     "wstransfer[1]",
-    uri =       "http://www.w3.org/TR/2009/WD-ws-transfer-20090625",
+    uri =       "http://www.w3.org/TR/2009/WD-ws-transfer-20090924",
     abstract =  "This specification describes a general SOAP-based protocol for accessing XML representations of Web service-based resources."
 }
 
 @misc{wsresourcetransfer,
     author =    "Doug Davis and Ashok Malhotra and Katy Warr and Wu Chou",
     title =     "Web Services Resource Transfer (WS-RT)",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-ws-resource-transfer-20090625",
-    month =     jun,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-ws-resource-transfer-20090924",
+    month =     sep,
     year =      2009,
     topic =     "wsrt[1] wstransfer[0.9]",
-    uri =       "http://www.w3.org/TR/2009/WD-ws-resource-transfer-20090625",
+    uri =       "http://www.w3.org/TR/2009/WD-ws-resource-transfer-20090924",
     abstract =  "This specification defines extensions to WS-Transfer primarily to provide fragment-based access to resources."
 }
 
 @misc{wsmetadataexchange,
     author =    "Doug Davis and Ashok Malhotra and Katy Warr and Wu Chou",
     title =     "Web Services Metadata Exchange (WS-MetadataExchange)",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-ws-metadata-exchange-20090625",
-    month =     jun,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-ws-metadata-exchange-20090924",
+    month =     sep,
     year =      2009,
     topic =     "wsmetadataexchange[1] wstransfer[0.9] wsaddressing[0.9]",
-    uri =       "http://www.w3.org/TR/2009/WD-ws-metadata-exchange-20090625",
+    uri =       "http://www.w3.org/TR/2009/WD-ws-metadata-exchange-20090924",
     abstract =  "This specification defines how metadata associated with a Web service endpoint can be represented as WS-Transfer resources, how metadata can be embedded in WS-Addressing endpoint references, and how metadata could be retrieved from a Web service endpoint."
 }
 
 @misc{wseventing,
     author =    "Doug Davis and Ashok Malhotra and Katy Warr and Wu Chou",
     title =     "Web Services Eventing (WS-Eventing)",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-ws-eventing-20090625",
-    month =     jun,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-ws-eventing-20090924",
+    month =     sep,
     year =      2009,
     topic =     "wseventing[1]",
-    uri =       "http://www.w3.org/TR/2009/WD-ws-eventing-20090625",
+    uri =       "http://www.w3.org/TR/2009/WD-ws-eventing-20090924",
     abstract =  "This specification describes a protocol that allows Web services to subscribe to or accept subscriptions for event notification messages."
 }
 
 @misc{wsenumeration,
     author =    "Doug Davis and Ashok Malhotra and Katy Warr and Wu Chou",
     title =     "Web Services Enumeration (WS-Enumeration)",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-ws-enumeration-20090625 ",
-    month =     jun,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-ws-enumeration-20090924",
+    month =     sep,
     year =      2009,
     topic =     "wstransfer[1]",
-    uri =       "http://www.w3.org/TR/2009/WD-ws-enumeration-20090625",
+    uri =       "http://www.w3.org/TR/2009/WD-ws-enumeration-20090924",
     abstract =  "This specification describes a general SOAP-based protocol for enumerating a sequence of XML elements that is suitable for traversing logs, message queues, or other linear information models."
 }
 
@@ -32298,11 +32327,11 @@ We also propose a new taxonomy for geographic search queries.}
     editor =    "Glenn Adams",
     author =    "Mike Dolan and Geoff Freed and Sean Hayes and Erik Hodge and David Kirby and Thierry Michel and David Singer",
     title =     "Timed Text (TT) Authoring Format 1.0 --- Distribution Format Exchange Profile (DFXP)",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-ttaf1-dfxp-20090602",
-    month =     jun,
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-ttaf1-dfxp-20090924",
+    month =     sep,
     year =      2009,
     topic =     "ttaf[0.9] dfxp[1]",
-    uri =       "http://www.w3.org/TR/2009/WD-ttaf1-dfxp-20090602",
+    uri =       "http://www.w3.org/TR/2009/CR-ttaf1-dfxp-20090924",
     updates =   "ttaf10req",
     abstract =  "This document specifies the distribution format exchange profile (DFXP) of the timed text authoring format (TT AF) in terms of a vocabulary and semantics thereof. The timed text authoring format is a content type that represents timed text media for the purpose of interchange among authoring systems. Timed text is textual information that is intrinsically or extrinsically associated with timing information. The distribution format exchange profile is intended to be used for the purpose of transcoding or exchanging timed text information among legacy distribution content formats presently in use for subtitling and captioning functions. In addition to being used for interchange among legacy distribution content formats, DFXP content may be used directly as a distribution format, providing, for example, a standard content format to reference from a <text> or <textstream> media object element in a SMIL2 document."
 }
@@ -32745,12 +32774,12 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{mathml3,
     author =    "David Carlisle and Patrick Ion and Robert Miner",
     title =     "Mathematical Markup Language (MathML) Version 3.0",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-MathML3-20090604",
-    month =     jun,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-MathML3-20090924",
+    month =     sep,
     year =      2009,
     updates =   "mathml2sec",
     topic =     "mathml[1]",
-    uri =       "http://www.w3.org/TR/2009/WD-MathML3-20090604",
+    uri =       "http://www.w3.org/TR/2009/WD-MathML3-20090924",
     abstract =  "This specification defines the Mathematical Markup Language, or MathML. MathML is an XML application for describing mathematical notation and capturing both its structure and content. The goal of MathML is to enable mathematics to be served, received, and processed on the World Wide Web, just as HTML has enabled this functionality for text. This specification of the markup language MathML is intended primarily for a readership consisting of those who will be developing or implementing renderers or editors using it, or software that will communicate using MathML as a protocol for input or output. It is not a User's Guide but rather a reference document. MathML can be used to encode both mathematical notation and mathematical content. About thirty-eight of the MathML tags describe abstract notational structures, while another about one hundred and seventy provide a way of unambiguously specifying the intended meaning of an expression. Additional chapters discuss how the MathML content and presentation elements interact, and how MathML renderers might be implemented and should interact with browsers. Finally, this document addresses the issue of special characters used for mathematics, their handling in MathML, their presence in Unicode, and their relation to fonts. While MathML is human-readable, in all but the simplest cases, authors use equation editors, conversion programs, and other specialized software tools to generate MathML. Several versions of such MathML tools exist, and more, both freely available software and commercial products, are under development."
 }
 
