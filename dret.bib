@@ -20249,6 +20249,18 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "A detailed experimental and numerical study of three-dimensional laminar flow over a backward-facing step with an expansion ratio of 2 and a downstream aspect ratio of 20 is presented. Experimental results for transitional and turbulent flow are also reported. Experiments were based on both Digital and Stereoscopic Particle Image Velocimetry; a spectral element method was used for the simulations. The focus of the present work was two-fold: (i) A passive control scheme for inducing global unsteadiness, suggested in previous work, was implemented, and the controlled flow was studied in the laminar and turbulent regimes. (ii) In the uncontrolled flow, the effects of sidewalls on the flow structure were studied at laminar, transitional, and turbulent Reynolds number values. The control scheme consisted of external flow recirculation due to suction at the step wall and blowing at the lower wall. The problem geometry was fixed and, thus, for a given Reynolds number, the flow dynamics depended only on the recirculation volume flow rate. For laminar flow, periodic vortex shedding from the step edge was observed within a range of recirculation flow rates, both in experiments and two-dimensional simulations. Global stability analysis calculations support the present simulation results. The experimental laminar flow was found to be strongly three-dimensional, exhibiting streamwise vortices in the shear layer regions. For turbulent flow, the present control scheme significantly increased mixing in the region immediately after the sudden expansion. This led to a decrease in reattachment length of the order of 70\% in comparison to the non-manipulated flow. The control scheme was found to be robust to variations in the suction/blowing velocity boundary conditions. In the present study of sidewall effects, both experimental and computational results illustrated that, for laminar flow, a wall-jet is present at the channel lower wall, directed towards the channel mid-plane, in agreement with previous observations. In the present work, the development of self-similar wall-jet profiles with increasing distance from the sidewalls is demonstrated. The intensity of this secondary flow increased with Reynolds number in the laminar regime, and decreased in the transitional and turbulent regimes. The effect of sidewalls on the primary and upper wall recirculation zones is demonstrated, which explains the discrepancies in the previous literature between experiments and two-dimensional simulations."
 }
 
+@phdthesis{stei97,
+    author =    "Andreas Steiner",
+    title =     "A Generalisation Approach to Temporal Data Models and their Implementations",
+    school =    ethz,
+    year =      1997,
+    month =     nov,
+    address =   zueri,
+    note =      "Diss. ETH No. 12434",
+    uri =       "http://www.timeconsult.com/Publications/diss.pdf",
+    abstract =  "Non-temporal data models and their implementations as database management systems (DBMS) capture a single state of the real world, usually the current one. They support modification operations which facilitate the transition from one consistent database state to another. For queries, they assume that the data is synchronous, meaning that all the facts stored in the database are valid at the time instant a query is evaluated. There exist many application domains, however, where it is necessary to reconstruct earlier database states or even store future database states (e. g. for planning, budgets) in parallel. The different database states are stored as temporal data. Such temporal data arises, for example, in financial and insurance applications, in reservation systems and in medical information management. Of course, it is also possible in practice to store timestamps in classical DBMS and model the temporal aspects mentioned above in this way. However, such an approach does not cater for the special semantics of time. Thus, there are many proposals for both relational and object-oriented models as to how the non-temporal data models can be enhanced to support the management of temporal data. Their focus is mainly on extending the data structures and/or the query language. Hardly any of these temporal data models were implemented, even in the form of prototype systems. A more systematic way to define temporal data models is based on generalising a non-temporal data model into a temporal one. Using generalisation means that all constructs of the underlying non-temporal data model { its data structures, operations and integrity constraints { are enhanced to support the management of time-varying data. To show the power of the generalisation approach, this thesis investigates three approaches to managing temporal data, along with the corresponding prototype implementations. The first approach timestamps data by extending the data structures with special timestamp attributes, but, in contrast to existing proposals, uses a generalised query, data definition and data manipulation language. The second approach fully generalises a non-temporal object data model into a temporal one. The resulting temporal object data model TOM does not extend the data structures, but rather uses the notion of temporal object identifiers to timestamp data. In TOM, not only the user data can be timestamped, but also constructs supported by the data model such as collections of objects, types, integrity constraints and so on, since they are also considered to be objects. This temporal data model was implemented as a single-user prototype system. The third approach demonstrates how the extensible nature of object-oriented DBMS can be used directly to support temporal applications through the use of abstract data types. It is shown that while temporal data structures and operations can be accommodated in this way, support for generalised data models and query languages is restricted. These approaches show that a generalised temporal data model is better suited to the modeling and management of temporal data than an extended one, and that generalised data models are implementable. By presenting an evolutionary path from temporal first normal form relations to temporal nested relations, temporal complex objects and temporal object-oriented data models, it is shown that the temporal object data model TOM actually subsumes the extended temporal data models."
+}
+
 @phdthesis{gre04,
     author =    "Alexandre A. Gr\^et",
     title =     "Time-lapse Monitoring with Coda Wave Interferometry",
@@ -34942,6 +34954,17 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "HTML 5 contains several features that address the challenge of building Web applications that work while offline. This document highlights these features (SQL, offline application caching APIs as well as online/offline events, status, and the localStorage API) from HTML 5 and provides brief tutorials on how these features might be used to create Web applications that work offline."
 }
 
+@misc{websimpledbapi,
+    author =    "Nikunj R. Mehta",
+    title =     "WebSimpleDB API",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-WebSimpleDB-20090929",
+    month =     sep,
+    year =      2009,
+    topic =     "dom[0.9]",
+    uri =       "http://www.w3.org/TR/2009/WD-WebSimpleDB-20090929",
+    abstract =  "This document defines APIs for storing and retrieving ordered key-value pairs in a transactional database."
+}
+
 @misc{xhtml10,
     author =    "Steven Pemberton",
     title =     "XHTML 1.0: The Extensible HyperText Markup Language",
@@ -42737,8 +42760,7 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2009,
     topic =     "cms[1]",
     updates =   "rfc3852",
-    abstract =  " This document describes the Cryptographic Message Syntax (CMS). This syntax is used to digitally sign, digest, authenticate, or encrypt arbitrary message content.
-"
+    abstract =  " This document describes the Cryptographic Message Syntax (CMS). This syntax is used to digitally sign, digest, authenticate, or encrypt arbitrary message content."
 }
 
 %%% NEED TO PICK UP AT RFC 4685 !!!!!!!!!!!!!!!!!!
