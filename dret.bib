@@ -20258,7 +20258,7 @@ We also propose a new taxonomy for geographic search queries.}
     address =   zueri,
     note =      "Diss. ETH No. 12434",
     uri =       "http://www.timeconsult.com/Publications/diss.pdf",
-    abstract =  "Non-temporal data models and their implementations as database management systems (DBMS) capture a single state of the real world, usually the current one. They support modification operations which facilitate the transition from one consistent database state to another. For queries, they assume that the data is synchronous, meaning that all the facts stored in the database are valid at the time instant a query is evaluated. There exist many application domains, however, where it is necessary to reconstruct earlier database states or even store future database states (e. g. for planning, budgets) in parallel. The different database states are stored as temporal data. Such temporal data arises, for example, in financial and insurance applications, in reservation systems and in medical information management. Of course, it is also possible in practice to store timestamps in classical DBMS and model the temporal aspects mentioned above in this way. However, such an approach does not cater for the special semantics of time. Thus, there are many proposals for both relational and object-oriented models as to how the non-temporal data models can be enhanced to support the management of temporal data. Their focus is mainly on extending the data structures and/or the query language. Hardly any of these temporal data models were implemented, even in the form of prototype systems. A more systematic way to define temporal data models is based on generalising a non-temporal data model into a temporal one. Using generalisation means that all constructs of the underlying non-temporal data model { its data structures, operations and integrity constraints { are enhanced to support the management of time-varying data. To show the power of the generalisation approach, this thesis investigates three approaches to managing temporal data, along with the corresponding prototype implementations. The first approach timestamps data by extending the data structures with special timestamp attributes, but, in contrast to existing proposals, uses a generalised query, data definition and data manipulation language. The second approach fully generalises a non-temporal object data model into a temporal one. The resulting temporal object data model TOM does not extend the data structures, but rather uses the notion of temporal object identifiers to timestamp data. In TOM, not only the user data can be timestamped, but also constructs supported by the data model such as collections of objects, types, integrity constraints and so on, since they are also considered to be objects. This temporal data model was implemented as a single-user prototype system. The third approach demonstrates how the extensible nature of object-oriented DBMS can be used directly to support temporal applications through the use of abstract data types. It is shown that while temporal data structures and operations can be accommodated in this way, support for generalised data models and query languages is restricted. These approaches show that a generalised temporal data model is better suited to the modeling and management of temporal data than an extended one, and that generalised data models are implementable. By presenting an evolutionary path from temporal first normal form relations to temporal nested relations, temporal complex objects and temporal object-oriented data models, it is shown that the temporal object data model TOM actually subsumes the extended temporal data models."
+    abstract =  "Non-temporal data models and their implementations as database management systems (DBMS) capture a single state of the real world, usually the current one. They support modification operations which facilitate the transition from one consistent database state to another. For queries, they assume that the data is synchronous, meaning that all the facts stored in the database are valid at the time instant a query is evaluated. There exist many application domains, however, where it is necessary to reconstruct earlier database states or even store future database states (e. g. for planning, budgets) in parallel. The different database states are stored as temporal data. Such temporal data arises, for example, in financial and insurance applications, in reservation systems and in medical information management. Of course, it is also possible in practice to store timestamps in classical DBMS and model the temporal aspects mentioned above in this way. However, such an approach does not cater for the special semantics of time. Thus, there are many proposals for both relational and object-oriented models as to how the non-temporal data models can be enhanced to support the management of temporal data. Their focus is mainly on extending the data structures and/or the query language. Hardly any of these temporal data models were implemented, even in the form of prototype systems. A more systematic way to define temporal data models is based on generalising a non-temporal data model into a temporal one. Using generalisation means that all constructs of the underlying non-temporal data model --- its data structures, operations and integrity constraints --- are enhanced to support the management of time-varying data. To show the power of the generalisation approach, this thesis investigates three approaches to managing temporal data, along with the corresponding prototype implementations. The first approach timestamps data by extending the data structures with special timestamp attributes, but, in contrast to existing proposals, uses a generalised query, data definition and data manipulation language. The second approach fully generalises a non-temporal object data model into a temporal one. The resulting temporal object data model TOM does not extend the data structures, but rather uses the notion of temporal object identifiers to timestamp data. In TOM, not only the user data can be timestamped, but also constructs supported by the data model such as collections of objects, types, integrity constraints and so on, since they are also considered to be objects. This temporal data model was implemented as a single-user prototype system. The third approach demonstrates how the extensible nature of object-oriented DBMS can be used directly to support temporal applications through the use of abstract data types. It is shown that while temporal data structures and operations can be accommodated in this way, support for generalised data models and query languages is restricted. These approaches show that a generalised temporal data model is better suited to the modeling and management of temporal data than an extended one, and that generalised data models are implementable. By presenting an evolutionary path from temporal first normal form relations to temporal nested relations, temporal complex objects and temporal object-oriented data models, it is shown that the temporal object data model TOM actually subsumes the extended temporal data models."
 }
 
 @phdthesis{gre04,
@@ -21068,7 +21068,7 @@ We also propose a new taxonomy for geographic search queries.}
     institution = ucolorado,
     address=    boulder,
     year =      2009,
-    month =     "aug",
+    month =     aug,
     uri =       "http://ssrn.com/abstract=1450006",
     abstract =  "Computer scientists have recently undermined our faith in the privacy-protecting power of anonymization, the name for techniques for protecting the privacy of individuals in large databases by deleting information like names and social security numbers. These scientists have demonstrated they can often 'reidentify' or 'deanonymize' individuals hidden in anonymized data with astonishing ease. By understanding this research, we will realize we have made a mistake, labored beneath a fundamental misunderstanding, which has assured us much less privacy than we have assumed. This mistake pervades nearly every information privacy law, regulation, and debate, yet regulators and legal scholars have paid it scant attention. We must respond to the surprising failure of anonymization, and this article provides the tools to do so."
 }
@@ -32536,6 +32536,30 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "This specification is a placeholder for an updated draft of the Scalable Vector Graphics (SVG) Full, Version 1.2 specification. SVG is a modularized XML language for describing two-dimensional graphics with animation and interactivity, and a set of APIs upon which to build graphics-based applications. The next draft of SVG 1.2 Full will structured as a superset of the SVG 1.2 Tiny language extending the declarative, interactive and API functionality available."
 }
 
+@misc{svg12colorprimer,
+    author =    "Chris Lilley and Anthony Grasso",
+    title =     "SVG Color 1.2, Part 1: Primer",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-SVGColorPrimer12-20091001",
+    month =     oct,
+    year =      2009,
+    topic =     "svg[1]",
+    uri =       "http://www.w3.org/TR/2009/WD-SVGColorPrimer12-20091001",
+    updates =   "svg12",
+    abstract =  "This Working Draft is a primer for use of the Scalable Vector Graphics (SVG) Language for color managed workflows. It explains the technical background and gives guidelines on how to use the SVG Color specification with SVG 1.2 Tiny and SVG 1.2 Full modules. It is purely informative and has no conformance statements."
+}
+
+@misc{svg12color,
+    author =    "Chris Lilley and Anthony Grasso",
+    title =     "SVG Color 1.2, Part 2: Language",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-SVGColor12-20091001",
+    month =     oct,
+    year =      2009,
+    topic =     "svg[1]",
+    uri =       "http://www.w3.org/TR/2009/WD-SVGColor12-20091001",
+    updates =   "svg12",
+    abstract =  "This Working Draft defines features of the Scalable Vector Graphics (SVG) Language that are specifically for color-managed environments."
+}
+
 @misc{svg2req,
     author =    "Dean Jackson",
     title =     "SVG 1.1/1.2/2.0 Requirements",
@@ -33223,6 +33247,18 @@ We also propose a new taxonomy for geographic search queries.}
     updates =   "xsl11",
     uri =       "http://www.w3.org/TR/2008/WD-xslfo20-req-20080326",
     abstract =  "The XSL 1.1 specification defines the features and syntax for the Extensible Stylesheet Language (XSL), a language for expressing stylesheets. This document enumerates the collected requirements for a 2.0 version of XSL. There are two parts to XSL: XSL Transformations (XSLT) for transformation of documents and XSL Formatting Objects (XSL-FO) for formatting of documents. This is the requirements document for XSL-FO and not for XSLT."
+}
+
+@misc{xslfo20dn,
+    author =    "Liam R. E. Quin",
+    title =     "Design Notes for Extensible Stylesheet Language (XSL) 2.0",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-xslfo20-20090929",
+    month =     sep,
+    year =      2009,
+    topic =     "xsl[0.8] xslfo[0.9]",
+    updates =   "xsl11",
+    uri =       "http://www.w3.org/TR/2009/WD-xslfo20-20090929",
+    abstract =  "The Extensible Stylesheet Language (XSL) has two parts: 1. a language for transforming XML documents (XSLT), and 2. an XML vocabulary for specifying formatting semantics (XSL-FO). This document describes features and changes introduced for version 2.0 of the XSL-FO part of XSL."
 }
 
 @misc{xslt,
@@ -42760,7 +42796,18 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2009,
     topic =     "cms[1]",
     updates =   "rfc3852",
-    abstract =  " This document describes the Cryptographic Message Syntax (CMS). This syntax is used to digitally sign, digest, authenticate, or encrypt arbitrary message content."
+    abstract =  "This document describes the Cryptographic Message Syntax (CMS). This syntax is used to digitally sign, digest, authenticate, or encrypt arbitrary message content."
+}
+
+@misc{rfc5689,
+    author =    "Cyrus Daboo",
+    title =     "Extended MKCOL for Web Distributed Authoring and Versioning (WebDAV)",
+    howpublished =  "Internet RFC 5689",
+    month =     sep,
+    year =      2009,
+    topic =     "webdav[1] http[0.9]",
+    updates =   "rfc4791 rfc4918",
+    abstract =  "This specification extends the Web Distributed Authoring and Versioning (WebDAV) MKCOL (Make Collection) method to allow collections of arbitrary resourcetype to be created and to allow properties to be set at the same time."
 }
 
 %%% NEED TO PICK UP AT RFC 4685 !!!!!!!!!!!!!!!!!!
