@@ -283,6 +283,7 @@
 @string{porto =     "Porto, Portugal" }
 @string{prague =    "Prague, Czech Republic" }
 @string{princeton = "Princeton, New Jersey" }
+@string{provi =     "Providence, Rhode Island" }
 @string{reading =   "Reading, Massachusetts" }
 @string{redmond =   "Redmond, Washington" }
 @string{rhodes =    "Rhodes, Greece" }
@@ -10311,7 +10312,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-@string{pods06 =  "Proceedings of the Twenty-Fifth ACM SIGACT-SIGMOD-SIGART Symposium on Principles of Database Systems" }
+@string{pods06 =  "Proceedings of the Twenty-Fifth ACM SIGACT-SIGMOD-SIGART Symposium on Principles of Database Systems (PODS 2006)" }
 
 @inproceedings{hal06b,
     crossref =  "pods06",
@@ -10343,6 +10344,33 @@
     isbn =      "1-59593-318-2",
     index =     "PODS 2006",
     uri =       "http://www.informatik.uni-trier.de/~ley/db/conf/pods/pods2006.html"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@string{pods09 =  "Proceedings of the Twenty-Eigth ACM SIGACT-SIGMOD-SIGART Symposium on Principles of Database Systems (PODS 2009)" }
+
+@inproceedings{abi09,
+    crossref =  "pods09",
+    author =    "Serge Abiteboul and Georg Gottlob and Marco Manna",
+    title =     "Distributed XML Design",
+    pages =     "247-258",
+    doi =       "10.1145/1559795.1559833",
+    topic =     "xml[0.9]",
+    abstract =  {A distributed XML document is an XML document that spans several machines or Web repositories. We assume that a distribution design of the document tree is given, providing an XML tree some of whose leaves are "docking points", to which XML subtrees can be attached. These subtrees may be provided and controlled by peers at remote locations, or may correspond to the result of function calls, e.g., Web services. If a global type ?, e.g. a DTD, is specified for a distributed document T, it would be most desirable to be able to break this type into a collection of local types, called a local typing, such that the document satisfies ? if and only if each peer (or function) satisfies its local type. In this paper we lay out the fundamentals of a theory of local typing and provide formal definitions of three main variants of locality: local typing, maximal local typing, and perfect typing, the latter being the most desirable. We study the following relevant decision problems: (i) given a typing for a design, determine whether it is local, maximal local, or perfect; (ii) given a design, establish whether a (maximal) local, or perfect typing does exist. For some of these problems we provide tight complexity bounds (polynomial space), while for the others we show exponential upper bounds. A main contribution is a polynomial-space algorithm for computing a perfect typing in this context, if it exists.}
+}
+
+@proceedings{pods09,
+    title =     pods09,
+    booktitle = pods09,
+    editor =    "Jan Paredaens and Jianwen Su",
+    publisher = acm,
+    address =   provi,
+    month =     jun,
+    year =      2009,
+    isbn =      "978-1-60558-553-6",
+    index =     "PODS 2009",
+    uri =       "http://www.informatik.uni-trier.de/~ley/db/conf/pods/pods2009.html"
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
