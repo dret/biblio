@@ -10356,8 +10356,8 @@
     title =     "Distributed XML Design",
     pages =     "247-258",
     doi =       "10.1145/1559795.1559833",
-    topic =     "xml[0.9]",
-    abstract =  {A distributed XML document is an XML document that spans several machines or Web repositories. We assume that a distribution design of the document tree is given, providing an XML tree some of whose leaves are "docking points", to which XML subtrees can be attached. These subtrees may be provided and controlled by peers at remote locations, or may correspond to the result of function calls, e.g., Web services. If a global type ?, e.g. a DTD, is specified for a distributed document T, it would be most desirable to be able to break this type into a collection of local types, called a local typing, such that the document satisfies ? if and only if each peer (or function) satisfies its local type. In this paper we lay out the fundamentals of a theory of local typing and provide formal definitions of three main variants of locality: local typing, maximal local typing, and perfect typing, the latter being the most desirable. We study the following relevant decision problems: (i) given a typing for a design, determine whether it is local, maximal local, or perfect; (ii) given a design, establish whether a (maximal) local, or perfect typing does exist. For some of these problems we provide tight complexity bounds (polynomial space), while for the others we show exponential upper bounds. A main contribution is a polynomial-space algorithm for computing a perfect typing in this context, if it exists.}
+    topic =     "xml[0.8]",
+    abstract =  {A distributed XML document is an XML document that spans several machines or Web repositories. We assume that a distribution design of the document tree is given, providing an XML tree some of whose leaves are "docking points", to which XML subtrees can be attached. These subtrees may be provided and controlled by peers at remote locations, or may correspond to the result of function calls, e.g., Web services. If a global type t, e.g. a DTD, is specified for a distributed document T, it would be most desirable to be able to break this type into a collection of local types, called a local typing, such that the document satisfies t if and only if each peer (or function) satisfies its local type. In this paper we lay out the fundamentals of a theory of local typing and provide formal definitions of three main variants of locality: local typing, maximal local typing, and perfect typing, the latter being the most desirable. We study the following relevant decision problems: (i) given a typing for a design, determine whether it is local, maximal local, or perfect; (ii) given a design, establish whether a (maximal) local, or perfect typing does exist. For some of these problems we provide tight complexity bounds (polynomial space), while for the others we show exponential upper bounds. A main contribution is a polynomial-space algorithm for computing a perfect typing in this context, if it exists.}
 }
 
 @proceedings{pods09,
@@ -36964,6 +36964,17 @@ We also propose a new taxonomy for geographic search queries.}
     topic =     "lrrd[1]",
     uri =       "https://datatracker.ietf.org/drafts/draft-hammer-discovery/",
     abstract =  "This memo describes LRDD (pronounced 'lard'), a process for obtaining information about a resource identified by a URI. The 'information about a resource', a resource descriptor, provides machine-readable information that aims to increase interoperability and enhance the interaction with the resource. This memo only defines the process for locating and obtaining the descriptor, but leaves the descriptor format and its interpretation out of scope."
+}
+
+@misc{not08b,
+    author =    "Mark Nottingham and Dave Beckett",
+    title =     "AtomTriples: Embedding RDF Statements in Atom",
+    howpublished =  "Internet Draft draft-nottingham-site-meta-02",
+    month =     jun,
+    year =      2008,
+    topic =     "atom[0.8] rdf[0.8]",
+    uri =       "https://datatracker.ietf.org/drafts/draft-nottingham-atomtriples",
+   abstract =  "This specification describes AtomTriples, a set of Atom extension elements for embedding RDF statements in Atom documents (both element and feed), and declaring how they can be derived from existing content."
 }
 
 @misc{not09a,
