@@ -143,6 +143,7 @@
 @string{boston =    "Boston, Massachusetts" }
 @string{braun =     "Braunschweig, Germany" }
 @string{bremen =    "Bremen, Germany" }
+@string{busan =     "Busan, Korea" }
 @string{hamburg =   "Hamburg, Germany" }
 @string{boulder =   "Boulder, Colorado" }
 @string{brighton =  "Brighton, UK" }
@@ -234,6 +235,7 @@
 @string{logan =     "Logan, Utah" }
 @string{london =    "London, UK" }
 @string{louvain =   "Louvain-la-Neuve, Belgium" }
+@string{lyon =      "Lyon, France" }
 @string{madison =   "Madison, Wisconsin" }
 @string{madrid =    "Madrid, Spain" }
 @string{marina =    "Marina del Rey, California" }
@@ -7063,6 +7065,30 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@string{vldb09 = "Proceedings of the 35th International Conference on Very Large Data Bases (VLDB 2009)" }
+
+@inproceedings{pre09,
+    crossref =  "vldb09",
+    author =    "Nicoleta Preda and Fabian M. Suchanek and Gjergji Kasneci and Thomas Neumann and Maya Ramanath and Gerhard Weikum",
+    title =     "ANGIE: Active Knowledge for Interactive Exploration",
+    pages =     "1570-1573",
+    uri =       "http://suchanek.name/work/publications/vldb2009d.pdf",
+    abstract =  "We present ANGIE, a system that can answer user queries by combining knowledge from a local database with knowledge retrieved from Web services. If a user poses a query that cannot be answered by the local database alone, ANGIE calls the appropriate Web services to retrieve the missing information. This information is integrated seamlessly and transparently into the local database, so that the user can query and browse the knowledge base while appropriate Web services are called automatically in the background."
+}
+
+@proceedings{vldb09,
+    title =     vldb09,
+    booktitle = vldb09,
+    publisher = acm,
+    address =   lyon,
+    month =     aug,
+    year =      2009,
+    index =     "VLDB 2009",
+    uri =       "http://www.informatik.uni-trier.de/~ley/db/journals/pvldb/pvldb2.html"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 @string{icmb05 = "Proceedings of the 2005 International Conference on Mobile Business" }
 
 @inproceedings{ye05,
@@ -7448,6 +7474,34 @@
     doi =       "10.1007/b102467",
     uri =       "http://iswc2004.semanticweb.org/",
     uri =       "http://www.springerlink.com/openurl.asp?genre=issue&issn=0302-9743&volume=3298&issue=preprint"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@string{iswc07 = "Proceedings of the 6th International Semantic Web Conference (ISWC 2007)" }
+
+@inproceedings{aue07,
+    crossref =  "iswc07",
+    author =    {S\"oren Auer and Christian Bizer and Georgi Kobilarov and Jens Lehmann and Richard Cyganiak and Zachary Ives},
+    title =     "DBpedia: A Nucleus for a Web of Open Data",
+    pages =     "722-735",
+    topic =     "dbpedia[1]",
+    uri =       "http://richard.cyganiak.de/2008/papers/dbpedia-iswc2007.pdf",
+    abstract =  "DBpedia is a community effort to extract structured information from Wikipedia and to make this information available on the Web. DBpedia allows you to ask sophisticated queries against datasets derived from Wikipedia and to link other datasets on the Web to Wikipedia data. We describe the extraction of the DBpedia datasets, and how the resulting information is published on the Web for human- and machine-consumption. We describe some emerging applications from the DBpedia community and show how website authors can facilitate DBpedia content within their sites. Finally, we present the current status of interlinking DBpedia with other open datasets on the Web and outline how DBpedia could serve as a nucleus for an emerging Web of open data."
+}
+
+@proceedings{iswc07,
+    title =     iswc07,
+    booktitle = iswc07,
+    editor =    "Karl Aberer and Key-Sun Choi and Natasha Fridman Noy and Dean Allemang and Kyung-Il Lee and Lyndon J. B. Nixon and Jennifer Golbeck and Peter Mika and Diana Maynard and Riichiro Mizoguchi and Guus Schreiber and Philippe Cudr\'e-Mauroux",
+    address =   busan,
+    series =    LNCS,
+    volume =    4825,
+    month =     nov,
+    year =      2007,
+    index =     "ISWC 2007",
+    isbn =      "978-3-540-76297-3",
+    uri =       "http://www.informatik.uni-trier.de/~ley/db/conf/semweb/iswc2007.html"
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -12666,6 +12720,16 @@ We also propose a new taxonomy for geographic search queries.}
 
 @string{www2009  =    "Proceedings of the 18th International World Wide Web Conference" }
 @string{www2009p =    "Poster Proceedings of the 18th International World Wide Web Conference" }
+
+@inproceedings{suc09,
+    crossref =  "www2009",
+    author =    "Fabian M. Suchanek and Mauro Sozio and Gerhard Weikum",
+    title =     "SOFIE: A Self-Organizing Framework for Information Extraction",
+    pages =     "911-920",
+    uri =       "http://suchanek.name/work/publications/www2009.pdf",
+    uri =       "http://www2009.org/proceedings/pdf/p631.pdf",
+    abstract =  "This paper presents SOFIE, a system for automated ontology extension. SOFIE can parse natural language documents, extract ontological facts from them and link the facts into an ontology. SOFIE uses logical reasoning on the existing knowledge and on the new knowledge in order to disambiguate words to their most probable meaning, to reason on the meaning of text patterns and to take into account world knowledge axioms. This allows SOFIE to check the plausibility of hypotheses and to avoid inconsistencies with the ontology. The framework of SOFIE unites the paradigms of pattern matching, word sense disambiguation and ontological reasoning in one unified model. Our experiments show that SOFIE delivers high-quality output, even from unstructured Internet documents."
+}
 
 @inproceedings{pau09a,
     crossref =  "www2009",
