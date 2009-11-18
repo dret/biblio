@@ -7105,6 +7105,15 @@
     abstract =  "We present sMash, a system for facilitating users to mashup Web data. The aspects emphasized by the demo are: (1) how to help novice users master data APIs and relationships amongst them easily; (2) how to inspire various users to build more amazing Web data mashups. First, a real-life data API network is constructed and visualized to enable users to surf and mashup. Second, two kinds of recommendations are generated dynamically based on a comprehensive analysis of the network, user's traces and a repository of mashups to provide navigation."
 }
 
+@inproceedings{zha09b,
+    crossref =  "vldb09",
+    author =    "Ning Zhang and Nipun Agarwal and Sivasankaran Chandrasekar and Sam Idicula and Vijay Medi and Sabina Petride and Balasubramanyam Sthanikam",
+    title =     "Binary XML Storage and Query Processing in Oracle 11g",
+    pages =     "1354-1365",
+    topic =     "xdbms[0.8] xml[0.8] xquery[0.8] xpath[0.8]",
+    abstract =  "Oracle RDBMS has supported XML data management for more than six years since version 9i. Prior to 11g, text-centric XML documents can be stored as-is in a CLOB column and schema-based data-centric documents can be shredded and stored in object-relational (OR) tables mapped from their XML Schema. However, both storage formats have intrinsic limitations --- XML/CLOB has unacceptable query and update performance, and XML/OR requires XML schema. To tackle this problem, Oracle 11g introduces a native Binary XML storage format and a complete stack of data management operations. Binary XML was designed to address a wide range of real application problems encountered in XML data management --- schema flexibility, amenability to XML indexes, update performance, schema evolution, just to name a few. In this paper, we introduce the Binary XML storage format based on Oracle SecureFiles System. We propose a lightweight navigational index on top of the storage and an NFA-based navigational algorithm to provide efficient streaming processing. We further optimize query processing by exploiting XML structural and schema information that are collected in database dictionary. We conducted extensive experiments to demonstrate high performance of the native Binary XML in query processing, update, and space consumption."
+}
+
 @proceedings{vldb09,
     title =     vldb09,
     booktitle = vldb09,
@@ -35466,6 +35475,17 @@ We also propose a new taxonomy for geographic search queries.}
     topic =     "dom[0.9]",
     uri =       "http://www.w3.org/TR/2009/WD-workers-20091029",
     abstract =  "This specification defines an API that allows Web application authors to spawn background workers running scripts in parallel to their main page. This allows for thread-like operation with message-passing as the coordination mechanism."
+}
+
+@misc{webworkers,
+    author =    "Arun Ranganathan",
+    title =     "File API",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-FileAPI-20091117",
+    month =     nov,
+    year =      2009,
+    topic =     "dom[0.9]",
+    uri =       "http://www.w3.org/TR/2009/WD-FileAPI-20091117",
+    abstract =  "This specification provides an API for representing file objects in web applications, as well as programmatically selecting them and accessing their data. This includes: a FileList sequence, which represents an array of individually selected files from the underlying system. The user interface for selection can be invoked via <input type="file">, i.e. when the input element is in the File Upload state; a Blob interface, which represents raw binary data, and allows access to ranges of bytes within the Blob object; a File interface, which includes readonly informational attributes about a file such as its name, its mediatype, and a URL to access its data; a FileReader interface, which provides methods to read a File, and an event model to obtain the results of these reads; and a FileError interface and a FileException exception which define error conditions used by this specification. Additionally, this specification defines objects to be used within threaded web applications for the synchronous reading of files. The section on Requirements and Use Cases covers the motivation behind this specification. This API is designed to be used in conjunction with other APIs and elements on the web platform, notably: XMLHttpRequest (e.g. with an overloaded send() method for File objects), postMessage, DataTransfer (part of the drag and drop API defined in HTML5), and Web Workers. Additionally, it should be possible to programmatically obtain a list of files from the input element when it is in the File Upload state. These kinds of behaviors are defined in the appropriate affiliated specifications."
 }
 
 @misc{offlinewebapps,
