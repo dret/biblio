@@ -2860,7 +2860,8 @@
     pages =     "36-41",
     year =      2008,
     month =     12,
-    doi =       "10.1145/1409360.1409374"
+    doi =       "10.1145/1409360.1409374",
+    abstract =  {Google Maps, Yahoo! Mail, Facebook, MySpace, YouTube, and Amazon are examples of Web sites built to scale. They access petabytes of data sending terabits per second to millions of users worldwide. The magnitude is awe-inspiring. Users view these large-scale Web sites from a narrower perspective. The typical user has megabytes of data that they download at a few hundred kilobits per second. Users are less interested in the massive number of requests per second being served, caring more about their individual requests. As they use these Web applications they inevitably ask the same question: "Why is this site so slow?" The answer hinges on where development teams focus their performance improvements. Performance for the sake of scalability is rightly focused on the backend. Database tuning, replicating architectures, customized data caching, and so on, allow Web servers to handle a greater number of requests. This gain in efficiency translates into reductions in hardware costs, data center rack space, and power consumption. But how much does the backend affect the user experience in terms of latency? The Web applications listed here are some of the most highly tuned in the world, and yet they still take longer to load than we'd like. It almost seems as if the high-speed storage and optimized application code on the backend have little impact on the end user's response time. Therefore, to account for these slowly loading pages we must focus on something other than the backend: we must focus on the frontend.}
 }
 
 @article{fis04b,
@@ -7461,6 +7462,16 @@
     abstract =  "Emerging as the popular choice for leading Internet companies to expose internal data and resources, RESTful Web services are attracting increasing attention in the industry. While automating WSDL/SOAP based Web service composition has been extensively studied in the research community, automated RESTful Web service composition in the context of service-oriented architecture (SOA), to the best of our knowledge, is less explored. As an early paper addressing this problem, this paper discusses the challenges of composing RESTful Web services and proposes a formal model for describing individual Web services and automating the composition. It demonstrates our approach by applying it to a real-world RESTful Web service composition problem. This paper represents our initial efforts towards the problem of automated RESTful Web service composition. We are hoping that it will draw interests from the research community on Web services, and engage more researchers in this challenge."
 }
 
+@inproceedings{mar09a,
+    crossref =  "icws2009",
+    author =    "Alexandros Marinos and Amir R. Razavi and Sotiris Moschoyiannis and Paul J. Krause",
+    title =     "RETRO: A Consistent and Recoverable RESTful Transaction Model",
+    pages =     "181-188",
+    index =     "rest[0.9] retro[1]",
+    doi =       "10.1109/ICWS.2009.99",
+    abstract =  "With REST becoming a popular paradigm for Web services, more and more use cases are applied to it, including some that require transactional guarantees. We propose a RESTful transaction model that satisfies both the constraints of transactions as well as those of the REST architectural style. We provide formal proof of consistency and recoverability in the proposed framework and show the robustness of its properties in the presence of concurrent transactions."
+}
+
 @proceedings{icws2009,
     title =     icws2009,
     booktitle = icws2009,
@@ -7664,7 +7675,19 @@
     author =    "Julius Volz and Christian Bizer and Martin Gaedke and Georgi Kobilarov",
     title =     "Discovering and Maintaining Links on the Web of Data",
     topic =     "silk[1]",
+    pages =     "650-665",
+    doi =       "10.1007/978-3-642-04930-9_41",
     abstract =  "The Web of Data is built upon two simple ideas: Employ the RDF data model to publish structured data on the Web and to create explicit data links between entities within different data sources. This paper presents the Silk Linking Framework, a toolkit for discovering and maintaining data links between Web data sources. Silk consists of three components: 1. A link discovery engine, which computes links between data sources based on a declarative specification of the conditions that entities must fulfill in order to be interlinked; 2. A tool for evaluating the generated data links in order to fine-tune the linking specification; 3. A protocol for maintaining data links between continuously changing data sources. The protocol allows data sources to exchange both linksets as well as detailed change information and enables continuous link recomputation. The interplay of all the components is demonstrated within a life science use case."
+}
+
+@inproceedings{har09,
+    crossref =  "iswc2009",
+    author =    "Olaf Hartig and Christian Bizer and Johann-Christoph Freytag",
+    title =     "Executing SPARQL Queries over the Web of Linked Data",
+    topic =     "sparql[0.9]",
+    pages =     "293-309",
+    doi =       "10.1007/978-3-642-04930-9_19",
+    abstract =  "The Web of Linked Data forms a single, globally distributed dataspace. Due to the openness of this dataspace, it is not possible to know in advance all data sources that might be relevant for query answering. This openness poses a new challenge that is not addressed by traditional research on federated query processing. In this paper we present an approach to execute SPARQL queries over the Web of Linked Data. The main idea of our approach is to discover data that might be relevant for answering a query during the query execution itself. This discovery is driven by following RDF links between data sources based on URIs in the query and in partial results. The URIs are resolved over the HTTP protocol into RDF data which is continuously added to the queried dataset. This paper describes concepts and algorithms to implement our approach using an iterator-based pipeline. We introduce a formalization of the pipelining approach and show that classical iterators may cause blocking due to the latency of HTTP requests. To avoid blocking, we propose an extension of the iterator paradigm. The evaluation of our approach shows its strengths as well as the still existing challenges."
 }
 
 @proceedings{iswc2009,
@@ -7679,7 +7702,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-@string{icsc2007 = " First IEEE International Conference on Semantic Computing (ICSC 2007)" }
+@string{icsc2007 = "First IEEE International Conference on Semantic Computing (ICSC 2007)" }
 
 @inproceedings{lat07,
     crossref =  "icsc2007",
@@ -33791,12 +33814,12 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{xmlns10third,
     author =    "Tim Bray and Dave Hollander and Andrew Layman and Richard Tobin and Henry S. Thompson",
     title =     "Namespaces in XML 1.0 (Third Edition)",
-    howpublished =  "World Wide Web Consortium, Proposed Edited Recommendation PER-xml-names-20090806",
-    month =     aug,
+    howpublished =  "World Wide Web Consortium, Recommendation REC-xml-names-20091208",
+    month =     dec,
     year =      2009,
     topic =     "xml[0.8] xmlns[1]",
     updates =   "xmlns10sec",
-    uri =       "http://www.w3.org/TR/2009/PER-xml-names-20090806",
+    uri =       "http://www.w3.org/TR/2009/REC-xml-names-20091208",
     abstract =  "XML namespaces provide a simple method for qualifying element and attribute names used in Extensible Markup Language documents by associating them with namespaces identified by URI references."
 }
 
@@ -34749,11 +34772,11 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{widgetsaccess,
     author =    "Robin Berjon",
     title =     "Widgets 1.0: Access Requests Policy",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-widgets-access-20090804",
-    month =     aug,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-widgets-access-20091208",
+    month =     dec,
     year =      2009,
-    uri =       "http://www.w3.org/TR/2009/WD-widgets-access-20090804",
-    abstract =  "This specification defines the security model controlling network access from within a widget, as well as a method for widget authors to request that the user agent grant access to certain network resources (or sets thereof)."
+    uri =       "http://www.w3.org/TR/2009/WD-widgets-access-20091208",
+    abstract =  "This specification defines the security model controlling network access from within a widget, as well as a method for widget authors to request that the user agent grant access to certain network resources or sets thereof."
 }
 
 @misc{widgetsuri,
@@ -36229,10 +36252,10 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{mw4droadmap,
     author =    "St\'ephane Boyera",
     title =     "Mobile Web for Social Development Roadmap",
-    howpublished =  "World Wide Web Consortium, Note NOTE-mw4d-roadmap-20091117",
-    month =     nov,
+    howpublished =  "World Wide Web Consortium, Note NOTE-mw4d-roadmap-20091208",
+    month =     dec,
     year =      2009,
-    uri =       "http://www.w3.org/TR/2009/NOTE-mw4d-roadmap-20091117",
+    uri =       "http://www.w3.org/TR/2009/NOTE-mw4d-roadmap-20091208",
     abstract =  "This document is the heart of the MW4D IG work. Its purpose is to understand the current challenges of deploying development-oriented services on mobile phones, evaluate existing technologies, and identify the most promising directions to lower the barriers of developing, deploying and accessing services on mobile phones and thereby creating an enabling environment for more social-oriented services to appear. This document is divided into two major parts. The first part presents the major challenges today for both developing and accessing mobile services, potential ways to bridge them with existing tools, technologies and infrastructure, and potential research directions to follow to provide a more comprehensive resolution or solution. The second part focuses on presenting the major technologies and the major options existing today to deploy content and applications on mobile phones. For each of these technologies, the document presents a short analysis of the technology's potential and the requirements in terms of infrastructure, devices, targeted end-users, and costs associated with implementation and delivery."
 }
 
@@ -36889,23 +36912,23 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{exi,
     author =    "John Schneider and Takuki Kamiya",
     title =     "Efficient XML Interchange (EXI) Format 1.0",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-exi-20080919",
-    month =     sep,
-    year =      2008,
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-exi-20091208",
+    month =     dec,
+    year =      2009,
     topic =     "exi[1]",
-    uri =       "http://www.w3.org/TR/2008/WD-exi-20080919",
-    abstract =  "This document is the specification of the Efficient XML Interchange (EXI) format. EXI is a very compact representation for the Extensible Markup Language (XML) Information Set that is intended to simultaneously optimize performance and the utilization of computational resources. The EXI format uses a hybrid approach drawn from the information and formal language theories, plus practical techniques verified by measurements, for entropy encoding XML information. Using a relatively simple algorithm, which is amenable to fast and compact implementation, and a small set of data types, it reliably produces efficient encodings of XML event streams. The event production system and format definition of EXI are presented."
+    uri =       "http://www.w3.org/TR/2009/CR-exi-20091208",
+    abstract =  "This document is the specification of the Efficient XML Interchange (EXI) format. EXI is a very compact representation for the Extensible Markup Language (XML) Information Set that is intended to simultaneously optimize performance and the utilization of computational resources. The EXI format uses a hybrid approach drawn from the information and formal language theories, plus practical techniques verified by measurements, for entropy encoding XML information. Using a relatively simple algorithm, which is amenable to fast and compact implementation, and a small set of datatype representations, it reliably produces efficient encodings of XML event streams. The grammar production system and format definition of EXI are presented."
 }
 
 @misc{exiprimer,
     author =    "Daniel Peintner and Santiago Pericas-Geertsen",
     title =     "Efficient XML Interchange (EXI) Primer",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-exi-primer-20071219",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-exi-primer-20091208",
     month =     dec,
-    year =      2007,
+    year =      2009,
     topic =     "exi[0.9]",
-    uri =       "http://www.w3.org/TR/2007/WD-exi-primer-20071219",
-    abstract =  "This is a non-normative document intended to provide an easily readable technical background on the Efficient XML Interchange (EXI) format. It is oriented towards quickly understanding how the EXI format can be used in practice and how options can be set to achieve specific needs. Section 2. Concepts describes the structure of an EXI document and introduces the notions of EXI header, EXI body and EXI grammar which are fundamental to the understanding of the EXI format. Additional details about data type representation, compression, and their interaction with other format features are presented. Finally, Section 3 provides a detailed, bit-level description of a schema-less example."
+    uri =       "http://www.w3.org/TR/2009/WD-exi-primer-20091208",
+    abstract =  "This is a non-normative document intended to provide an easily readable technical background on the Efficient XML Interchange (EXI) format. It is oriented towards quickly understanding how the EXI format can be used in practice and how options can be set to achieve specific needs. Section 2. Concepts describes the structure and content of an EXI document and introduces the notions of EXI header, EXI body, and EXI grammar which are fundamental to the understanding of the EXI format. Furthermore, additional details about data type representation, compression, and their interaction with other format features are presented. Finally, Section 3. Efficient XML Interchange by Example provides a detailed, bit-level description of both, a schema-less and a schema-informed example."
 }
 
 @misc{exibestpractices,
