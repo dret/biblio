@@ -302,6 +302,7 @@
 @string{santonio =  "San Antonio, Texas" }
 @string{saratoga =  "Saratoga Springs, New York" }
 @string{sardinia =  "Sardinia, Italy" }
+@string{sandiego =  "San Diego, California" }
 @string{sanjose =   "San Jose, California" }
 @string{santa =     "Santa Barbara, California" }
 @string{sausalito = "Sausalito, California" }
@@ -2808,6 +2809,20 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 @string{cacm =      "Communications of the ACM" }
+
+@article{wri09,
+    author =    "Alex Wright",
+    title =     "Ready for a Web OS?",
+    journal =   cacm,
+    volume =    52,
+    number =    12,
+    pages =     "16-17",
+    year =      2009,
+    month =     dec,
+    doi =       "10.1145/1610252.1610260",
+    uri =       "http://cacm.acm.org/magazines/2009/12/52829-ready-for-a-web-os/fulltext",
+    abstract =  "Back in 1995, Netscape co-founder Marc Andreessen predicted that his fledgling Web browser would one day render Windows obsolete. Fifteen years later, Netscape is long gone, and the traditional desktop operating system (OS) remains firmly established on most personal computers. Meanwhile, Web browsers still look a lot like they did in the mid-1990s, running inside application windows. In hindsight, Andreessen may have spoken a bit too soon. But history may yet prove him right."
+}
 
 @article{dif09,
     author =    "Whitfield Diffie and Susan Landau",
@@ -11242,6 +11257,34 @@
     year =      2008,
     uri =       "http://www.informatik.uni-trier.de/~ley/db/conf/icde/icde2008.html",
     index =     "ICDE 2008"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@string{osdi2008 = "8th USENIX Symposium on Operating Systems Design and Implementation (OSDI 2008)" }
+
+@inproceedings{ahm08,
+    crossref =  "osdi2008",
+    author =    "John R. Douceur and Jeremy Elson and Jon Howell and Jacob R. Lorch",
+    title =     "Leveraging Legacy Code to Deploy Desktop Applications on the Web",
+    pages =     "339-354",
+    topic =     "xax[1]",
+    uri =       "http://research.microsoft.com/pubs/72878/xax-osdi08.pdf",
+    uri =       "http://www.usenix.org/event/osdi08/tech/full_papers/douceur/douceur_html/index.html",
+    uri =       "http://www.usenix.org/events/osdi08/tech/full_papers/douceur/douceur.pdf",
+    abstract =  "Xax is a browser plugin model that enables developers to leverage existing tools, libraries, and entire programs to deliver feature-rich applications on the web. Xax employs a novel combination of mechanisms that collectively provide security, OS-independence, performance, and support for legacy code. These mechanisms include memory-isolated native code execution behind a narrow syscall interface, an abstraction layer that provides a consistent binary interface across operating systems, system services via hooks to existing browser mechanisms, and lightweight modifications to existing tool chains and code bases. We demonstrate a variety of applications and libraries from existing code bases, in several languages, produced with various tool chains, running in multiple browsers on multiple operating systems. With roughly two person-weeks of effort, we ported 3.3 million lines of code to Xax, including a PDF viewer, a Python interpreter, a speech synthesizer, and an OpenGL pipeline. "
+}
+
+@proceedings{osdi2008,
+    title =     osdi2008,
+    booktitle = osdi2008,
+    editor =    "Richard Draves and Robbert van Renesse",
+    address =   sandiego,
+    key =       osdi2008,
+    month =     dec,
+    year =      2008,
+    isbn =      "978-1-931971-65-2",
+    uri =       "http://www.informatik.uni-trier.de/~ley/db/conf/osdi/osdi2008.html"
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
