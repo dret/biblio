@@ -11289,7 +11289,7 @@
     uri =       "http://research.microsoft.com/pubs/72878/xax-osdi08.pdf",
     uri =       "http://www.usenix.org/event/osdi08/tech/full_papers/douceur/douceur_html/index.html",
     uri =       "http://www.usenix.org/events/osdi08/tech/full_papers/douceur/douceur.pdf",
-    abstract =  "Xax is a browser plugin model that enables developers to leverage existing tools, libraries, and entire programs to deliver feature-rich applications on the web. Xax employs a novel combination of mechanisms that collectively provide security, OS-independence, performance, and support for legacy code. These mechanisms include memory-isolated native code execution behind a narrow syscall interface, an abstraction layer that provides a consistent binary interface across operating systems, system services via hooks to existing browser mechanisms, and lightweight modifications to existing tool chains and code bases. We demonstrate a variety of applications and libraries from existing code bases, in several languages, produced with various tool chains, running in multiple browsers on multiple operating systems. With roughly two person-weeks of effort, we ported 3.3 million lines of code to Xax, including a PDF viewer, a Python interpreter, a speech synthesizer, and an OpenGL pipeline. "
+    abstract =  "Xax is a browser plugin model that enables developers to leverage existing tools, libraries, and entire programs to deliver feature-rich applications on the web. Xax employs a novel combination of mechanisms that collectively provide security, OS-independence, performance, and support for legacy code. These mechanisms include memory-isolated native code execution behind a narrow syscall interface, an abstraction layer that provides a consistent binary interface across operating systems, system services via hooks to existing browser mechanisms, and lightweight modifications to existing tool chains and code bases. We demonstrate a variety of applications and libraries from existing code bases, in several languages, produced with various tool chains, running in multiple browsers on multiple operating systems. With roughly two person-weeks of effort, we ported 3.3 million lines of code to Xax, including a PDF viewer, a Python interpreter, a speech synthesizer, and an OpenGL pipeline."
 }
 
 @proceedings{osdi2008,
@@ -31090,6 +31090,18 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "This document defines the W3C XQuery 1.0 and XPath 2.0 Data Model (XDM), which is the data model of at least XPath 2.0, XSLT 2.0, and XQuery, and any other specifications that reference it. This data model is based on the XPath 1.0 data model and earlier work on an XML Query Data Model. This document is the result of joint work by the XSL Working Group and the XML Query Working Group."
 }
 
+@misc{xmlqdata11,
+    author =    "Norman Walsh and Anders Berglund and John Snelson",
+    title =     "XQuery and XPath Data Model 1.1",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-xpath-datamodel-11-20091215",
+    month =     dec,
+    year =      2009,
+    updates =   "xmlqdata2nd",
+    topic =     "xquery[0.9] xpath2[0.9] xdm[1]",
+    uri =       "http://www.w3.org/TR/2009/WD-xpath-datamodel-11-20091215",
+    abstract =  "This document defines the XQuery and XPath Data Model 1.1, which is the data model of XML Path Language (XPath) 2.1, XSL Transformations (XSLT) Version 2.1, and XQuery 1.1: An XML Query Language, and any other specifications that reference it. This document is the result of joint work by the XSL Working Group and the XML Query Working Group."
+}
+
 @misc{xmlqalg,
     author =    "Peter Fankhauser and Mary F. Fern\'andez and Ashok Malhotra and Michael Rys and J\'er\^ome Sim\'eon and Philip Wadler",
     title =     "The XML Query Algebra",
@@ -31136,14 +31148,14 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{xquery11requirements,
-    author =    "Daniel Engovatov",
+    author =    "Daniel Engovatov and Jonathan Robie",
     title =     "XML Query (XQuery) 1.1 Requirements",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-xquery-11-requirements-20070323",
-    month =     mar,
-    year =      2007,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-xquery-11-requirements-20091215",
+    month =     dec,
+    year =      2009,
     topic =     "xquery[0.7]",
     updates =   "xquery",
-    uri =       "http://www.w3.org/TR/2007/WD-xquery-11-requirements-20070323",
+    uri =       "http://www.w3.org/TR/2009/WD-xquery-11-requirements-20091215",
     abstract =  "This document specifies goals and requirements for XML Query (XQuery) 1.1."
 }
 
@@ -31263,15 +31275,15 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{xquery11,
-    author =    "Donald D. Chamberlin and Jonathan Robie",
-    title =     "XQuery 1.1",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-xquery-11-20081203",
+    author =    "Jonathan Robie and Don Chamberlin and Michael Dyck and John Snelson",
+    title =     "XQuery 1.1: An XML Query Language",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-xquery-11-20091215",
     month =     dec,
-    year =      2008,
+    year =      2009,
     topic =     "xquery[1]",
     updates =   "xquery",
-    uri =       "http://www.w3.org/TR/2008/WD-xquery-11-20081203",
-    abstract =  "XML is a versatile markup language, capable of labeling the information content of diverse data sources including structured and semi-structured documents, relational databases, and object repositories. A query language that uses the structure of XML intelligently can express queries across all these kinds of data, whether physically stored in XML or viewed as XML via middleware. This specification describes a query language called XQuery, which is designed to be broadly applicable across many types of XML data sources. XQuery 1.1 is an extended --- with a small number of new features --- version of the XQuery 1.0 Recommendation published on 23 January 2007. A list of changes made since XQuery 1.0 can be found in the Revision Log."
+    uri =       "http://www.w3.org/TR/2009/WD-xquery-11-20091215",
+    abstract =  "XML is a versatile markup language, capable of labeling the information content of diverse data sources including structured and semi-structured documents, relational databases, and object repositories. A query language that uses the structure of XML intelligently can express queries across all these kinds of data, whether physically stored in XML or viewed as XML via middleware. This specification describes a query language called XQuery, which is designed to be broadly applicable across many types of XML data sources. XQuery 1.1 is an extended version of the XQuery 1.0 Recommendation published on 23 January 2007. A list of changes made since XQuery 1.0 can be found in K Revision Log. Here are some of the new features in XQuery 1.1: 1. group by clause in FLWOR Expressions (3.8.7 Group By Clause). 2. tumbling window and sliding window in FLWOR Expressions (3.8.4 Window Clause). 3. count clause in FLWOR Expressions (3.8.6 Count Clause). 4. allowing empty in 3.8.2 For Clause, for functionality similar to outer joins in SQL. 5. try/catch expressions (3.13 Try/Catch Expressions). 6. Dynamic function invocation (3.1.8 Dynamic Function Invocation). 7. Inline functions (3.1.7 Inline Functions). 8. Private functions (4.17 Function Declaration). 9. Nondeterministic functions (4.17 Function Declaration) 10. Switch expressions (3.11 Switch Expression) 11. Computed namespace constructors (3.7.3.7 Computed Namespace Constructors). 12. Output declarations (2.2.4 Serialization)."
 }
 
 @misc{xq10xp20fo,
@@ -31295,6 +31307,18 @@ We also propose a new taxonomy for geographic search queries.}
     topic =     "xquery[1] xpath2[1] xdm[0.9]",
     uri =       "http://www.w3.org/TR/2009/PER-xpath-functions-20090421",
     abstract =  {This document defines constructor functions, operators and functions on the datatypes defined in "XML Schema Part 2: Datatypes Second Edition" and the datatypes defined in "XQuery 1.0 and XPath 2.0 Data Model". It also discusses functions and operators on nodes and node sequences as defined in XDM. These functions and operators are defined for use in XPath) 2.0, XQuery 1.0 and XSLT 2.0 and other related XML standards. The signatures and summaries of functions defined in this document are available at: http://www.w3.org/2006/xpath-functions.}
+}
+
+@misc{xq10xp20fo11,
+    author =    "Michael Kay",
+    title =     "XPath and XQuery Functions and Operators 1.1",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-xpath-functions-11-20091215",
+    month =     dec,
+    year =      2009,
+    updates =   "xq10xp20fo2nd",
+    topic =     "xquery[1] xpath2[1] xdm[0.9]",
+    uri =       "http://www.w3.org/TR/2009/WD-xpath-functions-11-20091215",
+    abstract =  "This document defines constructor functions, operators, and functions on the datatypes defined in XML Schema Part 2: Datatypes Second Edition and the datatypes defined in XQuery and XPath Data Model (XDM) 1.1. It also defines functions and operators on nodes and node sequences as defined in the XQuery and XPath Data Model (XDM) 1.1. These functions and operators are defined for use in XML Path Language (XPath) 2.1, XQuery 1.1: An XML Query Language and XSL Transformations (XSLT) Version 2.1 and other related XML standards. The signatures and summaries of functions defined in this document are available at: http://www.w3.org/2005/xpath-functions. This is the third version of the specification of this function library. The first version was included as an intrinsic part of the XML Path Language (XPath) Version 1.0 specification published on 16 November 1999. The second version was published under the title XQuery 1.0 and XPath 2.0 Functions and Operators on 23 January 2007. This third version is the first to carry its own version number, which has been arbitrarily set at 1.1 to align with version numbering for XQuery."
 }
 
 @misc{xpathfullusecase,
@@ -31861,35 +31885,35 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{ariapractices,
     author =    "Lisa Pappas and Michael Cooper and Richard Schwerdtfeger",
     title =     "WAI-ARIA Best Practices",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-wai-aria-practices-20090224",
-    month =     feb,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-wai-aria-practices-20091215",
+    month =     dec,
     year =      2009,
     topic =     "aria[1]",
-    uri =       "http://www.w3.org/TR/2009/WD-wai-aria-practices-20090224",
-    abstract =  "This document specifies Best Practices for delivering accessible rich internet applications using WAI-ARIA. The principle objective is to produce a usable, accessible experience over the Web. It provides recommended approaches to create accessible Web content using WAI-ARIA roles, states, and properties to make widgets, navigation, and behaviors accessible. The document also describes considerations that might not be evident to most implementers from the WAI-ARIA specification alone. This document is directed primarily to Web application developers, but the guidance is also useful to user agent and assistive technology developers. This document is part of the WAI-ARIA suite described in the WAI-ARIA Overview."
+    uri =       "http://www.w3.org/TR/2009/WD-wai-aria-practices-20091215",
+    abstract =  "This WAI-ARIA Authoring Practices Guide provides readers with an understanding of how to use WAI-ARIA to create accessible rich internet applications. The principle objective is to produce a usable, accessible experience over the Web. It provides recommended approaches to create accessible Web content using WAI-ARIA roles, states, and properties to make widgets, navigation, and behaviors accessible. The document also describes considerations that might not be evident to most implementers from the WAI-ARIA specification alone. This document is directed primarily to Web application developers, but the guidance is also useful to user agent and assistive technology developers. This document is part of the WAI-ARIA suite described in the WAI-ARIA Overview."
 }
 
 @misc{aria,
-    author =    "James Craig and Michael Cooper and Lisa Pappas and Richard Schwerdtfeger and Lisa Seeman",
+    author =    "James Craig and Michael Cooper",
     title =     "Accessible Rich Internet Applications (WAI-ARIA) 1.0",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-wai-aria-20090224",
-    month =     feb,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-wai-aria-20091215",
+    month =     dec,
     year =      2009,
     topic =     "aria[1]",
     updates =   "ariastate ariarole",
-    uri =       "http://www.w3.org/TR/2009/WD-wai-aria-20090224",
-    abstract =  "Accessibility of web content requires semantic information about widgets, structures, and behaviors, in order to allow assistive technology to convey appropriate information to persons with disabilities. This specification provides an ontology of roles, states, and properties that define accessible user interface elements and can be used to improve the accessibility and interoperability of web content and applications. These semantics are designed to allow an author to properly convey user interface behaviors and structural information in document-level markup, to an assistive technology. This document is part of the WAI-ARIA suite described in the WAI-ARIA Overview."
+    uri =       "http://www.w3.org/TR/2009/WD-wai-aria-20091215",
+    abstract =  "Accessibility of web content requires semantic information about widgets, structures, and behaviors, in order to allow assistive technologies to convey appropriate information to persons with disabilities. This specification provides an ontology of roles, states, and properties that define accessible user interface elements and can be used to improve the accessibility and interoperability of web content and applications. These semantics are designed to allow an author to properly convey user interface behaviors and structural information in document-level markup, to assistive technologies. This document is part of the WAI-ARIA suite described in the WAI-ARIA Overview."
 }
 
 @misc{ariaimplementation,
-    author =    "Aaron Leventhal and Michael Cooper",
+    author =    "Andi Snow-Weaver and Michael Cooper",
     title =     "WAI-ARIA 1.0 User Agent Implementation Guide",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-wai-aria-implementation-20090224",
-    month =     feb,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-wai-aria-implementation-20091215",
+    month =     dec,
     year =      2009,
     topic =     "aria[1]",
-    uri =       "http://www.w3.org/TR/2009/WD-wai-aria-implementation-20090224",
-    abstract =  "This document describes how user agents should respond to roles, states, and properties provided in Web content via WAI-ARIA. These features are used by authors creating accessible rich internet applications. Users often access the content using assistive technologies that rely on platform accessibility APIs to obtain and interact with information from the page. The WAI-ARIA User Agent Implementation Guide defines how implementations should expose content to accessibility APIs, helping to ensure that this information appears in a manner consistent with author intent. This document is part of the WAI-ARIA suite described in the ARIA Overview."
+    uri =       "http://www.w3.org/TR/2009/WD-wai-aria-implementation-20091215",
+    abstract =  "This document describes how user agents should support keyboard navigation and respond to roles, states, and properties provided in Web content via WAI-ARIA. These features are used by authors creating accessible rich internet applications. Users often access the content using assistive technologies that rely on platform accessibility APIs to obtain and interact with information from the page. The WAI-ARIA User Agent Implementation Guide defines how implementations should expose content to accessibility APIs, helping to ensure that this information appears in a manner consistent with author intent. This document is part of the WAI-ARIA suite described in the WAI-ARIA Overview."
 }
 
 @misc{rwabackplane,
@@ -33606,23 +33630,23 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{mathml3,
     author =    "David Carlisle and Patrick Ion and Robert Miner",
     title =     "Mathematical Markup Language (MathML) Version 3.0",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-MathML3-20090924",
-    month =     sep,
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-MathML3-20091215",
+    month =     dec,
     year =      2009,
     updates =   "mathml2sec",
     topic =     "mathml[1]",
-    uri =       "http://www.w3.org/TR/2009/WD-MathML3-20090924",
-    abstract =  "This specification defines the Mathematical Markup Language, or MathML. MathML is an XML application for describing mathematical notation and capturing both its structure and content. The goal of MathML is to enable mathematics to be served, received, and processed on the World Wide Web, just as HTML has enabled this functionality for text. This specification of the markup language MathML is intended primarily for a readership consisting of those who will be developing or implementing renderers or editors using it, or software that will communicate using MathML as a protocol for input or output. It is not a User's Guide but rather a reference document. MathML can be used to encode both mathematical notation and mathematical content. About thirty-eight of the MathML tags describe abstract notational structures, while another about one hundred and seventy provide a way of unambiguously specifying the intended meaning of an expression. Additional chapters discuss how the MathML content and presentation elements interact, and how MathML renderers might be implemented and should interact with browsers. Finally, this document addresses the issue of special characters used for mathematics, their handling in MathML, their presence in Unicode, and their relation to fonts. While MathML is human-readable, in all but the simplest cases, authors use equation editors, conversion programs, and other specialized software tools to generate MathML. Several versions of such MathML tools exist, and more, both freely available software and commercial products, are under development."
+    uri =       "http://www.w3.org/TR/2009/CR-MathML3-20091215",
+    abstract =  "This specification defines the Mathematical Markup Language, or MathML. MathML is an XML application for describing mathematical notation and capturing both its structure and content. The goal of MathML is to enable mathematics to be served, received, and processed on the World Wide Web, just as HTML has enabled this functionality for text. This specification of the markup language MathML is intended primarily for a readership consisting of those who will be developing or implementing renderers or editors using it, or software that will communicate using MathML as a protocol for input or output. It is not a User's Guide but rather a reference document. MathML can be used to encode both mathematical notation and mathematical content. About thirty-eight of the MathML tags describe abstract notational structures, while another about one hundred and seventy provide a way of unambiguously specifying the intended meaning of an expression. Additional chapters discuss how the MathML content and presentation elements interact, and how MathML renderers might be implemented and should interact with browsers. Finally, this document addresses the issue of special characters used for mathematics, their handling in MathML, their presence in Unicode, and their relation to fonts. While MathML is human-readable, authors typically will use equation editors, conversion programs, and other specialized software tools to generate MathML. Several versions of such MathML tools exist, both freely available software and commercial products, and more are under development."
 }
 
 @misc{mathmlforcss,
     author =    "Bert Bos and David Carlisle and George Chavchanidze and Patrick D. F. Ion and Bruce R. Miller",
     title =     "A MathML for CSS Profile",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-mathml-for-css-20091006",
-    month =     oct,
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-mathml-for-css-20091215",
+    month =     dec,
     year =      2009,
     topic =     "mathml[0.8]",
-    uri =       "http://www.w3.org/TR/2009/WD-mathml-for-css-20091006",
+    uri =       "http://www.w3.org/TR/2009/CR-mathml-for-css-20091215",
     abstract =  "This document describes a profile of MathML 3.0 that admits formatting with Cascading Style Sheets."
 }
 
@@ -33906,6 +33930,18 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "XPath 2.0 is an expression language that allows the processing of values conforming to the data model defined in the XQuery 1.0 and XPath 2.0 Data Model (XDM). The data model provides a tree representation of XML documents as well as atomic values such as integers, strings, and booleans, and sequences that may contain both references to nodes in an XML document and atomic values. The result of an XPath expression may be a selection of nodes from the input documents, or an atomic value, or more generally, any sequence allowed by the data model. The name of the language derives from its most distinctive feature, the path expression, which provides a means of hierarchic addressing of the nodes in an XML tree. XPath 2.0 is a superset of XPath 1.0, with the added capability to support a richer set of data types, and to take advantage of the type information that becomes available when documents are validated using XML Schema. A backwards compatibility mode is provided to ensure that nearly all XPath 1.0 expressions continue to deliver the same result with XPath 2.0; exceptions to this policy are noted in Section I (Backwards Compatibility with XPath 1.0)."
 }
 
+@misc{xpath21,
+    author =    "Jonathan Robie and Don Chamberlin and Michael Dyck and John Snelson",
+    title =     "XML Path Language (XPath) 2.1",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-xpath-21-20091215",
+    month =     dec,
+    year =      2009,
+    topic =     "xml[0.6] xpath2[1]",
+    uri =       "http://www.w3.org/TR/2009/WD-xpath-21-20091215",
+    updates =   "xpath20second",
+    abstract =  "XPath 2.0 is an expression language that allows the processing of values conforming to the data model defined in [XQuery and XPath Data Model (XDM) 1.1]. The data model provides a tree representation of XML documents as well as atomic values such as integers, strings, and booleans, and sequences that may contain both references to nodes in an XML document and atomic values. The result of an XPath expression may be a selection of nodes from the input documents, or an atomic value, or more generally, any sequence allowed by the data model. The name of the language derives from its most distinctive feature, the path expression, which provides a means of hierarchic addressing of the nodes in an XML tree. XPath 2.0 is a superset of [XML Path Language (XPath) Version 1.0], with the added capability to support a richer set of data types, and to take advantage of the type information that becomes available when documents are validated using XML Schema. A backwards compatibility mode is provided to ensure that nearly all XPath 1.0 expressions continue to deliver the same result with XPath 2.0; exceptions to this policy are noted in [I Backwards Compatibility with XPath 1.0]."
+}
+
 @misc{xqxpparsing,
     author =    "Scott Boag",
     title =     "Building a Tokenizer for XPath or XQuery",
@@ -34149,6 +34185,18 @@ We also propose a new taxonomy for geographic search queries.}
     updates =   "xsltxqueryserialize",
     uri =       "http://www.w3.org/TR/2009/PER-xslt-xquery-serialization-20090421",
     abstract =  {This document defines serialization of an instance of the data model as defined in "XQuery 1.0 and XPath 2.0 Data Model" into a sequence of octets. Serialization is designed to be a component of a expanded a host language such as "XSL Transformations (XSLT) Version 2.0" or "XQuery 1.0: An XML Query Language".}
+}
+
+@misc{xsltxqueryserialization11,
+    author =    "Henry Zongaro",
+    title =     "XSLT 2.0 and XQuery 1.0 Serialization (Second Edition)",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-xslt-xquery-serialization-11-20091215",
+    month =     dec,
+    year =      2009,
+    topic =     "xslt2[0.9] xquery[0.9]",
+    updates =   "xsltxqueryserialize2nd",
+    uri =       "http://www.w3.org/TR/2009/WD-xslt-xquery-serialization-11-20091215",
+    abstract =  "This document defines serialization of an instance of the data model as defined in the XQuery and XPath Data Model 1.1 into a sequence of octets. Serialization is designed to be a component that can be used by other specifications such as XSL Transformations (XSLT) Version 2.1 or XQuery 1.1: An XML Query Language."
 }
 
 @misc{xqueryx,
@@ -35280,12 +35328,12 @@ We also propose a new taxonomy for geographic search queries.}
 
 @misc{css3sel,
     author =    "Tantek \c{C}elik and Elika J. Etemad and Daniel Glazman and Ian Hickson and Peter Linss and John Williams",
-    title =     "CSS3 Module: Selectors",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-css3-selectors-20090310",
-    month =     mar,
+    title =     "Selectors Level 3",
+    howpublished =  "World Wide Web Consortium, Proposed Recommendation PR-css3-selectors-20091215",
+    month =     dec,
     year =      2009,
     topic =     "css3[1]",
-    uri =       "http://www.w3.org/TR/2009/WD-css3-selectors-20090310",
+    uri =       "http://www.w3.org/TR/2009/PR-css3-selectors-20091215",
     abstract =  "Selectors are patterns that match against elements in a tree, and as such form one of several technologies that can be used to select nodes in an XML document. Selectors have been optimized for use with HTML and XML, and are designed to be usable in performance-critical code. CSS (Cascading Style Sheets) is a language for describing the rendering of HTML and XML documents on screen, on paper, in speech, etc. CSS uses Selectors for binding style properties to elements in the document. This document describes the selectors that already exist in CSS1 and CSS2, and further introduces new selectors for CSS3 and other languages that may need them. Selectors define the following function: expression * element -> boolean. That is, given an element and a selector, this specification defines whether that element matches the selector. These expressions can also be used, for instance, to select a set of elements, or a single element from a set of elements, by evaluating the expression across all the elements in a subtree. STTS (Simple Tree Transformation Sheets), a language for transforming XML trees, uses this mechanism."
 }
 
