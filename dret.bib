@@ -158,6 +158,7 @@
 @string{cambm =     "Cambridge, Massachusetts" }
 @string{cancun =    "Canc\'un, Mexico" }
 @string{cannes =    "Cannes, France" }
+@string{chantilly = "Chantilly, Virginia" }
 @string{chapel =    "Chapel Hill, North Carolina" }
 @string{cheshire =  "Cheshire, Connecticut" }
 @string{chiba =     "Chiba, Japan" }
@@ -1037,6 +1038,18 @@
 
 @string{websemj = "Journal of Web Semantics" }
 
+@article{bat08,
+    journal =   websemj,
+    author =    "Robert Battle and Edward Benson",
+    title =     "Bridging the Semantic Web and Web 2.0 with Representational State Transfer (REST)",
+    year =      2008,
+    volume =    6,
+    number =    1,
+    topic =     "rest[0.8] rdf[0.8] sparql[0.8]",
+    doi =       "doi:10.1016/j.websem.2007.11.002",
+    abstract =  "Semantic Web technologies must integrate with Web 2.0 services for both to leverage each others strengths. We argue that the REST-based design methodologies of the web present the ideal mechanism through which to align the publication of semantic data with the existing web architecture. We present the design and implementation of two solutions that combine REST-based design and RDF data access: one solution for integrating existing web services and one server-side solution for creating RDF REST services. Both of these solutions enable SPARQL to be a unifying data access layer for aligning the Semantic Web and Web 2.0."
+}
+
 @article{fik05,
     journal =   websemj,
     author =    "Richard Fikes and Patrick Hayes and Ian Horrocks",
@@ -1311,6 +1324,20 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 @string{ieeeis = "IEEE Intelligent Systems" }
+
+@article{boj08,
+    author =    "Uldis Boj\=ars and John G. Breslin and Vassilios Peristeras and Giovanni Tummarello and Stefan Decker",
+    journal =   ieeeis,
+    title =     "Interlinking the Social Web with Semantics",
+    year =      2008,
+    month =     may,
+    volume =    23,
+    number =    3,
+    pages =     "29-40",
+    doi =       "10.1109/MIS.2008.50",
+    uri =       "http://www.computer.org/portal/web/csdl/doi/10.1109/mis.2008.50",
+    abstract =  "One of the most visible trends on the Web is the emergence of Social Web sites, which help people create and gather knowledge by simplifying user contributions via blogs, tagging and folksonomies, wikis, podcasts, and online social networks. Current online-community sites are isolated from one another, like islands in a sea. Various discussions might contain complementary knowledge and discussions—parts of the answer a person is looking for—but people participating in one discussion can't readily access information about related discussions elsewhere. The potential synergies among many sites, communities, and services are expensive to exploit, and their data are difficult and cumbersome to link and reuse. The main reason for this lack of interoperation is that for the most part in the Social Web, common standards still don't exist for knowledge and information exchange and interoperation. However, the Semantic Web effort aims to provide the tools needed to define extensible, flexible standards for this purpose. The Semantic Web technology stack is well defined, enabling the creation of metadata and associated vocabularies. The Semantic Web effort is in an ideal position to make Social Web sites interoperable. Applying Semantic Web frameworks including SIOC (Semantically Interlinked Online Communities) and FOAF (Friend-of-a-Friend) to the Social Web can lead to a Social Semantic Web, creating a network of interlinked and semantically rich knowledge. This article is part of a special issue called Semantic Web Update."
+}
 
 @article{ber06b,
     author =    "Nigel Shadbolt and Tim Berners-Lee and Wendy Hall",
@@ -7715,6 +7742,16 @@
 
 @string{iswc2009 = "8th International Semantic Web Conference" }
 
+@inproceedings{amb09,
+    crossref =  "iswc2009",
+    author =    "Jos\'e Luis Ambite and Sirish Darbha and Aman Goel and Craig A. Knoblock and Kristina Lerman and Rahul Parundekar and Thomas Russ",
+    title =     "Automatically Constructing Semantic Web Services from Online Sources",
+    pages =     "17-32",
+    doi =       "10.1007/978-3-642-04930-9_2",
+    topic =     "deimos[1]",
+    abstract =  "The work on integrating sources and services in the Semantic Web assumes that the data is either already represented in RDF or OWL or is available through a Semantic Web Service. In practice, there is a tremendous amount of data on the Web that is not available through the Semantic Web. In this paper we present an approach to automatically discover and create new Semantic Web Services. The idea behind this approach is to start with a set of known sources and the corresponding semantic descriptions and then discover similar sources, extract the source data, build semantic descriptions of the sources, and then turn them into Semantic Web Services. We implemented an end-to-end solution to this problem in a system called Deimos and evaluated the system across five different domains. The results demonstrate that the system can automatically discover, learn semantic descriptions, and build Semantic Web Services with only example sources and their descriptions as input."
+}
+
 @inproceedings{vol09b,
     crossref =  "iswc2009",
     author =    "Julius Volz and Christian Bizer and Martin Gaedke and Georgi Kobilarov",
@@ -7735,13 +7772,28 @@
     abstract =  "The Web of Linked Data forms a single, globally distributed dataspace. Due to the openness of this dataspace, it is not possible to know in advance all data sources that might be relevant for query answering. This openness poses a new challenge that is not addressed by traditional research on federated query processing. In this paper we present an approach to execute SPARQL queries over the Web of Linked Data. The main idea of our approach is to discover data that might be relevant for answering a query during the query execution itself. This discovery is driven by following RDF links between data sources based on URIs in the query and in partial results. The URIs are resolved over the HTTP protocol into RDF data which is continuously added to the queried dataset. This paper describes concepts and algorithms to implement our approach using an iterator-based pipeline. We introduce a formalization of the pipelining approach and show that classical iterators may cause blocking due to the latency of HTTP requests. To avoid blocking, we propose an extension of the iterator paradigm. The evaluation of our approach shows its strengths as well as the still existing challenges."
 }
 
+@inproceedings{alo09,
+    crossref =  "iswc2009",
+    author =    "Areeb Alowisheq and David E. Millard and Thanassis Tiropanis",
+    title =     "EXPRESS: EXPressing REstful Semantic Services Using Domain Ontologies ",
+    topic =     "sparql[0.9]",
+    pages =     "941-948",
+    doi =       "10.1007/978-3-642-04930-9_59",
+    abstract =  "Existing approaches to Semantic Web Services (SWS) require a domain ontology and a semantic description of the service. In the case of lightweight SWS approaches, such as SAWSDL, service description is achieved by semantically annotating existing web service interfaces. Other approaches such as OWL-S and WSMO describe services in a separate ontology. So, existing approaches separate service description from domain description, therefore increasing design efforts. We propose EXPRESS a lightweight approach to SWS that requires the domain ontology definition only. Its simplicity stems from the similarities between REST and the Semantic Web such as resource realization, self describing representations, and uniform interfaces. The semantics of a service is elicited from a resource’s semantic description in the domain ontology and the semantics of the uniform interface, hence eliminating the need for ontologically describing services. We provide an example that illustrates EXPRESS and then discuss how it compares to SA-REST and WSMO."
+}
+
 @proceedings{iswc2009,
     title =     iswc2009,
     booktitle = iswc2009,
-    address =   wash,
+    editor =    "Abraham Bernstein and David R. Karger and Tom Heath and Lee Feigenbaum and Diana Maynard and Enrico Motta and Krishnaprasad and Thirunarayan",
+    address =   chantilly,
+    publisher = springer,
+    series =    LNCS,
+    volume =    5823,
     month =     oct,
     year =      2009,
     index =     "ISWC 2009",
+    doi =       "10.1007/978-3-642-04930-9",
     uri =       "http://iswc2009.semanticweb.org/"
 }
 
@@ -34335,10 +34387,10 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{wscui,
     author =    "Thomas Roessler and Anil Saldhana",
     title =     "Web Security Context: User Interface Guidelines",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-wsc-ui-20090226",
-    month =     feb,
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-wsc-ui-20091222",
+    month =     dec,
     year =      2009,
-    uri =       "http://www.w3.org/TR/2009/WD-wsc-ui-20090226",
+    uri =       "http://www.w3.org/TR/2009/CR-wsc-ui-20091222",
     abstract =  "This specification defines guidelines and requirements for the presentation and communication of Web security context information to end-users."
 }
 
@@ -34960,12 +35012,12 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{widgetsapis,
-    author =    "Arve Bersvendsen and Marcos C\'aceres",
-    title =     "Widgets 1.0: The widget Interface",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-widgets-apis-20091117",
-    month =     nov,
+    author =    "Marcos C\'aceres and Robin Berjon and Arve Bersvendsen",
+    title =     "The Widget Interface",
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-widgets-apis-20091222",
+    month =     dec,
     year =      2009,
-    uri =       "http://www.w3.org/TR/2009/WD-widgets-apis-20091117",
+    uri =       "http://www.w3.org/TR/2009/CR-widgets-apis-20091222",
     abstract =  "This specification defines an application programming interface (API) for widgets that provides, amongst other things, functionality for accessing a widget's metadata and persistently storing data."
 }
 
@@ -35363,11 +35415,11 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{selectorsapi,
     author =    "Anne van Kesteren and Lachlan Hunt",
     title =     "Selectors API",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-selectors-api-20081114",
-    month =     nov,
-    year =      2008,
+    howpublished =  "World Wide Web Consortium, Working Draft CR-selectors-api-20091222",
+    month =     dec,
+    year =      2009,
     topic =     "css3[0.9] dom[0.9]",
-    uri =       "http://www.w3.org/TR/2008/WD-selectors-api-20081114",
+    uri =       "http://www.w3.org/TR/2009/CR-selectors-api-20091222",
     abstract =  "Selectors, which are widely used in CSS, are patterns that match against elements in a tree structure. The Selectors API specification defines methods for retrieving Element nodes from the DOM by matching against a group of selectors. It is often desirable to perform DOM operations on a specific set of elements in a document. These methods simplify the process of acquiring specific elements, especially compared with the more verbose techniques defined and used in the past."
 }
 
@@ -35835,55 +35887,55 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{eventsource,
     author =    "Ian Hickson",
     title =     "Server-Sent Events",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-eventsource-20091029",
-    month =     oct,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-eventsource-20091222",
+    month =     dec,
     year =      2009,
     topic =     "html[0.9] http[0.8] dom[0.8]",
-    uri =       "http://www.w3.org/TR/2009/WD-eventsource-20091029",
+    uri =       "http://www.w3.org/TR/2009/WD-eventsource-20091222",
     abstract =  "This specification defines an API for opening an HTTP connection for receiving push notifications from a server in the form of DOM events. The API is designed such that it can be extended to work with other push notification schemes such as Push SMS."
 }
 
 @misc{websockets,
     author =    "Ian Hickson",
     title =     "The Web Sockets API",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-websockets-20091029",
-    month =     oct,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-websockets-20091222",
+    month =     dec,
     year =      2009,
     topic =     "dom[0.9]",
-    uri =       "http://www.w3.org/TR/2009/WD-websockets-20091029",
+    uri =       "http://www.w3.org/TR/2009/WD-websockets-20091222",
     abstract =  "This specification defines an API that enables Web pages to use the Web Sockets protocol for two-way communication with a remote host."
 }
 
 @misc{webstorage,
     author =    "Ian Hickson",
     title =     "Web Storage",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-webstorage-20091029",
-    month =     oct,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-webstorage-20091222",
+    month =     dec,
     year =      2009,
     topic =     "dom[0.9]",
-    uri =       "http://www.w3.org/TR/2009/WD-webstorage-20091029",
+    uri =       "http://www.w3.org/TR/2009/WD-webstorage-20091222",
     abstract =  "This specification defines an API for persistent data storage of key-value pair data in Web clients."
 }
 
 @misc{webdatabase,
     author =    "Ian Hickson",
-    title =     "Web Database",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-webdatabase-20091029",
-    month =     oct,
+    title =     "Web SQL Database",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-webdatabase-20091222",
+    month =     dec,
     year =      2009,
     topic =     "dom[0.9] sql[0.9]",
-    uri =       "http://www.w3.org/TR/2009/WD-webdatabase-20091029",
+    uri =       "http://www.w3.org/TR/2009/WD-webdatabase-20091222",
     abstract =  "This specification defines an API for storing data in databases that can be queried using a variant of SQL."
 }
 
 @misc{webworkers,
     author =    "Ian Hickson",
     title =     "Web Workers",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-workers-20091029",
-    month =     oct,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-workers-20091222",
+    month =     dec,
     year =      2009,
     topic =     "dom[0.9]",
-    uri =       "http://www.w3.org/TR/2009/WD-workers-20091029",
+    uri =       "http://www.w3.org/TR/2009/WD-workers-20091222",
     abstract =  "This specification defines an API that allows Web application authors to spawn background workers running scripts in parallel to their main page. This allows for thread-like operation with message-passing as the coordination mechanism."
 }
 
