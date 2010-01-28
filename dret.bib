@@ -31038,9 +31038,20 @@ We also propose a new taxonomy for geographic search queries.}
     howpublished =  "World Wide Web Consortium, Working Draft WD-cors-20090317",
     month =     mar,
     year =      2009,
-    topic =     "pi[0.7] http[0.7] javascript[0.7]",
+    topic =     "api[0.7] http[0.7] javascript[0.7]",
     uri =       "http://www.w3.org/TR/2009/WD-cors-20090317",
     abstract =  "This document defines a mechanism to enable client-side cross-site requests. Specifications that want to enable cross-site requests in an API they define can use the algorithms defined by this specification. If such an API is used on http://example.org resources, a resource on http://hello-world.example can opt in using the mechanism described by this specification (e.g., specifying Access-Control-Allow-Origin: http://example.org as response header), which would allow that resource to be fetched cross-site from http://example.org."
+}
+
+@misc{ump,
+    author =    "Tyler Close and Mark Miller",
+    title =     "Uniform Messaging Policy, Level One",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-UMP-20100126",
+    month =     jan,
+    year =      2010,
+    topic =     "api[0.7] http[0.7] javascript[0.7] ump[1]",
+    uri =       "http://www.w3.org/TR/2010/WD-UMP-20100126",
+    abstract =  "The Uniform Messaging Policy (UMP) enables cross-site messaging that avoids Cross-Site-Request-Forgery and similar attacks that abuse HTTP cookies and other credentials. For example, content from customer.example.org can safely specify requests to resources determined by service.example.com. Rather than restricting information retrieval to a single origin, as the Same Origin Policy almost does, the Uniform Messaging Policy supports origin independent messaging."
 }
 
 @misc{xformsreq,
@@ -32524,47 +32535,47 @@ We also propose a new taxonomy for geographic search queries.}
 
 @misc{sparql11query,
     author =    "Steve Harris and Andy Seaborne",
-    title =     "SPARQL 1.1 Query",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-sparql11-query-20091022",
-    month =     oct,
-    year =      2009,
+    title =     "SPARQL Query Language 1.1",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-sparql11-query-20100126",
+    month =     jan,
+    year =      2010,
     topic =     "sparql[1] rdf[0.8]",
     updates =   "sparqlquery",
-    uri =       "http://www.w3.org/TR/2009/WD-sparql11-query-20091022",
-    abstract =  "RDF is a directed, labeled graph data format for representing information in the Web. The SPARQL specification defines the syntax and semantics of the SPARQL query language for RDF. This document describes changes that will be made to the SPARQL query language to form SPARQL 1.1 Query."
+    uri =       "http://www.w3.org/TR/2010/WD-sparql11-query-20100126",
+    abstract =  "RDF is a directed, labeled graph data format for representing information in the Web. This specification defines the syntax and semantics of the SPARQL query language for RDF. SPARQL can be used to express queries across diverse data sources, whether the data is stored natively as RDF or viewed as RDF via middleware. SPARQL contains capabilities for querying required and optional graph patterns along with their conjunctions and disjunctions. SPARQL also supports aggregation, subqueries, creating values by complex expressions, extensible value testing, and constraining queries by source RDF graph. The results of SPARQL queries can be results sets or RDF graphs."
 }
 
 @misc{sparql11servicedescription,
     author =    "Gregory Todd Williams",
     title =     "SPARQL 1.1 Service Description",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-sparql11-service-description-20091022",
-    month =     oct,
-    year =      2009,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-sparql11-service-description-20100126",
+    month =     jan,
+    year =      2010,
     topic =     "sparql[1]",
-    uri =       "http://www.w3.org/TR/2009/WD-sparql11-service-description-20091022",
-    abstract =  "This document describes SPARQL Service Descriptions, a method for discovering and vocabulary for describing SPARQL services made available via the SPARQL Protocol. Such descriptions are intended to provide a mechanism by which a client or end user can discover information about the SPARQL implementation/service such as supported extension functions and details about the available dataset."
+    uri =       "http://www.w3.org/TR/2010/WD-sparql11-service-description-20100126",
+    abstract =  "This document describes SPARQL Service Description, a method for discovering and vocabulary for describing SPARQL services made available via the SPARQL Protocol. Such a description is intended to provide a mechanism by which a client or end user can discover information about the SPARQL implementation/service such as supported extension functions and details about the available dataset."
 }
 
 @misc{sparql11update,
     author =    "Simon Schenk and Paul Gearon",
     title =     "SPARQL 1.1 Update",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-sparql11-update-20091022",
-    month =     oct,
-    year =      2009,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-sparql11-update-20100126",
+    month =     jan,
+    year =      2010,
     topic =     "sparql[1] rdf[0.8]",
     updates =   "sparqlquery",
-    uri =       "http://www.w3.org/TR/2009/WD-sparql11-update-20091022",
-    abstract =  "This document describes SPARQL-Update, an update language for RDF graphs. It uses a syntax derived from SPARQL. Update operations are performed on a collection of graphs in a Graph Store. Operations are provided to change existing RDF graphs as well as create and remove graphs in the Graph Store."
+    uri =       "http://www.w3.org/TR/2010/WD-sparql11-update-20100126",
+    abstract =  "This document describes SPARQL 1.1 Update, an update language for RDF graphs. It uses a syntax derived from SPARQL. Update operations are performed on a collection of graphs in a Graph Store. Operations are provided to change existing RDF graphs as well as create and remove graphs in the Graph Store."
 }
 
 @misc{sparql11httprdfupdate,
     author =    "Chimezie Ogbuji",
     title =     "SPARQL 1.1 Uniform HTTP Protocol for Managing RDF Graphs",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-sparql11-http-rdf-update-20091022",
-    month =     oct,
-    year =      2009,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-sparql11-http-rdf-update-20100126",
+    month =     jun,
+    year =      2010,
     topic =     "sparql[1] rdf[0.8] http[0.8]",
-    uri =       "http://www.w3.org/TR/2009/WD-sparql11-http-rdf-update-20091022",
+    uri =       "http://www.w3.org/TR/2010/WD-sparql11-http-rdf-update-20100126",
     abstract =  "SPARQL provides a standard way to query RDF data. The SPARQL update language allows a user to update RDF graphs in an RDF dataset at various levels of granularity, including individual RDF statements. The protocol described here is meant to provide a minimal set of uniform, colloquial HTTP operations for managing a semantic web of network-manipulable RDF at a strictly large level of granularity."
 }
 
@@ -32602,15 +32613,26 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{sparql11protocol,
-    author =    "Simon Johnston and Lee Feigenbaum",
+    author =    "David Charboneau and Lee Feigenbaum",
     title =     "SPARQL 1.1 Protocol for RDF",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-sparql11-protocol-20091022",
-    month =     oct,
-    year =      2009,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-sparql11-protocol-20100126",
+    month =     jan,
+    year =      2010,
     topic =     "sparql[0.9]",
     updates =   "sparqlprotocol",
-    uri =       "http://www.w3.org/TR/2009/WD-sparql11-protocol-20091022",
+    uri =       "http://www.w3.org/TR/2010/WD-sparql11-protocol-20100126",
     abstract =  "The SPARQL Protocol and RDF Query Language (SPARQL) is a query language and protocol for RDF. This document specifies the SPARQL Protocol; it uses WSDL 2.0 to describe a means for conveying SPARQL queries to an SPARQL query processing service and returning the query results to the entity that requested them. This protocol was developed by the W3C SPARQL Working Group, part of the Semantic Web Activity as described in the activity statement."
+}
+
+@misc{sparql11propertypaths,
+    author =    "Andy Seaborne",
+    title =     "SPARQL 1.1 Property Paths",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-sparql11-property-paths-20100126",
+    month =     jan,
+    year =      2010,
+    topic =     "sparql[0.9]",
+    uri =       "http://www.w3.org/TR/2010/WD-sparql11-property-paths-20100126",
+    abstract =  "This document describes SPARQL Property Paths. Property Paths give a more succinct way to write parts of basic graph patterns and also extend matching of triple pattern to arbitrary length paths. Property paths do not invalidate or change any existing SPARQL query. Property paths are a time-permitting feature."
 }
 
 @misc{sprot11,
@@ -32638,12 +32660,12 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{sparql11entailment,
     author =    "Birte Glimm and Bijan Parsia",
     title =     "SPARQL 1.1 Entailment Regimes",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-sparql11-entailment-20091022",
-    month =     oct,
-    year =      2009,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-sparql11-entailment-20100126",
+    month =     jan,
+    year =      2010,
     topic =     "sparql[1]",
-    uri =       "http://www.w3.org/TR/2009/WD-sparql11-entailment-20091022",
-    abstract =  "SPARQL is a query language for data that is stored natively as RDF or viewed as RDF via middleware. What correct answers to a SPARQL query are depends on the used entailment regime and the vocabulary from which the resulting answers can be taken. The first version of SPARQL was defined only for simple entailment, but it defines a set of conditions that have to be met when defining what correct results are for SPARQL queries under different entailment regimes. The goal of this document is to specify conditions such that SPARQL can be used with entailment regimes other than simple entailment. Currently the semantics of SPARQL queries under RDF and RDFS entailment is defined. Time permitting, entailment regimes will also be defined for D-entailment, OWL with Direct  and RDF-Based  semantics including OWL 2 Profiles, and the rule interchange format RIF."
+    uri =       "http://www.w3.org/TR/2010/WD-sparql11-entailment-20100126",
+    abstract =  "SPARQL is a query language for data that is stored natively as RDF or viewed as RDF via middle-ware. What the correct answers to a SPARQL query are, depends on the used entailment regime and the vocabulary from which the resulting answers can be taken. SPARQL 1.1 Query defines basic graph pattern matching only for simple entailment, but it defines a set of conditions that have to be met when defining what correct results are for SPARQL queries under different entailment regimes. The goal of this document is to specify conditions such that SPARQL can be used with some other entailment regimes beyond simple entailment."
 }
 
 @misc{rdfcal,
