@@ -36703,6 +36703,17 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  {This specification provides an API for representing file objects in web applications, as well as programmatically selecting them and accessing their data. This includes: a FileList sequence, which represents an array of individually selected files from the underlying system. The user interface for selection can be invoked via <input type="file">, i.e. when the input element is in the File Upload state; a Blob interface, which represents raw binary data, and allows access to ranges of bytes within the Blob object; a File interface, which includes readonly informational attributes about a file such as its name, its mediatype, and a URL to access its data; a FileReader interface, which provides methods to read a File, and an event model to obtain the results of these reads; and a FileError interface and a FileException exception which define error conditions used by this specification. Additionally, this specification defines objects to be used within threaded web applications for the synchronous reading of files. The section on Requirements and Use Cases covers the motivation behind this specification. This API is designed to be used in conjunction with other APIs and elements on the web platform, notably: XMLHttpRequest (e.g. with an overloaded send() method for File objects), postMessage, DataTransfer (part of the drag and drop API defined in HTML5), and Web Workers. Additionally, it should be possible to programmatically obtain a list of files from the input element when it is in the File Upload state. These kinds of behaviors are defined in the appropriate affiliated specifications.}
 }
 
+@misc{filewriterapi,
+    author =    "Eric Uhrhane",
+    title =     "File API: Writer",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-file-writer-api-20100406",
+    month =     apr,
+    year =      2010,
+    topic =     "dom[0.9]",
+    uri =       "http://www.w3.org/TR/2010/WD-file-writer-api-20100406",
+    abstract =  "This specification defines an API for writing to files from web applications. This API is designed to be used in conjunction with, and depends on definitions in, other APIs and elements on the web platform. Most relevant among these are File API and Web Workers."
+}
+
 @misc{offlinewebapps,
     author =    "Anne van Kesteren and Ian Hickson",
     title =     "Offline Web Applications",
