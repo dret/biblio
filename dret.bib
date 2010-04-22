@@ -33021,15 +33021,39 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "Current web pages, written in HTML, contain significant inherent structured data. When publishers can express this data more completely, and when tools can read it, a new world of user functionality becomes available, letting users transfer structured data between applications and web sites. An event on a web page can be directly imported into a user's desktop calendar. A license on a document can be detected so that the user is informed of his rights automatically. A photo's creator, camera setting information, resolution, and topic can be published as easily as the original photo itself, enabling structured search and sharing. RDFa is a syntax for expressing RDF structured data in HTML. This document provides use case scenarios for RDFa. An introduction to implementing RDFa is provided in the RDFa Primer, while the details of the syntax are explained in the RDFa Syntax (to be published)."
 }
 
+@misc{rdfacore,
+    author =    "Ben Adida and Mark Birbeck and Shane McCarron and Ivan Herman",
+    title =     "RDFa Core 1.1: Syntax and Processing Rules for Embedding RDF through Attributes",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-rdfa-core-20100422",
+    month =     apr,
+    year =      2010,
+    topic =     "rdfa[1]",
+    uri =       "http://www.w3.org/TR/2010/WD-rdfa-core-20100422",
+    updates =   "rdfasyntax"
+    abstract =  "The current Web is primarily made up of an enormous number of documents that have been created using HTML. These documents contain significant amounts of structured data, which is largely unavailable to tools and applications. When publishers can express this data more completely, and when tools can read it, a new world of user functionality becomes available, letting users transfer structured data between applications and web sites, and allowing browsing applications to improve the user experience: an event on a web page can be directly imported into a user's desktop calendar; a license on a document can be detected so that users can be informed of their rights automatically; a photo's creator, camera setting information, resolution, location and topic can be published as easily as the original photo itself, enabling structured search and sharing. RDFa Core is a specification for attributes to express structured data in any markup language. The embedded data already available in the markup language (e.g., XHTML) is reused by the RDFa markup, so that publishers don't need to repeat significant data in the document content. The underlying abstract representation is RDF, which lets publishers build their own vocabulary, extend others, and evolve their vocabulary with maximal interoperability over time. The expressed structure is closely tied to the data, so that rendered data can be copied and pasted along with its relevant structure. The rules for interpreting the data are generic, so that there is no need for different rules for different formats; this allows authors and publishers of data to define their own formats without having to update software, register formats via a central authority, or worry that two formats may interfere with each other. RDFa shares some of the same goals with microformats. Whereas microformats specify both a syntax for embedding structured data into HTML documents and a vocabulary of specific terms for each microformat, RDFa specifies only a syntax and relies on independent specification of terms (often called vocabularies or taxonomies) by others. RDFa allows terms from multiple independently-developed vocabularies to be freely intermixed and is designed such that the language can be parsed without knowledge of the specific vocabulary being used. This document is a detailed syntax specification for RDFa, aimed at: those looking to create an RDFa Processor, and who therefore need a detailed description of the parsing rules; those looking to recommend the use of RDFa within their organization, and who would like to create some guidelines for their users; anyone familiar with RDF, and who wants to understand more about what is happening 'under the hood', when an RDFa Processor runs. For those looking for an introduction to the use of RDFa and some real-world examples, please consult the RDFa Primer."
+}
+
 @misc{rdfainhtml,
     author =    "Ben Adida and Mark Birbeck and Shane McCarron and Steven Pemberton and Manu Sporny",
-    title =     "HTML+RDFa: A mechanism for embedding RDF in HTML",
+    title =     "HTML+RDFa: A Mechanism for Embedding RDF in HTML",
     howpublished =  "World Wide Web Consortium, Working Draft WD-rdfa-in-html-20100304",
     month =     mar,
     year =      2010,
     topic =     "rdfa[0.9] html[0.9]",
     uri =       "http://www.w3.org/TR/2010/WD-rdfa-in-html-20100304",
     abstract =  "This specification defines rules and guidelines for adapting the RDF in XHTML: Syntax and Processing (RDFa) specification for use in the HTML5 and XHTML5 members of the HTML family. The rules defined in this specification not only apply to HTML5 documents in non-XML and XML mode, but also to HTML4 and XHTML documents interpreted through the HTML5 parsing rules."
+}
+
+@misc{xhtmlrdfa,
+    author =    "Shane McCarron",
+    title =     "XHTML+RDFa 1.1: Support for RDFa via XHTML Modularization",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-xhtml-rdfa-20100422",
+    month =     apr,
+    year =      2010,
+    topic =     "rdfa[0.9] xhtml[0.9]",
+    uri =       "http://www.w3.org/TR/2010/WD-xhtml-rdfa-20100422",
+    updates =   "rdfasyntax"
+    abstract =  "RDFa Core 1.1 defines attributes and syntax for embedding semantic markup in Host Languages. This document defines one such Host Language. This language is a superset of XHTML 1.1, integrating the attributes as defined in RDFa Core 1.1. This document is intended for authors who want to create XHTML-Family documents that embed rich semantic markup."
 }
 
 @misc{rdf,
