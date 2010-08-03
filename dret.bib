@@ -22222,7 +22222,7 @@ We also propose a new taxonomy for geographic search queries.}
     year =      1996,
     month =     oct,
     address =   cupertino,
-    index =     "TrueType"
+    topic =     "truetype[1]"
 }
 
 @manual{sbvr10,
@@ -28669,7 +28669,7 @@ We also propose a new taxonomy for geographic search queries.}
     howpublished =  "ISO/IEC 14496-22:2009",
     month =     jul,
     year =      2009,
-    topic =     "off[1]",
+    topic =     "off[1] truetype[0.9] cff[0.9]",
     abstract =  "ISO/IEC 14496-22:2009 specifies the Open Font Format (OFF) specification, the TrueType and Compact Font Format (CFF) outline formats, and the TrueType hinting language. It makes references to both TrueType and PostScript, as Open Font Format fonts combine the two technologies. Multimedia applications require a broad range of media-related standards. In addition to the typical audio and video applications, multimedia presentations include scalable 2D graphics and text supporting all languages of the world. Faithful reproduction of scalable multimedia content requires additional components including scalable font technology. The Open Font Format is an extension of the TrueType font format, adding support for PostScript font data. OFF fonts and the operating system services which support OFF fonts provide users with a simple way to install and use fonts, whether the fonts contain TrueType outlines or CFF (PostScript) outlines. The Open Font Format addresses the following goals: broader multi-platform support; excellent support for international character sets; excellent protection for font data; smaller file sizes to make font distribution more efficient; excellent support for advanced typographic control. PostScript data included in OFF fonts may be directly rasterized or converted to the TrueType outline format for rendering, depending on which rasterizers have been installed in the host operating system. But the user model is the same: OFF fonts just work. Users will not need to be aware of the type of outline data in OFF fonts. And font creators can use whichever outline format they feel provides the best set of features for their work, without worrying about limiting a font's usability. OFF fonts can include the OFF Layout tables, which allow font creators to design broader international and high-end typographic fonts. The OFF Layout tables contain information on glyph substitution, glyph positioning, justification, and baseline positioning, enabling text-processing applications to improve text layout. As with TrueType fonts, OFF fonts allow the handling of large glyph sets using Unicode encoding. Such encoding allows broad international support, as well as support for typographic glyph variants. Additionally, OFF fonts may contain digital signatures, which enable operating systems and browsing applications to identify the source and integrity of font files, including embedded font files obtained in web documents, before using them. Also, font developers can encode embedding restrictions in OFF fonts which cannot be altered in a font signed by the developer."
 }
 
@@ -32055,11 +32055,11 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{accesscontrol,
     author =    "Anne van Kesteren",
     title =     "Cross-Origin Resource Sharing",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-cors-20090317",
-    month =     mar,
-    year =      2009,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-cors-20100727",
+    month =     jul,
+    year =      2010,
     topic =     "api[0.7] http[0.7] javascript[0.7]",
-    uri =       "http://www.w3.org/TR/2009/WD-cors-20090317",
+    uri =       "http://www.w3.org/TR/2010/WD-cors-20100727",
     abstract =  "This document defines a mechanism to enable client-side cross-site requests. Specifications that want to enable cross-site requests in an API they define can use the algorithms defined by this specification. If such an API is used on http://example.org resources, a resource on http://hello-world.example can opt in using the mechanism described by this specification (e.g., specifying Access-Control-Allow-Origin: http://example.org as response header), which would allow that resource to be fetched cross-site from http://example.org."
 }
 
@@ -36489,12 +36489,12 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{cssbeijing,
     editor =    "Elika J. Etemad",
     title =     "Cascading Style Sheets (CSS) Snapshot 2007",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-css-beijing-20080516",
-    month =     may,
-    year =      2008,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-css-beijing-20100727",
+    month =     jul,
+    year =      2010,
     topic =     "css[0.9]",
-    uri =       "http://www.w3.org/TR/2008/WD-css-beijing-20080516",
-    abstract =  "This document collects together into one definition all the specs that together form the current state of Cascading Style Sheets (CSS). The primary audience is CSS implementors, not CSS authors, as this definition includes modules by specification stability, not Web browser adoption rate."
+    uri =       "http://www.w3.org/TR/2010/WD-css-beijing-20100727",
+    abstract =  "This document collects together into one definition all the specs that together form the current state of Cascading Style Sheets (CSS) as of 2007. The primary audience is CSS implementors, not CSS authors, as this definition includes modules by specification stability, not Web browser adoption rate."
 }
 
 @misc{cssomview,
@@ -36839,6 +36839,17 @@ We also propose a new taxonomy for geographic search queries.}
     updates =   "css3fonts css3webfonts",
     uri =       "http://www.w3.org/TR/2009/WD-css3-fonts-20090618",
     abstract =  "This CSS3 module describes how font properties are specified and how font resources are loaded dynamically. The contents of this specification are a consolidation of content previously divided into CSS3 Fonts and CSS3 Web Fonts modules."
+}
+
+@misc{woff,
+    author =    "Jonathan Kew and Tal Leming and Erik van Blokland",
+    title =     "WOFF File Format 1.0",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-WOFF-20100727",
+    month =     jul,
+    year =      2010,
+    topic =     "woff[1] off[0.9] truetype[0.9] opentype[0.9]",
+    uri =       "http://www.w3.org/TR/2010/WD-WOFF-20100727",
+    abstract =  "This document specifies the WOFF font format. This format was designed to provide lightweight, easy-to-implement compression of the font data, suitable for use in conjunction with the @font-face CSS declaration. Any TrueType/OpenType/Open Font Format file can be losslessly converted to WOFF for Web use (subject to licensing of the font data); once decoded by a user agent, the WOFF font will display identically to the original desktop font from which it was created. The WOFF format also allows additional metadata to be attached to the file; this can be used by font designers or vendors to include licensing or other information, beyond that present in the original font. Such metadata does not affect the rendering of the font in any way, but may be displayed to the user on request. The WOFF format is not expected to replace other formats such as TrueType/OpenType/Open Font Format or SVG fonts, but provides an alternative solution for use cases where these formats may be less performant, or where licensing considerations make their use less acceptable."
 }
 
 @misc{css3lists,
@@ -37512,12 +37523,12 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{xhtmlmod2nd,
     author =    "Shane McCarron",
     title =     "XHTML Modularization 1.1 --- Second Edition",
-    howpublished =  "World Wide Web Consortium, Proposed Edited Recommendation PER-xhtml-modularization-20100414",
-    month =     apr,
+    howpublished =  "World Wide Web Consortium, Recommendation REC-xhtml-modularization-20100729",
+    month =     jul,
     year =      2010,
     topic =     "xml[0.5] html[0.7] xhtml[1]",
     updates =   "xhtmlmodsec",
-    uri =       "http://www.w3.org/TR/2010/PER-xhtml-modularization-20100414",
+    uri =       "http://www.w3.org/TR/2010/REC-xhtml-modularization-20100729",
     abstract =  "This document is the second edition of version 1.1 of XHTML Modularization, an abstract modularization of XHTML and implementations of the abstraction using XML Document Type Definitions (DTDs) and XML Schemas. This modularization provides a means for subsetting and extending XHTML, a feature needed for extending XHTML's reach onto emerging platforms. This specification is intended for use by language designers as they construct new XHTML Family Markup Languages. This specification does not define the semantics of elements and attributes, only how those elements and attributes are assembled into modules, and from those modules into markup languages. This update includes several minor updates to provide clarifications and address errors found in version 1.1."
 }
 
@@ -38206,13 +38217,13 @@ We also propose a new taxonomy for geographic search queries.}
 
 @misc{emotionml,
     editor =    {Marc Schr\"oder},
-    author =    "Paolo Baggia and Felix Burkhardt and Catherine Pelachaud and Christian Peter and Enrico Zovato",
+    author =    "Paolo Baggia and Felix Burkhardt and Alessandro Oltramari and Catherine Pelachaud and Christian Peter and Enrico Zovato",
     title =     "Emotion Markup Language (EmotionML) 1.0",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-emotionml-20091029",
-    month =     oct,
-    year =      2009,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-emotionml-20100729",
+    month =     jul,
+    year =      2010,
     topic =     "emotionml[1]",
-    uri =       "http://www.w3.org/TR/2009/WD-emotionml-20091029",
+    uri =       "http://www.w3.org/TR/2010/WD-emotionml-20100729",
     abstract =  {As the web is becoming ubiquitous, interactive, and multimodal, technology needs to deal increasingly with human factors, including emotions. The present draft specification of Emotion Markup Language 1.0 aims to strike a balance between practical applicability and scientific well-foundedness. The language is conceived as a "plug-in" language suitable for use in three different areas: (1) manual annotation of data; (2) automatic recognition of emotion-related states from user behavior; and (3) generation of emotion-related system behavior.}
 }
 
