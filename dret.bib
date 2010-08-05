@@ -45247,6 +45247,15 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "This RFC marks the 40th anniversary of the RFC document series."
 }
 
+@misc{rfc5544,
+    author =    "Adriano Santoni",
+    title =     "Syntax for Binding Documents with Time-Stamps",
+    howpublished =  "Internet RFC 5544",
+    month =     feb,
+    year =      2010,
+    abstract =  {This document describes an envelope that can be used to bind a file (not necessarily protected by means of cryptographic techniques) with one or more time-stamp tokens obtained for that file, where "time-stamp token" has the meaning defined in RFC 3161 or its successors. Additional types of temporal evidence are also allowed. The proposed envelope is based on the Cryptographic Message Syntax as defined in RFC 5652.}
+}
+
 @misc{rfc5545,
     author =   "Bernard Desruisseaux",
     title =     "Internet Calendaring and Scheduling Core Object Specification (iCalendar)",
@@ -45458,6 +45467,57 @@ We also propose a new taxonomy for geographic search queries.}
     topic =     "uri[0.8] gps[0.9]",
     updates =   "may09",
     abstract =  "This document specifies a Uniform Resource Identifier (URI) for geographic locations using the 'geo' scheme name.  A 'geo' URI identifies a physical location in a two- or three-dimensional coordinate reference system in a compact, simple, human-readable, and protocol-independent way.  The default coordinate reference system used is the World Geodetic System 1984 (WGS-84)."
+}
+
+@misc{rfc5891,
+    author =    "John C. Klensin",
+    title =     "Internationalized Domain Names in Applications (IDNA): Protocol",
+    howpublished =  "Internet RFC 5891",
+    month =     aug,
+    year =      2010,
+    topic =     "idna[1] idn[0.9]",
+    updates =   "rfc3490 rfc3491 rfc3492",
+    abstract =  "This document is the revised protocol definition for Internationalized Domain Names (IDNs).  The rationale for changes, the relationship to the older specification, and important terminology are provided in other documents.  This document specifies the protocol mechanism, called Internationalized Domain Names in Applications (IDNA), for registering and looking up IDNs in a way that does not require changes to the DNS itself.  IDNA is only meant for processing domain names, not free text."
+}
+
+@misc{rfc5892,
+    author =    "Patrik Faltstrom",
+    title =     "The Unicode Code Points and Internationalized Domain Names for Applications (IDNA)",
+    howpublished =  "Internet RFC 5892",
+    month =     aug,
+    year =      2010,
+    topic =     "idna[1] idn[0.9]",
+    abstract =  "This document specifies rules for deciding whether a code point, considered in isolation or in context, is a candidate for inclusion in an Internationalized Domain Name (IDN). It is part of the specification of Internationalizing Domain Names in Applications 2008 (IDNA2008)."
+}
+
+@misc{rfc5893,
+    author =    "Harald Tveit Alvestrand and Cary Karp",
+    title =     "Right-to-Left Scripts for Internationalized Domain Names for Applications (IDNA)",
+    howpublished =  "Internet RFC 5893",
+    month =     aug,
+    year =      2010,
+    topic =     "idna[1] idn[0.9]",
+    abstract =  "The use of right-to-left scripts in Internationalized Domain Names (IDNs) has presented several challenges.  This memo provides a new Bidi rule for Internationalized Domain Names for Applications (IDNA) labels, based on the encountered problems with some scripts and some shortcomings in the 2003 IDNA Bidi criterion."
+}
+
+@misc{rfc5894,
+    author =    "John C. Klensin",
+    title =     "Internationalized Domain Names for Applications (IDNA): Background, Explanation, and Rationale",
+    howpublished =  "Internet RFC 5894",
+    month =     aug,
+    year =      2010,
+    topic =     "idna[1] idn[0.9]",
+    abstract =  "Several years have passed since the original protocol for Internationalized Domain Names (IDNs) was completed and deployed. During that time, a number of issues have arisen, including the need to update the system to deal with newer versions of Unicode.  Some of these issues require tuning of the existing protocols and the tables on which they depend.  This document provides an overview of a revised system and provides explanatory material for its components."
+}
+
+@misc{rfc5955,
+    author =    "Adriano Santoni",
+    title =     "The application/timestamped-data Media Type",
+    howpublished =  "Internet RFC 5955",
+    month =     aug,
+    year =      2010,
+    updates =   "rfc5544",
+    abstract =  "This document defines a new media type for TimeStampedData envelopes as described in RFC 5544."
 }
 
 %%% NEED TO PICK UP AT RFC 4685 !!!!!!!!!!!!!!!!!!
