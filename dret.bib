@@ -32561,23 +32561,34 @@ We also propose a new taxonomy for geographic search queries.}
     editor =    "Donald E. Eastlake and Joseph M. Reagle and David Solo and Frederick Hirsch and Thomas Roessler and Kelvin Yiu and Pratik Datta",
     author =    "Mark Bartel and John Boyer and Barb Fox and Brian LaMacchia and Ed Simon",
     title =     "XML Signature Syntax and Processing Version 2.0",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-xmldsig-core2-20100304",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-xmldsig-core2-20100831",
+    month =     aug,
     year =      2010,
     topic =     "xmldsig[1] xpath1[0.7]",
     updates =   "xmlsigsp xmldsigsimplify",
-    uri =       "http://www.w3.org/TR/2010/WD-xmldsig-core2-20100304",
+    uri =       "http://www.w3.org/TR/2010/WD-xmldsig-core2-20100831",
     abstract =  "This document specifies XML digital signature processing rules and syntax. XML Signatures provide integrity, message authentication, and/or signer authentication services for data of any type, whether located within the XML that includes the signature or elsewhere."
+}
+
+@misc{xmldsigxpath,
+    author =    "Pratik Datta",
+    title =     "XML Signature Streaming Profile of XPath 1.0",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-xmldsig-xpath-20100831",
+    month =     aug,
+    year =      2010,
+    topic =     "xmldsig[0.9] xpath1[0.8]",
+    uri =       "http://www.w3.org/TR/2010/WD-xmldsig-xpath-20100831",
+    abstract =  "This document defines a streamable profile of XPath 1.0 suitable for use with XML Signature 2.0."
 }
 
 @misc{xmldsigbestpractices,
     author =    "Frederick Hirsch and Pratik Datta",
     title =     "XML Signature Best Practices",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-xmldsig-bestpractices-20100204",
-    month =     feb,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-xmldsig-bestpractices-20100831",
+    month =     aug,
     year =      2010,
     topic =     "xmldsig[0.9]",
-    uri =       "http://www.w3.org/TR/2010/WD-xmldsig-bestpractices-20100204",
+    uri =       "http://www.w3.org/TR/2010/WD-xmldsig-bestpractices-20100831",
     abstract =  "This document collects best practices for implementors and users of the XML Signature specification. Most of these best practices are related to improving security and mitigating attacks, yet others are for best practices in the practical use of XML Signature, such as signing XML that doesn't use namespaces, for example."
 }
 
@@ -32716,13 +32727,13 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{xmlsecrngschema,
-    author =    "Frederick Hirsch",
+    author =    "Makoto Murata and Frederick Hirsch",
     title =     "XML Security RELAX NG Schemas",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-xmlsec-rngschema-20100316",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-xmlsec-rngschema-20100831",
+    month =     aug,
     year =      2010,
     topic =     "xmldsig[0.9] relaxng[0.8]",
-    uri =       "http://www.w3.org/TR/2010/WD-xmlsec-rngschema-20100316",
+    uri =       "http://www.w3.org/TR/2010/WD-xmlsec-rngschema-20100831",
     abstract =  "This document serves to publish RELAX NG schemas for XML Security specifications, including XML Signature 1.1, and XML Signature Properties."
 }
 
@@ -34217,13 +34228,13 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{xmlc14n2,
     author =    "John M. Boyer and Glenn Marcy and Pratik Datta and Frederick Hirsch",
     title =     "Canonical XML Version 2.0",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-xml-c14n2-20100304",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-xml-c14n2-20100831",
+    month =     aug,
     year =      2010,
     topic =     "canonicalxml[1]",
     updates =   "xmlcanon11 xmlexcanon xmldsigsimplify",
-    uri =       "http://www.w3.org/TR/2010/WD-xml-c14n2-20100304",
-    abstract =  "Canonical XML Version 2.0 is a major rewrite of Canonical XML Version 1.1 to address issues around performance, streaming, hardware implementation, robustness, minimizing attack surface, determining what is signed and more. It also incorporates an update to Exclusive Canonicalization, effectively a 2.0 version, as well. Any XML document is part of a set of XML documents that are logically equivalent within an application context, but which vary in physical representation based on syntactic changes permitted by XML 1.0 and Namespaces in XML 1.0. This specification describes a method for generating a physical representation, the canonical form, of an XML document that accounts for the permissible changes. Except for limitations regarding a few unusual cases, if two documents have the same canonical form, then the two documents are logically equivalent within the given application context. Note that two documents may have differing canonical forms yet still be equivalent in a given context based on application-specific equivalence rules for which no generalized XML specification could account. Canonical XML Version 2.0 is applicable to XML 1.0. It is not defined for XML 1.1."
+    uri =       "http://www.w3.org/TR/2010/WD-xml-c14n2-20100831",
+    abstract =  "Canonical XML Version 2.0 is a major rewrite of Canonical XML Version 1.1 and Exclusive Canonical XML 1.0 to address issues around performance, streaming, hardware implementation, robustness, minimizing attack surface, determining what is signed and more. It combines inclusive and exclusive canonicalization algorithms into a single algorithm, that takes the canonicalization mode as a parameter. Any XML document is part of a set of XML documents that are logically equivalent within an application context, but which vary in physical representation based on syntactic changes permitted by XML 1.0 and Namespaces in XML 1.0. This specification describes a method for generating a physical representation, the canonical form, of an XML document that accounts for the permissible changes. Except for limitations regarding a few unusual cases, if two documents have the same canonical form, then the two documents are logically equivalent within the given application context. Note that two documents may have differing canonical forms yet still be equivalent in a given context based on application-specific equivalence rules for which no generalized XML specification could account. Canonical XML Version 2.0 is applicable to XML 1.0. It is not defined for XML 1.1."
 }
 
 @misc{cdrreqs,
