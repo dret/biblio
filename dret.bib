@@ -45682,6 +45682,16 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "By default, message header field parameters in Hypertext Transfer Protocol (HTTP) messages cannot carry characters outside the ISO- 8859-1 character set. RFC 2231 defines an encoding mechanism for use in Multipurpose Internet Mail Extensions (MIME) headers. This document specifies an encoding suitable for use in HTTP header fields that is compatible with a profile of the encoding defined in RFC 2231."
 }
 
+@misc{rfc5995,
+    author =    "Julian F. Reschke",
+    title =     "Using POST to Add Members to Web Distributed Authoring and Versioning (WebDAV) Collections",
+    howpublished =  "Internet RFC 5995",
+    month =     sep,
+    year =      2010,
+    topic =     "http[0.9] webdav[1]",
+    abstract =  {The Hypertext Transfer Protocol (HTTP) Extensions for the Web Distributed Authoring and Versioning (WebDAV) do not define the behavior for the "POST" method when applied to collections, as the base specification (HTTP) leaves implementers lots of freedom for the semantics of "POST". This has led to a situation where many WebDAV servers do not implement POST for collections at all, although it is well suited to be used for the purpose of adding new members to a collection, where the server remains in control of the newly assigned URL. In fact, the Atom Publishing Protocol (AtomPub) uses POST exactly for that purpose. On the other hand, WebDAV-based protocols, such as the Calendaring Extensions to WebDAV (CalDAV), frequently require clients to pick a unique URL, although the server could easily perform that task. This specification defines a discovery mechanism through which servers can advertise support for POST requests with the aforementioned "add collection member" semantics.}
+}
+
 %%% NEED TO PICK UP AT RFC 4685 !!!!!!!!!!!!!!!!!!
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
