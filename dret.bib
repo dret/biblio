@@ -36423,10 +36423,10 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{widgets10,
     author =    "Marcos C\'aceres",
     title =     "Widget Packaging and Configuration",
-    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-widgets-20091201",
-    month =     dec,
-    year =      2009,
-    uri =       "http://www.w3.org/TR/2009/CR-widgets-20091201",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-widgets-20101005",
+    month =     oct,
+    year =      2010,
+    uri =       "http://www.w3.org/TR/2010/WD-widgets-20101005",
     abstract =  "This specification standardizes a packaging format for software known as widgets. Widgets are client-side applications that are authored using Web standards, but whose content can also be embedded into Web documents. The specification relies on PKWare's Zip specification as the archive format, XML as a configuration document format, and a series of steps that runtimes follow when processing and verifying various aspects of a package. The packaging format acts as a container for files used by a widget. The configuration document is an XML vocabulary that declares metadata and configuration parameters for a widget. The steps for processing a widget package describe the expected behavior and means of error handling for runtimes while processing the packaging format, configuration document, and other relevant files. This specification is part of the Widgets 1.0 family of specifications, which together standardize widgets as a whole."
 }
 
@@ -36492,16 +36492,6 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "These are the requirements intended to be met in the development of client-side APIs that enable the creation of Web Applications and Web Widgets that interact with devices services such as Calendar, Contacts, Camera, etc."
 }
 
-@misc{dapprivacyreqs,
-    author =    "Alissa Cooper and Frederick Hirsch and John B. Morris",
-    title =     "Device API Privacy Requirements",
-    howpublished =  "World Wide Web Consortium, Note NOTE-dap-privacy-reqs-20100629",
-    month =     jun,
-    year =      2010,
-    uri =       "http://www.w3.org/TR/2010/NOTE-dap-privacy-reqs-20100629",
-    abstract =  "This document provides definitions, use cases, and requirements for making device APIs more privacy-friendly."
-}
-
 @misc{dappolicyreqs,
     author =    "Laura Arribas and Paddy Byers and Frederick Hirsch and David Rogers",
     title =     "Device API Access Control Use Cases and Requirements",
@@ -36510,6 +36500,27 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2010,
     uri =       "http://www.w3.org/TR/2010/NOTE-dap-policy-reqs-20100907",
     abstract =  "This document describes Device API Access Control Use Cases and corresponding Requirements."
+}
+
+@misc{apiperms,
+    author =    {Paddy Byers and Frederick Hirsch and Dominique Haza\"el-Massieux},
+    title =     "Permissions for Device API Access",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-api-perms-20101005",
+    month =     oct,
+    year =      2010,
+    updates =   "dappolicyreqs",
+    uri =       "http://www.w3.org/TR/2010/WD-api-perms-20101005",
+    abstract =  "This document identifies the permissions that are needed to use specific client-side APIs which grant access to sensitive data and operations."
+}
+
+@misc{dapprivacyreqs,
+    author =    "Alissa Cooper and Frederick Hirsch and John B. Morris",
+    title =     "Device API Privacy Requirements",
+    howpublished =  "World Wide Web Consortium, Note NOTE-dap-privacy-reqs-20100629",
+    month =     jun,
+    year =      2010,
+    uri =       "http://www.w3.org/TR/2010/NOTE-dap-privacy-reqs-20100629",
+    abstract =  "This document provides definitions, use cases, and requirements for making device APIs more privacy-friendly."
 }
 
 @misc{widgetsapis,
@@ -36769,14 +36780,14 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{css3text,
-    author =    "Elika J. Etemad and Paul Nelson",
-    title =     "CSS3 Module: Text",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-css3-text-20070306",
-    month =     mar,
-    year =      2007,
+    author =    "Elika J. Etemad and Koji Ishii and Shinyu Murakami",
+    title =     "CSS Text Level 3",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-css3-text-20101005",
+    month =     oct,
+    year =      2010,
     topic =     "css3[1]",
     updates =   "i18nformat",
-    uri =       "http://www.w3.org/TR/2007/WD-css3-text-20070306",
+    uri =       "http://www.w3.org/TR/2010/WD-css3-text-20101005",
     abstract =  "This CSS3 module defines properties for text manipulation and specifies their processing model. It covers line breaking, justification and alignment, white space handling, text decoration and text transformation."
 }
 
@@ -45809,7 +45820,16 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  {The Hypertext Transfer Protocol (HTTP) Extensions for the Web Distributed Authoring and Versioning (WebDAV) do not define the behavior for the "POST" method when applied to collections, as the base specification (HTTP) leaves implementers lots of freedom for the semantics of "POST". This has led to a situation where many WebDAV servers do not implement POST for collections at all, although it is well suited to be used for the purpose of adding new members to a collection, where the server remains in control of the newly assigned URL. In fact, the Atom Publishing Protocol (AtomPub) uses POST exactly for that purpose. On the other hand, WebDAV-based protocols, such as the Calendaring Extensions to WebDAV (CalDAV), frequently require clients to pick a unique URL, although the server could easily perform that task. This specification defines a discovery mechanism through which servers can advertise support for POST requests with the aforementioned "add collection member" semantics.}
 }
 
-%%% NEED TO PICK UP AT RFC 4685 !!!!!!!!!!!!!!!!!!
+@misc{rfc6068,
+    author =    "Martin Duerst and Larry Masinter and Jamie Zawinski",
+    title =     "The mailto URL scheme",
+    howpublished =  "Internet RFC 6068",
+    month =     oct,
+    year =      2010,
+    updates  =  "due08 rfc2368",
+    topic =     "url[0.8]",
+    abstract =  "This document defines the format of Uniform Resource Identifiers (URIs) to identify resources that are reached using Internet mail. It adds better internationalization and compatibility with Internationalized Resource Identifiers (IRIs; RFC 3987) to the previous syntax of 'mailto' URIs (RFC 2368)."
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % OAI documents
