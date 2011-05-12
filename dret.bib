@@ -13552,7 +13552,7 @@ We also propose a new taxonomy for geographic search queries.}
     author =    "Rosa Alarc\'on and Erik Wilde",
     title =     "RESTler: Crawling RESTful Services",
     uri =       "http://dret.net/netdret/publications#ala10a",
-    topic =     "rest[0.9] rell[0.9] restler[0.9]",
+    topic =     "rest[0.9] rell[0.9] restler[1]",
     pages =     "1051-1052",
     abstract =  "Service descriptions allow designers to document, understand, and use services, creating new useful and complex services with aggregated business value. Unlike RPC-based services, REST characteristics require a different approach to service description. We present the Resource Linking Language (ReLL) that introduces the concepts of media types, resource types, and link types as first class citizens for a service description. A proof of concept, a crawler called RESTler that crawls RESTful services based on ReLL descriptions, is also presented."
 }
@@ -14471,7 +14471,7 @@ We also propose a new taxonomy for geographic search queries.}
     title =     "Hecate, Managing Authorization with RESTful XML",
     pages =     "51-58",
     doi =       "10.1145/1967428.1967442",
-    abstract =  "The potentials of REST offers new ways for communications between louse coupled entities featured through the Web of Things [12]. The binding of the disjunct components of this architecture creates security issues, such as the centralized authorization techniques respecting the independence of the underlying entities. This results in the question how authorization is performed respecting the flexibility of REST without any knowledge about the underlying resources. Nevertheless, possible knowledge about these resources should enable the authorization workflow to offer finer-granular permissions on substructures of the resources. With our new approach - we named Hecate- we offer a framework to assure simplified handling while keeping the potentials and flexibility of REST. We have designed an architecture based on XML with a flexible authorization mechanism on the one hand and optional resource-awareness on the other hand. The flexibility within the authorization work-flow bases on permission sets respecting the HTTP-verbs. Additional in-depth knowledge of the entity optionally extends these permissions with resource-aware filters. Hecate offers not only great benefits because of its flexibility, but also because of the optional extensibility proved within the two reference implementations. With Hecate, we show that a centralized authorization mechanism combining independence and optional resource-based filtering extends the flexibility of REST rather than restricting it."
+    abstract =  "The potentials of REST offers new ways for communications between louse coupled entities featured through the Web of Things. The binding of the disjunct components of this architecture creates security issues, such as the centralized authorization techniques respecting the independence of the underlying entities. This results in the question how authorization is performed respecting the flexibility of REST without any knowledge about the underlying resources. Nevertheless, possible knowledge about these resources should enable the authorization workflow to offer finer-granular permissions on substructures of the resources. With our new approach --- we named Hecate --- we offer a framework to assure simplified handling while keeping the potentials and flexibility of REST. We have designed an architecture based on XML with a flexible authorization mechanism on the one hand and optional resource-awareness on the other hand. The flexibility within the authorization workflow bases on permission sets respecting the HTTP-verbs. Additional in-depth knowledge of the entity optionally extends these permissions with resource-aware filters. Hecate offers not only great benefits because of its flexibility, but also because of the optional extensibility proved within the two reference implementations. With Hecate, we show that a centralized authorization mechanism combining independence and optional resource-based filtering extends the flexibility of REST rather than restricting it."
 }
 
 @inproceedings{fie11,
@@ -23703,6 +23703,19 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  {The "Initial Implementing Guidance for the American Recovery and Reinvestment Act of 2009" provides guidance for a feed-based information dissemination architecture. In this report, we suggest some improvements and refinements of the initial guidelines, in the hope of paving the path for a more transparent and useful feed-based architecture. This report is meant as a preliminary guide to how the current guidelines could be made more specific and provide better guidance for providers and consumers of recovery act spending information. It is by no means intended as a complete or final set of recommendations.}
 }
 
+@techreport{wil11b,
+    author =    "Erik Wilde and Yiming Liu",
+    title =     "Managing Access to Open Location-Based Services",
+    institution =   ischool,
+    year =      2011,
+    month =     may,
+    number =    "2011-042",
+    address =   berkeley,
+    uri =       "http://dret.net/netdret/publications#wil11b",
+    topic =     "fsm[1]",
+    abstract =  "An increasing number of data sources and services are made available on the Web, and in many cases these information sources are or easily could be made available as feeds. However, the more data sources and services are exposed through feed-based services, the more it becomes necessary to manage and be able to share those services, so that users and uses of those services can build on the foundation of an open and decentralized architecture. In this paper we present the Feed Subscription Management (FSM) architecture, which is a model for managing feed subscriptions and supports structured feed subscriptions. Based on FSM, it is easy to build services that manage feed-based services so that those feed-based services can easily create, change and delete feed subscriptions, and that it is easily possible to share feed subscriptions across users and/or devices. Our main reason for focusing on feeds is that we see feeds as a good foundation for an ecosystem of RESTful services, and thus our architectural approach revolves around the idea of modeling services as interactions with feeds."
+}
+
 @techreport{ala10c,
     author =    "Rosa Alarc\'on and Erik Wilde",
     title =     "From RESTful Services to RDF: Connecting the Web and the Semantic Web",
@@ -23714,6 +23727,7 @@ We also propose a new taxonomy for geographic search queries.}
     uri =       "http://www.escholarship.org/uc/item/3425p9s7",
     uri =       "http://dret.net/netdret/publications#ala10c",
     uri =       "http://arxiv.org/abs/1006.2718v1",
+    topic =     "rell[1] rest[0.9] rdf[0.9]",
     abstract =  "RESTful services on the Web expose information through retrievable resource representations that represent self-describing descriptions of resources, and through the way how these resources are interlinked through the hyperlinks that can be found in those representations. This basic design of RESTful services means that for extracting the most useful information from a service, it is necessary to understand a service's representations, which means both the semantics in terms of describing a resource, and also its semantics in terms of describing its linkage with other resources. Based on the Resource Linking Language (ReLL), this paper describes a framework for how RESTful services can be described, and how these descriptions can then be used to harvest information from these services. Building on this framework, a layered model of RESTful service semantics allows to represent a service's information in RDF/OWL. Because REST is based on the linkage between resources, the same model can be used for aggregating and interlinking multiple services for extracting RDF data from sets of RESTful services."
 }
 
@@ -33547,24 +33561,24 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{httpinrdf,
-    author =    "Johannes Koch and Carlos A. Velasco",
+    author =    "Johannes Koch and Carlos A. Velasco and Philip Ackermann",
     title =     "HTTP Vocabulary in RDF 1.0",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-HTTP-in-RDF10-20091029",
-    month =     oct,
-    year =      2009,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-HTTP-in-RDF10-20110510",
+    month =     may,
+    year =      2011,
     topic =     "http[0.8] rdf[0.8]",
-    uri =       "http://www.w3.org/TR/2009/WD-HTTP-in-RDF10-20091029",
-    abstract =  "The identification of resources on the Web by a Uniform Resource Identifier(URI) alone may not be sufficient, as other factors such as HTTP content negotiation might come into play. This issue is particularly significant for quality assurance testing, conformance claims, and reporting languages like the W3C Evaluation And Report Language (EARL). This document provides a representation of the HTTP vocabulary in the Resource Description Framework (RDF), to allow quality assurance tools to record the HTTP headers that have been exchanged between a client and a server. The RDF terms defined by this document represent the core HTTP specification defined by RFC 2616, as well as additional HTTP headers registered by the Internet Assigned Numbers Authority (IANA). These terms can also be used to record HTTPS exchanges."
+    uri =       "http://www.w3.org/TR/2011/WD-HTTP-in-RDF10-20110510",
+    abstract =  "The identification of resources on the Web by a Uniform Resource Identifier (URI) alone may not be sufficient, as other factors such as HTTP content negotiation might come into play. This issue is particularly significant for quality assurance testing, conformance claims, and reporting languages like the W3C Evaluation And Report Language (EARL). This document provides a representation of the HTTP vocabulary in the Resource Description Framework (RDF), to allow quality assurance tools to record the HTTP headers that have been exchanged between a client and a server. The RDF terms defined by this document represent the core HTTP specification defined by RFC 2616, as well as additional HTTP headers registered by the Internet Assigned Numbers Authority (IANA). These terms can also be used to record HTTPS exchanges."
 }
 
 @misc{contentinrdf,
-    author =    "Johannes Koch and Carlos A. Velasco",
+    author =    "Johannes Koch and Carlos A. Velasco and Philip Ackermann",
     title =     "Representing Content in RDF 1.0",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-Content-in-RDF10-20091029",
-    month =     oct,
-    year =      2009,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-Content-in-RDF10-20110510",
+    month =     may,
+    year =      2011,
     topic =     "http[0.8] rdf[0.8]",
-    uri =       "http://www.w3.org/TR/2009/WD-Content-in-RDF10-20091029",
+    uri =       "http://www.w3.org/TR/2011/WD-Content-in-RDF10-20110510",
     abstract =  "This document is a specification for a vocabulary to represent content in the Resource Description Framework (RDF). This vocabulary is intended to provide a flexible framework within different usage scenarios to semantically represent any type of content, be it on the Web or in local storage media. For example, it can be used by Web quality assurance tools such as Web accessibility evaluation tools to record a representation of the assessed Web content, included text, images, or other types of formats. In many cases it can be used together with HTTP Vocabulary in RDF 1.0, which allows quality assurance tools to record the HTTP headers that have been exchanged between a client and a server. This is particularly useful for quality assurance testing, conformance claims, and reporting languages like the W3C Evaluation And Report Language (EARL)."
 }
 
@@ -33922,6 +33936,17 @@ We also propose a new taxonomy for geographic search queries.}
     topic =     "rdf[0.9]",
     uri =       "http://www.w3.org/TR/2005/WD-rdf-dawg-uc-20050325",
     abstract =  "This document specifies use cases, requirements, and objectives for an RDF query language and data access protocol. It suggests how an RDF query language and data access protocol could be used in the construction of novel, useful Semantic Web applications in areas like web publishing, personal information management, transportation, and tourism."
+}
+
+@misc{rdfinterfaces,
+    author =    "Nathan Rixham and Manu Sporny and Mark Birbeck and Ivan Herman and Benjamin Adrian",
+    title =     "RDF Interfaces 1.0",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-rdf-interfaces-20110510",
+    month =     may,
+    year =      2011,
+    topic =     "rdf[0.9] api[0.8]",
+    uri =       "http://www.w3.org/TR/2011/WD-rdf-interfaces-20110510",
+    abstract =  "The RDF Interfaces Specification defines a set of standardized interfaces for working with RDF data in a programming environment. This specification outlines three distinct sets of interfaces: RDF Concept Interfaces, which represent the various RDF Concepts; RDF Environment Interfaces, which provide the basic methods required to work with RDF data; RDF Data Interfaces, which are a set of modular interfaces covering common areas of functionality."
 }
 
 @misc{rdb2rdfucr,
@@ -34936,26 +34961,26 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{earl10schema,
-    author =    "Shadi Abou-Zahra and Michael Squillace",
+    author =    "Shadi Abou-Zahra",
     title =     "Evaluation and Report Language (EARL) 1.0 Schema",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-EARL10-Schema-20091029",
-    month =     oct,
-    year =      2009,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-EARL10-Schema-20110510",
+    month =     may,
+    year =      2011,
     topic =     "earl[1]",
     updates =   "earl10",
-    uri =       "http://www.w3.org/TR/2009/WD-EARL10-Schema-20091029",
+    uri =       "http://www.w3.org/TR/2011/WD-EARL10-Schema-20110510",
     abstract =  "This document describes the formal schema of the Evaluation and Report Language (EARL) 1.0. EARL is a vocabulary, the terms of which are defined across a set of specifications and technical notes, and that is used to describe test results. The primary motivation for developing this vocabulary is to facilitate the exchange of test results between Web accessibility evaluation tools in a vendor-neutral and platform-independent format. It also provides reusable terms for generic quality assurance and validation purposes."
 }
 
 @misc{earl10guide,
-    author =    "Carlos A Velasco and Johannes Koch",
-    title =     "Evaluation and Report Language (EARL) 1.0 Guide",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-EARL10-Guide-20091029",
-    month =     oct,
-    year =      2009,
+    author =    "Carlos A Velasco and Shadi Abou-Zahra",
+    title =     "Developer Guide for Evaluation and Report Language (EARL) 1.0",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-EARL10-Guide-20110510",
+    month =     may,
+    year =      2011,
     topic =     "earl[0.9]",
-    uri =       "http://www.w3.org/TR/2009/WD-EARL10-Guide-20091029",
-    abstract =  "This document is an introductory guide to the Evaluation and Report Language (EARL) 1.0. EARL is a vocabulary, the terms of which are defined across a set of specifications and technical notes, that is used to describe test results. The primary motivation for developing this vocabulary is to facilitate the exchange of test results between Web accessibility evaluation tools in a vendor-neutral and platform-independent format. It also provides reusable terms for generic quality assurance and validation purposes. While this document describes the motivations for EARL and provides an introduction to its uses, other specifications define the core terms of the vocabulary, Evaluation and Report Language (EARL) 1.0 Schema, and provide additional terms for representing HTTP exchanges between clients and servers, HTTP Vocabulary in RDF 1.0, for representing web content itself, Representing Content in RDF 1.0, or for specifying particular locations within or sections of content, Pointer methods in RDF 1.0. An Evaluation and Report Language (EARL) Overview is also available."
+    uri =       "http://www.w3.org/TR/2011/WD-EARL10-Guide-20110510",
+    abstract =  "This document provides guidance for developers on implementing Evaluation and Report Language (EARL) 1.0 in software tools and process. EARL is a vocabulary, the terms of which are defined across a set of specifications and technical notes, that is used to describe test results. The primary motivation for developing this vocabulary is to facilitate the exchange of test results between web accessibility evaluation tools in a vendor-neutral and platform-independent format. It also provides reusable terms for generic quality assurance and validation purposes. While this document provides developer guidance for using and implementing EARL, Evaluation and Report Language (EARL) 1.0 Schema defines the core terms of the vocabulary, and other specifications provide additional terms for representing HTTP exchanges between clients and servers, HTTP Vocabulary in RDF 1.0, for representing web content itself, Representing Content in RDF 1.0, or for specifying particular locations within or sections of content, Pointer methods in RDF 1.0. An Evaluation and Report Language (EARL) Overview is also available."
 }
 
 @misc{svg,
@@ -36143,7 +36168,7 @@ We also propose a new taxonomy for geographic search queries.}
     month =     apr,
     year =      2011,
     uri =       "http://www.w3.org/TR/2011/WD-calendar-api-20110419",
-    abstract =  " The Calendar API defines the high-level interfaces required to obtain read access to a user's calendaring service. This API includes the following key interfaces: A Calendar interface, which provides the method needed to access to a user's unified calendar; A CalendarEvent interface, which provides the individual calendar information of type EVENT that may be returned following a successful read operation."
+    abstract =  "The Calendar API defines the high-level interfaces required to obtain read access to a user's calendaring service. This API includes the following key interfaces: A Calendar interface, which provides the method needed to access to a user's unified calendar; A CalendarEvent interface, which provides the individual calendar information of type EVENT that may be returned following a successful read operation."
 }
 
 @misc{progressevents,
@@ -38575,14 +38600,14 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{pointersinrdf,
-    author =    "Carlos Iglesias and Mike Squillace",
+    author =    "Carlos Iglesias",
     title =     "Pointer Methods in RDF 1.0",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-Pointers-in-RDF10-20091029",
-    month =     oct,
-    year =      2009,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-Pointers-in-RDF10-20110510",
+    month =     may,
+    year =      2011,
     topic =     "xml[0.8] rdf[0.9]",
-    uri =       "http://www.w3.org/TR/2009/WD-Pointers-in-RDF10-20091029",
-    abstract =  "This specification contains a framework for representing pointers --- entities that permit identifying a portion or segment of a piece of content --- making use of the Resource Description Framework (RDF). It also describes a number of specific types of pointers that permit portions of a document to be referred to in different ways. When referring to a specific part of, say, a piece of Web content, it is useful to be able to have a consistent manner by which to refer to a particular segment of a Web document, to have a variety of ways by which to refer to that same segment, and to make the reference robust in the face of changes to that document. This specification is part of the W3C Evaluation And Report Language (EARL) but can be reused in other contexts too."
+    uri =       "http://www.w3.org/TR/2011/WD-Pointers-in-RDF10-20110510",
+    abstract =  "This specification contains a framework for representing pointers --- entities that permit identifying a portion or segment of a piece of content --- making use of the Resource Description Framework (RDF). It also describes a number of specific types of pointers that permit portions of a document to be referred to in different ways. When referring to a specific part of, say, a piece of web content, it is useful to be able to have a consistent manner by which to refer to a particular segment of a web document, to have a variety of ways by which to refer to that same segment, and to make the reference robust in the face of changes to that document. This specification is part of the Evaluation And Report Language (EARL) but can be reused in other contexts too."
 }
 
 @misc{xmlevents,
@@ -38752,11 +38777,11 @@ We also propose a new taxonomy for geographic search queries.}
     editor =    "Stephen M. Watt and Tom Underhill",
     author =    "Yi-Min Chee and Katrin Franke and Max Froumentin and Sriganesh Madhvanath and Jose-Antonio Maga{\~n}a and Gr\'egory Pakosz and Gregory Russell and Muthuselvam Selvaraj and Giovanni Seni and Christopher Tremblay and Larry Yaeger",
     title =     "Ink Markup Language",
-    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-InkML-20110111",
-    month =     jan,
+    howpublished =  "World Wide Web Consortium, Proposed Recommendation PR-InkML-20110510",
+    month =     may,
     year =      2011,
     topic =     "inkml[1]",
-    uri =       "http://www.w3.org/TR/2011/CR-InkML-20110111",
+    uri =       "http://www.w3.org/TR/2011/PR-InkML-20110510",
     abstract =  "This document describes the syntax and semantics for the Ink Markup Language. The Ink Markup Language serves as the data format for representing ink entered with an electronic pen or stylus. The markup allows for the input and processing of handwriting, gestures, sketches, music and other notational languages in applications. It provides a common format for the exchange of ink data between components such as handwriting and gesture recognizers, signature verifiers, and other ink-aware modules. It may be used in the W3C Multimodal Interaction Framework as proposed by the W3C Multimodal Interaction Activity."
 }
 
