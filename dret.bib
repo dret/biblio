@@ -31256,12 +31256,12 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{rifinrdf,
-    author =    "Sandro Hawke",
+    author =    "Sandro Hawke and Axel Polleres",
     title =     "RIF In RDF",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-rif-in-rdf-20100622",
-    month =     jun,
-    year =      2010,
-    uri =       "http://www.w3.org/TR/2010/WD-rif-in-rdf-20100622",
+    howpublished =  "World Wide Web Consortium, Note NOTE-rif-in-rdf-20110512",
+    month =     may,
+    year =      2011,
+    uri =       "http://www.w3.org/TR/2011/NOTE-rif-in-rdf-20110512",
     topic =     "rif[0.9] rdf[0.9]",
     abstract =  {This document specifies a reversible mapping (or transformation) from Rule Interchange Format (RIF) XML documents to Resource Description Framework (RDF) graphs. This mapping allows the contents of RIF documents to be interoperably stored and processed as RDF triples, using existing serializations and tools for RDF. When used with the standard mapping from RDF triples to RIF frames, this also provides a "reflection" or "introspection" mechanism, an interoperable way for RIF rules to operate on RIF documents.}
 }
@@ -33593,6 +33593,17 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  {The Internet is rapidly growing toward wireless and mobile environment beyond the wired world. Nowadays, various types of mobile devices including PDAs and car navigation systems can access to the Internet. These devices are required to exchange the location-related information such as position data on the map. The "POIX" proposed here defines a general-purpose specification language for describing location information, which is an application of XML (Extensible Markup Language). POIX is a common baseline for exchanging location data via e-mail and embedding location data in HTML and XML documents. This specification can be used by mobile device developers, location-related service providers, and server software developers.}
 }
 
+@misc{poicore,
+    author =    "Matt Womer",
+    title =     "Points of Interest Core",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-poi-core-20110512",
+    month =     may,
+    year =      2011,
+    topic =     "poi[1]",
+    uri =       "http://www.w3.org/TR/2011/WD-poi-core-20110512",
+    abstract =  "This document describes a data model and XML syntax for representing information about points of interest (POI) on the World Wide Web."
+}
+
 @misc{srml,
     author =    "Steven W. Reichenthal",
     title =     "SRML --- Simulation Reference Markup Language",
@@ -34050,47 +34061,47 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{sparql11query,
     author =    "Steve Harris and Andy Seaborne",
     title =     "SPARQL 1.1 Query Language",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-sparql11-query-20101014",
-    month =     oct,
-    year =      2010,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-sparql11-query-20110512",
+    month =     may,
+    year =      2011,
     topic =     "sparql[1] rdf[0.8]",
     updates =   "sparqlquery",
-    uri =       "http://www.w3.org/TR/2010/WD-sparql11-query-20101014",
+    uri =       "http://www.w3.org/TR/2011/WD-sparql11-query-20110512",
     abstract =  "RDF is a directed, labeled graph data format for representing information in the Web. This specification defines the syntax and semantics of the SPARQL query language for RDF. SPARQL can be used to express queries across diverse data sources, whether the data is stored natively as RDF or viewed as RDF via middleware. SPARQL contains capabilities for querying required and optional graph patterns along with their conjunctions and disjunctions. SPARQL also supports aggregation, subqueries, creating values by complex expressions, extensible value testing, and constraining queries by source RDF graph. The results of SPARQL queries can be results sets or RDF graphs."
 }
 
 @misc{sparql11servicedescription,
     author =    "Gregory Todd Williams",
     title =     "SPARQL 1.1 Service Description",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-sparql11-service-description-20101014",
-    month =     oct,
-    year =      2010,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-sparql11-service-description-20110512",
+    month =     may,
+    year =      2011,
     topic =     "sparql[1]",
-    uri =       "http://www.w3.org/TR/2010/WD-sparql11-service-description-20101014",
-    abstract =  "This document describes SPARQL Service Description, a method for discovering and vocabulary for describing SPARQL services made available via the SPARQL Protocol for RDF. Such a description is intended to provide a mechanism by which a client or end user can discover information about the SPARQL implementation/service such as supported extension functions and details about the available dataset."
+    uri =       "http://www.w3.org/TR/2011/WD-sparql11-service-description-20110512",
+    abstract =  "This document describes SPARQL service description, a method for discovering, and vocabulary for describing SPARQL services made available via the SPARQL 1.1 Protocol for RDF. These descriptions provide a mechanism by which a client or end user can discover information about the SPARQL service such as supported extension functions and details about the available dataset."
 }
 
 @misc{sparql11update,
-    author =    "Simon Schenk and Paul Gearon and Alexandre Passant",
+    author =    "Paul Gearon and Alexandre Passant and Axel Polleres",
     title =     "SPARQL 1.1 Update",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-sparql11-update-20101014",
-    month =     oct,
-    year =      2010,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-sparql11-update-20110512",
+    month =     may,
+    year =      2011,
     topic =     "sparql[1] rdf[0.8]",
     updates =   "sparqlquery",
-    uri =       "http://www.w3.org/TR/2010/WD-sparql11-update-20101014",
-    abstract =  "This document describes SPARQL 1.1 Update, an update language for RDF graphs. It uses a syntax derived from the SPARQL Query Language for RDF. Update operations are performed on a collection of graphs in a Graph Store. Operations are provided to change existing RDF graphs as well as create and remove graphs in the Graph Store."
+    uri =       "http://www.w3.org/TR/2011/WD-sparql11-update-20110512",
+    abstract =  "This document describes SPARQL 1.1 Update, an update language for RDF graphs. It uses a syntax derived from the SPARQL Query Language for RDF. Update operations are performed on a collection of graphs in a Graph Store. Operations are provided to update, create and, remove RDF graphs in a Graph Store."
 }
 
 @misc{sparql11httprdfupdate,
     author =    "Chimezie Ogbuji",
-    title =     "SPARQL 1.1 Uniform HTTP Protocol for Managing RDF Graphs",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-sparql11-http-rdf-update-20101014",
-    month =     oct,
-    year =      2010,
+    title =     "SPARQL 1.1 Graph Store HTTP Protocol",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-sparql11-http-rdf-update-20110512",
+    month =     may,
+    year =      2011,
     topic =     "sparql[1] rdf[0.8] http[0.8]",
-    uri =       "http://www.w3.org/TR/2010/WD-sparql11-http-rdf-update-20101014",
-    abstract =  "SPARQL provides a standard way to query RDF data. The SPARQL Update allows a user to update RDF graphs in a Graph Store at various levels of granularity, including individual RDF statements. The protocol described here is meant to provide a minimal set of uniform, colloquial HTTP operations for managing a semantic web of mutable, named RDF graphs at a strictly large level of granularity."
+    uri =       "http://www.w3.org/TR/2011/WD-sparql11-http-rdf-update-20110512",
+    abstract =  "This document describes the use of HTTP operations for the purpose of managing a collection of graphs in the REST architectural style."
 }
 
 @misc{sparqljson,
@@ -34174,12 +34185,12 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{sparql11entailment,
     author =    "Birte Glimm and Chimezie Ogbuji",
     title =     "SPARQL 1.1 Entailment Regimes",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-sparql11-entailment-20101014",
-    month =     oct,
-    year =      2010,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-sparql11-entailment-20110512",
+    month =     may,
+    year =      2011,
     topic =     "sparql[1]",
-    uri =       "http://www.w3.org/TR/2010/WD-sparql11-entailment-20101014",
-    abstract =  "SPARQL is a query language for data that is stored natively as RDF or viewed as RDF via middleware. The main mechanism for computing query results in SPARQL is subgraph matching: RDF triples in both the queried RDF data and the query pattern are interpreted as nodes and edges of directed graphs, and the resulting query graph is matched to the data graph using variables as wild cards. Various W3C standards, including RDF and OWL, provide semantic interpretations for RDF graphs that allow additional RDF statements to be inferred from explicitly given assertions. It is desirable to utilize SPARQL as a query language in these cases as well, but this requires basic graph pattern matching to be defined using semantic entailment relations instead of explicitly given graph structures. Such extensions of the SPARQL semantics are called entailment regimes within this document and entailment regimes for standard entailment relations in the semantic web such as RDF entailment, RDFS entailment, etc. are defined in this document."
+    uri =       "http://www.w3.org/TR/2011/WD-sparql11-entailment-20110512",
+    abstract =  "SPARQL is a query language and a protocol for data that is stored natively as RDF or viewed as RDF via middleware. The main mechanism for computing query results in SPARQL is subgraph matching: RDF triples in both the queried RDF data and the query pattern are interpreted as nodes and edges of directed graphs, and the resulting query graph is matched to the data graph using variables as wild cards. Various W3C standards, including RDF and OWL, provide semantic interpretations for RDF graphs that allow additional RDF statements to be inferred from explicitly given assertions. Many applications that rely on these semantics require a query language such as SPARQL, but in order to use SPARQL, basic graph pattern matching has to be defined using semantic entailment relations instead of explicitly given graph structures. There are different possible ways of defining a basic graph pattern matching extension for an entailment relation. This document specifies one such way for a range of standard semantic web entailment relations. Such extensions of the SPARQL semantics are called entailment regimes within this document. An entailment regime defines not only which entailment relation is used, but also which queries and graphs are well-formed for the regime, how the entailment is used (since there are potentially different meaningful ways to use the same entailment relation), or what kinds of errors can arise. The entailment relations used in this document are standard entailment relations in the semantic web such as RDF entailment, RDFS entailment, etc."
 }
 
 @misc{sparql11federatedquery,
@@ -35007,13 +35018,13 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{svg11second,
-    author =    {Erik Dahlstr\"om and Jon Ferraiolo and Jun Fujisawa and Anthony Grasso and Dean Jackson and Chris Lilley and Cameron McCormack and Doug Schepers and Jonathan Watt and Patrick Dengler},
+    author =    {Erik Dahlstr\"om and Patrick Dengler and Anthony Grasso and Chris Lilley and Cameron McCormack and Doug Schepers and Jonathan Watt},
     title =     "Scalable Vector Graphics (SVG) 1.1 (Second Edition)",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-SVG11-20100622",
-    month =     jun,
-    year =      2010,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-SVG11-20110512",
+    month =     may,
+    year =      2011,
     topic =     "svg[1]",
-    uri =       "http://www.w3.org/TR/2010/WD-SVG11-20100622",
+    uri =       "http://www.w3.org/TR/2011/WD-SVG11-20110512",
     updates =   "svg11",
     abstract =  "This specification defines the features and syntax for Scalable Vector Graphics (SVG) Version 1.1, a modularized language for describing two-dimensional vector and mixed vector/raster graphics in XML."
 }
@@ -37002,22 +37013,22 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{cssbeijing,
     editor =    "Elika J. Etemad",
     title =     "Cascading Style Sheets (CSS) Snapshot 2007",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-css-beijing-20100727",
-    month =     jul,
-    year =      2010,
+    howpublished =  "World Wide Web Consortium, Note NOTE-css-beijing-20110512",
+    month =     may,
+    year =      2011,
     topic =     "css[0.9]",
-    uri =       "http://www.w3.org/TR/2010/WD-css-beijing-20100727",
+    uri =       "http://www.w3.org/TR/2011/NOTE-css-beijing-20110512",
     abstract =  "This document collects together into one definition all the specs that together form the current state of Cascading Style Sheets (CSS) as of 2007. The primary audience is CSS implementors, not CSS authors, as this definition includes modules by specification stability, not Web browser adoption rate."
 }
 
 @misc{css2010,
     editor =    "Elika J. Etemad",
     title =     "Cascading Style Sheets (CSS) Snapshot 2010",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-css-2010-20101202",
-    month =     dec,
-    year =      2010,
+    howpublished =  "World Wide Web Consortium, Note NOTE-css-2010-20110512",
+    month =     may,
+    year =      2011,
     topic =     "css[0.9]",
-    uri =       "http://www.w3.org/TR/2010/WD-css-2010-20101202",
+    uri =       "http://www.w3.org/TR/2011/NOTE-css-2010-20110512",
     abstract =  "This document collects together into one definition all the specs that together form the current state of Cascading Style Sheets (CSS) as of 2010. The primary audience is CSS implementors, not CSS authors, as this definition includes modules by specification stability, not Web browser adoption rate."
 }
 
