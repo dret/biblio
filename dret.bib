@@ -36441,7 +36441,7 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2011,
     topic =     "dom[0.9] webidl[1] idl[0.9]",
     uri =       "http://www.w3.org/TR/2011/WD-WebIDL-20110712",
-    abstract =  "This document defines an interface definition language, Web IDL, that can be used to describe interfaces that are intended to be implemented in web browsers. Web IDL is an IDL variant with a number of features that allow the behavior of common script objects in the web platform to be specified more readily. How interfaces described with Web IDL correspond to constructs within ECMAScript and Java execution environments is also detailed in this document. It is expected that this document acts as a guide to implementors of already-published specifications, and that newly published specifications reference this document to ensure conforming implementations of interfaces are interoperable. "
+    abstract =  "This document defines an interface definition language, Web IDL, that can be used to describe interfaces that are intended to be implemented in web browsers. Web IDL is an IDL variant with a number of features that allow the behavior of common script objects in the web platform to be specified more readily. How interfaces described with Web IDL correspond to constructs within ECMAScript and Java execution environments is also detailed in this document. It is expected that this document acts as a guide to implementors of already-published specifications, and that newly published specifications reference this document to ensure conforming implementations of interfaces are interoperable."
 }
 
 @misc{dom,
@@ -36669,12 +36669,23 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{resourcetiming,
     author =    "Jatinder Mann and Zhiheng Wang and Anderson Quach",
     title =     "Resource Timing",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-resource-timing-20110524",
-    month =     may,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-resource-timing-20110811",
+    month =     aug,
     year =      2011,
     topic =     "dom3[0.9]",
-    uri =       "http://www.w3.org/TR/2011/WD-resource-timing-20110524",
+    uri =       "http://www.w3.org/TR/2011/WD-resource-timing-20110811",
     abstract =  "This specification defines an interface for web applications to access timing information related to HTML elements."
+}
+
+@misc{usertiming,
+    author =    "Jatinder Mann and Zhiheng Wang and Anderson Quach",
+    title =     "User Timing",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-user-timing-20110811",
+    month =     aug,
+    year =      2011,
+    topic =     "dom3[0.9]",
+    uri =       "http://www.w3.org/TR/2011/WD-user-timing-20110811",
+    abstract =  "This specification defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps."
 }
 
 @misc{animationtiming,
@@ -36697,6 +36708,17 @@ We also propose a new taxonomy for geographic search queries.}
     topic =     "dom3[0.9]",
     uri =       "http://www.w3.org/TR/2011/WD-page-visibility-20110721",
     abstract =  "This specification defines a means for site developers to programmatically determine the current visibility state of the page in order to develop power and CPU efficient web applications."
+}
+
+@misc{performancetimeline,
+    author =    "Jatinder Mann and Zhiheng Wang",
+    title =     "Performance Timeline",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-performance-timeline-20110811",
+    month =     aug,
+    year =      2011,
+    topic =     "dom3[0.9]",
+    uri =       "http://www.w3.org/TR/2011/WD-performance-timeline-20110811",
+    abstract =  "This specification defines an interface for web applications to access timing information related to navigation and elements."
 }
 
 @misc{qaframeintro,
@@ -36993,10 +37015,10 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{widgets10,
     author =    "Marcos C\'aceres",
     title =     "Widget Packaging and Configuration",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-widgets-20110607",
-    month =     jun,
+    howpublished =  "World Wide Web Consortium, Proposed Recommendation PR-widgets-20110811",
+    month =     aug,
     year =      2011,
-    uri =       "http://www.w3.org/TR/2011/WD-widgets-20110607",
+    uri =       "http://www.w3.org/TR/2011/PR-widgets-20110811",
     abstract =  {This specification standardizes a packaging format and metadata for a class of software known as widgets. Unlike traditional user interface widgets (e.g., buttons, input boxes, toolbars, etc.), widgets as specified in this document are full-fledged client-side applications that are authored using technologies such as HTML and then packaged for distribution. Examples range from simple clocks, stock tickers, news casters, games and weather forecasters, to complex applications that pull data from multiple sources to be "mashed-up" and presented to a user in some interesting and useful way. The specification relies on PKWare's Zip specification as the archive format, XML as a configuration document format, and a series of steps that runtimes follow when processing and verifying various aspects of a package. The packaging format acts as a container for files used by a widget. The configuration document is an XML vocabulary that declares metadata and configuration parameters for a widget. The steps for processing a widget package describe the expected behavior and means of error handling for runtimes while processing the packaging format, configuration document, and other relevant files. This specification is part of the Widgets family of specifications, which together standardize widgets as a whole.}
 }
 
@@ -37013,11 +37035,11 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{widgets10digsig,
     author =    "Marcos C\'aceres and Paddy Byers and Stuart Knightley and Frederick Hirsch and Mark Priestley",
     title =     "Digital Signatures for Widgets",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-widgets-digsig-20110607",
-    month =     jun,
+    howpublished =  "World Wide Web Consortium, Proposed Recommendation PR-widgets-digsig-20110811",
+    month =     aug,
     year =      2011,
     topic =     "xmldsig[0.9]",
-    uri =       "http://www.w3.org/TR/2011/WD-widgets-digsig-20110607",
+    uri =       "http://www.w3.org/TR/2011/PR-widgets-digsig-20110811",
     abstract =  "This document defines a profile of the XML Signature Syntax and Processing 1.1 specification to allow a widget package to be digitally signed. Authors and distributors can digitally sign a widget as a mechanism to ensure continuity of authorship and distributorship. A user agent, or other validation system, can use a digital signature to verify the data integrity of the files within a widget package and to confirm the signing key(s)."
 }
 
@@ -37044,11 +37066,11 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{viewmode,
     author =    "Robin Berjon and Arve Bersvendsen and Marcos C\'aceres and Marcin Hanclik",
     title =     "The 'view-mode' Media Feature",
-    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-view-mode-20100624",
-    month =     jun,
-    year =      2010,
+    howpublished =  "World Wide Web Consortium, Proposed Recommendation PR-view-mode-20110811",
+    month =     aug,
+    year =      2011,
     updates =   "widgets10vmmf",
-    uri =       "http://www.w3.org/TR/2010/CR-view-mode-20100624",
+    uri =       "http://www.w3.org/TR/2011/PR-view-mode-20110811",
     abstract =  "This specification defines a media feature to match the different visual presentation modes that can be applied to web applications and thereby apply different styling based on these different modes using CSS Media Queries."
 }
 
@@ -46449,7 +46471,7 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2011,
     updates  =  "ssl30",
     topic =     "ssl[1]",
-    abstract =  "This document specifies version 3.0 of the Secure Sockets Layer (SSL 3.0) protocol, a security protocol that provides communications privacy over the Internet.  The protocol allows client/server applications to communicate in a way that is designed to prevent eavesdropping, tampering, or message forgery."
+    abstract =  "This document specifies version 3.0 of the Secure Sockets Layer (SSL 3.0) protocol, a security protocol that provides communications privacy over the Internet. The protocol allows client/server applications to communicate in a way that is designed to prevent eavesdropping, tampering, or message forgery."
 }
 
 @misc{rfc6120,
@@ -46587,7 +46609,7 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2011,
     topic =     "ip[0.9] multicast[1]",
     updates =   "rfc2908",
-    abstract =  "The lack of up-to-date documentation on IP multicast address allocation and assignment procedures has caused a great deal of confusion.  To clarify the situation, this memo describes the allocation and assignment techniques and mechanisms currently (as of this writing) in use."
+    abstract =  "The lack of up-to-date documentation on IP multicast address allocation and assignment procedures has caused a great deal of confusion. To clarify the situation, this memo describes the allocation and assignment techniques and mechanisms currently (as of this writing) in use."
 }
 
 @misc{rfc6321,
