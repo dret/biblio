@@ -45454,6 +45454,16 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "This document specifies the gopher Uniform Resource Identifier (URI) scheme that was originally specified in RFC 1738. The purpose of this document is to allow RFC 1738 to be made obsolete while keeping the information about the scheme on standards track."
 }
 
+@misc{rfc4281,
+    author =    "Randall Gellens and David Singer and Per Frojdh",
+    title =     {The Codecs Parameter for "Bucket" Media Types},
+    howpublished =  "Internet RFC 4281",
+    month =     nov,
+    year =      2005,
+    topic =     "mime[0.9]",
+    abstract =  {Several MIME type/subtype combinations exist that can contain different media formats. A receiving agent thus needs to examine the details of such media content to determine if the specific elements can be rendered given an available set of codecs. Especially when the end system has limited resources, or the connection to the end system has limited bandwidth, it would be helpful to know from the Content-Type alone if the content can be rendered. This document adds a new parameter, "codecs", to various type/subtype combinations to allow for unambiguous specification of the codecs indicated by the media formats contained within. By labeling content with the specific codecs indicated to render the contained media, receiving systems can determine if the codecs are supported by the end system, and if not, can take appropriate action (such as rejecting the content, sending notification of the situation, transcoding the content to a supported type, fetching and installing the required codecs, further inspection to determine if it will be sufficient to support a subset of the indicated codecs, etc.)}
+}
+
 @misc{rfc4287,
     author =    "Mark Nottingham and Robert Sayre",
     title =     "The Atom Syndication Format",
@@ -46632,6 +46642,17 @@ We also propose a new taxonomy for geographic search queries.}
     updates =   "dab09",
     topic =     "icalendar[0.9] xcal[1]",
     abstract =  {This specification defines "xCal", an XML format for iCalendar data.}
+}
+
+@misc{rfc6381,
+    author =    "Randall Gellens and David Singer and Per Frojdh",
+    title =     {The 'Codecs' and 'Profiles' Parameters for "Bucket" Media Types},
+    howpublished =  "Internet RFC 6381",
+    month =     aug,
+    year =      2011,
+    updates =   "rfc4281",
+    topic =     "mime[0.9]",
+    abstract =  "Several MIME type/subtype combinations exist that can contain different media formats. A receiving agent thus needs to examine the details of such media content to determine if the specific elements can be rendered given an available set of codecs. Especially when the end system has limited resources, or the connection to the end system has limited bandwidth, it is helpful to know from the Content-Type alone if the content can be rendered. This document specifies two parameters, 'codecs' and 'profiles', that are used with various MIME types or type/subtype combinations to allow for unambiguous specification of the codecs employed by the media formats contained within, or the profile(s) of the overall container format. This document obsoletes RFC 4281; RFC 4281 defines the 'codecs' parameter, which this document retains in a backwards compatible manner with minor clarifications; the 'profiles' parameter is added by this document. By labeling content with the specific codecs indicated to render the contained media, receiving systems can determine if the codecs are supported by the end system, and if not, can take appropriate action (such as rejecting the content, sending notification of the situation, transcoding the content to a supported type, fetching and installing the required codecs, further inspection to determine if it will be sufficient to support a subset of the indicated codecs, etc.). Similarly, the profiles can provide an overall indication, to the receiver, of the specifications with which the content complies. This is an indication of the compatibility of the container format and its contents to some specification. The receiver may be able to work out the extent to which it can handle and render the content by examining to see which of the declared profiles it supports, and what they mean."
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
