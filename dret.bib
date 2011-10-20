@@ -32025,6 +32025,17 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "SKOS --- Simple Knowledge Organization System --- provides a model for expressing the basic structure and content of concept schemes such as thesauri, classification schemes, subject heading lists, taxonomies, folksonomies, and other similar types of controlled vocabulary. As an application of the Resource Description Framework (RDF), SKOS allows concepts to be composed and published on the World Wide Web, linked with data on the Web and integrated into other concept schemes. This document is a user guide for those who would like to represent their concept scheme using SKOS. In basic SKOS, conceptual resources (concepts) are identified with URIs, labeled with strings in one or more natural languages, documented with various types of note, semantically related to each other in informal hierarchies and association networks, and aggregated into concept schemes. In advanced SKOS, conceptual resources can be mapped across concept schemes and grouped into labeled or ordered collections. Relationships between concept labels can be specified. Finally, the SKOS vocabulary itself can be extended to suit the needs of particular communities of practice or combined with other modeling vocabularies. This document is a companion to the SKOS Reference, which gives the normative reference on SKOS."
 }
 
+@misc{provdm,
+    author =    "Luc Moreau and Paolo Missier",
+    title =     "The PROV Data Model and Abstract Syntax Notation",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-prov-dm-20111018",
+    month =     oct,
+    year =      2011,
+    topic =     "prov[1]",
+    uri =       "http://www.w3.org/TR/2011/WD-prov-dm-20111018",
+    abstract =  "PROV-DM is a core data model for provenance for building representations of the entities, people and processes involved in producing a piece of data or thing in the world. PROV-DM is domain-agnotisc, but with well-defined extensibility points allowing further domain-specific and application-specific extensions to be defined. It is accompanied by PROV-ASN, a technology-independent abstract syntax notation, which allows serializations of PROV-DM instances to be created for human consumption, which facilitates its mapping to concrete syntax, and which is used as the basis for a formal semantics. "
+}
+
 @misc{vbireqs,
     author =    "Kenneth G. Rehor",
     title =     "Voice Browser Interoperation: Requirements",
@@ -36447,11 +36458,11 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{webmessaging,
     author =    "Ian Hickson",
     title =     "HTML5 Web Messaging",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-webmessaging-20110317",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-webmessaging-20111020",
     month =     mar,
     year =      2011,
     topic =     "dom[0.9]",
-    uri =       "http://www.w3.org/TR/2011/WD-webmessaging-20110317",
+    uri =       "http://www.w3.org/TR/2011/WD-webmessaging-20111020",
     abstract =  "This specification defines two mechanism for communicating between browsing contexts in HTML documents."
 }
 
@@ -37033,6 +37044,17 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2010,
     uri =       "http://www.w3.org/TR/2010/NOTE-ct-guidelines-20101026",
     abstract =  "This document provides guidance to Content Transformation proxies as to whether and how to transform Web content. Content Transformation proxies alter requests sent by user agents to servers and responses returned by servers so that the appearance, structure or control flow of Web applications are modified. Content Transformation proxies are mostly used to convert Web sites designed for desktop computers to a form suitable for mobile devices. Based on current practice and standards, this document specifies mechanisms with which Content Transformation proxies should make their presence known to other parties, present the outcome of alterations performed on HTTP traffic, and react to indications set by clients or servers to constrain these alterations. The objective is to reduce undesirable effects on Web applications, especially mobile-ready ones, and to limit the diversity in the modes of operation of Content Transformation proxies, while at the same time allowing proxies to alter content that would otherwise not display successfully on mobile devices. Important considerations regarding the impact on security are highlighted."
+}
+
+@misc{hclsorb,
+    author =    "Tim Clark and Anita De Waard",
+    title =     "Ontology of Rhetorical Blocks (ORB)",
+    howpublished =  "World Wide Web Consortium, Note NOTE-hcls-orb-20111020",
+    month =     oct,
+    year =      2011,
+    topic =     "orb[1]",
+    uri =       "http://www.w3.org/TR/2011/NOTE-hcls-orb-20111020",
+    abstract =  "The Ontology of Rhetorical Blocks is a formalization capturing the coarse-grained rhetorical structure of scientific publications. This note is designed to provide a general overview of the motivation and use-cases supporting ORB, in addition to the actual conceptual elements, as well as, practical examples of how to use it in conjunction with different representation languages."
 }
 
 @misc{inkreqs,
@@ -38213,11 +38235,11 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{eventsource,
     author =    "Ian Hickson",
     title =     "Server-Sent Events",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-eventsource-20110310",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-eventsource-20111020",
     month =     mar,
     year =      2011,
     topic =     "html[0.9] http[0.8] dom[0.8]",
-    uri =       "http://www.w3.org/TR/2011/WD-eventsource-20110310",
+    uri =       "http://www.w3.org/TR/2011/WD-eventsource-20111020",
     abstract =  "This specification defines an API for opening an HTTP connection for receiving push notifications from a server in the form of DOM events. The API is designed such that it can be extended to work with other push notification schemes such as Push SMS."
 }
 
@@ -38301,12 +38323,12 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{fileapi,
     author =    "Arun Ranganathan and Jonas Sicking",
     title =     "File API",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-FileAPI-20101026",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-FileAPI-20111020",
     month =     oct,
-    year =      2010,
+    year =      2011,
     topic =     "dom[0.9]",
-    uri =       "http://www.w3.org/TR/2010/WD-FileAPI-20101026",
-    abstract =  { This specification provides an API  for representing file objects in web applications, as well as programmatically selecting them and accessing their data. This includes: A FileList sequence, which represents an array of individually selected files from the underlying system. The user interface for selection can be invoked via <input type="file">, i.e. when the input element is in the File Upload state; A Blob interface, which represents raw binary data, and allows access to ranges of bytes within the Blob object; A File interface, which includes readonly informational attributes about a file such as its name and the date of the last modification (on disk) of the file; A FileReader interface, which provides methods to read a File or a Blob, and an event model to obtain the results of these reads; A FileError interface and a FileException exception which define error conditions used by this specification; A URI scheme for use with binary data such as files, so that they can be referenced within web applications. Additionally, this specification defines objects to be used within threaded web applications for the synchronous reading of files. The section on Requirements and Use Cases covers the motivation behind this specification. This API is designed to be used in conjunction with other APIs and elements on the web platform, notably: XMLHttpRequest (e.g. with an overloaded send() method for File or Blob objects), postMessage, DataTransfer (part of the drag and drop API defined in HTML5) and Web Workers. Additionally, it should be possible to programmatically obtain a list of files from the input element when it is in the File Upload state. These kinds of behaviors are defined in the appropriate affiliated specifications.}
+    uri =       "http://www.w3.org/TR/2011/WD-FileAPI-20111020",
+    abstract =  {This specification provides an API for representing file objects in web applications, as well as programmatically selecting them and accessing their data. This includes: A FileList interface, which represents an array of individually selected files from the underlying system. The user interface for selection can be invoked via <input type="file">, i.e. when the input element is in the File Upload state; A Blob interface, which represents immutable raw binary data, and allows access to ranges of bytes within the Blob object as a separate Blob; A File interface, which includes readonly informational attributes about a file such as its name and the date of the last modification (on disk) of the file; A FileReader interface, which provides methods to read a File or a Blob, and an event model to obtain the results of these reads; A URI scheme for use with binary data such as files, so that they can be referenced within web applications. Additionally, this specification defines objects to be used within threaded web applications for the synchronous reading of files. The section on Requirements and Use Cases covers the motivation behind this specification. This API is designed to be used in conjunction with other APIs and elements on the web platform, notably: XMLHttpRequest (e.g. with an overloaded send() method for File or Blob objects), postMessage, DataTransfer (part of the drag and drop API defined in HTML) and Web Workers. Additionally, it should be possible to programmatically obtain a list of files from the input element when it is in the File Upload state. These kinds of behaviors are defined in the appropriate affiliated specifications.}
 }
 
 @misc{filewriterapi,
