@@ -38222,6 +38222,28 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "This Finding addresses the question of how ancillary information (schemas, stylesheets, documentation, etc.) can be associated with a namespace."
 }
 
+@misc{mimerespect,
+    author =    "Roy T. Fielding and Ian Jacobs",
+    title =     "Authoritative Metadata",
+    howpublished =  "World Wide Web Consortium, TAG Finding 12 April 2006",
+    month =     apr,
+    year =      2006,
+    uri =       "http://www.w3.org/2001/tag/doc/mime-respect-20060412",
+    topic =     "mime[0.9] http[0.8]",
+    abstract =  {In Web architecture, communication between agents consists of exchanging messages with predefined syntax and semantics: a shared expectation of how each message's control data and payload (representation data and metadata) will be interpreted by the recipient. When supported by the communication protocol, the Web architecture uses representation metadata to indicate the sender's intentions regarding how the recipient should interpret the representation data. For example, HTTP and MIME use the value of the "Content-Type" header field to indicate the Internet media type of the representation, which influences the dispatching of handlers and security-related decisions made by recipients of the message. In this finding, we review the architectural design choice that metadata provided in an encapsulating container, such as the metadata provided in the header fields of a received message, be considered authoritative. We examine why recipient behavior that fails to respect authoritative metadata can be harmful and under what conditions such behavior is allowed. Finally, we consider how specification authors and implementers should incorporate these design constraints into their work.}
+}
+
+@misc{identifyingapplicationstate,
+    author =    "T. V. Raman and Ashok Malhotra",
+    title =     "Identifying Application State",
+    howpublished =  "World Wide Web Consortium, TAG Finding 01 December 2011",
+    month =     dec,
+    year =      2011,
+    uri =       "http://www.w3.org/2001/tag/doc/IdentifyingApplicationState-20111201",
+    topic =     "rest[0.8] html5[0.9] uri[0.9]",
+    abstract =  {As the Web has evolved from a Web of documents to a Web of applications, techniques for designing applications so that application state and document views of application state can be identified and bookmarked have evolved correspondingly. Originally introduced as a static "fragment identifier" to identify locations in a document, the hash sign, #, is now being used to identify application states as well as in other interesting ways, for example, by SVG and PDF to select from and render documents and as arguments to Web applications that are interpreted by JavaScript. Fragment identifiers are used to provide several different kinds of parameters to the client-side application, such as the actual URI of a video to be played to a video player, or the position and zoom to a map. In many widely deployed browsers, changing the scheme, path or query string in a URI causes an unconditional page reload, but changes to the fragment identifier do not: the characters in the URI bar after the # can be changed without incurring the overhead of reloading the page. Applications and toolkits using fragment identifiers in this way often go to some effort to maintain a history and make sure the back button works as expected. Accessibility and search can, however, be compromised, because without running JavaScript, the URI has no meaning. Such uses of the "fragment identifier" have interesting and different properties, and the usage differs from the way it is described in existing specifications. Recently added functionality in HTML5 (history.pushState() and history.replaceState()) allows browser history to be changed without causing a page reload thereby providing an alternative to the use of fragment identifiers to identify application state. Many Web applications are used to present or edit documents. Such applications should be designed so that the documents are readily identified with URIs that can be used for linking from other Web pages or transmitted in e-mails or used in copy/paste situations. This document explores the issues that arise from these new uses of fragment identifiers and attempts to define best practices. We argue that, in many cases, the use of query parameters along with the new HTML5 functionality mentioned above is preferable to fragment identifiers to identify application state.}
+}
+
 @misc{whentouseget,
     author =    "Ian Jacobs",
     title =     "URIs, Addressability, and the use of HTTP GET and POST",
