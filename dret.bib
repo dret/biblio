@@ -33067,23 +33067,23 @@ We also propose a new taxonomy for geographic search queries.}
     editor =    "Donald E. Eastlake and Joseph M. Reagle and David Solo and Frederick Hirsch and Thomas Roessler and Kelvin Yiu and Pratik Datta",
     author =    "Mark Bartel and John M. Boyer and Barb Fox and Brian LaMacchia and Ed Simon",
     title =     "XML Signature Syntax and Processing Version 2.0",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-xmldsig-core2-20100831",
-    month =     aug,
-    year =      2010,
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-xmldsig-core2-20120124",
+    month =     jan,
+    year =      2012,
     topic =     "xmldsig[1] xpath1[0.7]",
     updates =   "xmlsigsp xmldsigsimplify",
-    uri =       "http://www.w3.org/TR/2010/WD-xmldsig-core2-20100831",
-    abstract =  "This document specifies XML digital signature processing rules and syntax. XML Signatures provide integrity, message authentication, and/or signer authentication services for data of any type, whether located within the XML that includes the signature or elsewhere."
+    uri =       "http://www.w3.org/TR/2012/CR-xmldsig-core2-20120124",
+    abstract =  "This document specifies XML digital signature processing rules and syntax. XML Signatures provide integrity, message authentication, and/or signer authentication services for data of any type, whether located within the XML that includes the signature or elsewhere. XML Signature 2.0 includes a new Reference processing model designed to address additional requirements including performance, simplicity and streamability. This "2.0 mode" model is significantly different than the XML Signature 1.x model in that it explicitly defines selection, canonicalization and verification steps for data processing and disallows generic transforms. XML Signature 2.0 is designed to be backward compatible through the inclusion of a "Compatibility Mode" which enables the XML Signature 1.x model to be used where necessary."
 }
 
 @misc{xmldsigxpath,
-    author =    "Pratik Datta",
+    author =    "Pratik Datta and Frederick Hirsch and  Meiko Jensen",
     title =     "XML Signature Streaming Profile of XPath 1.0",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-xmldsig-xpath-20100831",
-    month =     aug,
-    year =      2010,
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-xmldsig-xpath-20120124",
+    month =     jan,
+    year =      2012,
     topic =     "xmldsig[0.9] xpath1[0.8]",
-    uri =       "http://www.w3.org/TR/2010/WD-xmldsig-xpath-20100831",
+    uri =       "http://www.w3.org/TR/2012/CR-xmldsig-xpath-20120124",
     abstract =  "This document defines a streamable profile of XPath 1.0 suitable for use with XML Signature 2.0."
 }
 
@@ -33246,11 +33246,11 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{xmlsecrngschema,
     author =    "Makoto Murata and Frederick Hirsch",
     title =     "XML Security RELAX NG Schemas",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-xmlsec-rngschema-20110830",
-    month =     aug,
-    year =      2011,
+    howpublished =  "World Wide Web Consortium, Note NOTE-xmlsec-rngschema-20120124",
+    month =     jan,
+    year =      2012,
     topic =     "xmldsig[0.9] relaxng[0.8]",
-    uri =       "http://www.w3.org/TR/2011/WD-xmlsec-rngschema-20110830",
+    uri =       "http://www.w3.org/TR/2012/NOTE-xmlsec-rngschema-20120124",
     abstract =  "This document serves to publish RELAX NG schemas for XML Security specifications, including XML Signature 1.0 and 1.1, XML Encryption 1.0 and 1.1, Exclusive Canonicalization, XML Signature Properties, XML-Signature XPath Filter 2.0, and XML Security Generic Hybrid Ciphers."
 }
 
@@ -35031,13 +35031,13 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{xmlc14n2,
     author =    "John M. Boyer and Glenn Marcy and Pratik Datta and Frederick Hirsch",
     title =     "Canonical XML Version 2.0",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-xml-c14n2-20100831",
-    month =     aug,
-    year =      2010,
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-xml-c14n2-20120124",
+    month =     jan,
+    year =      2012,
     topic =     "canonicalxml[1]",
     updates =   "xmlcanon11 xmlexcanon xmldsigsimplify",
-    uri =       "http://www.w3.org/TR/2010/WD-xml-c14n2-20100831",
-    abstract =  "Canonical XML Version 2.0 is a major rewrite of Canonical XML Version 1.1 and Exclusive Canonical XML 1.0 to address issues around performance, streaming, hardware implementation, robustness, minimizing attack surface, determining what is signed and more. It combines inclusive and exclusive canonicalization algorithms into a single algorithm, that takes the canonicalization mode as a parameter. Any XML document is part of a set of XML documents that are logically equivalent within an application context, but which vary in physical representation based on syntactic changes permitted by XML 1.0 and Namespaces in XML 1.0. This specification describes a method for generating a physical representation, the canonical form, of an XML document that accounts for the permissible changes. Except for limitations regarding a few unusual cases, if two documents have the same canonical form, then the two documents are logically equivalent within the given application context. Note that two documents may have differing canonical forms yet still be equivalent in a given context based on application-specific equivalence rules for which no generalized XML specification could account. Canonical XML Version 2.0 is applicable to XML 1.0. It is not defined for XML 1.1."
+    uri =       "http://www.w3.org/TR/2012/CR-xml-c14n2-20120124",
+    abstract =  "Canonical XML Version 2.0 is a canonicalization algorithm for XML Signature 2.0. It addresses issues around performance, streaming, hardware implementation, robustness, minimizing attack surface, determining what is signed and more. Any XML document is part of a set of XML documents that are logically equivalent within an application context, but which vary in physical representation based on syntactic changes permitted by XML 1.0 and Namespaces in XML 1.0. This specification describes a method for generating a physical representation, the canonical form, of an XML document that accounts for the permissible changes. Except for limitations regarding a few unusual cases, if two documents have the same canonical form, then the two documents are logically equivalent within the given application context. Note that two documents may have differing canonical forms yet still be equivalent in a given context based on application-specific equivalence rules for which no generalized XML specification could account. Canonical XML Version 2.0 is applicable to XML 1.0. It is not defined for XML 1.1. "
 }
 
 @misc{xmlc14n2testcases,
@@ -37249,6 +37249,17 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "This document describes a loosely coupled architecture for multimodal user interfaces, which allows for co-resident and distributed implementations, and focuses on the role of markup and scripting, and the use of well defined interfaces between its constituents."
 }
 
+@misc{mmiinterop,
+    editor =    "Ingmar Kliche",
+    author =    "Nagesh Kharidi and Piotr Wiechno",
+    title =     "MMI Interoperability Test Report",
+    howpublished =  "World Wide Web Consortium, Note NOTE-mmi-interop-20120124",
+    month =     jan,
+    year =      2012,
+    uri =       "http://www.w3.org/TR/2012/NOTE-mmi-interop-20120124",
+    abstract =  {This document describes an interoperability test, executed by various members of the Multimodal Interaction Working Group, to demonstrate interoperability of multimodal components which are implementing the "Multimodal Architecture and Interfaces" specification.}
+}
+
 @misc{ctguidelines,
     author =    "Jo Rabin",
     title =     "Guidelines for Web Content Transformation Proxies 1.0",
@@ -39455,14 +39466,14 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{xmlprocprofiles,
-    author =    "Henry S. Thompson and Norman Walsh",
+    author =    "Henry S. Thompson and Norman Walsh and James Fuller",
     title =     "XML Processor Profiles",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-xml-proc-profiles-20110412",
-    month =     apr,
-    year =      2011,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-xml-proc-profiles-20120124",
+    month =     jan,
+    year =      2012,
     topic =     "xml[1]",
-    uri =       "http://www.w3.org/TR/2011/WD-xml-proc-profiles-20110412",
-    abstract =  "This specification defines several XML processor profiles, each of which fully determines a data model for any given XML document. It is intended as a resource for other specifications, which can by a single normative reference establish precisely what input processing they require."
+    uri =       "http://www.w3.org/TR/2012/WD-xml-proc-profiles-20120124",
+    abstract =  "This specification defines several XML processor profiles, each of which defines how any given XML document should be processed, both operationally and in terms of what information must be made available to applications. It is intended as a resource for other specifications, which can by a single normative reference establish precisely what input processing they require as well as what information they require."
 }
 
 @misc{xml10blue,
