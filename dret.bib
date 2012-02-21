@@ -32139,13 +32139,13 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{scxml,
-    author =    {Jim Barnett and Rahul Akolkar and R. J. Auburn and Michael Bodell and Daniel C. Burnett and Jerry Carter and Scott McGlashan and Torbj\"orn Lager and No'am Rosenthal},
+    author =    {Jim Barnett and Rahul Akolkar and R. J. Auburn and Michael Bodell and Daniel C. Burnett and Scott McGlashan and Torbj\"orn Lager},
     title =     "State Chart XML (SCXML): State Machine Notation for Control Abstraction",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-scxml-20110426",
-    month =     apr,
-    year =      2011,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-scxml-20120216",
+    month =     feb,
+    year =      2012,
     topic =     "scxml[1]",
-    uri =       "http://www.w3.org/TR/2010/WD-scxml-20110426",
+    uri =       "http://www.w3.org/TR/2012/WD-scxml-20120216",
     abstract =  {This document describes SCXML, or the "State Chart Extensible Markup Language". SCXML provides a generic state-machine based execution environment based on CCXML and Harel State Tables.}
 }
 
@@ -39746,11 +39746,11 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{soapjms,
     author =    "Phil Adams and Peter Easton and Eric Johnson and Roland Merrick and Mark Phillips",
     title =     "SOAP over Java Message Service 1.0",
-    howpublished =  "World Wide Web Consortium, Proposed Recommndation PR-soapjms-20111208",
-    month =     dec,
-    year =      2011,
+    howpublished =  "World Wide Web Consortium, Recommendation REC-soapjms-20120216",
+    month =     feb,
+    year =      2012,
     topic =     "soap[0.9] jms[0.9]",
-    uri =       "http://www.w3.org/TR/2011/PR-soapjms-20111208",
+    uri =       "http://www.w3.org/TR/2012/REC-soapjms-20120216",
     abstract =  "This document specifies how SOAP binds to a messaging system that supports the Java Message Service (JMS). Binding is specified for both SOAP 1.1 and SOAP 1.2 using the SOAP 1.2 Protocol Binding Framework. This specification also describes how to use WSDL documents to indicate and control the use of this binding."
 }
 
@@ -47301,6 +47301,48 @@ We also propose a new taxonomy for geographic search queries.}
     month =     dec,
     year =      2011,
     abstract =  "The base vCard 4.0 specification defines a large number of properties, including date of birth. This specification adds three new properties to vCard 4.0: place of birth, place of death, and date of death."
+}
+
+@misc{rfc6530,
+    author =    "John C. Klensin and YangWoo Ko",
+    title =     "Overview and Framework for Internationalized Email",
+    howpublished =  "Internet RFC 6530",
+    month =     feb,
+    year =      2012,
+    topic =     "i18n[0.9]",
+    abstract =  "Full use of electronic mail throughout the world requires that (subject to other constraints) people be able to use close variations on their own names (written correctly in their own languages and scripts) as mailbox names in email addresses. This document introduces a series of specifications that define mechanisms and protocol extensions needed to fully support internationalized email addresses. These changes include an SMTP extension and extension of email header syntax to accommodate UTF-8 data. The document set also includes discussion of key assumptions and issues in deploying fully internationalized email. This document is a replacement for RFC 4952; it reflects additional issues identified since that document was published."
+}
+
+@misc{rfc6531,
+    author =    "Jiankang Yao and Wei Mao",
+    title =     "SMTP Extension for Internationalized Email",
+    howpublished =  "Internet RFC 6531",
+    month =     feb,
+    year =      2012,
+    topic =     "i18n[0.9] smtp[0.9]",
+    updates =   "rfc5336",
+    abstract =  "This document specifies an SMTP extension for transport and delivery of email messages with internationalized email addresses or header information."
+}
+
+@misc{rfc6532,
+    author =    "Abel Yang and Shawn Steele and Ned Freed",
+    title =     "Internationalized Email Headers",
+    howpublished =  "Internet RFC 6532",
+    month =     feb,
+    year =      2012,
+    topic =     "i18n[0.9] smtp[0.9]",
+    updates =   "rfc5335",
+    abstract =  {Internet mail was originally limited to 7-bit ASCII. MIME added support for the use of 8-bit character sets in body parts, and also defined an encoded-word construct so other character sets could be used in certain header field values. However, full internationalization of electronic mail requires additional enhancements to allow the use of Unicode, including characters outside the ASCII repertoire, in mail addresses as well as direct use of Unicode in header fields like "From:", "To:", and "Subject:", without requiring the use of complex encoded-word constructs. This document specifies an enhancement to the Internet Message Format and to MIME that allows use of Unicode in mail addresses and most header field content. This specification updates Section 6.4 of RFC 2045 to eliminate the restriction prohibiting the use of non-identity content-transfer-encodings on subtypes of "message/".}
+}
+
+@misc{rfc6533,
+    author =    "Tony Hansen and Chris Newman and Alexey Melnikov",
+    title =     "Internationalized Delivery Status and Disposition Notifications",
+    howpublished =  "Internet RFC 6533",
+    month =     feb,
+    year =      2012,
+    topic =     "i18n[0.9] dsn[1] smtp[0.9]",
+    abstract =  "Delivery status notifications (DSNs) are critical to the correct operation of an email system. However, the existing Draft Standards (RFC 3461, RFC 3464, RFC 6522) are presently limited to ASCII text in the machine-readable portions of the protocol. This specification adds a new address type for international email addresses so an original recipient address with non-ASCII characters can be correctly preserved even after downgrading. This also provides updated content return media types for delivery status notifications and message disposition notifications to support use of the new address type. This document extends RFC 3461, RFC 3464, RFC 3798, and RFC 6522."
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
