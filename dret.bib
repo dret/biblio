@@ -34384,18 +34384,6 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "The Role Attribute defined in this specification allows the author to annotate markup languages with machine-extractable semantic information about the purpose of an element. Use cases include accessibility, device adaptation, server-side processing, and complex data description. This attribute can be integrated into any markup language. In particular, schema implementations are provided to facilitate with languages based upon XHTML Modularization."
 }
 
-@misc{rdfaapi,
-    editor =    "Manu Sporny and Benjamin Adrian",
-    author =    "Nathan Rixham and Mark Birbeck and Iv\'an Herman",
-    title =     "RDFa API",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-rdfa-api-20110419",
-    month =     apr,
-    year =      2011,
-    topic =     "rdfa[0.9] dom[0.9]",
-    uri =       "http://www.w3.org/TR/2011/WD-rdfa-api-20110419",
-    abstract =  "RDFa enables authors to publish structured information that is both human- and machine-readable. Concepts that have traditionally been difficult for machines to detect, like people, places, events, music, movies, and recipes, are now easily marked up in Web documents. While publishing this data is vital to the growth of Linked Data, using the information to improve the collective utility of the Web for humankind is the true goal. To accomplish this goal, it must be simple for Web developers to extract and utilize structured information from a Web document. This document details such a mechanism; an RDFa Application Programming Interface (RDFa API) that allows simple extraction and usage of structured information from a Web document."
-}
-
 @misc{rdf,
     author =    "Ora Lassila and Ralph R. Swick",
     title =     "Resource Description Framework (RDF) Model and Syntax Specification",
@@ -34489,6 +34477,40 @@ We also propose a new taxonomy for geographic search queries.}
     uri =       "http://www.w3.org/TR/2004/REC-rdf-testcases-20040210"
 }
 
+@misc{rdfapi,
+    author =    "Nathan Rixham and Manu Sporny and Benjamin Adrian",
+    title =     "RDF API",
+    howpublished =  "World Wide Web Consortium, Note NOTE-rdf-api-20120705",
+    month =     jul,
+    year =      2012,
+    topic =     "rdf[0.9] api[0.8]",
+    uri =       "http://www.w3.org/TR/2012/NOTE-rdf-api-20120705",
+    abstract =  "RDF enables providers to publish various types of data on the Web in a unified format. This data intends to be machine-interpretable so that web developers can access it by programming languages in order to create applications for i.e., crawling, aggregating, summarizing, or highlighting contained information. While publishing RDF data on the web is vital to the growth of the Semantic Web, using the information to improve the collective utility of the Web is the true goal of the Semantic Web. To accomplish this goal, the RDF Application Programming Interface (RDF API) defines a set of standardized interfaces for working with RDF data in a web-based programming environment."
+}
+
+@misc{rdfinterfaces,
+    author =    "Nathan Rixham and Manu Sporny and Benjamin Adrian",
+    title =     "RDF Interfaces: A Set of Basic Primitives and a Low-Level API for Working with RDF Data",
+    howpublished =  "World Wide Web Consortium, Note NOTE-rdf-interfaces-20120705",
+    month =     jul,
+    year =      2012,
+    topic =     "rdf[0.9] api[0.8]",
+    uri =       "http://www.w3.org/TR/2012/NOTE-rdf-interfaces-20120705",
+    abstract =  "The RDF Interfaces Specification defines a set of standardized interfaces for working with RDF data in a programming environment. This specification outlines three distinct sets of interfaces: RDF Concept Interfaces, which represent the various RDF Concepts, RDF Environment Interfaces, which provide the basic methods required to work with RDF data, and RDF Data Interfaces, which are a set of modular interfaces covering common areas of functionality."
+}
+
+@misc{rdfaapi,
+    editor =    "Manu Sporny and Benjamin Adrian",
+    author =    "Nathan Rixham and Mark Birbeck and Iv\'an Herman",
+    title =     "RDFa API: An API for Extracting Structured Data from Web Documents",
+    howpublished =  "World Wide Web Consortium, Note NOTE-rdfa-api-20120705",
+    month =     jul,
+    year =      2012,
+    topic =     "rdf[0.9] rdfa[0.9] api[0.8]",
+    uri =       "http://www.w3.org/TR/2012/NOTE-rdfa-api-20120705",
+    abstract =  "RDFa enables authors to publish structured information that is both human- and machine-readable. Concepts that have traditionally been difficult for machines to detect, like people, places, events, music, movies, and recipes, are now easily marked up in Web documents. While publishing this data is vital to the growth of Linked Data, using the information to improve the collective utility of the Web for humankind is the true goal. To accomplish this goal, it must be simple for Web developers to extract and utilize structured information from a Web document. This document details such a mechanism; an RDFa Application Programming Interface (RDFa API) that allows simple extraction and usage of structured information from a Web document."
+}
+
 @misc{rdfdawguc,
     author =    "Kendall Grant Clark",
     title =     "RDF Data Access Use Cases and Requirements",
@@ -34498,17 +34520,6 @@ We also propose a new taxonomy for geographic search queries.}
     topic =     "rdf[0.9]",
     uri =       "http://www.w3.org/TR/2005/WD-rdf-dawg-uc-20050325",
     abstract =  "This document specifies use cases, requirements, and objectives for an RDF query language and data access protocol. It suggests how an RDF query language and data access protocol could be used in the construction of novel, useful Semantic Web applications in areas like web publishing, personal information management, transportation, and tourism."
-}
-
-@misc{rdfinterfaces,
-    author =    "Nathan Rixham and Manu Sporny and Mark Birbeck and Iv\'an Herman and Benjamin Adrian",
-    title =     "RDF Interfaces 1.0",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-rdf-interfaces-20110510",
-    month =     may,
-    year =      2011,
-    topic =     "rdf[0.9] api[0.8]",
-    uri =       "http://www.w3.org/TR/2011/WD-rdf-interfaces-20110510",
-    abstract =  "The RDF Interfaces Specification defines a set of standardized interfaces for working with RDF data in a programming environment. This specification outlines three distinct sets of interfaces: RDF Concept Interfaces, which represent the various RDF Concepts; RDF Environment Interfaces, which provide the basic methods required to work with RDF data; RDF Data Interfaces, which are a set of modular interfaces covering common areas of functionality."
 }
 
 @misc{turtle,
@@ -37376,6 +37387,17 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2011,
     uri =       "http://www.w3.org/TR/2011/NOTE-mmi-mcbp-20110301",
     abstract =  "This document describes Modality Components in the MMI Architecture which are responsible for controlling the various input and output modalities on various devices by providing guidelines and suggestions for designing Modality Components. Also this document shows several possible examples of Modality Components, (1) face identification, (2) form-filling using handwriting recognition and (3) video display."
+}
+
+@misc{mmidiscovery,
+    editor =    "B. Helena Rodriguez",
+    author =    "Piotr Wiechno and Deborah Dahl and Kazuyuki Ashimura and Raj Tumuluri",
+    title =     "Registration \& Discovery of Multimodal Modality Components in Multimodal Systems: Use Cases and Requirements",
+    howpublished =  "World Wide Web Consortium, Note NOTE-mmi-discovery-20120705",
+    month =     jul,
+    year =      2012,
+    uri =       "http://www.w3.org/TR/2012/NOTE-mmi-discovery-20120705",
+    abstract =  {This document addresses people who want either to develop Modality Components for Applications that communicate with the user through different modalities such as voice, gesture, or handwriting, and/or to distribute them through a multimodal system using multi-biometric elements, multimodal interfaces or multi-sensor recognizers over a local network or "in the cloud". With this goal, this document collects a number of use cases together with their goals and requirements for describing, publishing, discovering, registering and subscribing to Modality Components in a system implemented according the Multimodal Architecture Specification. In this way, Modality Components can be used by automated tools to power advanced Services such as : more accurate searches based on modality, behavior recognition for a better interaction with intelligent software agents and an enhanced knowledge management achieved by the means of capturing and producing emotional data.}
 }
 
 @misc{sysenv,
@@ -40947,6 +40969,26 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2009,
     uri =       "https://datatracker.ietf.org/drafts/draft-nottingham-site-meta/",
     abstract =  {This memo defines a path prefix for "well-known locations" in URIs.}
+}
+
+@misc{not12a,
+    author =    "Mark Nottingham",
+    title =     "Home Documents for HTTP APIs",
+    howpublished =  "Internet Draft draft-nottingham-json-home-01",
+    month =     jul,
+    year =      2012,
+    uri =       "https://datatracker.ietf.org/drafts/draft-nottingham-json-home/",
+    abstract =  {This document proposes a "home document" format for non-browser HTTP clients.}
+}
+
+@misc{not12b,
+    author =    "Mark Nottingham",
+    title =     "Indicating Details of Problems to Machines in HTTP",
+    howpublished =  "Internet Draft draft-nottingham-http-problem-00",
+    month =     jul,
+    year =      2012,
+    uri =       "https://datatracker.ietf.org/drafts/draft-nottingham-http-problem/",
+    abstract =  {This specification proposes a "Problem Detail" as an extensible way to carry machine-readable details of HTTP errors in a response, to avoid the need to invent new response formats for non-human consumers.}
 }
 
 @misc{sne09c,
