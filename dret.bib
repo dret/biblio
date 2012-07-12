@@ -34385,14 +34385,15 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{roleattribute,
+	editor =    "Shane McCarron",
     author =    "Ben Adida and Mark Birbeck and T. V. Raman and Richard Schwerdtfeger",
     title =     "Role Attribute 1.0",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-role-attribute-20110113",
-    month =     jan,
-    year =      2011,
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-role-attribute-20120712",
+    month =     jul,
+    year =      2012,
     topic =     "rdfa[0.9] xhtml[0.9]",
-    uri =       "http://www.w3.org/TR/2011/WD-role-attribute-20110113",
-    abstract =  "The Role Attribute defined in this specification allows the author to annotate markup languages with machine-extractable semantic information about the purpose of an element. Use cases include accessibility, device adaptation, server-side processing, and complex data description. This attribute can be integrated into any markup language. In particular, schema implementations are provided to facilitate with languages based upon XHTML Modularization."
+    uri =       "http://www.w3.org/TR/2012/CR-role-attribute-20120712",
+    abstract =  "The Role Attribute defined in this specification allows the author to annotate markup languages with machine-extractable semantic information about the purpose of an element. Use cases include accessibility, device adaptation, server-side processing, and complex data description. This attribute can be integrated into any markup language. In particular, schema implementations are provided to facilitate with languages based upon XHTML Modularization. The role attribute is necessary to support Accessible Rich Internet Applications (WAI-ARIA) to define roles in XML-based languages, when the languages do not define their own role attribute. Although this is the reason the Role Attribute is published by the Protocols and Formats Working Group, the attribute has more general use cases as well."
 }
 
 @misc{rdf,
@@ -36919,11 +36920,11 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{htmlmediacapture,
     author =    {Anssi Kostiainen and Ilkka Oksanen and Dominique Haza\"el-Massieux},
     title =     "HTML Media Capture",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-html-media-capture-20120529",
-    month =     may,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-html-media-capture-20120712",
+    month =     jul,
     year =      2012,
     topic =     "html[0.9]",
-    uri =       "http://www.w3.org/TR/2011/WD-html-media-capture-20120529",
+    uri =       "http://www.w3.org/TR/2012/WD-html-media-capture-20120712",
     abstract =  "The HTML Media Capture specification defines HTML form extensions that facilitate users' access to media capture capabilities of the hosting device."
 }
 
@@ -39095,11 +39096,11 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{fileapi,
     author =    "Arun Ranganathan and Jonas Sicking",
     title =     "File API",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-FileAPI-20111020",
-    month =     oct,
-    year =      2011,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-FileAPI-20120712",
+    month =     jul,
+    year =      2012,
     topic =     "dom[0.9]",
-    uri =       "http://www.w3.org/TR/2011/WD-FileAPI-20111020",
+    uri =       "http://www.w3.org/TR/2012/WD-FileAPI-20120712",
     abstract =  {This specification provides an API for representing file objects in web applications, as well as programmatically selecting them and accessing their data. This includes: A FileList interface, which represents an array of individually selected files from the underlying system. The user interface for selection can be invoked via <input type="file">, i.e. when the input element is in the File Upload state; A Blob interface, which represents immutable raw binary data, and allows access to ranges of bytes within the Blob object as a separate Blob; A File interface, which includes readonly informational attributes about a file such as its name and the date of the last modification (on disk) of the file; A FileReader interface, which provides methods to read a File or a Blob, and an event model to obtain the results of these reads; A URI scheme for use with binary data such as files, so that they can be referenced within web applications. Additionally, this specification defines objects to be used within threaded web applications for the synchronous reading of files. The section on Requirements and Use Cases covers the motivation behind this specification. This API is designed to be used in conjunction with other APIs and elements on the web platform, notably: XMLHttpRequest (e.g. with an overloaded send() method for File or Blob objects), postMessage, DataTransfer (part of the drag and drop API defined in HTML) and Web Workers. Additionally, it should be possible to programmatically obtain a list of files from the input element when it is in the File Upload state. These kinds of behaviors are defined in the appropriate affiliated specifications.}
 }
 
@@ -39171,14 +39172,36 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{contactsapi,
-    author =    "Richard Tibbett",
-    title =     "The Contacts API",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-contacts-api-20110616",
-    month =     jun,
-    year =      2011,
+    author =    "Richard Tibbett and Robin Berjon",
+    title =     "Pick Contacts Intent",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-contacts-api-20120712",
+    month =     jul,
+    year =      2012,
     topic =     "dom[0.9]",
-    uri =       "http://www.w3.org/TR/2011/WD-contacts-api-20110616",
-    abstract =  "The Contacts API defines the high-level interfaces required to obtain read access to a user's unified address book. This API includes the following key interfaces: A Contacts interface, which provides the method needed to access a user's unified address book; A Contact interface, which captures the individual contact information that can be returned following a successful read operation."
+    uri =       "http://www.w3.org/TR/2012/WD-contacts-api-20120712",
+    abstract =  "The Pick Contacts Intent defines a Web Intent that enables access to a user's address book service from inside a Web application. It defines both an Intent action/type pair that selects this operation, and the format of the contacts data that is returned by services implementing this specification."
+}
+
+@misc{gallery,
+    author =    "Jungkee Song and Wonsuk Lee",
+    title =     "Pick Media Intent",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-gallery-20120712",
+    month =     jul,
+    year =      2012,
+    topic =     "dom[0.9]",
+    uri =       "http://www.w3.org/TR/2012/WD-gallery-20120712",
+    abstract =  "The Pick Media Intent defines a Web Intent that enables access to a user's media gallery from inside a Web application. It defines both an Intent action/type pair that selects this operation, and the format of the media data that is returned by services implementing this specification."
+}
+
+@misc{proximity,
+    author =    "Anssi Kostiainen and Dzung D. Tran",
+    title =     "Pick Media Intent",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-proximity-20120712",
+    month =     jul,
+    year =      2012,
+    topic =     "dom[0.9]",
+    uri =       "http://www.w3.org/TR/2012/WD-proximity-20120712",
+    abstract =  "This specification defines a means to receive events that correspond to a proximity sensor detecting the presence of a physical object."
 }
 
 @misc{xhtml10,
