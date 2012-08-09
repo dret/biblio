@@ -13815,7 +13815,7 @@ We also propose a new taxonomy for geographic search queries.}
     author =    "Michael Blackstock and Rodger Lea and Adrian Friday",
     title =     "Uniting Online Social Networks with Places and Things",
     doi =       "10.1145/1993966.1993974",
-    abstract =  "As the Web of Things (WoT) broadens real world interaction via the internet, there is an increasing need for a user centric model for managing and interacting with real world objects. We believe that online social networks can provide that capability and can enhance existing and future WoT platforms leading to a Social WoT. As both social overlays and user interface containers, online social networks (OSNs) will play a significant role in the evolution of the web of things. As user interface containers and social overlays, they can be used by end users and applications as an on-line entry point for interacting with things, both receiving updates from sensors and controlling things. Conversely, access to user identity and profile information, content and social graphs can be useful in physical social settings like cafés. In this paper we describe some of the key features of social networks used by existing social WoT systems. We follow this with a discussion of open research questions related to integration of OSNs and how OSNs may evolve to be more suitable for integration with places and things. Several ongoing projects in our lab leverage OSNs to connect places and things to online communities."
+    abstract =  "As the Web of Things (WoT) broadens real world interaction via the internet, there is an increasing need for a user centric model for managing and interacting with real world objects. We believe that online social networks can provide that capability and can enhance existing and future WoT platforms leading to a Social WoT. As both social overlays and user interface containers, online social networks (OSNs) will play a significant role in the evolution of the web of things. As user interface containers and social overlays, they can be used by end users and applications as an on-line entry point for interacting with things, both receiving updates from sensors and controlling things. Conversely, access to user identity and profile information, content and social graphs can be useful in physical social settings like caf√©s. In this paper we describe some of the key features of social networks used by existing social WoT systems. We follow this with a discussion of open research questions related to integration of OSNs and how OSNs may evolve to be more suitable for integration with places and things. Several ongoing projects in our lab leverage OSNs to connect places and things to online communities."
 }
 
 @inproceedings{pin11,
@@ -30847,7 +30847,7 @@ We also propose a new taxonomy for geographic search queries.}
     month =     aug,
     year =      2012,
     uri =       "http://www.w3.org/TR/2012/WD-task-models-20120802",
-    abstract =  "Task models are useful when designing and developing interactive systems. They describe the logical activities that have to be carried out in order to reach the user�s goals. This document covers the specification of Task Models, with a meta-model expressed in UML, and an XML Schema that can be used as the basis for interchange of Task Models between different user interface development tools."
+    abstract =  "Task models are useful when designing and developing interactive systems. They describe the logical activities that have to be carried out in order to reach the user’s goals. This document covers the specification of Task Models, with a meta-model expressed in UML, and an XML Schema that can be used as the basis for interchange of Task Models between different user interface development tools."
 }
 
 @misc{wsdl12,
@@ -32749,6 +32749,29 @@ We also propose a new taxonomy for geographic search queries.}
     updates =   "xforms11req",
     uri =       "http://www.w3.org/TR/2009/REC-xforms-20091020",
     abstract =  "XForms is an XML application that represents the next generation of forms for the Web. XForms is not a free-standing document type, but is intended to be integrated into other markup languages, such as XHTML, ODF or SVG. An XForms-based web form gathers and processes XML data using an architecture that separates presentation, purpose and content. The underlying data of a form is organized into instances of data schema (though formal schema definitions are not required). An XForm allows processing of data to occur using three mechanisms: (1) A declarative model composed of formulae for data calculations and constraints, data type and other property declarations, and data submission parameters. (2) A view layer composed of intent-based user interface controls. (3) An imperative controller for orchestrating data manipulations, interactions between the model and view layers, and data submissions. Thus, XForms accommodates form component reuse, fosters strong data type validation, eliminates unnecessary round-trips to the server, offers device independence and reduces the need for scripting. XForms 1.1 refines the XML processing platform introduced by XForms 1.0 by adding several new submission capabilities, action handlers, utility functions, user interface improvements, and helpful datatypes as well as a more powerful action processing facility, including conditional, iterated and background execution, the ability to manipulate data arbitrarily and to access event context information."
+}
+
+@misc{xforms20,
+    author =    "John M. Boyer and Leigh L. Klotz and Steven Pemberton and Nick {Van den Bleeken}",
+    title =     "XForms 2.0",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-xforms20-20120807",
+    month =     aug,
+    year =      2012,
+    topic =     "xforms[1]",
+    updates =   "xforms11",
+    uri =       "http://www.w3.org/TR/2012/WD-xforms20-20120807",
+    abstract =  "XForms is an XML markup for a new generation of forms and form-like applications on the Web. XForms is not a free-standing document type, but is integrated into other markup languages, such as XHTML, ODF or SVG. An XForms-based application gathers and processes data using an architecture that separates presentation, purpose and content. The underlying data of a form is organized into instances. XForms allows processing of data to occur using three mechanisms: a declarative model composed of formulae for data calculations and constraints, data type and other property declarations, and data submission parameters; a view layer composed of intent-based user interface controls; and an imperative controller for orchestrating data manipulations, interactions between the model and view layers, and data submissions. Thus, XForms accommodates form component reuse, fosters strong data type validation, eliminates unnecessary round-trips to the server, offers device independence and accessibility, and reduces the need for scripting. XForms 2.0 adds support for defining custom functions, variables, a pluggable expression language with extra functions (XPath 2.0), model-based switch and repeat, Attribute Value Templates, consuming and submitting JSON and CSV instance data, amongst other things."
+}
+
+@misc{xformsxpath,
+    author =    "Nick {Van den Bleeken} and John M. Boyer",
+    title =     "XForms 2.0: XPath Expression Module",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-xforms-xpath-20120807",
+    month =     aug,
+    year =      2012,
+    topic =     "xforms[1]",
+    uri =       "http://www.w3.org/TR/2012/WD-xforms-xpath-20120807",
+    abstract =  "This module defines how XPath could be used for addressing instance data nodes in binding expressions, to express constraints, and to specify calculations in XForms. This module is based on XPath 2.0, but an XPath 1.0 backwards compatibility mode is provided to ensure that nearly all XPath 1.0 expressions continue to deliver the same result with XPath 2.0. This module also defines the XForms Function Library which contains additional functions that are useful for creating forms."
 }
 
 @misc{xformsforhtml,
@@ -39090,6 +39113,17 @@ We also propose a new taxonomy for geographic search queries.}
     topic =     "dom[0.9]",
     uri =       "http://www.w3.org/TR/2012/WD-ambient-light-20120802",
     abstract =  "This specification defines a means to receive events that correspond to a light sensor detecting the presence of a light."
+}
+
+@misc{discoveryapi,
+    author =    "Rich Tibbett and Clarke Stevens",
+    title =     "Networked Service Discovery and Messaging",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-discovery-api-20120807",
+    month =     aug,
+    year =      2012,
+    topic =     "dom[0.9]",
+    uri =       "http://www.w3.org/TR/2012/WD-discovery-api-20120807",
+    abstract =  "This specification defines a mechanism for an HTML document to discover and subsequently communicate with HTTP-based services advertised via common discovery protocols within a user's network."
 }
 
 @misc{webdriver,
