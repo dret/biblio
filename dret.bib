@@ -30874,7 +30874,7 @@ We also propose a new taxonomy for geographic search queries.}
     month =     aug,
     year =      2012,
     uri =       "http://www.w3.org/TR/2012/WD-task-models-20120802",
-    abstract =  "Task models are useful when designing and developing interactive systems. They describe the logical activities that have to be carried out in order to reach the user’s goals. This document covers the specification of Task Models, with a meta-model expressed in UML, and an XML Schema that can be used as the basis for interchange of Task Models between different user interface development tools."
+    abstract =  "Task models are useful when designing and developing interactive systems. They describe the logical activities that have to be carried out in order to reach the user's goals. This document covers the specification of Task Models, with a meta-model expressed in UML, and an XML Schema that can be used as the basis for interchange of Task Models between different user interface development tools."
 }
 
 @misc{wsdl12,
@@ -32181,12 +32181,12 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{provconstraints,
     author =    "James Cheney and Paolo Missier and Luc Moreau",
     title =     "Constraints of the Provenance Data Model",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-prov-constraints-20120503",
-    month =     may,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-prov-constraints-20120911",
+    month =     sep,
     year =      2012,
     topic =     "prov[0.9]",
-    uri =       "http://www.w3.org/TR/2012/WD-prov-constraints-20120503",
-    abstract =  "PROV-DM, the PROV data model, is a data model for provenance that describes the entities, people and activities involved in producing a piece of data or thing. PROV-DM is structured in six components, dealing with: (1) entities and activities, and the time at which they were created, used, or ended; (2) agents bearing responsibility for entities that were generated and activities that happened; (3) derivations of entities from entities; (4) properties to link entities that refer to a same thing; (5) collections forming a logical structure for its members; (6) a simple annotation mechanism. This document introduces a further set of concepts useful for understanding the PROV data model and defines inferences that are allowed on provenance statements and validity constraints that PROV instances should follow. These inferences and constraints are useful for readers who develop applications that generate provenance or reason over provenance."
+    uri =       "http://www.w3.org/TR/2012/WD-prov-constraints-20120911",
+    abstract =  "Provenance is information about entities, activities, and people involved in producing a piece of data or thing, which can be used to form assessments about its quality, reliability or trustworthiness. PROV-DM is the conceptual data model that forms a basis for the W3C provenance (PROV) family of specifications. This document defines a subset of PROV instances called valid PROV instances. The intent of validation is ensure that a PROV instance represents a history of objects and their interactions which is consistent, and thus safe to use for the purpose of logical reasoning and other kinds of analysis. Valid PROV instances satisfy certain definitions, inferences, and constraints. These definitions, inferences, and constraints provide a measure of consistency checking for provenance and reasoning over provenance. They can also be used to normalize PROV instances to forms that can easily be compared in order to determine whether two PROV instances are equivalent. Validity and equivalence are also defined for PROV bundles (that is, named instances) and documents (that is, a toplevel instance together with zero or more bundles)."
 }
 
 @misc{provaq,
@@ -34409,14 +34409,14 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{rdfainhtml,
-    editor =    "Manu Sporny and Shane McCarron",
-    author =    "Ben Adida and Mark Birbeck and Steven Pemberton",
+    editor =    "Manu Sporny",
+    author =    "Ben Adida and Mark Birbeck and Shane McCarron and Steven Pemberton",
     title =     "HTML+RDFa: Support for RDFa in HTML4 and HTML5",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-rdfa-in-html-20120329",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-rdfa-in-html-20120911",
+    month =     sep,
     year =      2012,
     topic =     "rdfa[0.9] html[0.9]",
-    uri =       "http://www.w3.org/TR/2012/WD-rdfa-in-html-20120329",
+    uri =       "http://www.w3.org/TR/2012/WD-rdfa-in-html-20120911",
     abstract =  "This specification defines rules and guidelines for adapting the RDFa Core 1.1 and RDFa Lite 1.1 specifications for use in HTML5 and XHTML5. The rules defined in this specification not only apply to HTML5 documents in non-XML and XML mode, but also to HTML4 and XHTML documents interpreted through the HTML5 parsing rules."
 }
 
@@ -38514,7 +38514,19 @@ We also propose a new taxonomy for geographic search queries.}
     topic =     "css3[1]",
     uri =       "http://www.w3.org/TR/2012/CR-css3-images-20120417",
     updates =   "css3imagevalues css3content",
-    abstract =  "CSS is a language for describing the rendering of structured documents (such as HTML and XML) on screen, on paper, in speech, etc. This module contains the features of CSS level 3 relating to the <image> type and replaced elements. It includes and extends the functionality of CS level 2, which builds on CSS level 1. The main extensions compared to level 2 are the generalization of the <url> type to the <image> type, several additions to the '<image>' type, a generic sizing algorithm for images and other replaced content in CSS, and several properties controlling the interaction of replaced elements and CSS's layout models. "
+    abstract =  "CSS is a language for describing the rendering of structured documents (such as HTML and XML) on screen, on paper, in speech, etc. This module contains the features of CSS level 3 relating to the <image> type and replaced elements. It includes and extends the functionality of CS level 2, which builds on CSS level 1. The main extensions compared to level 2 are the generalization of the <url> type to the <image> type, several additions to the '<image>' type, a generic sizing algorithm for images and other replaced content in CSS, and several properties controlling the interaction of replaced elements and CSS's layout models."
+}
+
+@misc{css4images,
+    author =    "Elika J. Etemad and Tab Atkins",
+    title =     "CSS Image Values and Replaced Content Module Level 4",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-css4-images-20120911",
+    month =     sep,
+    year =      2012,
+    topic =     "css4[1]",
+    uri =       "http://www.w3.org/TR/2012/WD-css4-images-20120911",
+    updates =   "css3images",
+    abstract =  "CSS is a language for describing the rendering of structured documents (such as HTML and XML) on screen, on paper, in speech, etc. This module contains the features of CSS level 4 relating to the <image> type and replaced elements. It includes and extends the functionality of CSS Image Values and Replaced Content Module Level 3. The main extensions compared to level 3 are several additions to the '<image>' type, additions to the '<gradient>' type, extensions to the 'image()' function, definitions for interpolating several '<image>' types, and several properties controlling the interaction of replaced elements and CSS's layout models."
 }
 
 @misc{css3val,
@@ -38542,11 +38554,11 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{css3conditional,
     author =    "L. David Baron",
     title =     "CSS Conditional Rules Module Level 3",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-css3-conditional-20110901",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-css3-conditional-20120911",
     month =     sep,
-    year =      2011,
+    year =      2012,
     topic =     "css3[1]",
-    uri =       "http://www.w3.org/TR/2011/WD-css3-conditional-20110901",
+    uri =       "http://www.w3.org/TR/2012/WD-css3-conditional-20120911",
     abstract =  "CSS is a language for describing the rendering of structured documents (such as HTML and XML) on screen, on paper, in speech, etc. This module contains the features of CSS for conditional processing of parts of style sheets, conditioned on capabilities of the processor or the document the style sheet is being applied to. It includes and extends the functionality of CSS level 2, which builds on CSS level 1. The main extensions compared to level 2 are allowing nesting of certain at-rules inside '@media', the addition of the '@supports' and '@document' rules for conditional processing."
 }
 
@@ -38673,14 +38685,14 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{css3transforms,
-    author =    "Simon Fraser and Dean Jackson and David Hyatt and Chris Marrin and Edward O'Connor and Dirk Schulze and Aryeh Gregor",
+    author =    "Simon Fraser and Dean Jackson and Edward O'Connor and Dirk Schulze and Aryeh Gregor",
     title =     "CSS Transforms",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-css3-transforms-20120403",
-    month =     apr,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-css3-transforms-20120911",
+    month =     sep,
     year =      2012,
     topic =     "css3[1]",
     updates =   "svgtransforms css32dtransforms css33dtransforms",
-    uri =       "http://www.w3.org/TR/2012/WD-css3-transforms-20120403",
+    uri =       "http://www.w3.org/TR/2012/WD-css3-transforms-20120911",
     abstract =  "CSS transforms allows elements styled with CSS to be transformed in two-dimensional or three-dimensional space. This specification is the convergence of the CSS 2D transforms, CSS 3D transforms and SVG transforms specifications."
 }
 
