@@ -34684,22 +34684,22 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{r2rml,
     author =    "Souripriya Das and Seema Sundara and Richard Cyganiak",
     title =     "R2RML: RDB to RDF Mapping Language",
-    howpublished =  "World Wide Web Consortium, Proposed Recommendation PR-r2rml-20120814",
-    month =     aug,
+    howpublished =  "World Wide Web Consortium, Recommendation REC-r2rml-20120927",
+    month =     sep,
     year =      2012,
     topic =     "rdf[0.8] rdbms[0.8] r2rml[1]",
-    uri =       "http://www.w3.org/TR/2012/PR-r2rml-20120814",
+    uri =       "http://www.w3.org/TR/2012/REC-r2rml-20120927",
     abstract =  "This document describes R2RML, a language for expressing customized mappings from relational databases to RDF datasets. Such mappings provide the ability to view existing relational data in the RDF data model, expressed in a structure and target vocabulary of the mapping author's choice. R2RML mappings are themselves RDF graphs and written down in Turtle syntax. R2RML enables different types of mapping implementations: processors could, for example, offer a virtual SPARQL endpoint over the mapped relational data, or generate RDF dumps, or offer a Linked Data interface."
 }
 
 @misc{rdbdirectmapping,
     author =    "Marcelo Arenas and Alexandre Bertails and Eric Prud'hommeaux and Juan Sequeda",
     title =     "A Direct Mapping of Relational Data to RDF",
-    howpublished =  "World Wide Web Consortium, Proposed Recommendation PR-rdb-direct-mapping-20120814",
-    month =     aug,
+    howpublished =  "World Wide Web Consortium, Recommendation REC-rdb-direct-mapping-20120927",
+    month =     sep,
     year =      2012,
-    topic =     "rdf[0.8] rdbms[0.8]",
-    uri =       "http://www.w3.org/TR/2012/PR-rdb-direct-mapping-20120814",
+    topic =     "rdf[0.8] rdbms[0.8] rdb2rdf[1]",
+    uri =       "http://www.w3.org/TR/2012/REC-rdb-direct-mapping-20120927",
     abstract =  "The need to share data with collaborators motivates custodians and users of relational databases (RDB) to expose relational data on the Web of Data. This document defines a direct mapping from relational data to RDF. This definition provides extension points for refinements within and outside of this document."
 }
 
@@ -37819,6 +37819,17 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  {This specification standardizes a packaging format and metadata for a class of software known as widgets. Unlike traditional user interface widgets (e.g., buttons, input boxes, toolbars, etc.), widgets as specified in this document are full-fledged client-side applications that are authored using technologies such as HTML and then packaged for distribution. Examples range from simple clocks, stock tickers, news casters, games and weather forecasters, to complex applications that pull data from multiple sources to be "mashed-up" and presented to a user in some interesting and useful way. The specification relies on PKWare's Zip specification as the archive format, XML as a configuration document format, and a series of steps that runtimes follow when processing and verifying various aspects of a package. The packaging format acts as a container for files used by a widget. The configuration document is an XML vocabulary that declares metadata and configuration parameters for a widget. The steps for processing a widget package describe the expected behavior and means of error handling for runtimes while processing the packaging format, configuration document, and other relevant files. This specification is part of the Widgets family of specifications, which together standardize widgets as a whole.}
 }
 
+@misc{widgets10sec,
+    author =    "Marcos C\'aceres",
+    title =     "Packaged Web Apps (Widgets) --- Packaging and XML Configuration (Second Edition)",
+    howpublished =  "World Wide Web Consortium, Proposed Recommendation PER-widgets-20120925",
+    month =     sep,
+    year =      2011,
+    updates =   "widgets10",
+    uri =       "http://www.w3.org/TR/2012/PER-widgets-20120925",
+    abstract =  {This specification updates the Widget Packaging and XML Configuration, and addresses some errata found in the original recommendation. It also updates the name of the specification, to be more in vogue with industry trends towards the naming of this class of application. This specification standardizes a packaging format and metadata for a class of software known commonly as packaged apps or widgets. Unlike traditional user interface widgets (e.g., buttons, input boxes, toolbars, etc.), widgets as specified in this document are full-fledged client-side applications that are authored using technologies such as HTML and then packaged for distribution. Examples range from simple clocks, stock tickers, news casters, games and weather forecasters, to complex applications that pull data from multiple sources to be "mashed-up" and presented to a user in some interesting and useful way. The specification relies on PKWare's Zip specification as the archive format, XML as a configuration document format, and a series of steps that runtimes follow when processing and verifying various aspects of a package. The packaging format acts as a container for files used by a widget. The configuration document is an XML vocabulary that declares metadata and configuration parameters for a widget. The steps for processing a widget package describe the expected behavior and means of error handling for runtimes while processing the packaging format, configuration document, and other relevant files. This specification is part of the Widgets family of specifications, which together standardize widgets as a whole.}
+}
+
 @misc{widgets10land,
     author =    "Marcos C\'aceres",
     title =     "Widgets 1.0: The Widget Landscape (Q1 2008)",
@@ -38358,6 +38369,17 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "CSS is a language for describing the rendering of structured documents (such as HTML and XML) on screen, on paper, in speech, etc. This module contains the features of CSS level 3 relating to variables. It includes and extends the functionality of CSS level 2, which builds on CSS level 1. The main extensions compared to level 2 are the introduction of the variable as a new primitive value type that is accepted by all properties."
 }
 
+@misc{csssizing,
+    author =    "Tab Atkins and Elika J. Etemad",
+    title =     "CSS Intrinsic \& Extrinsic Sizing Module Level 3",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-css3-sizing-20120927",
+    month =     sep,
+    year =      2012,
+    topic =     "css3[1]",
+    uri =       "http://www.w3.org/TR/2012/WD-css3-sizing-20120927",
+    abstract =  {This module extends the CSS sizing properties with keywords that represent content-based "intrinsic" sizes and context-based "extrinsic" sizes, allowing CSS to more easily describe boxes that fit their content or fit into a particular layout context. CSS is a language for describing the rendering of structured documents (such as HTML and XML) on screen, on paper, in speech, etc.}
+}
+
 @misc{css3regions,
     author =    "Vincent Hardy and Alex Mogilevsky and Alan Stearns",
     title =     "CSS Regions Module Level 3",
@@ -38795,10 +38817,10 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{mediafrags,
     author =    {Rapha\"el Troncy and Erik Mannens and Silvia Pfeiffer and Davy {Van Deursen}},
     title =     "Media Fragments URI 1.0 (basic)",
-    howpublished =  "World Wide Web Consortium, Proposed Recommendation PR-media-frags-20120315",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Recommendation REC-media-frags-20120925",
+    month =     sep,
     year =      2012,
-    uri =       "http://www.w3.org/TR/2012/PR-media-frags-20120315",
+    uri =       "http://www.w3.org/TR/2012/REC-media-frags-20120925",
     topic =     "uri[0.9]",
     abstract =  "This document describes the Media Fragments 1.0 (basic) specification. It specifies the syntax for constructing media fragment URIs and explains how to handle them when used over the HTTP protocol. The syntax is based on the specification of particular name-value pairs that can be used in URI fragment and URI query requests to restrict a media resource to a certain fragment. The Media Fragment WG has no authority to update registries of all targeted media types. We recommend media type owners to harmonize their existing schemes with the ones proposed in this document and update or add the fragment semantics specification to their media type registration."
 }
