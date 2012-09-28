@@ -14790,6 +14790,107 @@ We also propose a new taxonomy for geographic search queries.}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@string{wsrest2012 =     "Third International Workshop on RESTful Design (WS-REST 2012)" }
+
+@inproceedings{ala12a,
+    crossref =  "wsrest2012",
+    author =    "Rosa Alarc\'on and Cesare Pautasso and Erik Wilde",
+    title =     "Third International Workshop on RESTful Design (WS-REST 2012)",
+    pages =     "1-2",
+    doi =       "10.1145/2307819.2307821",
+    abstract =  "Over the past few years, the discussion between the two major architectural styles for designing and implementing Web services, the RPC-oriented approach and the resource-oriented approach, has been mainly held outside of traditional research communities. Mailing lists, forums and developer communities have seen long and fascinating debates around the assumptions, strengths, and weaknesses of these two approaches. The Representational State Transfer (REST) is an architectural style and as such can be applied in different ways, extended by additional constraints, or specialized with specific interaction patterns. The Third International Workshop on RESTful Design (WS-REST 2012) aims to involve researchers in the debate by providing a premier forum for discussing research ideas, novel applications and results centered around the resource-oriented style of Web services. The WWW conference provides the ideal setting to host this third edition of the workshop dedicated to research on the architectural style underlying the Web."
+}
+
+@inproceedings{dav12,
+    crossref =  "wsrest2012",
+    author =    "Cornelia Davis",
+    title =     "What if the Web were not RESTful?",
+    pages =     "3-10",
+    doi =       "10.1145/2307819.2307823",
+    abstract =  {So-called RESTful services are in widespread use both on the Web, and increasingly, in large enterprises. We say "so-called" because in reality, most of these services are not very RESTful. Those active in the REST community know well where these interfaces fail to meet REST principles, however, true understanding remains only in this relatively small community. Unfortunately, the result is a set of interfaces that are ultimately limited in their use, and the deficiencies are not usually recognized until it is too late to make the necessary changes. Our experience has shown that individuals are not being deliberately neglectful, rather, they simply do not know what they do not know. Everyone thinks they "get REST", after all, using HTTP to move XML or JSON payloads over the network is very simple. We have found that most individuals begin to understand the nuances of REST when they are explained and they almost always ask for resources that further explain these concepts. Certainly, materials are available, however the best ones are rather substantial in size lessening the chance that many people will read them. In this paper we take a fresh approach to explaining the core principles of REST, by describing a World Wide Web that fails to meet these tenets. We look at each key element, resource orientation, the uniform interface, media types and hyperlinking, and imagine the consequences of not abiding by the REST architectural style on the end user or tools developer of the Web. We then do a similar analysis in the context of Web services and programmatic consumers, reexamining each REST characteristic, describing common mistakes and suggesting improvements. We have found that in discussions, the analogy of the World Wide Web has been very effective at explaining REST.}
+}
+
+@inproceedings{str12,
+    crossref =  "wsrest2012",
+    author =    "Jakob Strauch and Silvia Schreier",
+    title =     "RESTify: From RPCs to RESTful HTTP design",
+    pages =     "11-18",
+    doi =       "10.1145/2307819.2307824",
+    abstract =  "Starting with RESTful design is a difficult task --- even more if the designer has a RPC or object-oriented background. To support the adaption from RPC- to REST-oriented thinking, we propose RESTify, a straightforward procedure model to redesign a RPC-oriented interface into a hypermedia-enabled REST interface. RESTfiy uses a WSDL document of an existing SOAP service and consists of three iterations. The result of each iteration is an enhanced version of the preceding one concerning the REST constraints and is meant to be implemented as a HTTP service. Beside the technical result of the process and the design of a RESTful interface, the developer becomes acquainted to the main elements of a RESTful design, the constraints and their application. The results of the evaluation, using a prototypical web application and public SOAP services, are promising."
+}
+
+@inproceedings{szy12,
+    crossref =  "wsrest2012",
+    author =    "Christoph Szymanski and Silvia Schreier",
+    title =     "Case Study: Extracting a Resource Model from an Object-Oriented Legacy Application",
+    pages =     "19-24",
+    doi =       "10.1145/2307819.2307825",
+    abstract =  "Many companies have invested in legacy applications and want to benefit from the interoperability that the architectural style Representational State Transfer (REST) offers without redeveloping their software. One of the crucial parts when adding a REST interface to an existing application is creating an appropriate resource model. Utilizing any available model of the legacy application can accelerate development significantly because existing domain knowledge, data, and business process implementations can be reused. Despite the maturity of the architectural style, there is still little record of creating a resource model from existing object-oriented applications. This article presents a lightweight modeling process: First we harvest an existing object model for resource candidates, afterwards the resulting model is enhanced incrementally until a suitable resource model emerges. The process is illustrated by a case study that highlights interesting challenges, such as a comprehensive domain model and long running processes, as well as pragmatic solutions for these challenges. The paper demonstrates that it is feasible to add a RESTful interface to a legacy application even in a process rich environment."
+}
+
+@inproceedings{lan12,
+    crossref =  "wsrest2012",
+    author =    {Markus Lanthaler and Christian G\"utl},
+    title =     "On Using JSON-LD to Create Evolvable RESTful Services",
+    pages =     "25-32",
+    doi =       "10.1145/2307819.2307827",
+    abstract =  "As the amount of data and devices on the Web experiences exponential growth issues on how to integrate such hugely heterogeneous components into a scalable system become increasingly important. REST has proven to be a viable solution for such large-scale information systems. It provides a set of architectural constraints that, when applied as a whole, result in benefits in terms of loose coupling, maintainability, evolvability, and scalability. Unfortunately, some of REST's constraints such as the ones that demand self-descriptive messages or require the use of hypermedia as the engine of application state are rarely implemented correctly. This results in tightly coupled and thus brittle systems. To solve these and other issues, we present JSON-LD, a community effort to standardize a media type targeted to machine-to-machine communication with inherent hypermedia support and rich semantics. Since JSON-LD is 100\% compatible with traditional JSON, developers can continue to use their existing tools and libraries. As we show in the paper, JSON-LD can be used to build truly RESTful services that, at the same time, integrate the exposed data into the Semantic Web. The required additional design costs are significantly outweighed by the achievable benefits in terms of loose coupling, evolvability, scalability, self-descriptiveness, and maintainability."
+}
+
+@inproceedings{ver12,
+    crossref =  "wsrest2012",
+    author =    "Ruben Verborgh and Thomas Steiner and Davy Van Deursen and Sam Coppens and Joaquim Gabarr\'o Vall\'es and Rik Van de Walle",
+    title =     "Functional Descriptions as the Bridge between Hypermedia APIs and the Semantic Web",
+    pages =     "33-40",
+    doi =       "10.1145/2307819.2307828",
+    abstract =  "The early visions for the Semantic Web, from the famous 2001 Scientific American article by Berners-Lee et al., feature intelligent agents that can autonomously perform tasks like discovering information, scheduling events, finding execution plans for complex operations, and in general, use reasoning techniques to come up with sense-making and traceable decisions. While todaymore than ten years laterthe building blocks (1) resource-oriented rest infrastructure, (2) Web APIs, and (3) Linked Data are in place, the envisioned intelligent agents have not landed yet. In this paper, we explain why capturing functionality is the connection between those three building blocks, and introduce the functional API description format RESTdesc that creates this bridge between hypermedia APIs and the Semantic Web. Rather than adding yet another component to the Semantic Web stack, RESTdesc offers instead concise descriptions that reuse existing vocabularies to guide hypermedia-driven agents. Its versatile capabilities are illustrated by a real-life agent use case for Web browsers wherein we demonstrate that RESTdesc functional descriptions are capable of fulfilling the promise of autonomous agents on the Web."
+}
+
+@inproceedings{dua12,
+    crossref =  "wsrest2012",
+    author =    "Kewei Duan and Julian Padget and H. Alicia Kim and Hiroshi Hosobe",
+    title =     "Composition of Engineering Web Services with Universal Distributed Data-Flows Framework based on ROA",
+    pages =     "41-48",
+    doi =       "10.1145/2307819.2307830",
+    abstract =  "The problem of staging data in workflows has received much attention over the last decade, with a variety of user-directed and automatic solutions. The latter are the focus of the first contribution in this paper, where we propose a simple peer-to-peer solution adapted to the needs of RESTful services. The second contribution, is the combination of the data staging mechanism with a simple service deployment mechanism, that is designed to allow applications developed for the command-line to function as (RESTful) services without modification or (in some cases) recompilation. Thus, the aim of this paper is to describe the design and implementation of: (i) a peer-to-peer data-staging mechanism, that is itself RESTful, and (ii) a service deployment mechanism, also following REST design principles, which together form the Universal Distributed Data-flows framework, for the support of data-intensive (RESTful) workflows. We evaluate the framework by means of an engineering workflow developed for multi-disciplinary design optimization. The workflow itself is specified in Taverna, which is a conventional centralized data-staging enactment system. However, by virtue of the underlying services and staging mechanisms described here, the resulting enactment is peer-to-peer (for data), which furthermore permits asynchronous staging, with potential benefits for network utilization and end-to-end execution time."
+}
+
+@inproceedings{sti12,
+    crossref =  "wsrest2012",
+    author =    "Vlad Stirbu and Yu You",
+    title =     "Experiences Designing Hypermedia-Driven and Self-Adaptive web-Based AR Authoring Tools",
+    pages =     "49-52",
+    doi =       "10.1145/2307819.2307831",
+    abstract =  "In this paper we present our experiences on developing generic and adaptive web-based content authoring tools for augmented and mixed reality applications. Our approach uses hypermedia to convey the capabilities of content servers and to load on demand only the functionality needed to interact with the corresponding content server. The mechanism allows the web application to provide an optimized user experience by adapting to the environment where it is used."
+}
+
+@inproceedings{amu12,
+    crossref =  "wsrest2012",
+    author =    "Mike Amundsen",
+    title =     "From APIs to Affordances: A New Paradigm for Web Services",
+    pages =     "53-60",
+    doi =       "10.1145/2307819.2307832",
+    abstract =  {The ecosystem of services on the Web continues to grow and evolve while, at the same time, the number and diversity of connected devices increases; challenges lie ahead for both providers and consumers of Web services. This paper is presented as a 'what-if' proposal; an alternate paradigm for dealing with an increasingly heterogeneous network. Drawing from diverse sources including physical architecture, industrial design, the psychology of perception, and cross-cultural mono-myth, a new implementation paradigm is proposed to help software architects and developers meet these challenges; one that invites participants to shift their mental model from that of programming network devices to programming the network to which those devices are connected. To accomplish this goal an "affordance-rich message" is proposed; one that is based on shared understanding through network-oriented affordances instead of device-oriented APIs. A working model based on this approach is offered, examples given, and areas of related work identified.}
+}
+
+@proceedings{wsrest2012,
+    title =     wsrest2012,
+    booktitle = wsrest2012,
+    editor =    "Rosa Alarc\'on and Cesare Pautasso and Erik Wilde",
+    address =   lyon,
+    key =       wsrest2012,
+    month =     apr,
+    year =      2012,
+    topic =     "rest[1]",
+    index =     "WS-REST 2012",
+    uri =       "http://ws-rest.org/2012/",
+    uri =       "http://dl.acm.org/citation.cfm?doid=2307819.2307821",
+    uri =       "http://www.informatik.uni-trier.de/~ley/db/conf/rest/rest2012.html",
+    isbn =      "978-1-4503-1190-8"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 @string{w3cprivacy2010 =     "W3C Workshop on Privacy for Advanced Web APIs" }
 
 @inproceedings{cac10,
