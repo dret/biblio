@@ -21519,7 +21519,7 @@ We also propose a new taxonomy for geographic search queries.}
 
 @incollection{cap11,
     crossref =  "rest2011",
-    author =    "Mauro Caporuscio and Marco Funaro and and Carlo Ghezzi",
+    author =    "Mauro Caporuscio and Marco Funaro and Carlo Ghezzi",
     title =     "RESTful Service Architectures for Pervasive Networking Environments",
     pages =     "401-424"
 }
@@ -34288,12 +34288,12 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{htmlaapi,
-    author =    "Steve Faulkner and Cynthia Shelly",
+    author =    "Steve Faulkner and Cynthia Shelly and Jason Kiss",
     title =     "HTML to Platform Accessibility APIs Implementation Guide: A User Agent Developer's Guide to Understanding and Implementing Accessibility Support in HTML",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-html-aapi-20120329",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-html-aapi-20121025",
+    month =     oct,
     year =      2012,
-    uri =       "http://www.w3.org/TR/2012/WD-html-aapi-20120329",
+    uri =       "http://www.w3.org/TR/2012/WD-html-aapi-20121025",
     abstract =  "This is draft documentation mapping HTML elements and attributes to accessibility API Roles, States and Properties on a variety of platforms. It provides recommendations on deriving the accessible names and descriptions for HTML elements. It also provides accessible feature implementation examples."
 }
 
@@ -34939,11 +34939,11 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{microdata,
     author =    "Ian Hickson",
     title =     "HTML Microdata",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-microdata-20120329",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-microdata-20121025",
+    month =     oct,
     year =      2012,
     topic =     "html[0.9]",
-    uri =       "http://www.w3.org/TR/2012/WD-microdata-20120329",
+    uri =       "http://www.w3.org/TR/2012/WD-microdata-20121025",
     abstract =  "This specification defines the HTML microdata mechanism. This mechanism allows machine-readable data to be embedded in HTML documents in an easy-to-write manner, with an unambiguous parsing model. It is compatible with numerous other data formats including RDF and JSON."
 }
 
@@ -34973,11 +34973,11 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{fragidbestpractices,
     author =    "Jeni Tennison",
     title =     "Best Practices for Fragment Identifiers and Media Type Definitions",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-fragid-best-practices-20120726",
-    month =     jul,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-fragid-best-practices-20121025",
+    month =     oct,
     year =      2012,
-    uri =       "http://www.w3.org/TR/2012/WD-fragid-best-practices-20120726",
-    abstract =  {Fragment identifiers within URIs are specified as being interpreted based on the media type of a representation. Media type definitions therefore have to provide details about how fragment identifiers are interpreted for that media type. This document recommends best practices for the authors of media type definitions, for the authors of structured syntax suffix definitions (such as +xml), for the authors of specifications that define syntax for fragment identifiers, and for authors that publish documents that are intended to be used with fragment identifiers or who refer to URIs using fragment identifiers. Media type registrations should avoid "inheriting" generic fragment identifier rules from both the top-level type and any structured syntax suffix that they use if the fragment identifier syntaxes defined for these overlap and may provide different meanings for the same fragment identifier. Where fragment identifier syntax does overlap, media type registrations should specify which take priority in resolving a fragment identifier. Media type registrations should also reserve the use of plain name fragment identifiers for content named by authors, and specify any restrictions on the interpretation of fragment identifiers by scripts. They should avoid defining new fragment identifier structures within the registration document itself, and should avoid constraining how applications handle fragment identifiers that do not resolve. Structured syntax suffix registrations are based on a structured syntax which usually will have its own media type registration. The structured syntax suffix registration should define the same fragment identifier rules as are used in that media type registration. Further, they should specify that any fragment identifiers that do not resolve according to these rules should be handled in the way specified by the specific media type that is using the structured syntax. The designers of fragment identifier structures (such as XPointer) should avoid syntactic overlaps with existing fragment identifier structures and ensure that fragment identifiers can be used across formats with similar semantics. Publishers should ensure that any addressable structures within documents that are served through content negotiation are consistent across content-negotiated variants. They should also ensure that scripts handle fragment identifiers consistently with the fragment identifier rules for the relevant media type. Authors referring to URIs with fragment identifiers should avoid using fragment identifiers that are specific to a particular syntax (such as XPointer, which is specific to XML) unless they can ascertain that the base URI only serves one representation.}
+    uri =       "http://www.w3.org/TR/2012/WD-fragid-best-practices-20121025",
+    abstract =  { Fragment identifiers (fragids) within URIs are specified as being interpreted based on the media type of a representation. Media type definitions therefore have to provide details about how fragids are interpreted for that media type. This document recommends best practices for the authors of media type definitions, for the authors of structured syntax suffix registrations (such as +xml), for the authors of specifications that define fragid structures, and for authors that publish documents that are intended to be used with fragids or who refer to fragments within documents using URIs with fragids. Media type registrations should ensure that fragids matching syntax "inherited" from top-level types such as image/* and +suffix registrations such as for +xml are always interpreted based on that generic processing. If the "inherited" fragid syntaxes overlap and may provide inconsistent meanings or processing for the same fragid, they should not adopt the +suffix. Where media type registrations reuse fragid structures that overlap, media type registrations should specify which take priority in resolving a given fragid. Media type registrations should also reserve the use of plain name fragids for local identifiers within content, and specify any restrictions on the interpretation of fragids by scripts. They should avoid defining new fragid structures within the registration document itself, and should avoid constraining how applications handle fragids that do not resolve. Structured syntax suffix registrations are based on a metaformat which usually will have its own media type registration. The +suffix registration should define the same fragid rules as are used in that media type registration. Further, they should specify that any fragids that do not resolve according to these rules should be handled in the way specified by the specific media type adopting that +suffix. The designers of fragid structures (such as XPointer) should avoid syntactic overlaps with existing fragid structures and ensure that fragids can be used across formats with similar semantics. Publishers should ensure that any addressable structures within documents that are served through content negotiation are consistent across content-negotiated variants. They should also ensure that scripts handle fragids consistently with the fragid rules for the relevant media type. Authors referring to URIs with fragids should avoid using fragids that are specific to a particular document format (such as XPointer, which is specific to XML) unless they can ascertain that the base URI only serves one representation.}
 }
 
 @misc{publishinglinking,
@@ -35162,6 +35162,17 @@ We also propose a new taxonomy for geographic search queries.}
     topic =     "rdf[0.8] turtle[1]",
     uri =       "http://www.w3.org/TR/2012/WD-turtle-20120710",
     abstract =  "The Resource Description Framework (RDF) is a general-purpose language for representing information in the Web. This document defines a textual syntax for RDF called Turtle that allows an RDF graph to be completely written in a compact and natural text form, with abbreviations for common usage patterns and datatypes. Turtle provides levels of compatibility with the existing N-Triples format as well as the triple pattern syntax of the SPARQL W3C Recommendation."
+}
+
+@misc{ldp,
+    editor =    "Steve Speicher and Michael Hausenblas",
+    title =     "Linked Data Platform 1.0",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-ldp-20121025",
+    month =     oct,
+    year =      2012,
+    topic =     "rdf[0.8] linkeddata[0.9]",
+    uri =       "http://www.w3.org/TR/2012/WD-ldp-20121025",
+    abstract =  "A set of best practices and simple approach for a read-write Linked Data architecture, based on HTTP access to web resources that describe their state using RDF."
 }
 
 @misc{jsonldsyntax,
@@ -38258,10 +38269,10 @@ We also propose a new taxonomy for geographic search queries.}
     editor =    "James Barnett",
     author =    "Michael Bodell and Deborah Dahl and Ingmar Kliche and Jim Larson and Brad Porter and Dave Raggett and T.V. Raman and Bertha Helena Rodriguez and Muthuselvam Selvaraj and Raj Tumuluri and Andrew Wahbe and Piotr Wiechno and Moshe Yudkowsky",
     title =     "Multimodal Architecture and Interfaces",
-    howpublished =  "World Wide Web Consortium, Proposed Recommendation PR-mmi-arch-20120814",
-    month =     aug,
+    howpublished =  "World Wide Web Consortium, Recommendation REC-mmi-arch-20121025",
+    month =     oct,
     year =      2012,
-    uri =       "http://www.w3.org/TR/2012/PR-mmi-arch-20120814",
+    uri =       "http://www.w3.org/TR/2012/REC-mmi-arch-20121025",
     abstract =  "This document describes a loosely coupled architecture for multimodal user interfaces, which allows for co-resident and distributed implementations, and focuses on the role of markup and scripting, and the use of well defined interfaces between its constituents."
 }
 
@@ -39312,6 +39323,17 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "CSS transforms allows elements styled with CSS to be transformed in two-dimensional or three-dimensional space. This specification is the convergence of the CSS 2D transforms, CSS 3D transforms and SVG transforms specifications."
 }
 
+@misc{filtereffects,
+    editor =    {Vincent Hardy and Dean Jackson and Erik Dahlstr\"om and Dirk Schulze},
+    title =     "Filter Effects 1.0",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-filter-effects-20121025",
+    month =     oct,
+    year =      2012,
+    topic =     "css3[1]",
+    uri =       "http://www.w3.org/TR/2012/WD-filter-effects-20121025",
+    abstract =  "Filter effects are a way of processing an element's rendering before it is displayed in the document. Typically, rendering an element via CSS or SVG can conceptually described as if the element, including its children, are drawn into a buffer (such as a raster image) and then that buffer is composited into the elements parent. Filters apply an effect before the compositing stage. Examples of such effects are blurring, changing color intensity and warping the image. Although originally designed for use in SVG, filter effects are a set a set of operations to apply on an image buffer and therefore can be applied to nearly any presentational environment, including CSS. They are triggered by a style instruction (the ‘filter’ property). This specification describes filters in a manner that allows them to be used in content styled by CSS, such as HTML and SVG. It also defines a CSS property value function that produces a CSS <image> value."
+}
+
 @misc{cpcreq,
     author =    "Roger Gimson and Lalitha Suryanarayana and Markus Lauff",
     title =     "Core Presentation Characteristics: Requirements and Use Cases",
@@ -39595,25 +39617,25 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{html5,
-    author =    "Ian Hickson",
+    author =    "Robin Berjon and Travis Leithead and Erika {Doyle Navara} and Edward O'Connor and Silvia Pfeiffer",
     title =     "HTML5 --- A Vocabulary and Associated APIs for HTML and XHTML",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-html5-20120329",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-html5-20121025",
+    month =     oct,
     year =      2012,
     topic =     "html[1]",
     updates =   "html401",
-    uri =       "http://www.w3.org/TR/2012/WD-html5-20120329",
+    uri =       "http://www.w3.org/TR/2012/WD-html5-20121025",
     abstract =  "This specification defines the 5th major revision of the core language of the World Wide Web: the Hypertext Markup Language (HTML). In this version, new features are introduced to help Web application authors, new elements are introduced based on research into prevailing authoring practices, and special attention has been given to defining clear conformance criteria for user agents in an effort to improve interoperability."
 }
 
 @misc{htmlpolyglot,
     author =    "Eliot Graff",
     title =     "Polyglot Markup: HTML-Compatible XHTML Documents",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-html-polyglot-20120329",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-html-polyglot-20121025",
+    month =     oct,
     year =      2012,
     topic =     "html[0.9]",
-    uri =       "http://www.w3.org/TR/2012/WD-html-polyglot-20120329",
+    uri =       "http://www.w3.org/TR/2012/WD-html-polyglot-20121025",
     abstract =  "A document that uses polyglot markup is document that is a stream of bytes that parses into identical document trees (with the exception of the xmlns attribute on the root element) when processed as HTML and when processed as XML. Polyglot markup that meets a well defined set of constraints is interpreted as compatible, regardless of whether they are processed as HTML or as XHTML, per the HTML5 specification. Polyglot markup uses a specific DOCTYPE, namespace declarations, and a specific case --- normally lower case but occasionally camel case --- for element and attribute names. Polyglot markup uses lower case for certain attribute values. Further constraints include those on empty elements, named entity references, and the use of scripts and style."
 }
 
@@ -39630,13 +39652,13 @@ We also propose a new taxonomy for geographic search queries.}
 
 @misc{html5language,
     author =    "Michael K. Smith",
-    title =     "HTML: The Markup Language",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-html-markup-20120329",
-    month =     mar,
+    title =     "HTML: The Markup Language (An HTML Language Reference)",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-html-markup-20121025",
+    month =     oct,
     year =      2012,
     topic =     "html[1]",
     updates =   "html401",
-    uri =       "http://www.w3.org/TR/2012/WD-html-markup-20120329",
+    uri =       "http://www.w3.org/TR/2012/WD-html-markup-20121025",
     abstract =  {This non-normative reference describes the HTML markup language and provides details to help producers of HTML content create documents that conform to the language. It is intended to complement the normative conformance criteria defined in the HTML5: A vocabulary and associated APIs for HTML and XHTML  specification, as well as information in related deliverables published by the HTML Working Group and from other sources. By design, this reference does not describe related APIs in detail, nor attempt to explain how implementations that are consumers of HTML content are meant to process documents (those areas are covered by the HTML5 specification  itself), nor attempt to also be a tutorial or "how to" authoring guide.}
 }
 
@@ -39654,22 +39676,22 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{html5diff,
     author =    "Anne van Kesteren and Simon Pieters",
     title =     "HTML5 Differences from HTML4",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-html5-diff-20110525",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-html5-diff-20121025",
+    month =     oct,
     year =      2012,
     topic =     "html[0.9]",
-    uri =       "http://www.w3.org/TR/2011/WD-html5-diff-20110525",
+    uri =       "http://www.w3.org/TR/2012/WD-html5-diff-20121025",
     abstract =  {HTML5 defines the fifth major revision of the core language of the World Wide Web, HTML. "HTML5 differences from HTML4" describes the differences between HTML4 and HTML5 and provides some of the rationale for the changes. This document may not provide accurate information as the HTML5 specification is still actively in development. When in doubt, always check the HTML5 specification itself.}
 }
 
 @misc{html5author,
-    author =    "Ian Hickson",
+    author =    "Robin Berjon and Travis Leithead and Silvia Pfeiffer and Erika {Doyle Navara} and Edward O'Connor",
     title =     "HTML5: Edition for Web Authors",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-html5-author-20120329",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-html5-author-20121025",
+    month =     oct,
     year =      2012,
     topic =     "html[0.9]",
-    uri =       "http://www.w3.org/TR/2012/WD-html5-author-20120329",
+    uri =       "http://www.w3.org/TR/2012/WD-html5-author-20121025",
     abstract =  "This document is a strict subset of the full HTML5 specification that omits user-agent (UA) implementation details. It is targeted toward Web authors and others who are not UA implementors and who want a view of the HTML specification that focuses more precisely on details relevant to using the HTML language to create Web documents and Web applications. Because this document does not provide implementation conformance criteria, UA implementors should not rely on it, but should instead refer to the full HTML5 specification. This document is an automated redaction of the full HTML5 specification. As such, the two documents are supposed to agree on normative matters concerning Web authors. However, if the documents disagree, this is a bug in the redaction process and the unredacted full HTML specification takes precedence. Readers are encouraged to report such discrepancies as bugs in the bug tracking system of the HTML Working Group."
 }
 
@@ -39731,11 +39753,11 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{htmlalttechniques,
     author =    "Steve Faulkner",
     title =     "HTML5: Techniques for Providing Useful Text Alternatives",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-html-alt-techniques-20120329",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-html-alt-techniques-20121025",
+    month =     oct,
     year =      2012,
     topic =     "html[0.8]",
-    uri =       "http://www.w3.org/TR/2012/WD-html-alt-techniques-20120329",
+    uri =       "http://www.w3.org/TR/2012/WD-html-alt-techniques-20121025",
     abstract =  "This document contains author conformance requirements for use of the alt attribute in HTML5 and best practice guidance for authors of HTML documents on providing text alternatives for images. This specification is an extension to the HTML5 specification [HTML5]. All normative content in the HTML5 specification, unless specifically overridden by this specification, is intended to be the basis for this specification."
 }
 
@@ -39847,6 +39869,17 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "This document introduces a series of scenarios and a list of requirements guiding the work of the W3C Audio Working Group in its development of a web API for processing and synthesis of audio on the web."
 }
 
+@misc{webmidi,
+    author =    "Jussi Kalliokoski and Chris Wilson",
+    title =     "Web MIDI API",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-webmidi-20121025",
+    month =     oct,
+    year =      2012,
+    topic =     "dom[0.9]",
+    uri =       "http://www.w3.org/TR/2012/WD-webmidi-20121025",
+    abstract =  {Some user agents have connected music devices, such as synthesizers, keyboard and other controllers, and drum machines. The widely adopted Musical Instrument Digital Interface (MIDI) protocol enables electronic musical instruments, controllers and computers to communicate and synchronize with each other. MIDI does not transmit audio signals: instead, it sends event messages about musical notes, controller signals for parameters such as volume, vibrato and panning, cues and clock signals to set the tempo, and system-specific MIDI communications (e.g. to remotely store synthesizer-specific patch data). This same protocol has become a standard for non-musical uses, such as show control, lighting and special effects control. This specification defines an API supporting the MIDI protocol, enabling web applications to enumerate and select MIDI input and output devices on the client system and send and receive MIDI messages. It is intended to enable non-music MIDI applications as well as music ones, by providing low-level access to the MIDI devices available on the users' systems. At the same time, the Web MIDI API is not intended to become a semantic controller platform; it is designed to expose the mechanics of MIDI input and output interfaces, and the practical aspects of sending and receiving MIDI messages, without identifying what those actions might mean semantically. To some users, "MIDI" has become synonymous with Standard MIDI Files and General MIDI. That is not the intent of this API; the use case of simply playing back a .SMF file is not within the purview of this specification (it could be considered a different format to be supported by the HTML5 <audio> element, for example). The Web MIDI API is intended to enable direct access to devices that respond to MIDI - external synthesizers or lighting systems, for example, or even the software synthesizers that are built in to many common operating systems. The Web MIDI API is also explicitly designed to enable a new class of applications on the web that can respond to MIDI controller inputs - using external hardware controllers with physical buttons, knobs and sliders (as well as musical controllers like keyboard, guitar or wind instrument controllers) to control web applications. The Web MIDI API is also expected to be used in conjunction with other APIs and elements of the web platform, notably the Web Audio API and High-Resolution Time. This API is also intended to be familiar to users of MIDI APIs on other systems, such as Apple's CoreMIDI and Microsoft's Windows MIDI API.}
+}
+
 @misc{ambient-light,
     author =    "Doug Turner",
     title =     "Ambient Light Events",
@@ -39894,12 +39927,12 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{2dcontext,
     author =    "Ian Hickson",
     title =     "HTML Canvas 2D Context",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-2dcontext-20120329",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-2dcontext-20121025",
+    month =     oct,
     year =      2012,
     topic =     "dom[0.9] html[1]",
-    uri =       "http://www.w3.org/TR/2012/WD-2dcontext-20120329",
-    abstract =  "This specification defines the 2D Context for the HTML canvas element."
+    uri =       "http://www.w3.org/TR/2012/WD-2dcontext-20121025",
+    abstract =  "This specification defines the 2D Context for the HTML canvas element. The 2D Context provides objects, methods, and properties to draw and manipulate graphics on a canvas drawing surface."
 }
 
 @misc{imeapi,
@@ -39938,11 +39971,11 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{fileapi,
     author =    "Arun Ranganathan and Jonas Sicking",
     title =     "File API",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-FileAPI-20120712",
-    month =     jul,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-FileAPI-20121025",
+    month =     oct,
     year =      2012,
     topic =     "dom[0.9]",
-    uri =       "http://www.w3.org/TR/2012/WD-FileAPI-20120712",
+    uri =       "http://www.w3.org/TR/2012/WD-FileAPI-20121025",
     abstract =  {This specification provides an API for representing file objects in web applications, as well as programmatically selecting them and accessing their data. This includes: A FileList interface, which represents an array of individually selected files from the underlying system. The user interface for selection can be invoked via <input type="file">, i.e. when the input element is in the File Upload state; A Blob interface, which represents immutable raw binary data, and allows access to ranges of bytes within the Blob object as a separate Blob; A File interface, which includes readonly informational attributes about a file such as its name and the date of the last modification (on disk) of the file; A FileReader interface, which provides methods to read a File or a Blob, and an event model to obtain the results of these reads; A URI scheme for use with binary data such as files, so that they can be referenced within web applications. Additionally, this specification defines objects to be used within threaded web applications for the synchronous reading of files. The section on Requirements and Use Cases covers the motivation behind this specification. This API is designed to be used in conjunction with other APIs and elements on the web platform, notably: XMLHttpRequest (e.g. with an overloaded send() method for File or Blob objects), postMessage, DataTransfer (part of the drag and drop API defined in HTML) and Web Workers. Additionally, it should be possible to programmatically obtain a list of files from the input element when it is in the File Upload state. These kinds of behaviors are defined in the appropriate affiliated specifications.}
 }
 
@@ -48788,7 +48821,7 @@ We also propose a new taxonomy for geographic search queries.}
     howpublished =  "Internet RFC 6709",
     month =     sep,
     year =      2012,
-    abstract =  "This document discusses architectural issues related to the extensibility of Internet protocols, with a focus on design considerations.  It is intended to assist designers of both base protocols and extensions. Case studies are included. A companion document, RFC 4775 (BCP 125), discusses procedures relating to the extensibility of IETF protocols."
+    abstract =  "This document discusses architectural issues related to the extensibility of Internet protocols, with a focus on design considerations. It is intended to assist designers of both base protocols and extensions. Case studies are included. A companion document, RFC 4775 (BCP 125), discusses procedures relating to the extensibility of IETF protocols."
 }
 
 @misc{rfc6713,
@@ -48830,7 +48863,7 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2012,
     topic =     "oauth[1]",
     updates =   "rfc5849",
-    abstract =  "The OAuth 2.0 authorization framework enables a third-party application to obtain limited access to an HTTP service, either on behalf of a resource owner by orchestrating an approval interaction between the resource owner and the HTTP service, or by allowing the third-party application to obtain access on its own behalf.  This specification replaces and obsoletes the OAuth 1.0 protocol described in RFC 5849."
+    abstract =  "The OAuth 2.0 authorization framework enables a third-party application to obtain limited access to an HTTP service, either on behalf of a resource owner by orchestrating an approval interaction between the resource owner and the HTTP service, or by allowing the third-party application to obtain access on its own behalf. This specification replaces and obsoletes the OAuth 1.0 protocol described in RFC 5849."
 }
 
 @misc{rfc6750,
