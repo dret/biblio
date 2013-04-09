@@ -32808,7 +32808,7 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2013,
     topic =     "prov[0.9]",
     uri =       "http://www.w3.org/TR/2013/WD-prov-implementations-20130312",
-    abstract =  "This document reports on implementations and usage of the four normative specifications of the PROV Family of Documents. In particular, it's aim is to demonstrate that the features defined in PROV are implementable and interoperable. Features are defined as: the constructs specified in PROV-DM and their realisation in OWL (see PROV-O) and in the PROV-N syntax; the constraints defined within PROV-CONSTRAINTS. Interoperability is defined through both the interchange of provenance information and the coverage of test cases. "
+    abstract =  "This document reports on implementations and usage of the four normative specifications of the PROV Family of Documents. In particular, it's aim is to demonstrate that the features defined in PROV are implementable and interoperable. Features are defined as: the constructs specified in PROV-DM and their realisation in OWL (see PROV-O) and in the PROV-N syntax; the constraints defined within PROV-CONSTRAINTS. Interoperability is defined through both the interchange of provenance information and the coverage of test cases."
 }
 
 @misc{provconstraints,
@@ -35332,6 +35332,18 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "The Resource Description Framework (RDF) is a framework for representing information in the Web. RDF 1.1 Concepts and Abstract Syntax defines an abstract syntax (a data model) which serves to link all RDF-based languages and specifications. The abstract syntax has two key data structures: RDF graphs are sets of subject-predicate-object triples, where the elements may be IRIs, blank nodes, or datatyped literals. They are used to express descriptions of resources. RDF datasets are used to organize collections of RDF graphs, and comprise a default graph and zero or more named graphs. This document also introduces key concepts and terminology, and discusses datatyping and the handling of fragment identifiers in IRIs within RDF graphs."
 }
 
+@misc{rdf11mt,
+    author =    "Patrick J. Hayes and Peter F. Patel-Schneider",
+    title =     "RDF 1.1 Semantics",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-rdf11-mt-20130409",
+    month =     apr,
+    year =      2013,
+    topic =     "rdf[1]",
+    updates =   "rdftheory",
+    uri =       "http://www.w3.org/TR/2013/WD-rdf11-mt-20130409",
+    abstract =  " This document describes a precise semantics for the Resource Description Framework 1.1 [and RDF Schema. It defines a number of distinct entailment regimes and corresponding systems of inference rules. It is part of a suite of documents which comprise the full specification of RDF 1.1. This is a revision of the 2004 RDF Semantics specification for RDF and supersedes that document."
+}
+
 @misc{refacrdf,
     author =    "Dave Beckett",
     title =     "RDF/XML Syntax Specification (Revised)",
@@ -35434,6 +35446,41 @@ We also propose a new taxonomy for geographic search queries.}
     topic =     "rdf[0.8] turtle[1]",
     uri =       "http://www.w3.org/TR/2013/CR-turtle-20130219",
     abstract =  "The Resource Description Framework (RDF) is a general-purpose language for representing information in the Web. This document defines a textual syntax for RDF called Turtle that allows an RDF graph to be completely written in a compact and natural text form, with abbreviations for common usage patterns and datatypes. Turtle provides levels of compatibility with the existing N-Triples format as well as the triple pattern syntax of the SPARQL W3C Recommendation."
+}
+
+@misc{trig,
+    editor =    "Gavin Carothers",
+    author =    "Chris Bizer and Richard Cyganiak",
+    title =     "TriG: RDF Dataset Language",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-trig-20130409",
+    month =     apr,
+    year =      2013,
+    topic =     "rdf[0.8] trig[1]",
+    uri =       "http://www.w3.org/TR/2013/WD-trig-20130409",
+    abstract =  "The Resource Description Framework (RDF) is a general-purpose language for representing information in the Web. This document defines a textual syntax for RDF called TriG that allows an RDF dataset to be completely written in a compact and natural text form, with abbreviations for common usage patterns and datatypes. TriG is an extension of the Turtle format."
+}
+
+@misc{ntriples,
+    editor =    "Gavin Carothers",
+    author =    "David Beckett",
+    title =     "N-Triples: A line-based syntax for an RDF graph",
+    howpublished =  "World Wide Web Consortium, Note NOTE-n-triples-20130409",
+    month =     apr,
+    year =      2013,
+    topic =     "rdf[0.8] ntriples[1]",
+    uri =       "http://www.w3.org/TR/2013/NOTE-n-triples-20130409",
+    abstract =  "N-Triples is a line-based, plain text format for encoding an RDF graph."
+}
+
+@misc{nquads,
+    editor =    "Gavin Carothers",
+    title =     "N-Quads: A line-based syntax for an RDF datasets",
+    howpublished =  "World Wide Web Consortium, Note NOTE-n-quads-20130409",
+    month =     apr,
+    year =      2013,
+    topic =     "rdf[0.8] nquads[1]",
+    uri =       "http://www.w3.org/TR/2013/NOTE-n-quads-20130409",
+    abstract =  "N-Quads is a line-based, plain text format for encoding an RDF dataset."
 }
 
 @misc{ldp,
@@ -36814,13 +36861,13 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{svg2,
-    author =    {Nikos Andronikos and Tavmjong Bah and Brian Birtles and Cyril Concolato and Erik Dahlstr\"om and Chris Lilley and Cameron McCormack and Dirk Schulze and Jonathan Watt},
+    author =    {Nikos Andronikos and Tavmjong Bah and Brian Birtles and Cyril Concolato and Erik Dahlstr\"om and Chris Lilley and Cameron McCormack and Dirk Schulze and Richard Schwerdtfeger and Jonathan Watt},
     title =     "Scalable Vector Graphics (SVG) 2",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-SVG2-20120828",
-    month =     aug,
-    year =      2012,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-SVG2-20130409",
+    month =     apr,
+    year =      2013,
     topic =     "svg[1]",
-    uri =       "http://www.w3.org/TR/2012/WD-SVG2-20120828",
+    uri =       "http://www.w3.org/TR/2013/WD-SVG2-20130409",
     updates =   "svg2req",
     abstract =  "This specification defines the features and syntax for Scalable Vector Graphics (SVG) Version 2, a language for describing two-dimensional vector and mixed vector/raster graphics. Although an XML serialization is given, processing is defined in terms of a DOM."
 }
@@ -37952,7 +37999,7 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2013,
     topic =     "html[0.9]",
     uri =       "http://www.w3.org/TR/2013/WD-media-source-20130129",
-    abstract =  "This specification extends HTMLMediaElement to allow JavaScript to generate media streams for playback. Allowing JavaScript to generate streams facilitates a variety of use cases like adaptive streaming and time shifting live streams. "
+    abstract =  "This specification extends HTMLMediaElement to allow JavaScript to generate media streams for playback. Allowing JavaScript to generate streams facilitates a variety of use cases like adaptive streaming and time shifting live streams."
 }
 
 @misc{calendarapi,
@@ -39526,7 +39573,7 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2013,
     topic =     "css3[1]",
     uri =       "http://www.w3.org/TR/2013/CR-css3-conditional-20130404",
-    abstract =  "CSS is a language for describing the rendering of structured documents (such as HTML and XML) on screen, on paper, in speech, etc. This module contains the features of CSS for conditional processing of parts of style sheets, conditioned on capabilities of the processor or the document the style sheet is being applied to. It includes and extends the functionality of CSS level 2, which builds on CSS level 1. The main extensions compared to level 2 are allowing nesting of certain at-rules inside ‘@media’, and the addition of the ‘@supports’ rule for conditional processing. "
+    abstract =  "CSS is a language for describing the rendering of structured documents (such as HTML and XML) on screen, on paper, in speech, etc. This module contains the features of CSS for conditional processing of parts of style sheets, conditioned on capabilities of the processor or the document the style sheet is being applied to. It includes and extends the functionality of CSS level 2, which builds on CSS level 1. The main extensions compared to level 2 are allowing nesting of certain at-rules inside ‘@media’, and the addition of the ‘@supports’ rule for conditional processing."
 }
 
 @misc{css3webfonts,
