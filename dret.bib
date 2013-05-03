@@ -32131,6 +32131,18 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "This note specifies a Resource Description Framework (RDF) encoding of the vCard profile defined by RFC 2426 and to provide equivalent functionality to its standard format. The motivation is to enable the common and consistent description of persons (using the existing semantics of vCard) and to encode these in RDF/XML."
 }
 
+@misc{vcardrdf,
+    author =    "Renato Iannella and James McKinney",
+    title =     "vCard Ontology",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-vcard-rdf-20130502",
+    month =     may,
+    year =      2013,
+    topic =     "vcard[0.9]",
+    updates =   "ian01",
+    uri =       "http://www.w3.org/TR/2013/WD-vcard-rdf-20130502",
+    abstract =  "The document describes a mapping of the vCard specification (RFC6350) to RDF/OWL. The goal is to promote the use of vCard for the description of people and organisations utilising semantic web techniques and allowing compatibility with traditional vCard implementations."
+}
+
 @misc{chtml1,
     author =    "Tomihisa Kamada",
     title =     "Compact HTML for Small Information Appliances",
@@ -32748,143 +32760,143 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{provdm,
     author =    "Luc Moreau and Paolo Missier",
     title =     "PROV-DM: The PROV Data Model",
-    howpublished =  "World Wide Web Consortium, Proposed Recommendation PR-prov-dm-20130312",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Recommendation REC-prov-dm-20130430",
+    month =     apr,
     year =      2013,
     topic =     "prov[1]",
-    uri =       "http://www.w3.org/TR/2013/PR-prov-dm-20130312",
+    uri =       "http://www.w3.org/TR/2013/REC-prov-dm-20130430",
     abstract =  "Provenance is information about entities, activities, and people involved in producing a piece of data or thing, which can be used to form assessments about its quality, reliability or trustworthiness. PROV-DM is the conceptual data model that forms a basis for the W3C provenance (PROV) family of specifications. PROV-DM distinguishes core structures, forming the essence of provenance information, from extended structures catering for more specific uses of provenance. PROV-DM is organized in six components, respectively dealing with: (1) entities and activities, and the time at which they were created, used, or ended; (2) derivations of entities from entities; (3) agents bearing responsibility for entities that were generated and activities that happened; (4) a notion of bundle, a mechanism to support provenance of provenance; (5) properties to link entities that refer to the same thing; and, (6) collections forming a logical structure for its members. This document introduces the provenance concepts found in PROV and defines PROV-DM types and relations. The PROV data model is domain-agnostic, but is equipped with extensibility points allowing domain-specific information to be included. Two further documents complete the specification of PROV-DM. First, a companion document specifies the set of constraints that provenance should follow. Second, a separate document describes a provenance notation for expressing instances of provenance for human consumption; this notation is used in examples in this document."
 }
 
 @misc{provn,
     author =    "Luc Moreau and Paolo Missier",
     title =     "PROV-N: The Provenance Notation",
-    howpublished =  "World Wide Web Consortium, Proposed Recommendation PR-prov-n-20130312",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Recommendation REC-prov-n-20130430",
+    month =     apr,
     year =      2013,
     topic =     "prov[1]",
-    uri =       "http://www.w3.org/TR/2013/PR-prov-n-20130312",
+    uri =       "http://www.w3.org/TR/2013/REC-prov-n-20130430",
     abstract =  "Provenance is information about entities, activities, and people involved in producing a piece of data or thing, which can be used to form assessments about its quality, reliability or trustworthiness. PROV-DM is the conceptual data model that forms a basis for the W3C provenance (PROV) family of specifications. PROV-DM distinguishes core structures, forming the essence of provenance information, from extended structures catering for more specific uses of provenance. PROV-DM is organized in six components, respectively dealing with: (1) entities and activities, and the time at which they were created, used, or ended; (2) derivations of entities from entities; (3) agents bearing responsibility for entities that were generated and activities that happened; (4) a notion of bundle, a mechanism to support provenance of provenance; and, (5) properties to link entities that refer to the same thing; (6) collections forming a logical structure for its members. To provide examples of the PROV data model, the PROV notation (PROV-N) is introduced: aimed at human consumption, PROV-N allows serializations of PROV instances to be created in a compact manner. PROV-N facilitates the mapping of the PROV data model to concrete syntax, and is used as the basis for a formal semantics of PROV. The purpose of this document is to define the PROV-N notation."
 }
 
 @misc{provo,
     author =    "Timothy Lebo and Satya Sahoo and Deborah McGuinness",
     title =     "PROV-O: The PROV Ontology",
-    howpublished =  "World Wide Web Consortium, Proposed Recommendation PR-prov-o-20130312",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Recommendation REC-prov-o-20130430",
+    month =     apr,
     year =      2013,
     topic =     "prov[1]",
-    uri =       "http://www.w3.org/TR/2013/PR-prov-o-20130312",
+    uri =       "http://www.w3.org/TR/2013/REC-prov-o-20130430",
     abstract =  "The PROV Ontology (PROV-O) expresses the PROV Data Model using the OWL2 Web Ontology Language (OWL2). It provides a set of classes, properties, and restrictions that can be used to represent and interchange provenance information generated in different systems and under different contexts. It can also be specialized to create new classes and properties to model provenance information for different applications and domains."
 }
 
 @misc{provprimer,
     author =    "Yolanda Gil and Simon Miles",
     title =     "PROV Model Primer",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-prov-primer-20130312",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Note NOTE-prov-primer-20130430",
+    month =     apr,
     year =      2013,
     topic =     "prov[0.9]",
-    uri =       "http://www.w3.org/TR/2013/WD-prov-primer-20130312",
-    abstract =  "This document provides an intuitive introduction and guide to the PROV specification for provenance on the Web. PROV is a core data model for provenance for building representations of the entities, people and processes involved in producing a piece of data or thing in the world. This primer explains the fundamental PROV concepts and provides examples of its use. The primer is intended as a starting point for those wishing to create or use PROV data."
+    uri =       "http://www.w3.org/TR/2013/NOTE-prov-primer-20130430",
+    abstract =  "This document provides an intuitive introduction and guide to the PROV Data Model for provenance interchange on the web. PROV defines a core data model for provenance for building representations of the entities, people and processes involved in producing a piece of data or thing in the world. This primer explains the fundamental PROV concepts and provides examples of its use. The primer is intended as a starting point for those wishing to create or use PROV data."
 }
 
 @misc{provoverview,
     author =    "Paul Groth and Luc Moreau",
     title =     "PROV-Overview",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-prov-overview-20130312",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Note NOTE-prov-overview-20130430",
+    month =     apr,
     year =      2013,
     topic =     "prov[0.9]",
-    uri =       "http://www.w3.org/TR/2013/WD-prov-overview-20130312",
-    abstract =  "Provenance is information about entities, activities, and people involved in producing a piece of data or thing, which can be used to form assessments about its quality, reliability or trustworthiness. The PROV Family of Documents defines a model, corresponding serializations and other supporting defintions to enable the inter-operable interchange of provenance information in heterogeneous environments such as the Web. This document provides an overview this family of documents."
+    uri =       "http://www.w3.org/TR/2013/NOTE-prov-overview-20130430",
+    abstract =  "Provenance is information about entities, activities, and people involved in producing a piece of data or thing, which can be used to form assessments about its quality, reliability or trustworthiness. The PROV Family of Documents defines a model, corresponding serializations and other supporting definitions to enable the inter-operable interchange of provenance information in heterogeneous environments such as the Web. This document provides an overview of this family of documents."
 }
 
 @misc{provimplementations,
     author =    "Trung Dong Huynh and Paul Groth and Stephan Zednik",
     title =     "PROV Implementation Report",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-prov-implementations-20130312",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Note NOTE-prov-implementations-20130430",
+    month =     apr,
     year =      2013,
     topic =     "prov[0.9]",
-    uri =       "http://www.w3.org/TR/2013/WD-prov-implementations-20130312",
+    uri =       "http://www.w3.org/TR/2013/NOTE-prov-implementations-20130430",
     abstract =  "This document reports on implementations and usage of the four normative specifications of the PROV Family of Documents. In particular, it's aim is to demonstrate that the features defined in PROV are implementable and interoperable. Features are defined as: the constructs specified in PROV-DM and their realisation in OWL (see PROV-O) and in the PROV-N syntax; the constraints defined within PROV-CONSTRAINTS. Interoperability is defined through both the interchange of provenance information and the coverage of test cases."
 }
 
 @misc{provconstraints,
     author =    "James Cheney and Paolo Missier and Luc Moreau",
     title =     "Constraints of the PROV Data Model",
-    howpublished =  "World Wide Web Consortium, Proposed Recommendation PR-prov-constraints-20130312",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Recommendation REC-prov-constraints-20130430",
+    month =     apr,
     year =      2013,
     topic =     "prov[0.9]",
-    uri =       "http://www.w3.org/TR/2013/PR-prov-constraints-20130312",
+    uri =       "http://www.w3.org/TR/2013/REC-prov-constraints-20130430",
     abstract =  "Provenance is information about entities, activities, and people involved in producing a piece of data or thing, which can be used to form assessments about its quality, reliability or trustworthiness. PROV-DM is the conceptual data model that forms a basis for the W3C provenance (PROV) family of specifications. This document defines a subset of PROV instances called valid PROV instances, by analogy with notions of validity for other Web standards. The intent of validation is to ensure that a PROV instance represents a consistent history of objects and their interactions that is safe to use for the purpose of logical reasoning and other kinds of analysis. Valid PROV instances satisfy certain definitions, inferences, and constraints. These definitions, inferences, and constraints provide a measure of consistency checking for provenance and reasoning over provenance. They can also be used to normalize PROV instances to forms that can easily be compared in order to determine whether two PROV instances are equivalent. Validity and equivalence are also defined for PROV bundles (that is, named instances) and documents (that is, a toplevel instance together with zero or more bundles)."
 }
 
 @misc{provaq,
     author =    "Graham Klyne and Paul Groth",
     title =     "PROV-AQ: Provenance Access and Query",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-prov-aq-20130312",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Note NOTE-prov-aq-20130430",
+    month =     apr,
     year =      2013,
     topic =     "prov[1]",
-    uri =       "http://www.w3.org/TR/2013/WD-prov-aq-20130312",
+    uri =       "http://www.w3.org/TR/2013/NOTE-prov-aq-20130430",
     abstract =  "This document specifies how to use standard Web protocols, including HTTP, to obtain information about the provenance of resources on the Web. We describe both simple access mechanisms for locating provenance records associated with web pages or resources, and provenance query services for more complex deployments. This is part of the larger W3C PROV provenance family of documents."
 }
 
 @misc{provdc,
     author =    "Daniel Garijo and Kai Eckert",
     title =     "Dublin Core to PROV Mapping",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-prov-dc-20130312",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Note NOTE-prov-dc-20130430",
+    month =     apr,
     year =      2013,
     topic =     "prov[0.9] dublincore[0.9]",
-    uri =       "http://www.w3.org/TR/2013/WD-prov-dc-20130312",
-    abstract =  "This document describes a partial mapping from Dublin Core Terms to the PROV-O OWL2 ontology. A substantial number of terms in the Dublin Core vocabulary provide information about the provenance of the resource. Translating these terms to PROV makes the contained provenance information explicit within a provenance chain. The mapping is expressed partly by direct RDFS/OWL mappings between properties and classes. Some of the direct mappings can be refined, translating single Dublin Core Terms into an extended representation of the provenance chain. Therefore, refinements of classes defined in PROV are needed to represent specific Dublin Core activities and roles."
+    uri =       "http://www.w3.org/TR/2013/NOTE-prov-dc-20130430",
+    abstract =  "This document describes a partial mapping from Dublin Core Terms to the PROV-O OWL2 ontology. A substantial number of terms in the Dublin Core vocabulary provide information about the provenance of a resource. The mapping is expressed partly by direct RDFS/OWL mappings between properties and classes. Some of the direct mappings can be refined, translating single Dublin Core Terms into an extended representation of the provenance. Therefore, refinements of classes defined in PROV are needed to represent specific Dublin Core activities and roles."
 }
 
 @misc{provdictionary,
     author =    "Tom {De Nies} and Sam Coppens",
-    title =     "PROV Dictionary",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-prov-dictionary-20130312",
-    month =     mar,
+    title =     "PROV-Dictionary: Modeling Provenance for Dictionary Data Structures",
+    howpublished =  "World Wide Web Consortium, Note NOTE-prov-dictionary-20130430",
+    month =     apr,
     year =      2013,
     topic =     "prov[0.9]",
-    uri =       "http://www.w3.org/TR/2013/WD-prov-dictionary-20130312",
+    uri =       "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430",
     abstract =  "Provenance is information about entities, activities, and people involved in producing a piece of data or thing, which can be used to form assessments about its quality, reliability or trustworthiness. This document describes extensions to PROV to facilitate the modeling of provenance for dictionary data structures. PROV-DM specifies a Collection as an entity that provides a structure to some constituents, which are themselves entities. However, some applications may need a mechanism to specify more structure to a Collection, in order to accurately describe its provenance. Therefore, in this document, we introduce Dictionary, a specific type of Collection with a logical structure consisting of key-value pairs."
 }
 
 @misc{provsemantics,
     author =    "James Cheney",
     title =     "Semantics of the PROV Data Model",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-prov-sem-20130312",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Note NOTE-prov-sem-20130430",
+    month =     apr,
     year =      2013,
     topic =     "prov[0.9]",
-    uri =       "http://www.w3.org/TR/2013/WD-prov-sem-20130312",
-    abstract =  "Provenance is information about entities, activities, and people involved in producing a piece of data or thing, which can be used to form assessments about its quality, reliability or trustworthiness. PROV-DM is the conceptual data model that forms a basis for the W3C provenance (PROV) family of specifications. This document presents a model-theoretic semantics for the PROV data model (called the naive semantics), viewing PROV-DM statements as atomic formulas in the sense of first-order logic, and viewing the constraints and inferences specified in PROV-CONSTRAINTS as a first-order theory. It is shown that the first-order theory is sound with respect to the naive semantics. This information may be useful to researchers or users of PROV to understand the intended meaning and use of PROV for modeling information about the actual history, derivation or evolution of Web resources. It may also be useful for development of additional constraints or inferences for reasoning about PROV or integration of PROV with other Semantic Web vocabularies. It is not proposed as a canonical or required semantics of PROV and does not place any constraints on the use of PROV."
+    uri =       "http://www.w3.org/TR/2013/NOTE-prov-sem-20130430",
+    abstract =  " Provenance is information about entities, activities, and people involved in producing a piece of data or thing, which can be used to form assessments about its quality, reliability or trustworthiness. PROV-DM is the conceptual data model that forms a basis for the W3C provenance (PROV) family of specifications. This document presents a model-theoretic semantics for the PROV data model, viewing PROV-DM statements as atomic formulas in the sense of first-order logic, and viewing the constraints and inferences specified in PROV-CONSTRAINTS as a first-order theory. It is shown that valid PROV instances (in the sense of PROV-CONSTRAINTS) correspond to satisfiable theories. This information may be useful to researchers or users of PROV to understand the intended meaning and use of PROV for modeling information about the actual history, derivation or evolution of Web resources. It may also be useful for development of additional constraints or inferences for reasoning about PROV or integration of PROV with other Semantic Web vocabularies. It is not proposed as a canonical or required semantics of PROV and does not place any constraints on the use of PROV."
 }
 
 @misc{provlinks,
     author =    "Luc Moreau and Timothy Lebo",
     title =     "Linking Across Provenance Bundles",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-prov-links-20130312",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Note NOTE-prov-links-20130430",
+    month =     apr,
     year =      2013,
     topic =     "prov[0.9] dublincore[0.9]",
-    uri =       "http://www.w3.org/TR/2013/WD-prov-links-20130312",
+    uri =       "http://www.w3.org/TR/2013/NOTE-prov-links-20130430",
     abstract =  {Provenance is information about entities, activities, and people involved in producing a piece of data or thing, which can be used to form assessments about its quality, reliability or trustworthiness. Bundles, defined in PROV-DM as sets of provenance descriptions, were introduced in PROV as the mechanism by which provenance of provenance can be expressed. Bundles, whose validity is established independently of each other, are essentially independent of each other, acting as islands of provenance descriptions. In applications where provenance is created by multiple parties over time, it is useful for provenance descriptions created by one party to link to provenance descriptions created by another party. Such a mechanism would allow the "stitching" of provenance descriptions together. Given that provenance descriptions are expected to be contained in bundles, this would require a capability to link entity descriptions across bundles. To address this requirement, this document introduces a relation Mention allowing an entity description to be linked to another entity description occurring in another bundle.}
 }
 
 @misc{provxml,
     author =    "Hook Hua and Curt Tilmes and Stephan Zednik",
     title =     "PROV-XML: The PROV XML Schema",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-prov-xml-20130312",
-    month =     mar,
+    howpublished =  "World Wide Web Consortium, Note NOTE-prov-xml-20130430",
+    month =     apr,
     year =      2013,
     topic =     "prov[1] xml[0.8]",
-    uri =       "http://www.w3.org/TR/2013/WD-prov-xml-20130312",
+    uri =       "http://www.w3.org/TR/2013/NOTE-prov-xml-20130430",
     abstract =  "Provenance is information about entities, activities, and people involved in producing a piece of data or thing, which can be used to form assessments about its quality, reliability or trustworthiness. PROV-DM is the conceptual data model that forms a basis for the W3C provenance (PROV) family of specifications. It defines a concepts for expressing provenance information enabling interchange. This document introduces an XML schema for the PROV data model (PROV-DM), allowing instances of the PROV data model to be serialized in XML."
 }
 
@@ -35018,25 +35030,25 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{trackingcompliance,
-    author =    "Justin Brookman and Sean Harvey and Erica Newland and Heather West",
+    author =    "Justin Brookman and Heather West and Sean Harvey and Erica Newland",
     title =     "Tracking Compliance and Scope",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-tracking-compliance-20121002",
-    month =     oct,
-    year =      2012,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-tracking-compliance-20130430",
+    month =     may,
+    year =      2013,
     topic =     "dnt[0.9]",
-    uri =       "http://www.w3.org/TR/2012/WD-tracking-compliance-20121002",
+    uri =       "http://www.w3.org/TR/2013/WD-tracking-compliance-20130430",
     abstract =  "This specification defines the meaning of a Do Not Track (DNT) preference and sets out practices for websites to comply with this preference."
 }
 
 @misc{trackingdnt,
     author =    "Roy Thomas Fielding and David Singer",
     title =     "Tracking Preference Expression (DNT)",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-tracking-dnt-20121002",
-    month =     oct,
-    year =      2012,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-tracking-dnt-20130430",
+    month =     apr,
+    year =      2013,
     topic =     "dnt[1]",
-    uri =       "http://www.w3.org/TR/2012/WD-tracking-dnt-20121002",
-    abstract =  {This specification defines the technical mechanisms for expressing a tracking preference via the DNT request header field in HTTP, via an HTML DOM property readable by embedded scripts, and via properties accessible to various user agent plug-in or extension APIs. It also defines mechanisms for sites to signal whether and how they honor this preference, both in the form of a machine-readable tracking status resource at a well-known location and via a "Tk" response header field, and a mechanism for allowing the user to approve site-specific exceptions to DNT as desired.}
+    uri =       "http://www.w3.org/TR/2013/WD-tracking-dnt-20130430",
+    abstract =  {This specification defines the technical mechanisms for expressing a tracking preference via the DNT request header field in HTTP, via an HTML DOM property readable by embedded scripts, and via properties accessible to various user agent plug-in or extension APIs. It also defines mechanisms for sites to signal whether and how they honor this preference, both in the form of a machine-readable tracking status resource at a well-known location and via a "Tk" response header field, and a mechanism for allowing the user to approve exceptions to DNT as desired.}
 }
 
 @misc{cap,
@@ -35255,11 +35267,11 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{publishinglinking,
     author =    "Ashok Malhotra and Larry Masinter and Jeni Tennison and Daniel Appelquist",
     title =     "Publishing and Linking on the Web",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-publishing-linking-20121025",
-    month =     oct,
-    year =      2012,
-    uri =       "http://www.w3.org/TR/2012/WD-publishing-linking-20121025",
-    abstract =  {The Web borrows familiar concepts from physical media (e.g., the notion of a "page") and overlays them on top of a networked infrastructure (the Internet) and digital presentation medium (browser software). This is a convenient abstraction, but when social or legal concepts and frameworks relating documents, publishing and speech are applied to the Web, the analogies often do not suffice. Publishing a page on the Web is fundamentally different from printing and distributing a page in a magazine or book. Communication is often subject to governance: legislation, legal opinion, regulation, convention and contract; these are ways in which society looks to enforce norms, for example, around copyright, censorship, privacy and other areas. But there is often a mismatch between governance intended to apply to the Web (usually based on the analogy with physical media) and the technology and architecture used to create it. One particular mismatch is the way in which publication can happen without any judgment or review by Web subsystems, with the process based on actions of end-users. For example, web intermediaries such as proxies, archives, search engines, or by content transformation services might be part of the publication pipeline. For the most part, such sub-systems cannot exercise the kinds of judgment needed, even if required to by governance. This document is intended to inform future social and legal discussions of the Web by clarifying the ways in which the Web's technical facilities operate to store, publish and retrieve information, and by providing definitions for terminology as used within the Web's technical community. This document also describes the technical and operational impact that does or could result from legal constraints on publishing, linking and transformation on the Web.}
+    howpublished =  "World Wide Web Consortium, Note NOTE-publishing-linking-20130430",
+    month =     apr,
+    year =      2013,
+    uri =       "http://www.w3.org/TR/2013/NOTE-publishing-linking-20130430",
+    abstract =  {The Web borrows familiar concepts from physical media (e.g., the notion of a "page") and overlays them on top of a networked infrastructure (the Internet) and a digital presentation medium (browser software). This is a convenient abstraction, but when social or legal concepts and frameworks relating documents, publishing and speech are applied to the Web, the analogies can be misleading, for example, publishing a page on the Web is fundamentally different from printing and distributing a page in a magazine or book. Communication is often subject to governance: legislation, legal opinion, regulation, convention and contract; these are ways in which society looks to enforce norms, for example, around copyright, censorship, and privacy. But there is often a mismatch between governance intended to apply to the Web (usually based on the analogy with physical media) and the technology and architecture used to create it. This document is intended to inform future social and legal discussions about the architecture of the Web: the ways in which the Web's technical facilities operate to store, publish and retrieve information, and by providing definitions for terminology as used within the Web's technical community. Specifically, this document has the following goals: Clarify that linking --- providing the location of some content --- is different in intention from including --- embedding content developed elsewhere within your own --- and should be treated differently by the law; Intermediaries, such as proxies and caches, and more controversially, search engines and aggregators that merely refer to or collect content developed elsewhere, should be treated differently than websites that create original content; In many cases, websites put legal restrictions on how the material they make available may be linked or reused. Such restrictions can be better enforced by using mechanisms provided by the web rather than by legal terms of use.}
 }
 
 @misc{xhtmlrdfa,
@@ -39410,11 +39422,11 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{selectors4,
     author =    "Elika J. Etemad",
     title =     "Selectors Level 4",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-selectors4-20120823",
-    month =     aug,
-    year =      2012,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-selectors4-20130502",
+    month =     may,
+    year =      2013,
     topic =     "css4[1]",
-    uri =       "http://www.w3.org/TR/2012/WD-selectors4-20120823",
+    uri =       "http://www.w3.org/TR/2013/WD-selectors4-20130502",
     updates =   "css3sel",
     abstract =  "Selectors are patterns that match against elements in a tree, and as such form one of several technologies that can be used to select nodes in an XML document. Selectors have been optimized for use with HTML and XML, and are designed to be usable in performance-critical code. They are a core component of CSS (Cascading Style Sheets), which uses Selectors to bind style properties to elements in the document. Selectors Level 4 describes the selectors that already exist in Selectors Level 3, and further introduces new selectors for CSS and other languages that may need them."
 }
