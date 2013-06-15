@@ -299,6 +299,7 @@
 @string{redmond =   "Redmond, Washington" }
 @string{rhodes =    "Rhodes, Greece" }
 @string{riga =      "Riga, Latvia" }
+@string{rio =       "Rio de Janeiro, Brazil" }
 @string{roanoke =   "Roanoke, Virginia" }
 @string{rocquen  =  "Rocquencourt, France" }
 @string{roskilde =  "Roskilde, Denmark" }
@@ -14892,6 +14893,66 @@ We also propose a new taxonomy for geographic search queries.}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@string{wsrest2013 =     "Fourth International Workshop on RESTful Design (WS-REST 2013)" }
+
+@inproceedings{ala13a,
+    crossref =  "wsrest2013",
+    author =    "Rosa Alarc\'on and Cesare Pautasso and Erik Wilde",
+    title =     "Fourth International Workshop on RESTful Design (WS-REST 2013)",
+    pages =     "1389-1390",
+    abstract =  "Over the past few years, the discussion between the major architectural styles for designing and implementing Web services, the RPC-oriented approach, the Message-oriented approach and the Resource-oriented approach, has been mainly held outside of traditional research communities. Mailing lists, forums and developer communities have seen long and fascinating debates around the assumptions, strengths, and weaknesses of these approaches. The Representational State Transfer (REST) is an architectural style and as such can be applied in different ways, extended by additional constraints, or specialized with specific interaction patterns. The Fourth International Workshop on RESTful Design (WS-REST 2013) aims to involve researchers in the debate by providing a prestigious forum for discussing research ideas, novel applications and results centered around the resource-oriented style of Web services. Once again, the WWW conference provides the ideal setting to host this fourth edition of the workshop dedicated to research on the architectural style underlying the Web."
+}
+
+@inproceedings{gul13,
+    crossref =  "wsrest2013",
+    author =    "Markus Gulden and Stefan Kugele",
+    title =     "A Concept for Generating Simplified RESTful Interfaces",
+    pages =     "1391-1398",
+    abstract =  "Today, innovative companies are forced to evolve their software systems faster and faster, either for providing customer services and products or for supporting internal processes. At the same time, already existing, maybe even legacy systems are crucial for different reasons and by that cannot be abolished easily. While integrating legacy software into new systems in general is considered by well-known approaches like SOA (service-oriented architecture), at the best of our knowledge, it lacks of ways to make legacy systems available for remote clients like smart phones or embedded devices. In this paper, we propose an approach to leverage heterogeneous (legacy) applications by adding RESTful web-based interfaces in a model-driven way. We introduce an additional application layer, which encapsulates services of one or several existing applications, and provides a unified, web-based, and seamless interface. This interface is modeled in our own DSL (domain-specific language), the belonging code generator produces productive Java code. Finally, we report on an case study proving our concept by means of an e-bike sharing service."
+}
+
+@inproceedings{ver13,
+    crossref =  "wsrest2013",
+    author =    "Ruben Verborgh and Michael Hausenblas and Thomas Steiner and Erik Mannens and Rik {Van de Walle}",
+    title =     "Distributed Affordance: An Open-World Assumption for Hypermedia",
+    pages =     "1399-1406",
+    abstract =  "Hypermedia links and controls drive the Web by transforming information into affordances through which users can choose actions. However, publishers of information cannot predict all actions their users might want to perform and therefore, hypermedia can only serve as the engine of application state to the extent the user's intentions align with those envisioned by the publisher. In this paper, we introduce distributed affordance, a concept and architecture that extends application state to the entire Web. It combines information inside the representation with knowledge of action providers to generate affordance from the user's perspective. Unlike similar approaches such as Web Intents, distributed affordance scales both in the number of actions and the number of action providers, because it is resource-oriented instead of action-oriented. A proof-of-concept shows that distributed affordance is a feasible strategy on today's Web."
+}
+
+@inproceedings{pan13,
+    crossref =  "wsrest2013",
+    author =    "Luca Panziera and Flavio {De Paoli}",
+    title =     "A Framework for Self-Descriptive RESTful Services",
+    pages =     "1407-1414",
+    abstract =  "REST principles define services as resources that can be manipulated by a set of well-known methods. The same approach is suitable to define service descriptions as resources. In this paper, we try to unify the two concepts (services and their descriptions) by proposing a set of best practices to build self-descriptive RESTful services accessible by both humans and machines. Moreover, to make those practices usable with little manual effort, we provide a software framework that extracts compliant descriptions from documents published on the Web, and makes them available to clients as resources."
+}
+
+@inproceedings{lan13,
+    crossref =  "wsrest2013",
+    author =    {Markus Lanthaler and Christian G\"utl},
+    title =     "Model Your Application Domain, Not Your JSON Structures",
+    pages =     "1415-1420",
+    abstract =  "Creating truly RESTful Web APIs is still more an art than a science. Developers have to struggle with a number of complex design decisions because concrete guidelines and processes are missing. Consequently, often it is decided to implement the simplest solution which is, most of the time, to rely on out-of-band contracts between the client and the server. Instead of properly modeling the application domain, all the effort is put in the design of proprietary JSON structures and URLs. This then forms the base for the contract which is communicated in natural-language (with all its ambiguity) to client developers. Since it is the server who owns the contract it may be changed at any point, which, more often than not, results in broken clients. In this position paper, we discuss some of the challenges and choices that need to be made when designing RESTful Web APIs. In particular, we compare how contracts are supposed to be established and how they are defined in practice. We illustrate the problems that are the cause of these divergences. As a first step to address these issues we describe and motivate an alternative, domain-driven approach to design Web APIs."
+}
+
+@proceedings{wsrest2013,
+    title =     wsrest2013,
+    booktitle = wsrest2013,
+    editor =    "Rosa Alarc\'on and Cesare Pautasso and Erik Wilde",
+    address =   rio,
+    key =       wsrest2013,
+    month =     apr,
+    year =      2013,
+    topic =     "rest[1]",
+    index =     "WS-REST 2013",
+    uri =       "http://ws-rest.org/2013/",
+    uri =       "http://dl.acm.org/citation.cfm?id=2488179",
+    uri =       "http://dblp.uni-trier.de/db/conf/rest/rest2013.html",
+    isbn =      "978-1-4503-2038-2"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 @string{w3cprivacy2010 =     "W3C Workshop on Privacy for Advanced Web APIs" }
 
 @inproceedings{cac10,
@@ -16254,7 +16315,7 @@ We also propose a new taxonomy for geographic search queries.}
 
 @inproceedings{dep91b,
     crossref =  "ecscw91",
-    author =    "Flavio DePaoli and Francesco Tisato",
+    author =    "Flavio {De Paoli} and Francesco Tisato",
     title =     "A Model for Real-Time Co-operation",
     pages =     "203-217",
     index =     "Coordinator"
@@ -17837,7 +17898,7 @@ We also propose a new taxonomy for geographic search queries.}
 
 @inproceedings{dep91a,
     crossref =  "glo91",
-    author =    "Flavio DePaoli and Francesco Tisato",
+    author =    "Flavio {De Paoli} and Francesco Tisato",
     title =     "Coordinator: A Basic Building Block for Multimedia Conferencing Systems",
     pages =     "2049-2053",
     index =     "Coordinator"
