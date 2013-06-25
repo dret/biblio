@@ -35303,15 +35303,27 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "The current Web is primarily made up of an enormous number of documents that have been created using HTML. These documents contain significant amounts of structured data, which is largely unavailable to tools and applications. When publishers can express this data more completely, and when tools can read it, a new world of user functionality becomes available, letting users transfer structured data between applications and web sites, and allowing browsing applications to improve the user experience: an event on a web page can be directly imported into a user's desktop calendar; a license on a document can be detected so that users can be informed of their rights automatically; a photo's creator, camera setting information, resolution, location and topic can be published as easily as the original photo itself, enabling structured search and sharing. RDFa Core is a specification for attributes to express structured data in any markup language. The embedded data already available in the markup language (e.g., HTML) can often be reused by the RDFa markup, so that publishers don't need to repeat significant data in the document content. The underlying abstract representation is RDF, which lets publishers build their own vocabulary, extend others, and evolve their vocabulary with maximal interoperability over time. The expressed structure is closely tied to the data, so that rendered data can be copied and pasted along with its relevant structure. The rules for interpreting the data are generic, so that there is no need for different rules for different formats; this allows authors and publishers of data to define their own formats without having to update software, register formats via a central authority, or worry that two formats may interfere with each other. RDFa shares some of the same goals with microformats. Whereas microformats specify both a syntax for embedding structured data into HTML documents and a vocabulary of specific terms for each microformat, RDFa specifies only a syntax and relies on independent specification of terms (often called vocabularies or taxonomies) by others. RDFa allows terms from multiple independently-developed vocabularies to be freely intermixed and is designed such that the language can be parsed without knowledge of the specific vocabulary being used. This document is a detailed syntax specification for RDFa, aimed at: those looking to create an RDFa Processor, and who therefore need a detailed description of the parsing rules; those looking to integrate RDFa into a new markup language; those looking to recommend the use of RDFa within their organization, and who would like to create some guidelines for their users; anyone familiar with RDF, and who wants to understand more about what is happening 'under the hood', when an RDFa Processor runs. For those looking for an introduction to the use of RDFa and some real-world examples, please consult the RDFa Primer."
 }
 
+@misc{rdfacore2nd,
+    author =    "Ben Adida and Mark Birbeck and Shane McCarron and Iv\'an Herman",
+    title =     "RDFa Core 1.1 --- Second Edition: Syntax and processing rules for embedding RDF through attributes",
+    howpublished =  "World Wide Web Consortium, Proposed Edited Recommendation PER-rdfa-core-20130625",
+    month =     jun,
+    year =      2013,
+    topic =     "rdfa[1]",
+    uri =       "http://www.w3.org/TR/2013/PER-rdfa-core-20130625",
+    updates =   "rdfascore",
+    abstract =  "The current Web is primarily made up of an enormous number of documents that have been created using HTML. These documents contain significant amounts of structured data, which is largely unavailable to tools and applications. When publishers can express this data more completely, and when tools can read it, a new world of user functionality becomes available, letting users transfer structured data between applications and web sites, and allowing browsing applications to improve the user experience: an event on a web page can be directly imported into a user's desktop calendar; a license on a document can be detected so that users can be informed of their rights automatically; a photo's creator, camera setting information, resolution, location and topic can be published as easily as the original photo itself, enabling structured search and sharing. RDFa Core is a specification for attributes to express structured data in any markup language. The embedded data already available in the markup language (e.g., HTML) can often be reused by the RDFa markup, so that publishers don't need to repeat significant data in the document content. The underlying abstract representation is RDF, which lets publishers build their own vocabulary, extend others, and evolve their vocabulary with maximal interoperability over time. The expressed structure is closely tied to the data, so that rendered data can be copied and pasted along with its relevant structure. The rules for interpreting the data are generic, so that there is no need for different rules for different formats; this allows authors and publishers of data to define their own formats without having to update software, register formats via a central authority, or worry that two formats may interfere with each other. RDFa shares some of the same goals with microformats. Whereas microformats specify both a syntax for embedding structured data into HTML documents and a vocabulary of specific terms for each microformat, RDFa specifies only a syntax and relies on independent specification of terms (often called vocabularies or taxonomies) by others. RDFa allows terms from multiple independently-developed vocabularies to be freely intermixed and is designed such that the language can be parsed without knowledge of the specific vocabulary being used. This document is a detailed syntax specification for RDFa, aimed at: those looking to create an RDFa Processor, and who therefore need a detailed description of the parsing rules; those looking to integrate RDFa into a new markup language; those looking to recommend the use of RDFa within their organization, and who would like to create some guidelines for their users; anyone familiar with RDF, and who wants to understand more about what is happening 'under the hood', when an RDFa Processor runs. For those looking for an introduction to the use of RDFa and some real-world examples, please consult the RDFa Primer."
+}
+
 @misc{rdfainhtml,
     editor =    "Manu Sporny",
     author =    "Ben Adida and Mark Birbeck and Shane McCarron and Steven Pemberton",
     title =     "HTML+RDFa: Support for RDFa in HTML4 and HTML5",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-html-rdfa-20130207",
-    month =     feb,
+    howpublished =  "World Wide Web Consortium, Proposed Recommendation PR-html-rdfa-20130625",
+    month =     jun,
     year =      2013,
     topic =     "rdfa[0.9] html[0.9]",
-    uri =       "http://www.w3.org/TR/2013/WD-html-rdfa-20130207",
+    uri =       "http://www.w3.org/TR/2013/PR-html-rdfa-20130625",
     abstract =  "This specification defines rules and guidelines for adapting the RDFa Core 1.1 and RDFa Lite 1.1 specifications for use in HTML5 and XHTML5. The rules defined in this specification not only apply to HTML5 documents in non-XML and XML mode, but also to HTML4 and XHTML documents interpreted through the HTML5 parsing rules."
 }
 
@@ -35389,6 +35401,18 @@ We also propose a new taxonomy for geographic search queries.}
     topic =     "rdfa[0.9] xhtml[0.9]",
     uri =       "http://www.w3.org/TR/2012/REC-xhtml-rdfa-20120607",
     updates =   "rdfasyntax",
+    abstract =  "RDFa Core 1.1 defines attributes and syntax for embedding semantic markup in Host Languages. This document defines one such Host Language. This language is a superset of XHTML 1.1, integrating the attributes as defined in RDFa Core 1.1. This document is intended for authors who want to create XHTML-Family documents that embed rich semantic markup."
+}
+
+@misc{xhtmlrdfa2nd,
+    author =    "Shane McCarron",
+    title =     "XHTML+RDFa 1.1 --- Second Edition: Support for RDFa via XHTML Modularization",
+    howpublished =  "World Wide Web Consortium, Proposed Edited Recommendation PER-xhtml-rdfa-20130625",
+    month =     jun,
+    year =      2013,
+    topic =     "rdfa[0.9] xhtml[0.9]",
+    uri =       "http://www.w3.org/TR/2013/PER-xhtml-rdfa-20130625",
+    updates =   "xhtmlrdfa",
     abstract =  "RDFa Core 1.1 defines attributes and syntax for embedding semantic markup in Host Languages. This document defines one such Host Language. This language is a superset of XHTML 1.1, integrating the attributes as defined in RDFa Core 1.1. This document is intended for authors who want to create XHTML-Family documents that embed rich semantic markup."
 }
 
@@ -38539,6 +38563,17 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "This specification defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps."
 }
 
+@misc{webanimations,
+    author =    "Brian Birtles and Shane Stephens and Alex Danilo and Dmitry Baranovskiy and Tab Atkins",
+    title =     "Web Animations 1.0",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-web-animations-20130625",
+    month =     jun,
+    year =      2013,
+    topic =     "dom3[0.9]",
+    uri =       "http://www.w3.org/TR/2013/WD-web-animations-20130625",
+    abstract =  "This specification defines a model for synchronization and timing of changes to the presentation of a Web page. This specification also defines an application programming interface for interacting with this model and it is expected that further specifications will define declarative means for exposing these features."
+}
+
 @misc{animationtiming,
     author =    "James Robinson and Cameron McCormack",
     title =     "Timing Control for Script-Based Animations",
@@ -39446,14 +39481,14 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "CSS (Cascading Style Sheets) is a language that describes the rendering of markup documents (e.g. HTML, XML) on various supports, such as screen, paper, speech, etc. The Speech module defines aural CSS properties that enable authors to declaratively control the rendering of documents via speech synthesis, and using optional audio cues. Note that this standard was developed in cooperation with the Voice Browser Activity."
 }
 
-@misc{compositing,
+@misc{compositing1,
     author =    "Rik Cabanier and Nikos Andronikos",
-    title =     "Compositing and Blending 1.0",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-compositing-20120816",
-    month =     aug,
-    year =      2012,
+    title =     "Compositing and Blending Level 1",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-compositing-1-20130625",
+    month =     jun,
+    year =      2013,
     topic =     "css3[0.9] svg[0.9]",
-    uri =       "http://www.w3.org/TR/2012/WD-compositing-20120816",
+    uri =       "http://www.w3.org/TR/2013/WD-compositing-1-20130625",
     abstract =  "Compositing describes how shapes of different elements are combined into a single image. There are various possible approaches for compositing. Previous versions of SVG used Simple Alpha Compositing. In this model, each element is rendered into its own buffer and is then merged with its backdrop using the Porter Duff source-over operator. This specification will define a new compositing model that expands upon the Simple Alpha Compositing model by offering: additional Porter Duff compositing operators; advanced blending modes which allow control of how colors mix in the areas where shapes overlap; and compositing groups."
 }
 
@@ -40829,10 +40864,10 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{webcryptoapi,
     author =    "David Dahl and Ryan Sleevi",
     title =     "Web Cryptography API",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-WebCryptoAPI-20130108",
-    month =     jan,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-WebCryptoAPI-20130625",
+    month =     jun,
     year =      2013,
-    uri =       "http://www.w3.org/TR/2013/WD-WebCryptoAPI-20130108",
+    uri =       "http://www.w3.org/TR/2013/WD-WebCryptoAPI-20130625",
     abstract =  "This specification describes a JavaScript API for performing basic cryptographic operations in web applications, such as hashing, signature generation and verification, and encryption and decryption. Additionally, it describes an API for applications to generate and/or manage the keying material necessary to perform these operations. Uses for this API range from user or service authentication, document or code signing, and the confidentiality and integrity of communications."
 }
 
