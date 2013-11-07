@@ -33450,6 +33450,18 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "This document contains requirements for the development of an XML Processing Model and Language, which are intended to describe and specify the processing relationships between XML resources."
 }
 
+@misc{xprocv2req,
+    author =    "R. Alexander Milowski and James Fuller and Norman Walsh",
+    title =     "XProc V2.0 Requirements",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-xproc-v2-req-20131105",
+    month =     nov,
+    year =      2013,
+    topic =     "xml[0.8] xproc[0.9]",
+    updates =   "xprocrequirements",
+    uri =       "http://www.w3.org/TR/2013/WD-xproc-v2-req-20131105",
+    abstract =  "This is the requirements document for XProc V2.0."
+}
+
 @misc{xproc,
     author =    "Norman Walsh and R. Alexander Milowski and Henry S. Thompson",
     title =     "XProc: An XML Pipeline Language",
@@ -34749,13 +34761,13 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{ariaimplementation,
-    author =    "Andi Snow-Weaver and Michael Cooper",
+    author =    "Joseph Scheuhammer and Michael Cooper",
     title =     "WAI-ARIA 1.0 User Agent Implementation Guide",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-wai-aria-implementation-20120816",
-    month =     aug,
-    year =      2012,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-wai-aria-implementation-20131105",
+    month =     nov,
+    year =      2013,
     topic =     "aria[1]",
-    uri =       "http://www.w3.org/TR/2012/WD-wai-aria-implementation-20120816",
+    uri =       "http://www.w3.org/TR/2013/WD-wai-aria-implementation-20131105",
     abstract =  "This document describes how user agents should support keyboard navigation and respond to roles, states, and properties provided in Web content via WAI-ARIA. These features are used by authors creating accessible rich internet applications. Users often access the content using assistive technologies that rely on platform accessibility APIs to obtain and interact with information from the page. The WAI-ARIA User Agent Implementation Guide defines how implementations should expose content to accessibility APIs, helping to ensure that this information appears in a manner consistent with author intent. This document is part of the WAI-ARIA suite described in the WAI-ARIA Overview."
 }
 
@@ -34852,13 +34864,13 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{streamsapi,
-    author =    "Feras Moussa",
+    author =    "Feras Moussa and Takeshi Yoshino",
     title =     "Streams API",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-streams-api-20130214",
-    month =     feb,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-streams-api-20131105",
+    month =     nov,
     year =      2013,
-    uri =       "http://www.w3.org/TR/2013/WD-streams-api-20130214",
-    abstract =  "This specification provides an API for representing binary data in web applications as a Stream object, as well as programmatically building and reading its contents. This includes: A Stream interface, which represents a sequence of data that can be read over time; A StreamReader interface, which provides methods to read the contents of a Stream as a Blob, DataURL, ArrayBuffer, or as Text; A StreamBuilder interface, which allows for creating a new Stream whose contents is read from an internal buffer that was made by appending Text, Blobs, or ArrayBuffers; Extensions to XmlHttpRequest to add support for upload and download of a Stream; Extensions to createObjectURL and revokeObjectURL to add support for Stream. Additionally, this specification defines objects to be used within threaded web applications for the synchronous reading of a Stream. This API is designed to be used in conjunction with other APIs and elements on the web platform, notably: File, XMLHttpRequest (e.g. with an overloaded send() method and response object for Stream objects), postMessage, and Web Workers."
+    uri =       "http://www.w3.org/TR/2013/WD-streams-api-20131105",
+    abstract =  "This specification provides an API for representing binary and string data in web applications as a Stream object, as well as programmatically building and reading its contents. This includes: A Stream interface, which represents a sequence of data which can be read only once and provides APIs for reading, writing, and piping the data; A StreamConsumeResult interface, which represents a chunk of content read from a stream; A StreamReadType interface, which represents how the Stream is currently being read; A list of notable stream producers a and consumers for a Stream object. Extensions to XMLHttpRequest to add support for upload and download of a Stream. Extensions to URL.createObjectURL and URL.revokeObjectURL to add support for Stream. This API is designed to be used in conjunction with other APIs and elements on the web platform, notably: File, XMLHttpRequest (e.g. with an overloaded send() method and response object for Stream objects), postMessage, and Web Workers."
 }
 
 @misc{mediacapturestreams,
@@ -35544,26 +35556,26 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{rdf11concepts,
-    author =    "Richard Cyganiak and David Wood",
+    author =    "Richard Cyganiak and David Wood and Markus Lanthaler",
     title =     "RDF 1.1 Concepts and Abstract Syntax",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-rdf11-concepts-20130723",
-    month =     jul,
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-rdf11-concepts-20131105",
+    month =     nov,
     year =      2013,
     topic =     "rdf[1]",
     updates =   "rdfconcepts",
-    uri =       "http://www.w3.org/TR/2013/WD-rdf11-concepts-20130723",
+    uri =       "http://www.w3.org/TR/2013/CR-rdf11-concepts-20131105",
     abstract =  "The Resource Description Framework (RDF) is a framework for representing information in the Web. RDF 1.1 Concepts and Abstract Syntax defines an abstract syntax (a data model) which serves to link all RDF-based languages and specifications. The abstract syntax has two key data structures: RDF graphs are sets of subject-predicate-object triples, where the elements may be IRIs, blank nodes, or datatyped literals. They are used to express descriptions of resources. RDF datasets are used to organize collections of RDF graphs, and comprise a default graph and zero or more named graphs. This document also introduces key concepts and terminology, and discusses datatyping and the handling of fragment identifiers in IRIs within RDF graphs."
 }
 
 @misc{rdf11mt,
     author =    "Patrick J. Hayes and Peter F. Patel-Schneider",
     title =     "RDF 1.1 Semantics",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-rdf11-mt-20130723",
-    month =     jul,
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-rdf11-mt-20131105",
+    month =     nov,
     year =      2013,
     topic =     "rdf[1]",
     updates =   "rdftheory",
-    uri =       "http://www.w3.org/TR/2013/WD-rdf11-mt-20130723",
+    uri =       "http://www.w3.org/TR/2013/CR-rdf11-mt-20131105",
     abstract =  "This document describes a precise semantics for the Resource Description Framework 1.1 and RDF Schema. It defines a number of distinct entailment regimes and corresponding patterns of entailment. It is part of a suite of documents which comprise the full specification of RDF 1.1."
 }
 
@@ -35674,35 +35686,35 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{trig,
     editor =    "Gavin Carothers and Andy Seaborne",
     author =    "Christian Bizer and Richard Cyganiak",
-    title =     "TriG: RDF Dataset Language",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-trig-20130919",
-    month =     sep,
+    title =     "RDF 1.1 TriG: RDF Dataset Language",
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-trig-20131105",
+    month =     nov,
     year =      2013,
     topic =     "rdf[0.8] trig[1]",
-    uri =       "http://www.w3.org/TR/2013/WD-trig-20130919",
+    uri =       "http://www.w3.org/TR/2013/CR-trig-20131105",
     abstract =  "The Resource Description Framework (RDF) is a general-purpose language for representing information in the Web. This document defines a textual syntax for RDF called TriG that allows an RDF dataset to be completely written in a compact and natural text form, with abbreviations for common usage patterns and datatypes. TriG is an extension of the Turtle format."
 }
 
 @misc{ntriples,
     editor =    "Gavin Carothers",
     author =    "David Beckett",
-    title =     "N-Triples: A line-based syntax for an RDF graph",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-n-triples-20130905",
-    month =     sep,
+    title =     "RDF 1.1 N-Triples: A line-based syntax for an RDF graph",
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-n-triples-20131105",
+    month =     nov,
     year =      2013,
     topic =     "rdf[0.8] ntriples[1]",
-    uri =       "http://www.w3.org/TR/2013/WD-n-triples-20130905",
+    uri =       "http://www.w3.org/TR/2013/CR-n-triples-20131105",
     abstract =  "N-Triples is a line-based, plain text format for encoding an RDF graph."
 }
 
 @misc{nquads,
     author =    "Gavin Carothers",
-    title =     "N-Quads: A line-based syntax for an RDF datasets",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-n-quads-20130905",
-    month =     sep,
+    title =     "RDF 1.1 N-Quads: A line-based syntax for an RDF datasets",
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-n-quads-20131105",
+    month =     nov,
     year =      2013,
     topic =     "rdf[0.8] nquads[1]",
-    uri =       "http://www.w3.org/TR/2013/WD-n-quads-20130905",
+    uri =       "http://www.w3.org/TR/2013/CR-n-quads-20131105",
     abstract =  "N-Quads is a line-based, plain text format for encoding an RDF dataset."
 }
 
@@ -35742,23 +35754,23 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{jsonld,
     author =    "Manu Sporny and Gregg Kellogg and Markus Lanthaler",
     title =     "JSON-LD 1.0: A JSON-based Serialization for Linked Data",
-    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-json-ld-20130910",
-    month =     sep,
+    howpublished =  "World Wide Web Consortium, Proposed Recommendation PR-json-ld-20131105",
+    month =     nov,
     year =      2013,
     topic =     "rdf[0.8] jsonld[1] json[0.8]",
-    uri =       "http://www.w3.org/TR/2013/CR-json-ld-20130910",
+    uri =       "http://www.w3.org/TR/2013/PR-json-ld-20131105",
     abstract =  "JSON is a useful data serialization and messaging format. This specification defines JSON-LD, a JSON-based format to serialize Linked Data. The syntax is designed to easily integrate into deployed systems that already use JSON, and provides a smooth upgrade path from JSON to JSON-LD. It is primarily intended to be a way to use Linked Data in Web-based programming environments, to build interoperable Web services, and to store Linked Data in JSON-based storage engines."
 }
 
 @misc{jsonldapi,
     author =    "Gregg Kellogg and Markus Lanthaler and Manu Sporny",
     title =     "JSON-LD 1.0 Processing Algorithms and API",
-    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-json-ld-api-20130910",
-    month =     sep,
+    howpublished =  "World Wide Web Consortium, Proposed Recommendation PR-json-ld-api-20131105",
+    month =     nov,
     year =      2013,
     topic =     "rdf[0.8] jsonld[1] json[0.8]",
-    uri =       "http://www.w3.org/TR/2013/CR-json-ld-api-20130910",
-    abstract =  "This specification defines an Application Programming Interface (API) and a set of algorithms for programmatic transformations of JSON-LD documents. Restructuring data according to the defined transformations often dramatically simplifies its usage."
+    uri =       "http://www.w3.org/TR/2013/PR-json-ld-api-20131105",
+    abstract =  "This specification defines a set of algorithms for programmatic transformations of JSON-LD documents. Restructuring data according to the defined transformations often dramatically simplifies its usage. Furthermore, this document proposes an Application Programming Interface (API) for developers implementing the specified algorithms."
 }
 
 @misc{rdb2rdfucr,
@@ -35841,11 +35853,11 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{vocabdcat,
     author =    "Fadi Maali and John Erickson",
     title =     "Data Catalog Vocabulary (DCAT)",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-vocab-dcat-20130801",
-    month =     aug,
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-vocab-dcat-20131105",
+    month =     nov,
     year =      2013,
     topic =     "rdf[0.8] dcat[1]",
-    uri =       "http://www.w3.org/TR/2013/WD-vocab-dcat-20130801",
+    uri =       "http://www.w3.org/TR/2013/CR-vocab-dcat-20131105",
     abstract =  "DCAT is an RDF vocabulary designed to facilitate interoperability between data catalogs published on the Web. This document defines the schema and provides examples for its use. By using DCAT to describe datasets in data catalogs, publishers increase discoverability and enable applications easily to consume metadata from multiple catalogs. It further enables decentralized publishing of catalogs and facilitates federated dataset search across sites. Aggregated DCAT metadata can serve as a manifest file to facilitate digital preservation."
 }
 
@@ -38460,25 +38472,25 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{dom3ev,
-    author =    "Travis Leithead and Jacob Rossi",
+    author =    "Gary Kacmarcik and Travis Leithead",
     title =     "Document Object Model (DOM) Level 3 Events Specification",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-DOM-Level-3-Events-20120906",
-    month =     sep,
-    year =      2012,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-DOM-Level-3-Events-20131105",
+    month =     nov,
+    year =      2013,
     topic =     "dom3[1]",
     updates =   "dom2events",
-    uri =       "http://www.w3.org/TR/2012/WD-DOM-Level-3-Events-20120906",
+    uri =       "http://www.w3.org/TR/2013/WD-DOM-Level-3-Events-20131105",
     abstract =  "This specification defines the Document Object Model Events Level 3, a generic platform- and language-neutral event system which allows registration of event handlers, describes event flow through a tree structure, and provides basic contextual information for each event. The Document Object Model Events Level 3 builds on the Document Object Model Events Level 2."
 }
 
 @misc{uievents,
-    author =    "Travis Leithead and Gary Kacmarcik",
+    author =    "Gary Kacmarcik and Travis Leithead",
     title =     "UI Events",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-uievents-20130725",
-    month =     jul,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-uievents-20131105",
+    month =     nov,
     year =      2013,
     topic =     "dom3[1]",
-    uri =       "http://www.w3.org/TR/2013/WD-uievents-20130725",
+    uri =       "http://www.w3.org/TR/2013/WD-uievents-20131105",
     abstract =  "This specification extends the events and features defined in DOM Events Level 3."
 }
 
@@ -39400,11 +39412,11 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{css3syntax,
     author =    "Tab Atkins and Simon Sapin",
     title =     "CSS Syntax Module Level 3",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-css-syntax-3-20130919",
-    month =     sep,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-css-syntax-3-20131105",
+    month =     nov,
     year =      2013,
     topic =     "css3[1]",
-    uri =       "http://www.w3.org/TR/2013/WD-css-syntax-3-20130919",
+    uri =       "http://www.w3.org/TR/2013/WD-css-syntax-3-20131105",
     abstract =  "This module describes, in general terms, the basic structure and syntax of CSS stylesheets. It defines, in detail, the syntax and parsing of CSS --- how to turn a stream of bytes into a meaningful stylesheet. CSS is a language for describing the rendering of structured documents (such as HTML and XML) on screen, on paper, in speech, etc."
 }
 
@@ -40706,10 +40718,10 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{quotaapi,
     author =    "Kinuko Yasuda",
     title =     "Quota Management API",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-quota-api-20120703",
-    month =     jul,
-    year =      2012,
-    uri =       "http://www.w3.org/TR/2012/WD-quota-api-20120703",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-quota-api-20131105",
+    month =     nov,
+    year =      2013,
+    uri =       "http://www.w3.org/TR/2013/WD-quota-api-20131105",
     abstract =  "This specification defines an API to manage usage and availability of local storage resources, and defines a means by which a user agent (UA) may grant Web applications permission to use more local space, temporarily or persistently, via various different storage APIs."
 }
 
@@ -41522,7 +41534,7 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2013,
     topic =     "ruby[0.9] html[0.9]",
     uri =       "http://www.w3.org/TR/2013/WD-html-ruby-extensions-20131022",
-    abstract =  " The ruby markup model currently described in the HTML specification is limited in its support for a number of features, notably jukugo and double-sided ruby, as well as inline ruby. This specification addresses these issues by introducing new elements and changing the ruby processing model. Specific care has been taken to ensure that authoring remains as simple as possible. This document was largely developed to address the shortcomings listed in Use Cases & Exploratory Approaches for Ruby Markup."
+    abstract =  "The ruby markup model currently described in the HTML specification is limited in its support for a number of features, notably jukugo and double-sided ruby, as well as inline ruby. This specification addresses these issues by introducing new elements and changing the ruby processing model. Specific care has been taken to ensure that authoring remains as simple as possible. This document was largely developed to address the shortcomings listed in Use Cases & Exploratory Approaches for Ruby Markup."
 }
 
 @misc{xpreq,
@@ -50275,17 +50287,6 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2013,
     topic =     "cbor[1]",
     abstract =  "The Concise Binary Object Representation (CBOR) is a data format whose design goals include the possibility of extremely small code size, fairly small message size, and extensibility without the need for version negotiation. These design goals make it different from earlier binary serializations such as ASN.1 and MessagePack."
-}
-
-@misc{rfc7061,
-    author =    "R\'emon Sinnema and Erik Wilde",
-    title =     "eXtensible Access Control Markup Language (XACML) XML Media Type",
-    howpublished =  "Internet RFC 7061",
-    month =     nov,
-    year =      2013,
-    topic =     "xacml[0.9] xml[0.7] json[0.7]",
-    updates =   "sin12a",
-    abstract =  "This specification registers an XML-based media type for the eXtensible Access Control Markup Language (XACML)."
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
