@@ -35613,13 +35613,13 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{rdf11concepts,
     author =    "Richard Cyganiak and David Wood and Markus Lanthaler",
     title =     "RDF 1.1 Concepts and Abstract Syntax",
-    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-rdf11-concepts-20131105",
-    month =     nov,
-    year =      2013,
+    howpublished =  "World Wide Web Consortium, Proposed Recommendation PR-rdf11-concepts-20140109",
+    month =     jan,
+    year =      2014,
     topic =     "rdf[1]",
     updates =   "rdfconcepts",
-    uri =       "http://www.w3.org/TR/2013/CR-rdf11-concepts-20131105",
-    abstract =  "The Resource Description Framework (RDF) is a framework for representing information in the Web. RDF 1.1 Concepts and Abstract Syntax defines an abstract syntax (a data model) which serves to link all RDF-based languages and specifications. The abstract syntax has two key data structures: RDF graphs are sets of subject-predicate-object triples, where the elements may be IRIs, blank nodes, or datatyped literals. They are used to express descriptions of resources. RDF datasets are used to organize collections of RDF graphs, and comprise a default graph and zero or more named graphs. This document also introduces key concepts and terminology, and discusses datatyping and the handling of fragment identifiers in IRIs within RDF graphs."
+    uri =       "http://www.w3.org/TR/2014/PR-rdf11-concepts-20140109",
+    abstract =  "The Resource Description Framework (RDF) is a framework for representing information in the Web. This document defines an abstract syntax (a data model) which serves to link all RDF-based languages and specifications. The abstract syntax has two key data structures: RDF graphs are sets of subject-predicate-object triples, where the elements may be IRIs, blank nodes, or datatyped literals. They are used to express descriptions of resources. RDF datasets are used to organize collections of RDF graphs, and comprise a default graph and zero or more named graphs. RDF 1.1 Concepts and Abstract Syntax also introduces key concepts and terminology, and discusses datatyping and the handling of fragment identifiers in IRIs within RDF graphs."
 }
 
 @misc{rdf11primer,
@@ -35680,6 +35680,18 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "The Resource Description Framework (RDF) is a general-purpose language for representing information in the Web. This document defines an XML syntax for RDF called RDF/XML in terms of Namespaces in XML, the XML Information Set and XML Base. The formal grammar for the syntax is annotated with actions generating triples of the RDF graph as defined in RDF Concepts and Abstract Syntax. The triples are written using the N-Triples RDF graph serializing format which enables more precise recording of the mapping in a machine processable form. The mappings are recorded as tests cases, gathered and published in RDF Test Cases."
 }
 
+@misc{rdfxml11,
+    author =    "David Beckett",
+    title =     "RDF 1.1 XML Syntax",
+    howpublished =  "World Wide Web Consortium, Proposed Edited Recommendation PER-rdf-syntax-grammar-20140109",
+    month =     jan,
+    year =      2014,
+    topic =     "rdf[0.9] rdfxml[1]",
+    updates =   "refacrdf",
+    uri =       "http://www.w3.org/TR/2014/PER-rdf-syntax-grammar-20140109",
+    abstract =  "The Resource Description Framework (RDF) is a general-purpose language for representing information in the Web. This document defines an XML syntax for RDF called RDF/XML in terms of Namespaces in XML, the XML Information Set and XML Base."
+}
+
 @misc{rdfjson,
     author =    "Ian Davis and Thomas Steiner and Arnaud J. {Le Hors}",
     title =     "RDF 1.1 JSON Alternate Serialization (RDF/JSON)",
@@ -35701,6 +35713,18 @@ We also propose a new taxonomy for geographic search queries.}
     updates =   "rdf",
     uri =       "http://www.w3.org/TR/2004/REC-rdf-schema-20040210",
     abstract =  "The Resource Description Framework (RDF) is a general-purpose language for representing information in the Web. This specification describes how to use RDF to describe RDF vocabularies. This specification defines a vocabulary for this purpose and defines other built-in RDF vocabulary initially specified in the RDF Model and Syntax Specification."
+}
+
+@misc{rdfsch11,
+    author =    "Dan Brickley and Ramanathan V. Guha",
+    title =     "RDF Schema 1.1",
+    howpublished =  "World Wide Web Consortium, Proposed Edited Recommendation PER-rdf-schema-20140109",
+    month =     jan,
+    year =      2014,
+    topic =     "rdf[1]",
+    updates =   "rdfsch",
+    uri =       "http://www.w3.org/TR/2014/PER-rdf-schema-20140109",
+    abstract =  "The Resource Description Framework (RDF) is a language for representing information about resources in the World Wide Web. RDF Schema provides a data-modelling vocabulary for RDF data. RDF Schema is an extension of the basic RDF vocabulary."
 }
 
 @misc{rdftheory,
@@ -35774,13 +35798,13 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{turtle,
     editor =    "Eric Prud'hommeaux and Gavin Carothers",
     author =    "David Beckett and Tim Berners-Lee and Eric Prud'hommeaux and Gavin Carothers",
-    title =     "Turtle --- Terse RDF Triple Language",
-    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-turtle-20130219",
-    month =     feb,
-    year =      2013,
+    title =     "RDF 1.1 Turtle --- Terse RDF Triple Language",
+    howpublished =  "World Wide Web Consortium, Proposed Recommendation PR-turtle-20140109",
+    month =     jan,
+    year =      2014,
     topic =     "rdf[0.8] turtle[1]",
-    uri =       "http://www.w3.org/TR/2013/CR-turtle-20130219",
-    abstract =  "The Resource Description Framework (RDF) is a general-purpose language for representing information in the Web. This document defines a textual syntax for RDF called Turtle that allows an RDF graph to be completely written in a compact and natural text form, with abbreviations for common usage patterns and datatypes. Turtle provides levels of compatibility with the existing N-Triples format as well as the triple pattern syntax of the SPARQL W3C Recommendation."
+    uri =       "http://www.w3.org/TR/2014/PR-turtle-20140109",
+    abstract =  "The Resource Description Framework (RDF) is a general-purpose language for representing information in the Web. This document defines a textual syntax for RDF called Turtle that allows an RDF graph to be completely written in a compact and natural text form, with abbreviations for common usage patterns and datatypes. Turtle provides levels of compatibility with the N-Triples format as well as the triple pattern syntax of the SPARQL W3C Recommendation."
 }
 
 @misc{trig,
@@ -35796,25 +35820,25 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{ntriples,
-    editor =    "Gavin Carothers",
+    editor =    "Gavin Carothers and Andy Seaborne",
     author =    "David Beckett",
     title =     "RDF 1.1 N-Triples: A line-based syntax for an RDF graph",
-    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-n-triples-20131105",
-    month =     nov,
-    year =      2013,
+    howpublished =  "World Wide Web Consortium, Proposed Recommendation PR-n-triples-20140109",
+    month =     jan,
+    year =      2014,
     topic =     "rdf[0.8] ntriples[1]",
-    uri =       "http://www.w3.org/TR/2013/CR-n-triples-20131105",
+    uri =       "http://www.w3.org/TR/2014/PR-n-triples-20140109",
     abstract =  "N-Triples is a line-based, plain text format for encoding an RDF graph."
 }
 
 @misc{nquads,
     author =    "Gavin Carothers",
-    title =     "RDF 1.1 N-Quads: A line-based syntax for an RDF datasets",
-    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-n-quads-20131105",
-    month =     nov,
-    year =      2013,
+    title =     "RDF 1.1 N-Quads: A line-based syntax for an RDF dataset",
+    howpublished =  "World Wide Web Consortium, Proposed Recommendation PR-n-quads-20140109",
+    month =     jan,
+    year =      2014,
     topic =     "rdf[0.8] nquads[1]",
-    uri =       "http://www.w3.org/TR/2013/CR-n-quads-20131105",
+    uri =       "http://www.w3.org/TR/2014/PR-n-quads-20140109",
     abstract =  "N-Quads is a line-based, plain text format for encoding an RDF dataset."
 }
 
@@ -38362,7 +38386,7 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{htmlmediacapture,
     author =    {Anssi Kostiainen and Ilkka Oksanen and Dominique Haza\"el-Massieux},
     title =     "HTML Media Capture",
-    howpublished =  "World Wide Web Consortium, Candidate Recommendatioh CR-html-media-capture-20130509",
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-html-media-capture-20130509",
     month =     may,
     year =      2013,
     topic =     "html[0.9]",
@@ -38373,11 +38397,11 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{mediasource,
     author =    "Aaron Colwell and Adrian Bateman and Mark Watson",
     title =     "Media Source Extensions",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-media-source-20130905",
-    month =     sep,
-    year =      2013,
+    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-media-source-20140109",
+    month =     jan,
+    year =      2014,
     topic =     "html[0.9]",
-    uri =       "http://www.w3.org/TR/2013/WD-media-source-20130905",
+    uri =       "http://www.w3.org/TR/2014/CR-media-source-20140109",
     abstract =  "This specification extends HTMLMediaElement to allow JavaScript to generate media streams for playback. Allowing JavaScript to generate streams facilitates a variety of use cases like adaptive streaming and time shifting live streams."
 }
 
