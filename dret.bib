@@ -35314,25 +35314,25 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{trackingcompliance,
-    author =    "Justin Brookman and Heather West and Sean Harvey and Erica Newland",
+    author =    "Heather West and Justin Brookman and Sean Harvey and Erica Newland",
     title =     "Tracking Compliance and Scope",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-tracking-compliance-20130912",
-    month =     sep,
-    year =      2013,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-tracking-compliance-20140128",
+    month =     jan,
+    year =      2014,
     topic =     "dnt[0.9]",
-    uri =       "http://www.w3.org/TR/2013/WD-tracking-compliance-20130912",
+    uri =       "http://www.w3.org/TR/2014/WD-tracking-compliance-20140128",
     abstract =  "This specification defines the meaning of a Do Not Track (DNT) preference and sets out practices for websites to comply with this preference."
 }
 
 @misc{trackingdnt,
     author =    "Roy Thomas Fielding and David Singer",
     title =     "Tracking Preference Expression (DNT)",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-tracking-dnt-20130912",
-    month =     sep,
-    year =      2013,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-tracking-dnt-20140128",
+    month =     jan,
+    year =      2014,
     topic =     "dnt[1]",
-    uri =       "http://www.w3.org/TR/2013/WD-tracking-dnt-20130912",
-    abstract =  {This specification defines the technical mechanisms for expressing a tracking preference via the DNT request header field in HTTP, via an HTML DOM property readable by embedded scripts, and via properties accessible to various user agent plug-in or extension APIs. It also defines mechanisms for sites to signal whether and how they honor this preference, both in the form of a machine-readable tracking status resource at a well-known location and via a "Tk" response header field, and a mechanism for allowing the user to approve exceptions to DNT as desired.}
+    uri =       "http://www.w3.org/TR/2014/WD-tracking-dnt-20140128",
+    abstract =  {This specification defines the DNT request header field as an HTTP mechanism for expressing the user's preference regarding tracking, an HTML DOM property to make that expression readable by scripts, and APIs that allow scripts to register site-specific exceptions granted by the user. It also defines mechanisms for sites to communicate whether and how they honor a received preference through use of the "Tk" response header field and well-known resources that provide a machine-readable tracking status.}
 }
 
 @misc{cap,
@@ -40210,6 +40210,17 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "This document specifies the WOFF font packaging format. This format was designed to provide lightweight, easy-to-implement compression of font data, suitable for use with CSS @font-face rules. Any properly licensed TrueType/OpenType/Open Font Format file can be packaged in WOFF format for Web use. User agents decode the WOFF file to restore the font data such that it will display identically to the input font. The WOFF format also allows additional metadata to be attached to the file; this can be used by font designers or vendors to include licensing or other information, beyond that present in the original font. Such metadata does not affect the rendering of the font in any way, but may be displayed to the user on request. The WOFF format is not intended to replace other formats such as TrueType/OpenType/Open Font Format or SVG fonts, but provides an alternative solution for use cases where these formats may be less optimal, or where licensing considerations make their use less acceptable."
 }
 
+@misc{woff20er,
+    author =    "Chris Lilley",
+    title =     "WOFF 2.0 Evaluation Report",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-WOFF20ER-20140128",
+    month =     jan,
+    year =      2014,
+    topic =     "woff[0.9]",
+    uri =       "http://www.w3.org/TR/2014/WD-WOFF20ER-20140128",
+    abstract =  "Web Open Font Format (WOFF) 2.0 is a proposed update to the existing WOFF 1.0 with improved compression. This report lists requirements for successful deployment, evaluates how the requirement may be met, and examines the compression gains and tradeoffs vs. code complexity, encode and decode time. This document is non-normative."
+}
+
 @misc{css3lists,
     author =    "Tab Atkins",
     title =     "CSS Lists and Counters Module Level 3",
@@ -40942,6 +40953,16 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2012,
     uri =       "http://www.w3.org/TR/2012/WD-fullscreen-20120703",
     abstract =  "Fullscreen defines the fullscreen API for the web platform."
+}
+
+@misc{encoding,
+    author =    "Anne van Kesteren and Joshua Bell and Addison Phillips",
+    title =     "Encoding",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-encoding-20140128",
+    month =     jan,
+    year =      2014,
+    uri =       "http://www.w3.org/TR/2014/WD-encoding-20140128",
+    abstract =  "While encodings have been defined to some extent, implementations have not always implemented them in the same way, have not always used the same labels, and often differ in dealing with undefined and former proprietary areas of encodings. This specification attempts to fill those gaps so that new implementations do not have to reverse engineer encoding implementations of the market leaders and existing implementations can converge."
 }
 
 @misc{streamproc,
@@ -43430,6 +43451,26 @@ We also propose a new taxonomy for geographic search queries.}
     topic =     "http[0.9] atompub[0.8] atom[0.8] html[0.8]",
     uri =       "https://datatracker.ietf.org/drafts/draft-brown-versioning-link-relations/",
     abstract =  "This specification defines a set of link relation types that may be used on Web resources for navigation between a resource and and other resources related to version control, such as past versions and working copies."
+}
+
+@misc{res14a,
+    author =    "Julian F. Reschke",
+    title =     "The 'XML2RFC' version 2 Vocabulary",
+    howpublished =  "Internet Draft draft-reschke-xml2rfc-04",
+    month =     jan,
+    year =      2014,
+    uri =       "https://datatracker.ietf.org/drafts/draft-reschke-xml2rfc/",
+    abstract =  "This document defines the 'XML2RFC' version 2 vocabulary; an XML-based language used for writing RFCs and Internet-Drafts."
+}
+
+@misc{hof14a,
+    author =    "Paul Hoffman",
+    title =     "The 'XML2RFC' version 3 Vocabulary",
+    howpublished =  "Internet Draft draft-hoffman-xml2rfc-00",
+    month =     jan,
+    year =      2014,
+    uri =       "https://datatracker.ietf.org/drafts/draft-hoffman-xml2rfc/",
+    abstract =  "This document defines the 'XML2RFC' version 3 vocabulary; an XML-based language used for writing RFCs and Internet-Drafts.  It is heavily derived from the version 2 vocabulary that is also under discussion."
 }
 
 @misc{not07b,
