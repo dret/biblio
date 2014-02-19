@@ -35596,6 +35596,17 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  {Fragment identifiers (fragids) within URIs are specified as being interpreted based on the media type of a representation. Media type definitions therefore have to provide details about how fragids are interpreted for that media type. This document recommends best practices for the authors of media type definitions, for the authors of structured syntax suffix registrations (such as +xml), for the authors of specifications that define fragid structures, and for authors that publish documents that are intended to be used with fragids or who refer to fragments within documents using URIs with fragids. Media type registrations should ensure that fragids matching syntax "inherited" from top-level types such as image/* and +suffix registrations such as for +xml are always interpreted based on that generic processing. If the "inherited" fragid syntaxes overlap and may provide inconsistent meanings or processing for the same fragid, they should not adopt the +suffix. Where media type registrations reuse fragid structures that overlap, media type registrations should specify which take priority in resolving a given fragid. Media type registrations should also reserve the use of plain name fragids for local identifiers within content, and specify any restrictions on the interpretation of fragids by scripts. They should avoid defining new fragid structures within the registration document itself, and should avoid constraining how applications handle fragids that do not resolve. Structured syntax suffix registrations are based on a metaformat which usually will have its own media type registration. The +suffix registration should define the same fragid rules as are used in that media type registration. Further, they should specify that any fragids that do not resolve according to these rules should be handled in the way specified by the specific media type adopting that +suffix. The designers of fragid structures (such as XPointer) should avoid syntactic overlaps with existing fragid structures and ensure that fragids can be used across formats with similar semantics. Publishers should ensure that any addressable structures within documents that are served through content negotiation are consistent across content-negotiated variants. They should also ensure that scripts handle fragids consistently with the fragid rules for the relevant media type. Authors referring to URIs with fragids should avoid using fragids that are specific to a particular document format (such as XPointer, which is specific to XML) unless they can ascertain that the base URI only serves one representation.}
 }
 
+@misc{capabilityurls,
+    author =    "Jeni Tennison",
+    title =     "Good Practices for Capability URLs",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-capability-urls-20140218",
+    month =     feb,
+    year =      2014,
+    topic =     "uri[0.9] url[0.9]",
+    uri =       "http://www.w3.org/TR/2014/WD-capability-urls-20140218",
+    abstract =  "Capability URLs grant access to a resource to anyone who has the URL. There are times when this is useful, for example one-shot password reset URLs, but overuse can be problematic as URLs cannot generally be kept secret. This document provides some good practices for web developers who wish to incorporate capability URLs into their applications."
+}
+
 @misc{publishinglinking,
     author =    "Ashok Malhotra and Larry Masinter and Jeni Tennison and Daniel Appelquist",
     title =     "Publishing and Linking on the Web",
@@ -38520,11 +38531,11 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{encryptedmedia,
     author =    "David Dorwin and Adrian Bateman and Mark Watson",
     title =     "Encrypted Media Extensions",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-encrypted-media-20131022",
-    month =     oct,
-    year =      2013,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-encrypted-media-20140218",
+    month =     feb,
+    year =      2014,
     topic =     "html[0.9]",
-    uri =       "http://www.w3.org/TR/2013/WD-encrypted-media-20131022",
+    uri =       "http://www.w3.org/TR/2014/WD-encrypted-media-20140218",
     abstract =  "This proposal extends HTMLMediaElement providing APIs to control playback of protected content. The API supports use cases ranging from simple clear key decryption to high value video (given an appropriate user agent implementation). License/key exchange is controlled by the application, facilitating the development of robust playback applications supporting a range of content decryption and protection technologies. This specification does not define a content protection or Digital Rights Management system. Rather, it defines a common API that may be used to discover, select and interact with such systems as well as with simpler content encryption systems. Implementation of Digital Rights Management is not required for compliance with this specification: only the simple clear key system is required to be implemented as a common baseline. The common API supports a simple set of content encryption capabilities, leaving application functions such as authentication and authorization to page authors. This is achieved by requiring content protection system-specific messaging to be mediated by the page rather than assuming out-of-band communication between the encryption system and a license or other server."
 }
 
@@ -39979,14 +39990,14 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{css3regions,
-    author =    "Vincent Hardy and Rossen Atanassov and Alan Stearns",
-    title =     "CSS Regions Module Level 3",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-css3-regions-20130528",
-    month =     may,
-    year =      2013,
+    author =    "Rossen Atanassov and Alan Stearns",
+    title =     "CSS Regions Module Level 1",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-css3-regions-20140218",
+    month =     feb,
+    year =      2014,
     topic =     "css3[1]",
-    uri =       "http://www.w3.org/TR/2013/WD-css3-regions-20130528",
-    abstract =  "The CSS regions module allows content to flow across multiple areas called regions. The regions are not necessarily contiguous in the document order. The CSS regions module provides an advanced content flow mechanism, which can be combined with positioning schemes as defined by other CSS modules such as the Multi-Column Module or the Grid Layout Module to position the regions where content flows."
+    uri =       "http://www.w3.org/TR/2014/WD-css3-regions-20140218",
+    abstract =  "The CSS Regions module allows content from one or more elements to flow through one or more boxes called CSS Regions, fragmented as defined in CSS Fragmentation. This module also defines CSSOM to expose both the inputs and outputs of this fragmentation."
 }
 
 @misc{css3exclusions,
