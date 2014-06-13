@@ -35115,15 +35115,15 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{aria11,
-    author =    "James Craig and Michael Cooper",
+    author =    "James Craig and Michael Cooper and Shane McCarron",
     title =     "Accessible Rich Internet Applications (WAI-ARIA) 1.1",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-wai-aria-1.1-20130926",
-    month =     sep,
-    year =      2013,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-wai-aria-1.1-20140612",
+    month =     jun,
+    year =      2014,
     topic =     "aria[1]",
     updates =   "aria",
-    uri =       "http://www.w3.org/TR/2013/WD-wai-aria-1.1-20130926",
-    abstract =  "Accessibility of web content requires semantic information about widgets, structures, and behaviors, in order to allow assistive technologies to convey appropriate information to persons with disabilities. This specification provides an ontology of roles, states, and properties that define accessible user interface elements and can be used to improve the accessibility and interoperability of web content and applications. These semantics are designed to allow an author to properly convey user interface behaviors and structural information to assistive technologies in document-level markup. WAI-ARIA 1.1 adds features new since WAI-ARIA 1.0 to complete the HTML + ARIA accessibility model. It is expected this will complement HTML 5.1."
+    uri =       "http://www.w3.org/TR/2014/WD-wai-aria-1.1-20140612",
+    abstract =  "Accessibility of web content requires semantic information about widgets, structures, and behaviors, in order to allow assistive technologies to convey appropriate information to persons with disabilities. This specification provides an ontology of roles, states, and properties that define accessible user interface elements and can be used to improve the accessibility and interoperability of web content and applications. These semantics are designed to allow an author to properly convey user interface behaviors and structural information to assistive technologies in document-level markup. This version adds features new since WAI-ARIA 1.0 to complete the HTML + ARIA accessibility model. It is expected this will complement HTML5."
 }
 
 @misc{ariaimplementation,
@@ -35135,6 +35135,18 @@ We also propose a new taxonomy for geographic search queries.}
     topic =     "aria[1]",
     uri =       "http://www.w3.org/TR/2014/REC-wai-aria-implementation-20140320",
     abstract =  "This document describes how user agents should support keyboard navigation and respond to roles, states, and properties provided in Web content via WAI-ARIA. These features are used by authors creating accessible rich internet applications. Users often access the content using assistive technologies that rely on platform accessibility APIs to obtain and interact with information from the page. The WAI-ARIA User Agent Implementation Guide defines how implementations should expose content to accessibility APIs, helping to ensure that this information appears in a manner consistent with author intent. This document is part of the WAI-ARIA suite described in the WAI-ARIA Overview."
+}
+
+@misc{coreaam11,
+    author =    "Joseph Scheuhammer and Michael Cooper",
+    title =     "Core Accessibility API Mappings 1.1",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-core-aam-1.1-20140612",
+    month =     jun,
+    year =      2014,
+    topic =     "aria[1]",
+    uri =       "http://www.w3.org/TR/2014/WD-core-aam-1.1-20140612",
+    updates =   "ariaimplementation",
+    abstract =  "This document describes how user agents should expose semantics of web content languages to accessibility APIs. This helps users with disabilities to obtain and interact with information using assistive technologies. Documenting these mappings promotes interoperable exposure of roles, states, properties, and events implemented by accessibility APIs and helps to ensure that this information appears in a manner consistent with author intent. This Core Accessibility API Mappings specification defines support that applies across multiple content technologies, including general keyboard navigation support and mapping of general-purpose roles, states, and properties provided in Web content via WAI-ARIA. Other Accessibility API Mappings specifications depend on and extend this Core specification for specific technologies, including native technology features and WAI-ARIA extensions. This document updates and will eventually supersede the guidance in the WAI-ARIA 1.0 User Agent Implementation Guide W3C Recommendation. It is part of the WAI-ARIA suite described in the WAI-ARIA Overview."
 }
 
 @misc{ariainhtml,
@@ -39097,14 +39109,36 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "This specification defines the Document Object Model Events Level 3, a generic platform- and language-neutral event system which allows registration of event handlers, describes event flow through a tree structure, and provides basic contextual information for each event. The Document Object Model Events Level 3 builds on the Document Object Model Events Level 2."
 }
 
+@misc{domlevel3eventscode,
+    author =    "Gary Kacmarcik and Travis Leithead",
+    title =     "DOM Level 3 KeyboardEvent code Values",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-DOM-Level-3-Events-code-20140612",
+    month =     jun,
+    year =      2014,
+    topic =     "dom3[1]",
+    uri =       "http://www.w3.org/TR/2014/WD-DOM-Level-3-Events-code-20140612",
+    abstract =  "This specification defines the values for the KeyboardEvent.code attribute, which is defined as part of the Document Object Model (DOM) Level 3 Events Specification. The code value contains information about the key event that can use used identify the physical key being pressed by the user."
+}
+
+@misc{domlevel3eventskey,
+    author =    "Gary Kacmarcik and Travis Leithead",
+    title =     "DOM Level 3 KeyboardEvent key Values",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-DOM-Level-3-Events-key-20140612",
+    month =     jun,
+    year =      2014,
+    topic =     "dom3[1]",
+    uri =       "http://www.w3.org/TR/2014/WD-DOM-Level-3-Events-key-20140612",
+    abstract =  "This specification defines the values for the KeyboardEvent.key attribute, which is defined as part of the Document Object Model (DOM) Level 3 Events Specification. The key attribute contains information about the character generated by the key event."
+}
+
 @misc{uievents,
     author =    "Gary Kacmarcik and Travis Leithead",
     title =     "UI Events",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-uievents-20131105",
-    month =     nov,
-    year =      2013,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-uievents-20140612",
+    month =     jun,
+    year =      2014,
     topic =     "dom3[1]",
-    uri =       "http://www.w3.org/TR/2013/WD-uievents-20131105",
+    uri =       "http://www.w3.org/TR/2014/WD-uievents-20140612",
     abstract =  "This specification extends the events and features defined in DOM Events Level 3."
 }
 
@@ -51265,7 +51299,7 @@ We also propose a new taxonomy for geographic search queries.}
     year =      2014,
     topic =     "http[1]",
     updates =   "rfc2616",
-    abstract =  "The Hypertext Transfer Protocol (HTTP) is a stateless application-level protocol for distributed, collaborative, hypertext information systems. This document provides an overview of HTTP architecture and its associated terminology, defines the "http" and "https" Uniform Resource Identifier (URI) schemes, defines the HTTP/1.1 message syntax and parsing requirements, and describes related security concerns for implementations."
+    abstract =  {The Hypertext Transfer Protocol (HTTP) is a stateless application-level protocol for distributed, collaborative, hypertext information systems. This document provides an overview of HTTP architecture and its associated terminology, defines the "http" and "https" Uniform Resource Identifier (URI) schemes, defines the HTTP/1.1 message syntax and parsing requirements, and describes related security concerns for implementations.}
 }
 
 @misc{rfc7231,
