@@ -35434,11 +35434,11 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{streamsapi,
     author =    "Feras Moussa and Takeshi Yoshino",
     title =     "Streams API",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-streams-api-20131105",
-    month =     nov,
-    year =      2013,
-    uri =       "http://www.w3.org/TR/2013/WD-streams-api-20131105",
-    abstract =  "This specification provides an API for representing binary and string data in web applications as a Stream object, as well as programmatically building and reading its contents. This includes: A Stream interface, which represents a sequence of data which can be read only once and provides APIs for reading, writing, and piping the data; A StreamConsumeResult interface, which represents a chunk of content read from a stream; A StreamReadType interface, which represents how the Stream is currently being read; A list of notable stream producers a and consumers for a Stream object. Extensions to XMLHttpRequest to add support for upload and download of a Stream. Extensions to URL.createObjectURL and URL.revokeObjectURL to add support for Stream. This API is designed to be used in conjunction with other APIs and elements on the web platform, notably: File, XMLHttpRequest (e.g. with an overloaded send() method and response object for Stream objects), postMessage, and Web Workers."
+    howpublished =  "World Wide Web Consortium, Working Draft WD-streams-api-20141023",
+    month =     oct,
+    year =      2014,
+    uri =       "http://www.w3.org/TR/2014/WD-streams-api-20141023",
+    abstract =  "WHATWG Streams API spec provides an API for representing and handling a stream of data in JavaScript. This W3C spec is intended to extend the WHATWG spec to meet requirements specific to the browser environment."
 }
 
 @misc{mediacapturestreams,
@@ -35517,13 +35517,13 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{screenorientation,
-    author =    "Mounir Lamouri",
+    author =    "Mounir Lamouri and Marcos C\'aceres",
     title =     "The Screen Orientation API",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-screen-orientation-20140220",
-    month =     feb,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-screen-orientation-20141023",
+    month =     oct,
     year =      2014,
-    uri =       "http://www.w3.org/TR/2014/WD-screen-orientation-20140220",
-    abstract =  "The Screen Orientation API provides the ability to read the screen orientation state, to be informed when this state changes, and to be able to lock the screen orientation to a specific state."
+    uri =       "http://www.w3.org/TR/2014/WD-screen-orientation-20141023",
+    abstract =  "The Screen Orientation API provides the ability to read the screen orientation type and angle, to be informed when the screen orientation state changes, and be able to lock the screen orientation to a specific state."
 }
 
 @misc{fileupload,
@@ -41783,12 +41783,12 @@ CSS is a language for describing the rendering of structured documents (such as 
 @misc{htmlalttechniques,
     author =    "Steve Faulkner",
     title =     "HTML5: Techniques for Providing Useful Text Alternatives",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-html-alt-techniques-20121025",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-html-alt-techniques-20141023",
     month =     oct,
-    year =      2012,
+    year =      2014,
     topic =     "html[0.8]",
-    uri =       "http://www.w3.org/TR/2012/WD-html-alt-techniques-20121025",
-    abstract =  "This document contains author conformance requirements for use of the alt attribute in HTML5 and best practice guidance for authors of HTML documents on providing text alternatives for images. This specification is an extension to the HTML5 specification. All normative content in the HTML5 specification, unless specifically overridden by this specification, is intended to be the basis for this specification."
+    uri =       "http://www.w3.org/TR/2014/WD-html-alt-techniques-20141023",
+    abstract =  "This document contains best practice guidance for authors of HTML documents on providing text alternatives for images."
 }
 
 @misc{rawsockets,
@@ -43516,6 +43516,27 @@ CSS is a language for describing the rendering of structured documents (such as 
     abstract =  {This document describes the processes and results of the XML Binary Characterization Working Group in evaluating the need and feasibility of a "binary XML" recommendation. It includes an analysis of which properties such a format must possess. It recommends that the W3C produce a "binary XML" recommendation and enumerates the minimum requirements which this "binary XML" recommendation must meet.}
 }
 
+@misc{activitystreamscore,
+    author =    "James M. Snell",
+    title =     "Activity Streams 2.0",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-activitystreams-core-20141023",
+    month =     oct,
+    year =      2014,
+    updates =   "sne13a",
+    uri =       "http://www.w3.org/TR/2014/WD-activitystreams-core-20141023",
+    abstract =  "This specification details a model for representing potential and completed activities using the JSON format."
+}
+
+@misc{activitystreamsvocabulary,
+    author =    "James M. Snell",
+    title =     "Activity Vocabulary",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-activitystreams-vocabulary-20141023",
+    month =     oct,
+    year =      2014,
+    uri =       "http://www.w3.org/TR/2014/WD-activitystreams-vocabulary-20141023",
+    abstract =  "This specification describes the Activity vocabulary."
+}
+
 @misc{eximeasurements,
     author =    "Greg White and Jaakko Kangasharju and Don Brutzman and Stephen D. Williams",
     title =     "Efficient XML Interchange Measurements Note",
@@ -43548,6 +43569,17 @@ CSS is a language for describing the rendering of structured documents (such as 
     uri =       "http://www.w3.org/TR/2014/REC-exi-20140211",
     updates =   "exi",
     abstract =  "This document is the specification of the Efficient XML Interchange (EXI) format. EXI is a very compact representation for the Extensible Markup Language (XML) Information Set that is intended to simultaneously optimize performance and the utilization of computational resources. The EXI format uses a hybrid approach drawn from the information and formal language theories, plus practical techniques verified by measurements, for entropy encoding XML information. Using a relatively simple algorithm, which is amenable to fast and compact implementation, and a small set of datatype representations, it reliably produces efficient encodings of XML event streams. The grammar production system and format definition of EXI are presented."
+}
+
+@misc{exic14n,
+    author =    {Sebastian K\"abisch and Daniel Peintner},
+    title =     "Canonical EXI",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-exi-c14n-20141023",
+    month =     oct,
+    year =      2014,
+    topic =     "exi[0.9]",
+    uri =       "http://www.w3.org/TR/2014/WD-exi-c14n-20141023",
+    abstract =  "Any EXI document is part of a set of EXI documents that are logically equivalent within an application context, but which vary in physical representation based on differences permitted by the Efficient XML Interchange (EXI) Format 1.0 (Second Edition). This specification describes a relatively simple method for generating a physical representation, the canonical form, of an EXI document that accounts for the permissible changes. An example of the applications targeted by this specification is one that needs to guarantee non-repudiation using XML Signature yet allows certain flexibility for intermediaries to reconstitute the documents before they reach final destination without breaking the signatures. Note that two documents may have differing canonical forms yet still be equivalent in a given context based on more elaborate application-specific equivalence rules which is out of scope of this specification."
 }
 
 @misc{exiprimer,
