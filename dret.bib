@@ -33404,6 +33404,16 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "SKOS --- Simple Knowledge Organization System --- provides a model for expressing the basic structure and content of concept schemes such as thesauri, classification schemes, subject heading lists, taxonomies, folksonomies, and other similar types of controlled vocabulary. As an application of the Resource Description Framework (RDF), SKOS allows concepts to be composed and published on the World Wide Web, linked with data on the Web and integrated into other concept schemes. This document is a user guide for those who would like to represent their concept scheme using SKOS. In basic SKOS, conceptual resources (concepts) are identified with URIs, labeled with strings in one or more natural languages, documented with various types of note, semantically related to each other in informal hierarchies and association networks, and aggregated into concept schemes. In advanced SKOS, conceptual resources can be mapped across concept schemes and grouped into labeled or ordered collections. Relationships between concept labels can be specified. Finally, the SKOS vocabulary itself can be extended to suit the needs of particular communities of practice or combined with other modeling vocabularies. This document is a companion to the SKOS Reference, which gives the normative reference on SKOS."
 }
 
+@misc{annotationmodel,
+    author =    "Robert Sanderson and Paolo Ciccarese",
+    title =     "Web Annotation Data Model",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-annotation-model-20141211",
+    month =     dec,
+    year =      2014,
+    uri =       "http://www.w3.org/TR/2014/WD-annotation-model-20141211",
+    abstract =  "Annotations are typically used to convey information about a resource or associations between resources. Simple examples include a comment or tag on a single web page or image, or a blog post about a news article. The Web Annotation Data Model specification describes a structured model and format to enable annotations to be shared and reused across different hardware and software platforms. Common use cases can be modeled in a manner that is simple and convenient, while at the same time enabling more complex requirements, including linking arbitrary content to a particular data point or to segments of timed multimedia resources. The specification provides both a conceptual model that accommodates these use cases, and the vocabulary of terms that represents it. A specific JSON format is recommended for ease of creation and consumption of the annotations."
+}
+
 @misc{provdm,
     author =    "Luc Moreau and Paolo Missier",
     title =     "PROV-DM: The PROV Data Model",
@@ -35357,12 +35367,12 @@ We also propose a new taxonomy for geographic search queries.}
 @misc{aria11,
     author =    "James Craig and Michael Cooper and Shane McCarron",
     title =     "Accessible Rich Internet Applications (WAI-ARIA) 1.1",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-wai-aria-1.1-20140612",
-    month =     jun,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-wai-aria-1.1-20141211",
+    month =     dec,
     year =      2014,
     topic =     "aria[1]",
     updates =   "aria",
-    uri =       "http://www.w3.org/TR/2014/WD-wai-aria-1.1-20140612",
+    uri =       "http://www.w3.org/TR/2014/WD-wai-aria-1.1-20141211",
     abstract =  "Accessibility of web content requires semantic information about widgets, structures, and behaviors, in order to allow assistive technologies to convey appropriate information to persons with disabilities. This specification provides an ontology of roles, states, and properties that define accessible user interface elements and can be used to improve the accessibility and interoperability of web content and applications. These semantics are designed to allow an author to properly convey user interface behaviors and structural information to assistive technologies in document-level markup. This version adds features new since WAI-ARIA 1.0 to complete the HTML + ARIA accessibility model. It is expected this will complement HTML5."
 }
 
@@ -35377,14 +35387,26 @@ We also propose a new taxonomy for geographic search queries.}
     abstract =  "This document describes how user agents should support keyboard navigation and respond to roles, states, and properties provided in Web content via WAI-ARIA. These features are used by authors creating accessible rich internet applications. Users often access the content using assistive technologies that rely on platform accessibility APIs to obtain and interact with information from the page. The WAI-ARIA User Agent Implementation Guide defines how implementations should expose content to accessibility APIs, helping to ensure that this information appears in a manner consistent with author intent. This document is part of the WAI-ARIA suite described in the WAI-ARIA Overview."
 }
 
+@misc{accnameaam11,
+    author =    "Joseph Scheuhammer and James Craig",
+    title =     "Accessible Name and Description: Computation and API Mappings 1.1",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-accname-aam-1.1-20141211",
+    month =     dec,
+    year =      2014,
+    topic =     "aria[1]",
+    uri =       "http://www.w3.org/TR/2014/WD-accname-aam-1.1-20141211",
+    updates =   "ariaimplementation",
+    abstract =  "This document describes how user agents determine names and descriptions of accessible objects from web content languages and expose them in accessibility APIs. This allows assistive technologies to associate and relay the name or description of objects to users. Documenting the algorithm and mappings promotes interoperable exposure of these properties and events as implemented by different accessibility APIs, and helps to ensure that this information appears in a manner consistent with author intent. The accessible name and description computation and mappings specification defines support that applies across multiple content technologies. This includes accessible name and description provided by general-purpose WAI-ARIA roles, states, and properties as well as features specific to individual content languages. The accessible name and description computation extends the mapping guidance provided by CORE-AAM and technology-specific accessibility API mappings."
+}
+
 @misc{coreaam11,
     author =    "Joseph Scheuhammer and Michael Cooper",
     title =     "Core Accessibility API Mappings 1.1",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-core-aam-1.1-20140612",
-    month =     jun,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-core-aam-1.1-20141211",
+    month =     dec,
     year =      2014,
     topic =     "aria[1]",
-    uri =       "http://www.w3.org/TR/2014/WD-core-aam-1.1-20140612",
+    uri =       "http://www.w3.org/TR/2014/WD-core-aam-1.1-20141211",
     updates =   "ariaimplementation",
     abstract =  "This document describes how user agents should expose semantics of web content languages to accessibility APIs. This helps users with disabilities to obtain and interact with information using assistive technologies. Documenting these mappings promotes interoperable exposure of roles, states, properties, and events implemented by accessibility APIs and helps to ensure that this information appears in a manner consistent with author intent. This Core Accessibility API Mappings specification defines support that applies across multiple content technologies, including general keyboard navigation support and mapping of general-purpose roles, states, and properties provided in Web content via WAI-ARIA. Other Accessibility API Mappings specifications depend on and extend this Core specification for specific technologies, including native technology features and WAI-ARIA extensions. This document updates and will eventually supersede the guidance in the WAI-ARIA 1.0 User Agent Implementation Guide W3C Recommendation. It is part of the WAI-ARIA suite described in the WAI-ARIA Overview."
 }
