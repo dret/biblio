@@ -35210,9 +35210,20 @@ more total users chose to remain safe after seeing our warning. We attribute thi
     howpublished =  "World Wide Web Consortium, Note NOTE-wcag2ict-20130905",
     month =     sep,
     year =      2013,
-    topic =     "wcag[1]",
+    topic =     "wcag[0.9]",
     uri =       "http://www.w3.org/TR/2013/NOTE-wcag2ict-20130905",
-    abstract =  {This document, "Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)‚Äö" describes how the Web Content Accessibility Guidelines (WCAG) 2.0 and its principles, guidelines, and success criteria can be applied to non-web Information and Communications Technologies (ICT), specifically to non-web documents and software. It provides informative guidance (guidance that is not normative and does not set requirements). This document is a Working Group Note, and is part of a series of technical and educational documents published by the W3C Web Accessibility Initiative (WAI) and available from the WCAG 2.0 Overview.}
+    abstract =  {This document, "Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)", describes how the Web Content Accessibility Guidelines (WCAG) 2.0 and its principles, guidelines, and success criteria can be applied to non-web Information and Communications Technologies (ICT), specifically to non-web documents and software. It provides informative guidance (guidance that is not normative and does not set requirements). This document is a Working Group Note, and is part of a series of technical and educational documents published by the W3C Web Accessibility Initiative (WAI) and available from the WCAG 2.0 Overview.}
+}
+
+@misc{mobileaccessibilitymapping,
+    editor =    "Kim Patch and Jeanne Spellman and Kathy Wahlbin",
+    title =     "Mobile Accessibility: How WCAG 2.0 and Other W3C/WAI Guidelines Apply to Mobile",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-mobile-accessibility-mapping-20150226",
+    month =     feb,
+    year =      2015,
+    topic =     "wcag[0.9]",
+    uri =       "http://www.w3.org/TR/2015/WD-mobile-accessibility-mapping-20150226",
+    abstract =  {This document, "Mobile Accessibility: How WCAG 2.0 and Other W3C/WAI Guidelines Apply to Mobile" describes how the Web Content Accessibility Guidelines (WCAG) 2.0 and its principles, guidelines, and success criteria can be applied to mobile web content, mobile web apps, native apps, and hybrid apps using web components inside native apps. It provides informative guidance, but does not set requirements. It also highlights the relevance of the User Agent Accessibility Guidelines 2.0 in the mobile context.}
 }
 
 @misc{waet,
@@ -36057,10 +36068,31 @@ more total users chose to remain safe after seeing our warning. We attribute thi
     abstract =  "This document defines a policy language used to declare a set of content restrictions for a web resource, and a mechanism for transmitting the policy from a server to a client where the policy is enforced."
 }
 
+@misc{csppinning,
+    author =    "Mike West",
+    title =     "Content Security Policy Pinning",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-csp-pinning-20150226",
+    month =     feb,
+    year =      2015,
+    topic =     "csp[0.9]",
+    uri =       "http://www.w3.org/TR/2015/WD-csp-pinning-20150226",
+    abstract =  {This document defines a new HTTP header that allows authors to instruct user agents to remember ("pin") and enforce a Content Security Policy for a set of hosts for a period of time.}
+}
+
+@misc{upgradeinsecurerequests,
+    author =    "Mike West",
+    title =     "Upgrade Insecure Requests",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-upgrade-insecure-requests-20150226",
+    month =     feb,
+    year =      2015,
+    uri =       "http://www.w3.org/TR/2015/WD-upgrade-insecure-requests-20150226",
+    abstract =  "This document defines a mechanism which allows authors to instruct a user agent to upgrade a priori insecure resource requests to secure transport before fetching them."
+}
+
 @misc{referrerpolicy,
     author =    "Jochen Eisinger and Mike West",
     title =     "Referrer Policy",
-    howpublished =  "World Wide Web Consortium, WD-referrer-policy-20140807",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-referrer-policy-20140807",
     month =     aug,
     year =      2014,
     topic =     "csp[0.9]",
@@ -38285,6 +38317,17 @@ more total users chose to remain safe after seeing our warning. We attribute thi
     abstract =  "This specification defines the features and syntax for Scalable Vector Graphics (SVG) Version 2, a language for describing two-dimensional vector and mixed vector/raster graphics. Although an XML serialization is given, processing is defined in terms of a DOM."
 }
 
+@misc{svgaam10,
+    author =    "Richard Schwerdtfeger",
+    title =     "SVG Accessibility API Mappings",
+    howpublished =  "World Wide Web Consortium, Working Draft WD-svg-aam-1.0-20150226",
+    month =     feb,
+    year =      2015,
+    topic =     "svg[0.9]",
+    uri =       "http://www.w3.org/TR/2015/WD-svg-aam-1.0-20150226",
+    abstract =  "SVG Accessibility API Mappings (SVG-AAM) defines how user agents map Scalable Vector Graphics (SVG) markup to platform accessibility application programming interfaces (APIs). It is intended for SVG user agent developers responsible for SVG accessibility in their user agent. This specification allows SVG authors to create accessible rich internet applications, including charts, graphs, and other drawings. It does this by extending the Core Accessibility API Mappings 1.1 (CORE-AAM) and the Accessible Name and Description: Computation and API Mappings 1.1 (ACCNAME-AAM) specifications for user agents. It leverages those core mappings and provides SVG-specific guidance to define how the SVG user agent must respond to keyboard focus and role, state, and property attributes provided in Web content via WAI-ARIA. The SVG-AAM also adapts the ACCNAME-AAM to make use of standard SVG features used to compute accessible names and description information exposed by platform accessibility APIs."
+}
+
 @misc{svgprintreq,
     author =    "Jun Fujisawa and Lee Klosterman and Craig Brown and Alex Danilo",
     title =     "SVG Printing Requirements",
@@ -39519,15 +39562,13 @@ more total users chose to remain safe after seeing our warning. We attribute thi
     abstract =  "The HTML Media Capture specification defines an HTML form extension that facilitates user access to a device's media capture mechanism, such as a camera, or microphone, from within a file upload control."
 }
 
-@misc{htmlmediacapture,
-    author =    {Anssi Kostiainen and Ilkka Oksanen and Dominique Haza\"el-Massieux},
-    title =     "HTML Media Capture",
-    howpublished =  "World Wide Web Consortium, Candidate Recommendation CR-html-media-capture-20140909",
-    month =     sep,
-    year =      2014,
-    topic =     "html[0.9]",
-    uri =       "http://www.w3.org/TR/2014/CR-html-media-capture-20140909",
-    abstract =  "The HTML Media Capture specification defines an HTML form extension that facilitates user access to a device's media capture mechanism, such as a camera, or microphone, from within a file upload control."
+@misc{mediasource,
+    author =    "Aaron Colwell and Adrian Bateman and Mark Watson",
+    title =     "Media Source Extensions",
+    howpublished = "World Wide Web Consortium, Candidate Recommendation CR-media-source-20140717",
+    month =     jul,
+    uri =       "http://www.w3.org/TR/2014/CR-media-source-20140717",
+    abstract =  "This specification extends HTMLMediaElement to allow JavaScript to generate media streams for playback. Allowing JavaScript to generate streams facilitates a variety of use cases like adaptive streaming and time shifting live streams."
 }
 
 @misc{mediacapturefromelement,
