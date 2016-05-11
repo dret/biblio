@@ -40241,9 +40241,64 @@ more total users chose to remain safe after seeing our warning. We attribute thi
     howpublished =  "World Wide Web Consortium, Working Draft WD-encrypted-media-20160429",
     month =     apr,
     year =      2016,
-    topic =     "html[0.9]",
+    topic =     "html[0.9] eme[1]",
     uri =       "http://www.w3.org/TR/2016/WD-encrypted-media-20160429",
     abstract =  "This proposal extends HTMLMediaElement providing APIs to control playback of protected content. The API supports use cases ranging from simple clear key decryption to high value video (given an appropriate user agent implementation). License/key exchange is controlled by the application, facilitating the development of robust playback applications supporting a range of content decryption and protection technologies. This specification does not define a content protection or Digital Rights Management system. Rather, it defines a common API that may be used to discover, select and interact with such systems as well as with simpler content encryption systems. Implementation of Digital Rights Management is not required for compliance with this specification: only the Clear Key system is required to be implemented as a common baseline. The common API supports a simple set of content encryption capabilities, leaving application functions such as authentication and authorization to page authors. This is achieved by requiring content protection system-specific messaging to be mediated by the page rather than assuming out-of-band communication between the encryption system and a license or other server."
+}
+
+@misc{emeinitdataregistry,
+    author =    "David Dorwin and Adrian Bateman and Mark Watson",
+    title =     "Encrypted Media Extensions Initialization Data Format Registry",
+    howpublished =  "World Wide Web Consortium, Note NOTE-eme-initdata-registry-20160510",
+    month =     may,
+    year =      2016,
+    topic =     "eme[0.9]",
+    uri =       "https://www.w3.org/TR/2016/NOTE-eme-initdata-registry-20160510",
+    abstract =  "This specification defines the Initialization Data formats for use with the Encrypted Media Extensions. Some formats may be extracted from media data as defined in the Encrypted Media Extensions Stream Format Registry. All may be provided separately, such as via a manifest or other application data."
+}
+
+@misc{emestreamregistry,
+    author =    "David Dorwin and Adrian Bateman and Mark Watson",
+    title =     "Encrypted Media Extensions Stream Format Registry",
+    howpublished =  "World Wide Web Consortium, Note NOTE-eme-stream-registry-20160510",
+    month =     may,
+    year =      2016,
+    topic =     "eme[0.9]",
+    uri =       "https://www.w3.org/TR/2016/NOTE-eme-stream-registry-20160510",
+    abstract =  "This specification defines the stream formats for use with the Encrypted Media Extensions."
+}
+
+@misc{emeinitdatacenc,
+    author =    "David Dorwin and Adrian Bateman and Mark Watson and Jerry Smith",
+    title =     {"cenc" Initialization Data Format},
+    howpublished =  "World Wide Web Consortium, Note NOTE-eme-initdata-cenc-20160510",
+    month =     may,
+    year =      2016,
+    topic =     "eme[0.9]",
+    uri =       "https://www.w3.org/TR/2016/NOTE-eme-initdata-cenc-20160510",
+    abstract =  {This specification defines the "cenc" Initialization Data format for use with the Encrypted Media Extensions. This format is commonly used with the ISO Common Encryption ('cenc') Protection Scheme for ISO Base Media File Format Stream Format. This specification also defines a common SystemID and PSSH box format for use with Encrypted Media Extensions.}
+}
+
+@misc{emeinitdatawebm,
+    author =    "David Dorwin and Adrian Bateman and Mark Watson",
+    title =     {"webm" Initialization Data Format},
+    howpublished =  "World Wide Web Consortium, Note NOTE-eme-initdata-webm-20160510",
+    month =     may,
+    year =      2016,
+    topic =     "eme[0.9]",
+    uri =       "https://www.w3.org/TR/2016/NOTE-eme-initdata-webm-20160510",
+    abstract =  {This specification defines the "webm" Initialization Data format for use with the Encrypted Media Extensions. This format is commonly used with the WebM Stream Format.}
+}
+
+@misc{emeinitdatakeyids,
+    author =    "David Dorwin and Adrian Bateman and Mark Watson",
+    title =     {"keyids" Initialization Data Format},
+    howpublished =  "World Wide Web Consortium, Note NOTE-eme-initdata-keyids-20160510",
+    month =     may,
+    year =      2016,
+    topic =     "eme[0.9]",
+    uri =       "https://www.w3.org/TR/2016/NOTE-eme-initdata-keyids-20160510",
+    abstract =  {This specification defines the "keyids" Initialization Data format for use with the Encrypted Media Extensions.}
 }
 
 @misc{calendarapi,
