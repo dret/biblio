@@ -14,6 +14,6 @@ However, if you have other contributions, such as fixing typos or adding useful 
 
 ## Building
 
-(`dret.bib`)[dret.bib] is first and foremost a BibTeX bibliography, intended to be used with LaTeX. If for some reason you want to create a PDF version of the bibliography, (`build`)[build] has everything you need.
+[`dret.bib`](dret.bib) is first and foremost a BibTeX bibliography, intended to be used with LaTeX. If for some reason you want to create a PDF version of the bibliography, [`build`](build) has everything you need.
 
 A long time ago, I was able to generate XML from the BibTeX source, and generate Web pages from that. However, the code that did that stopped working, and I never got around to get it running again. The [`sharef`](sharef) directory contains some artifacts from this time, but at this point it is purely historical.
