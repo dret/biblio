@@ -10,3 +10,7 @@ dretbiblio.blg
 dretbiblio.log
 
 .DS_Store
+
+build/_autidx_.aux
+
+build/_autidx_.bib
