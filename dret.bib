@@ -45184,13 +45184,13 @@ We also propose a new taxonomy for geographic search queries.}
 }
 
 @misc{fileapi,
-    author =    "Marijn Kruisselbrink and Vsevolod Shmyroff",
+    author =    "Marijn Kruisselbrink",
     title =     "File API",
-    howpublished =  "World Wide Web Consortium, Working Draft WD-FileAPI-20171026",
-    month =     oct,
-    year =      2017,
+    howpublished =  "World Wide Web Consortium, Working Draft WD-FileAPI-20181106",
+    month =     nov,
+    year =      2018,
     topic =     "dom[0.9]",
-    uri =       "http://www.w3.org/TR/2017/WD-FileAPI-20171026",
+    uri =       "http://www.w3.org/TR/2018/WD-FileAPI-20181106",
     abstract =  {This specification provides an API for representing file objects in web applications, as well as programmatically selecting them and accessing their data. This includes: A FileList interface, which represents an array of individually selected files from the underlying system. The user interface for selection can be invoked via <input type="file">, i.e. when the input element is in the File Upload state; A Blob interface, which represents immutable raw binary data, and allows access to ranges of bytes within the Blob object as a separate Blob; A File interface, which includes readonly informational attributes about a file such as its name and the date of the last modification (on disk) of the file; A FileReader interface, which provides methods to read a File or a Blob, and an event model to obtain the results of these reads; A URI scheme for use with binary data such as files, so that they can be referenced within web applications. Additionally, this specification defines objects to be used within threaded web applications for the synchronous reading of files. The section on Requirements and Use Cases covers the motivation behind this specification. This API is designed to be used in conjunction with other APIs and elements on the web platform, notably: XMLHttpRequest (e.g. with an overloaded send() method for File or Blob objects), postMessage, DataTransfer (part of the drag and drop API defined in HTML) and Web Workers. Additionally, it should be possible to programmatically obtain a list of files from the input element when it is in the File Upload state. These kinds of behaviors are defined in the appropriate affiliated specifications.}
 }
 
